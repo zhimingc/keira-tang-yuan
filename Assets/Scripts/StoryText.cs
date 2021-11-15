@@ -17,14 +17,16 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
     {
         text = GetComponent<Text>();
         storyParent = GetComponentInParent<StoryScript>();
-        backing.rectTransform.sizeDelta = new Vector2(text.rectTransform.sizeDelta.x, text.preferredHeight) + backingBuffer;
+        //backing.rectTransform.sizeDelta = new Vector2(text.rectTransform.sizeDelta.x, text.preferredHeight) + backingBuffer * 2.0f;
+        //backing.rectTransform.anchoredPosition = new Vector3(-backingBuffer.x, backingBuffer.y, 0.0f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
+
     public void OnPointerDown(PointerEventData eventData)
     {
         if (storyParent)
