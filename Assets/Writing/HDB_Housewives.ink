@@ -467,22 +467,22 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 ===Keirashouse11KEI
 "It's not like COVID is all bad. I mean this is the first time my son has spent more than 4 hours a day with his father." My friend natters on, giving me a rundown on what the past half a year has been like for her. 
 
-Jolene is my best friend, or at least the most longstanding one. The more I age, the more I grow to appreciate her comfortable manner. She goes on to detailing how it is possible to open up a Microsoft Word document, rest something against the spacebar key, and thus cheaply circumvent her company's "Appear offline" timer-- an insidious attempt by capitalism to control every minute of our lives, as she puts it.
+Janna is my best friend, or at least the most longstanding one. The more I age, the more I grow to appreciate her comfortable manner. She goes on to detailing how it is possible to open up a Microsoft Word document, rest something against the spacebar key, and thus cheaply circumvent her company's "Appear offline" timer-- an insidious attempt by capitalism to control every minute of our lives, as she puts it.
 
-Since the easing of restriction measures, I've made the effort to catch up with my old friends, even if it's just one-to-one at their respective houses. Today, we are at Keira's house. Keira is Jolene's university friend. I've only met her 3 or 4 times, but she lives in landed property and has always been generous about it. 
+Since the easing of restriction measures, I've made the effort to catch up with my old friends, even if it's just one-to-one at their respective houses. Today, we are at Keira's house. Keira is Janna's university friend. I've only met her 3 or 4 times, but she lives in landed property and has always been generous about it. 
 
 Instead of sitting on her couch, we have gravitated to the floor of her sprawling living room. I don't know why we do this. Keira has furnished us with tea and brownies while she takes a work meeting in another room and her son, still within earshot, does his homework at the dining table. Her mother-in-law is pottering about in the kitchen. It is her marvellous brownies we are eating.
 
-The busy-ness of the large house emits a hospitable and happy hum, and I'm just soaking it all in. I listen to Jolene listlessly, but I'm not bored, and she is not offended. It has been a couple of weeks since the fight with my husband, and I've shared that story only with Jolene. After all, Jolene knows and keeps all my secrets.
+The busy-ness of the large house emits a hospitable and happy hum, and I'm just soaking it all in. I listen to Janna listlessly, but I'm not bored, and she is not offended. It has been a couple of weeks since the fight with my husband, and I've shared that story only with Janna. After all, Janna knows and keeps all my secrets.
 
 My fingers trail through the fur of Keira's sleeping golden retriever, a breed which HDB residents are barred from keeping. It's nose has made a wet spot on the carpet.
 
-*Pay attention to Jolene
-Jolene still tries to keep me engaged in conversation. "You know, Keira's son is kind of failing in English, you might want to go over there and look over his work. Keira would probably offer you a job, if you're interested."
+*Pay attention to Janna
+Janna still tries to keep me engaged in conversation. "You know, Keira's son is kind of failing in English, you might want to go over there and look over his work. Keira would probably offer you a job, if you're interested."
 
-She looks meaningfully over at me. I surmise that this is the real reason why we're having tea at Keira's house. Jolene thinks, bless her, that more employment might help me out of my blue funk.
+She looks meaningfully over at me. I surmise that this is the real reason why we're having tea at Keira's house. Janna thinks, bless her, that more employment might help me out of my blue funk.
 
-Before I can answer Jolene, our hostess comes out of her room with anxious energy. Keira peeks over her son's shoulder to check if he is making progress, then flops down on the floor with us, scaring her dog awake in the process. It immediately begins to groom itself.
+Before I can answer Janna, our hostess comes out of her room with anxious energy. Keira peeks over her son's shoulder to check if he is making progress, then flops down on the floor with us, scaring her dog awake in the process. It immediately begins to groom itself.
 
 "So, what are we having for dinner? I'm angry and hungry, and I want carbs."
 
@@ -491,9 +491,9 @@ Notwithstanding my full belly from the brownie, I nod enthusiastically at Keira.
 "I know, I know!" She really is very predictable. "There's a sourdough place that we can order from. Have you tried sourdough pizza? It's-- kill me now-- it's to die for."
 
 **Assent to carb heaven
-"Also! My god, the delivery guy that camps around here at this time is the cutest, sweetest guy. Jolene you haven't met him; he dresses well." Keira looks over her shoulder as if her husband might somehow be spying on her. She has a penchant for the dramatic. "The last time he came, he spilled my drink and he raced back and forth to make sure I received everything right. In his office shirt. Sleeves rolled up. His apology sent a shiver straight down to my-- you know?"
+"Also! My god, the delivery guy that camps around here at this time is the cutest, sweetest guy. Janna you haven't met him; he dresses well." Keira looks over her shoulder as if her husband might somehow be spying on her. She has a penchant for the dramatic. "The last time he came, he spilled my drink and he raced back and forth to make sure I received everything right. In his office shirt. Sleeves rolled up. His apology sent a shiver straight down to my-- you know?"
 
-Keira is unabashedly vulgar. Jolene is covering her face in mutual shame. Half laughing and half sincere, I reply: "I know exactly what you mean."
+Keira is unabashedly vulgar. Janna is covering her face in mutual shame. Half laughing and half sincere, I reply: "I know exactly what you mean."
 
 "Ok ok, it's settled then. I order now. You'll surely like him-- I mean the food. Keep your knickers on girls, my mum's around."
 
