@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65C456E9-E10F-4475-AF64-982BB20067C0}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="BGM" ID="{65C456E9-E10F-4475-AF64-982BB20067C0}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

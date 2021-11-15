@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D2ECAFE3-6205-4A80-8640-2F8BB5B365A9}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Voice" ID="{D2ECAFE3-6205-4A80-8640-2F8BB5B365A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="VO_08CHF_010_ethan" ID="{91A61A64-723E-46BA-AAC4-836D59F33F93}">
+					<ChildrenList>
+						<Action Name="" ID="{760D6645-4A7A-4741-ADA8-B305BEFD76E7}" ShortID="227695292">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_010_ethan" ID="{E2EFA37D-38AC-473A-863A-933AC51513CD}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_08CHF_020_ethan" ID="{A5A05C47-6823-4882-813F-6D3C3EE405F4}">
+					<ChildrenList>
+						<Action Name="" ID="{715A1AFD-596E-4B62-8B36-A2EDF8352AE3}" ShortID="967855661">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_020_ethan" ID="{087657DE-276C-4616-A08E-12B81920BF1F}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_06INS_030_merwyn" ID="{EDCB3891-2638-4B56-ACB7-8F4A1E4C8C97}">
+					<ChildrenList>
+						<Action Name="" ID="{008231C8-4CB3-4FAA-A4CB-8AE0DD505EF0}" ShortID="1060347383">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_06INS_030_merwyn" ID="{0BE0807F-465E-4CB1-875F-CB24515C4639}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_06INS_070_merwyn" ID="{C85CD2E5-AB0E-452B-B89F-8F06FC8EF5BF}">
+					<ChildrenList>
+						<Action Name="" ID="{409A87C4-81B2-42BA-9E8F-5FC92CC7B5F6}" ShortID="371013888">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_06INS_070_merwyn" ID="{5047DF95-8812-4BB8-A118-B852AE4F028B}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_11KEI_180_husband" ID="{550171F8-5B73-4652-A35E-17C4CC412466}">
+					<ChildrenList>
+						<Action Name="" ID="{206CA8BE-FF37-4414-8010-DA48AC6928F1}" ShortID="628457868">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_11KEI_180_husband" ID="{F5C63E8B-CFAC-4EA0-B48A-CE09BCF11364}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_06INS_050_merwyn" ID="{8F7974DD-238C-4B2C-8C81-26A1124DED4A}">
+					<ChildrenList>
+						<Action Name="" ID="{C91DBB2D-B6B3-4B72-B564-9914321D78A2}" ShortID="242518160">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_06INS_050_merwyn" ID="{F6B710F4-E6FF-4596-A978-3B73F9E6E4AA}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_06INS_060_merwyn" ID="{97A0A6A9-8B8A-40D6-AEC6-125EC74E2ECB}">
+					<ChildrenList>
+						<Action Name="" ID="{82F864AE-9E8E-4919-9E6A-1BF287512BE8}" ShortID="976742957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_06INS_060_merwyn" ID="{D16E818E-FA60-43F3-B8A9-5A0D2213AF3F}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_06INS_100_merwyn" ID="{EB160D91-825D-46AA-8758-18EB0FC11265}">
+					<ChildrenList>
+						<Action Name="" ID="{1F0BBFC5-FB82-4AAA-8DBE-5E4CCF88CE6F}" ShortID="692356583">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_06INS_100_merwyn" ID="{9918619D-A8FE-4FF5-A4DD-CF75B083AE6F}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_08CHF_070_ethan" ID="{FF6D7F0F-C80D-4C73-B358-AB3E1CAD691F}">
+					<ChildrenList>
+						<Action Name="" ID="{AE765E13-0408-4457-8355-AF8C5367F8FF}" ShortID="968482484">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_070_ethan" ID="{8715DAA0-AA02-4EED-8677-5F0290092E12}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_09HRW_020_husband" ID="{140FEE05-5E84-421C-B211-C4A22F366FE9}">
+					<ChildrenList>
+						<Action Name="" ID="{D3B9F76D-36FF-4E6A-9C2C-F0A9905B82D6}" ShortID="60189807">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_09HRW_020_husband" ID="{40B8BB09-9590-417B-80C0-CFA04D42A26B}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_11KEI_170_husband" ID="{34D6EAB2-8CAB-4821-A77B-3CF41433C61E}">
+					<ChildrenList>
+						<Action Name="" ID="{3E22E4A9-366F-4D95-98C1-B0F0F1215A57}" ShortID="1008761024">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_11KEI_170_husband" ID="{1319EF9B-2E09-4990-9283-496875C1100E}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_08CHF_110_ethan" ID="{4ED73864-F1F1-46E6-A0BD-3B76C1ABFD5F}">
+					<ChildrenList>
+						<Action Name="" ID="{08A85366-E17F-49E8-AA7F-E61D951BB605}" ShortID="865844664">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_110_ethan" ID="{4D9A35F5-1335-43AC-BBED-1FE5653B6487}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_08CHF_080_ethan" ID="{2A0B0CB9-FBC8-4F54-A479-B4FE682159ED}">
+					<ChildrenList>
+						<Action Name="" ID="{79BEB34C-7CD0-40B4-8B0D-DF46C9F525B7}" ShortID="566280599">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_080_ethan" ID="{C089E2C4-8580-4745-AE02-3B92E6A2CB2C}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_08CHF_050_ethan" ID="{2282F9ED-AE85-4728-9F85-520A757D37FB}">
+					<ChildrenList>
+						<Action Name="" ID="{F0AC4DB4-71E8-4410-B7F2-FC106653F0EA}" ShortID="401275860">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_050_ethan" ID="{9FED4242-9DE7-4F63-A67F-2C2B042C21B8}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_08CHF_090_ethan" ID="{97A5033E-8877-43E4-A6A3-17A6AB99CD6C}">
+					<ChildrenList>
+						<Action Name="" ID="{83313C29-5F36-4E60-B184-3C17C07A14E8}" ShortID="1023440237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_090_ethan" ID="{DE2D5858-556E-4DEC-A305-FC89315327C4}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_08CHF_130_ethan" ID="{082243D9-22D8-45F7-936D-A5F8222EB045}">
+					<ChildrenList>
+						<Action Name="" ID="{C12D2E51-B319-4150-B053-605948C1CE3B}" ShortID="858329719">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_130_ethan" ID="{959E1CF5-8434-428E-B9AE-1AB1D602AAA0}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_11KEI_160_husband" ID="{8C653827-7C8F-4A38-B50D-5F5EFFE43EFB}">
+					<ChildrenList>
+						<Action Name="" ID="{71C9C3BE-5587-418F-AAE8-B06220016253}" ShortID="815699048">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_11KEI_160_husband" ID="{D55F999B-C874-439C-AC56-3499783679DD}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_08CHF_120_ethan" ID="{EA1E7D47-CB2F-4170-B038-695F8473C13C}">
+					<ChildrenList>
+						<Action Name="" ID="{0204AAF5-E140-40A1-A0ED-07712A19CF75}" ShortID="168159996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_08CHF_120_ethan" ID="{B2EBB0C3-67C1-4019-B947-AE954362BCA2}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_11KEI_030_jannah" ID="{C5217255-25BD-4837-9A3D-8F842A509FD4}">
+					<ChildrenList>
+						<Action Name="" ID="{3DF937F8-C8AC-4AD6-9E28-49EB80DE9C36}" ShortID="151777813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_11KEI_030_jannah" ID="{5B8B2B51-04A4-4939-A6E7-AAD00BC68CA7}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_11KEI_020_jannah" ID="{F2DDB761-B289-4E9E-9FCA-A5F548014643}">
+					<ChildrenList>
+						<Action Name="" ID="{86D2E3D1-8FB6-4DDA-8B55-17FFF79BC66D}" ShortID="467052548">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_11KEI_020_jannah" ID="{C0DC2596-10FD-402D-8F9E-3B2468CD45C0}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="VO_11KEI_010_jannah" ID="{0F6FC906-8E6D-4412-9F4A-2D8FEB98972E}">
+					<ChildrenList>
+						<Action Name="" ID="{D01A1457-6B2D-4A10-851E-881463ED5045}" ShortID="836526045">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VO_11KEI_010_jannah" ID="{45CC98FE-765F-41DC-8142-F8BEC668ED0D}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,607 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9101d06970424d4e968bbb7b752c20d, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 46c70574b493dc4781509359f90862e5
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 46c70574b493dc4781509359f90862e5
+    GuidInternal: 
+    m_lastTime: -8585648040375801887
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4bd15ed3500e4749b0d6d94484b7f438
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 4bd15ed3500e4749b0d6d94484b7f438
+    GuidInternal: 
+    m_lastTime: -8585648036107796889
+    List:
+    - name: BGM
+      guid: 025e370794d3e043bbce3243d427f060
+      id: 412724365
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bd15ed3500e4749b0d6d94484b7f438
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: BGM
+        ObjectType: 2
+        guid: 025e370794d3e043bbce3243d427f060
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\BGM
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bd15ed3500e4749b0d6d94484b7f438
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: SFX
+      guid: 88d95ba6da4a114b9c6333ac8aaf7bf0
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bd15ed3500e4749b0d6d94484b7f438
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 88d95ba6da4a114b9c6333ac8aaf7bf0
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+    - name: VO
+      guid: 4f6943c70e26c94895854003d6ffc6f1
+      id: 1534528548
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4bd15ed3500e4749b0d6d94484b7f438
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: VO
+        ObjectType: 2
+        guid: 4f6943c70e26c94895854003d6ffc6f1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VO
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b2f6b7552386cf4ebaff8b9a03548dd8
+    ParentPath: SoundBanks\Default Work Unit
+    guid: b2f6b7552386cf4ebaff8b9a03548dd8
+    GuidInternal: 
+    m_lastTime: -8585647008729115762
+    List:
+    - name: Main_Bank
+      guid: 04a6f5b7a578354285eba23581ce5b54
+      id: 3989171651
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b2f6b7552386cf4ebaff8b9a03548dd8
+      - ElementName: Main_Bank
+        ObjectType: 7
+        guid: 04a6f5b7a578354285eba23581ce5b54
+      Path: SoundBanks\Default Work Unit\Main_Bank
+  EventWwu:
+  - PhysicalPath: Events\BGM.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: BGM
+      ObjectType: 12
+      guid: e956c4650fe17544af64982bb20067c0
+    ParentPath: Events\BGM
+    guid: e956c4650fe17544af64982bb20067c0
+    GuidInternal: 
+    m_lastTime: -8585647008821001100
+    List: []
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 511ce48fdcf912469449d56d73acf8bd
+    ParentPath: Events\Default Work Unit
+    guid: 511ce48fdcf912469449d56d73acf8bd
+    GuidInternal: 
+    m_lastTime: -8585646399206027077
+    List: []
+  - PhysicalPath: Events\SFX.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: SFX
+      ObjectType: 12
+      guid: 64e85c7aedab4940b3635074180a7bc3
+    ParentPath: Events\SFX
+    guid: 64e85c7aedab4940b3635074180a7bc3
+    GuidInternal: 
+    m_lastTime: -8585647008868261578
+    List: []
+  - PhysicalPath: Events\Voice.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Voice
+      ObjectType: 12
+      guid: e3afecd20562804a86402f8bb5b365a9
+    ParentPath: Events\Voice
+    guid: e3afecd20562804a86402f8bb5b365a9
+    GuidInternal: 
+    m_lastTime: -8585646399205957061
+    List:
+    - name: VO_06INS_030_merwyn
+      guid: 9138cbed3826564bacb78f4a1e4c8c97
+      id: 410205544
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_030_merwyn
+        ObjectType: 3
+        guid: 9138cbed3826564bacb78f4a1e4c8c97
+      Path: Events\Voice\VO_06INS_030_merwyn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_06INS_050_merwyn
+      guid: dd74798f8c232c4b8c8126a1124ded4a
+      id: 1285751974
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_050_merwyn
+        ObjectType: 3
+        guid: dd74798f8c232c4b8c8126a1124ded4a
+      Path: Events\Voice\VO_06INS_050_merwyn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_06INS_060_merwyn
+      guid: a9a6a0978a8bd640aec6125ec74e2ecb
+      id: 4001995393
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_060_merwyn
+        ObjectType: 3
+        guid: a9a6a0978a8bd640aec6125ec74e2ecb
+      Path: Events\Voice\VO_06INS_060_merwyn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_06INS_070_merwyn
+      guid: e5d25cc80eab2b45b89f8f06fc8ef5bf
+      id: 3094539428
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_070_merwyn
+        ObjectType: 3
+        guid: e5d25cc80eab2b45b89f8f06fc8ef5bf
+      Path: Events\Voice\VO_06INS_070_merwyn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_06INS_100_merwyn
+      guid: 910d16eb5d82aa46875818eb0fc11265
+      id: 3573006388
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_100_merwyn
+        ObjectType: 3
+        guid: 910d16eb5d82aa46875818eb0fc11265
+      Path: Events\Voice\VO_06INS_100_merwyn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_010_ethan
+      guid: 641aa6913e72ba46aac4836d59f33f93
+      id: 831783015
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_010_ethan
+        ObjectType: 3
+        guid: 641aa6913e72ba46aac4836d59f33f93
+      Path: Events\Voice\VO_08CHF_010_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_020_ethan
+      guid: 475ca0a523688248813f6d3c3ee405f4
+      id: 333640230
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_020_ethan
+        ObjectType: 3
+        guid: 475ca0a523688248813f6d3c3ee405f4
+      Path: Events\Voice\VO_08CHF_020_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_050_ethan
+      guid: edf9822285ae28479f85520a757d37fb
+      id: 3568377795
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_050_ethan
+        ObjectType: 3
+        guid: edf9822285ae28479f85520a757d37fb
+      Path: Events\Voice\VO_08CHF_050_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_070_ethan
+      guid: 0f7f6dff0dc8734cb358ab3e1cad691f
+      id: 1935602725
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_070_ethan
+        ObjectType: 3
+        guid: 0f7f6dff0dc8734cb358ab3e1cad691f
+      Path: Events\Voice\VO_08CHF_070_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_080_ethan
+      guid: b90c0b2ac8fb544fa479b4fe682159ed
+      id: 815836500
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_080_ethan
+        ObjectType: 3
+        guid: b90c0b2ac8fb544fa479b4fe682159ed
+      Path: Events\Voice\VO_08CHF_080_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_090_ethan
+      guid: 3e03a5977788e443a6a317a6ab99cd6c
+      id: 2932602975
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_090_ethan
+        ObjectType: 3
+        guid: 3e03a5977788e443a6a317a6ab99cd6c
+      Path: Events\Voice\VO_08CHF_090_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_110_ethan
+      guid: 6438d74ef1f1e646a0bd3b76c1abfd5f
+      id: 513475766
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_110_ethan
+        ObjectType: 3
+        guid: 6438d74ef1f1e646a0bd3b76c1abfd5f
+      Path: Events\Voice\VO_08CHF_110_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_120_ethan
+      guid: 477d1eea2fcb7041b038695f8473c13c
+      id: 296267319
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_120_ethan
+        ObjectType: 3
+        guid: 477d1eea2fcb7041b038695f8473c13c
+      Path: Events\Voice\VO_08CHF_120_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_08CHF_130_ethan
+      guid: d9432208d822f745936da5f8222eb045
+      id: 903915116
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_130_ethan
+        ObjectType: 3
+        guid: d9432208d822f745936da5f8222eb045
+      Path: Events\Voice\VO_08CHF_130_ethan
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_09HRW_020_husband
+      guid: 05ee0f14845e1c42b211c4a22f366fe9
+      id: 2240928088
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_09HRW_020_husband
+        ObjectType: 3
+        guid: 05ee0f14845e1c42b211c4a22f366fe9
+      Path: Events\Voice\VO_09HRW_020_husband
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_11KEI_010_jannah
+      guid: 06c96f0f6d8e12449f4a2d8feb98972e
+      id: 2816861167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_010_jannah
+        ObjectType: 3
+        guid: 06c96f0f6d8e12449f4a2d8feb98972e
+      Path: Events\Voice\VO_11KEI_010_jannah
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_11KEI_020_jannah
+      guid: 61b7ddf289b29e4e9fcaa5f548014643
+      id: 3576593044
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_020_jannah
+        ObjectType: 3
+        guid: 61b7ddf289b29e4e9fcaa5f548014643
+      Path: Events\Voice\VO_11KEI_020_jannah
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_11KEI_030_jannah
+      guid: 557221c5bd2537489a3d8f842a509fd4
+      id: 2776257953
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_030_jannah
+        ObjectType: 3
+        guid: 557221c5bd2537489a3d8f842a509fd4
+      Path: Events\Voice\VO_11KEI_030_jannah
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_11KEI_160_husband
+      guid: 2738658c8f7c384ab50d5f5effe43efb
+      id: 2569653828
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_160_husband
+        ObjectType: 3
+        guid: 2738658c8f7c384ab50d5f5effe43efb
+      Path: Events\Voice\VO_11KEI_160_husband
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_11KEI_170_husband
+      guid: b2ead634ab8c2148a77b3cf41433c61e
+      id: 3103793179
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_170_husband
+        ObjectType: 3
+        guid: b2ead634ab8c2148a77b3cf41433c61e
+      Path: Events\Voice\VO_11KEI_170_husband
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_11KEI_180_husband
+      guid: f8710155735b5246a35e17c4cc412466
+      id: 3250207694
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_180_husband
+        ObjectType: 3
+        guid: f8710155735b5246a35e17c4cc412466
+      Path: Events\Voice\VO_11KEI_180_husband
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 02517e2303c9384ca666f8387739d4ba
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 02517e2303c9384ca666f8387739d4ba
+    GuidInternal: 
+    m_lastTime: -8585648040375989587
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d84c9904c0324340baf35b7e74ac5985
+    ParentPath: States\Default Work Unit
+    guid: d84c9904c0324340baf35b7e74ac5985
+    GuidInternal: 
+    m_lastTime: -8585648040376019594
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 274a49c8ad5a4b48bc6d1717673c346d
+    ParentPath: Switches\Default Work Unit
+    guid: 274a49c8ad5a4b48bc6d1717673c346d
+    GuidInternal: 
+    m_lastTime: -8585648040375939574
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 89de6ce1013eb84f89d1379a8242acec
+    ParentPath: Triggers\Default Work Unit
+    guid: 89de6ce1013eb84f89d1379a8242acec
+    GuidInternal: 
+    m_lastTime: -8585648040376055878
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

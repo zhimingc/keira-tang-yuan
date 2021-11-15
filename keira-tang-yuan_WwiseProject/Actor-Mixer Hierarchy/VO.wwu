@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="VO" ID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="VO" ID="{1DD592E2-4FBC-45A5-AD8B-F74169B73BC8}" ShortID="960534660">
+					<PropertyList>
+						<Property Name="BypassEffect0" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Dialog_Leveler_Hard" ID="{865FB36F-8717-4D30-AD05-14E56375CD40}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="VO" ID="{C743694F-260E-48C9-9585-4003D6FFC6F1}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="10VCM" ID="{8B65B246-8A32-4715-9C8B-62B3BBAC45E1}" ShortID="632248310">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="08CHF" ID="{0CF28156-5093-4731-B2F6-639A25E5629F}" ShortID="658838816">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Parametric EQ (Custom)" ID="{013E243B-5004-4D24-AD51-640C37B74EA7}" ShortID="270713491" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FilterTypeBand2" Type="int32" Value="1"/>
+												<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="4230"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="103"/>
+												<Property Name="FrequencyBand3" Type="Real32" Value="9397"/>
+												<Property Name="GainBand1" Type="Real32" Value="-4.5"/>
+												<Property Name="GainBand2" Type="Real32" Value="-6.5"/>
+												<Property Name="GainBand3" Type="Real32" Value="3.5"/>
+												<Property Name="OnOffBand1" Type="bool" Value="False"/>
+												<Property Name="OutputLevel" Type="Real32" Value="-2"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+												<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VO_08CHF_010_ethan" ID="{E2EFA37D-38AC-473A-863A-933AC51513CD}" ShortID="581954751">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_010_ethan" ID="{16361A2A-E618-4633-899A-F348EEB87107}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_010_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="649614475"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_010_ethan" ID="{16361A2A-E618-4633-899A-F348EEB87107}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_08CHF_020_ethan" ID="{087657DE-276C-4616-A08E-12B81920BF1F}" ShortID="689005562">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_020_ethan" ID="{3EA66212-3775-491F-98A1-6F7A31E792EC}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_020_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71116483"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_020_ethan" ID="{3EA66212-3775-491F-98A1-6F7A31E792EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_08CHF_050_ethan" ID="{9FED4242-9DE7-4F63-A67F-2C2B042C21B8}" ShortID="559002374">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_050_ethan" ID="{BC011E1D-A049-460A-A318-027724F2C00F}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_050_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="219790000"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_050_ethan" ID="{BC011E1D-A049-460A-A318-027724F2C00F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_08CHF_070_ethan" ID="{8715DAA0-AA02-4EED-8677-5F0290092E12}" ShortID="985597581">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_070_ethan" ID="{D4C13D14-70C1-4D42-BD79-D0EC0592724F}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_070_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="487570577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_070_ethan" ID="{D4C13D14-70C1-4D42-BD79-D0EC0592724F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_08CHF_080_ethan" ID="{C089E2C4-8580-4745-AE02-3B92E6A2CB2C}" ShortID="340712799">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_080_ethan" ID="{4498229E-47EA-43BA-9BBF-BB90282CC0B0}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_080_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1068417411"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_080_ethan" ID="{4498229E-47EA-43BA-9BBF-BB90282CC0B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_08CHF_090_ethan" ID="{DE2D5858-556E-4DEC-A305-FC89315327C4}" ShortID="976971196">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_090_ethan" ID="{916B2023-55AA-49D2-82C9-522469131CCA}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_090_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="923454895"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_090_ethan" ID="{916B2023-55AA-49D2-82C9-522469131CCA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_08CHF_110_ethan" ID="{4D9A35F5-1335-43AC-BBED-1FE5653B6487}" ShortID="909636357">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_110_ethan" ID="{68970B3A-2A6B-421B-A845-4117D331F408}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_110_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="484103522"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_110_ethan" ID="{68970B3A-2A6B-421B-A845-4117D331F408}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_08CHF_120_ethan" ID="{B2EBB0C3-67C1-4019-B947-AE954362BCA2}" ShortID="76544235">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_120_ethan" ID="{76B291A7-C63B-491E-BC79-88E5EE08CAD7}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_120_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1037013897"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_120_ethan" ID="{76B291A7-C63B-491E-BC79-88E5EE08CAD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_08CHF_130_ethan" ID="{959E1CF5-8434-428E-B9AE-1AB1D602AAA0}" ShortID="263242065">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_08CHF_130_ethan" ID="{B031CCBF-9EA8-4C22-B714-34A141BAE935}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_08CHF_130_ethan.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="602108252"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_08CHF_130_ethan" ID="{B031CCBF-9EA8-4C22-B714-34A141BAE935}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="09HRW" ID="{07007D7E-BFF4-485B-8EB2-0385D7C661EA}" ShortID="232104022">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VO_09HRW_020_husband" ID="{40B8BB09-9590-417B-80C0-CFA04D42A26B}" ShortID="489035071">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_09HRW_020_husband" ID="{D36784A2-2F4E-467E-B6E3-9B59E4FC818E}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_09HRW_020_husband.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="581680188"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_09HRW_020_husband" ID="{D36784A2-2F4E-467E-B6E3-9B59E4FC818E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="06INS" ID="{256B660D-A5EB-4F5F-9566-5D76F188B206}" ShortID="179964246">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VO_06INS_030_merwyn" ID="{0BE0807F-465E-4CB1-875F-CB24515C4639}" ShortID="745647763">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_06INS_030_merwyn" ID="{966D943C-589C-4FB2-B675-440D0B3937A4}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_06INS_030_merwyn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="394356925"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_06INS_030_merwyn" ID="{966D943C-589C-4FB2-B675-440D0B3937A4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_06INS_050_merwyn" ID="{F6B710F4-E6FF-4596-A978-3B73F9E6E4AA}" ShortID="450062483">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_06INS_050_merwyn" ID="{D2827296-9B20-4172-8DF2-B9F80861543C}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_06INS_050_merwyn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="919996557"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_06INS_050_merwyn" ID="{D2827296-9B20-4172-8DF2-B9F80861543C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_06INS_060_merwyn" ID="{D16E818E-FA60-43F3-B8A9-5A0D2213AF3F}" ShortID="686724699">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_06INS_060_merwyn" ID="{5099D2CE-30C3-4497-8808-F3F9DC8109A8}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_06INS_060_merwyn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="611411550"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_06INS_060_merwyn" ID="{5099D2CE-30C3-4497-8808-F3F9DC8109A8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_06INS_070_merwyn" ID="{5047DF95-8812-4BB8-A118-B852AE4F028B}" ShortID="933351434">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_06INS_070_merwyn" ID="{1516D04C-B910-4E77-9532-A02F6CF3B7CC}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_06INS_070_merwyn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="516183401"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_06INS_070_merwyn" ID="{1516D04C-B910-4E77-9532-A02F6CF3B7CC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_06INS_100_merwyn" ID="{9918619D-A8FE-4FF5-A4DD-CF75B083AE6F}" ShortID="508525218">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_06INS_100_merwyn" ID="{49256C8B-A541-47E8-9682-EA29206A16F4}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_06INS_100_merwyn.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="479512345"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_06INS_100_merwyn" ID="{49256C8B-A541-47E8-9682-EA29206A16F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="03ZOM" ID="{84C86E51-3512-431F-A5E3-084B09CEB6D6}" ShortID="970332361">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="01OPN" ID="{D9569F0A-24C0-415B-BB6B-BD5425D6A8D3}" ShortID="230200333">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="05MIR" ID="{68D02748-36BE-4961-B35C-C2D377BFBF12}" ShortID="940627023">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="02DLV" ID="{C755B6A8-A5AE-42CC-A600-A0381C60199C}" ShortID="655606245">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="07DIN" ID="{FB629084-A14B-4D1F-92FD-6B85A5B32292}" ShortID="2245543">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="04ACM" ID="{6744CB80-AB1C-4FB7-A52B-3220D903D9CE}" ShortID="1058445627">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="11KEI" ID="{908D48B1-7DEF-4AA7-8D4B-7033BEEBFA57}" ShortID="451255434">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VO_11KEI_160_husband" ID="{D55F999B-C874-439C-AC56-3499783679DD}" ShortID="480349248">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_11KEI_160_husband" ID="{CC238779-641F-4FA4-B81D-11345D9B9415}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_11KEI_160_husband.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="136367700"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_11KEI_160_husband" ID="{CC238779-641F-4FA4-B81D-11345D9B9415}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_11KEI_170_husband" ID="{1319EF9B-2E09-4990-9283-496875C1100E}" ShortID="945106751">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_11KEI_170_husband" ID="{4AE1C5CE-4C02-4377-9B50-D4D8831A87DD}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_11KEI_170_husband.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="858529293"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_11KEI_170_husband" ID="{4AE1C5CE-4C02-4377-9B50-D4D8831A87DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_11KEI_180_husband" ID="{F5C63E8B-CFAC-4EA0-B48A-CE09BCF11364}" ShortID="993821428">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_11KEI_180_husband" ID="{C15691D5-B0CF-4973-9B7C-BCBD5DC3F636}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_11KEI_180_husband.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="936556488"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_11KEI_180_husband" ID="{C15691D5-B0CF-4973-9B7C-BCBD5DC3F636}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_11KEI_010_jannah" ID="{45CC98FE-765F-41DC-8142-F8BEC668ED0D}" ShortID="276838687">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_11KEI_010_jannah" ID="{9BBF2924-62F6-44C8-BA4C-7877CE4FA0C4}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_11KEI_010_jannah.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="382524768"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_11KEI_010_jannah" ID="{9BBF2924-62F6-44C8-BA4C-7877CE4FA0C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_11KEI_020_jannah" ID="{C0DC2596-10FD-402D-8F9E-3B2468CD45C0}" ShortID="644205550">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_11KEI_020_jannah" ID="{21EE9B10-411E-49F9-8A5C-A080CCA0E089}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_11KEI_020_jannah.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="980209497"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_11KEI_020_jannah" ID="{21EE9B10-411E-49F9-8A5C-A080CCA0E089}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_11KEI_030_jannah" ID="{5B8B2B51-04A4-4939-A6E7-AAD00BC68CA7}" ShortID="769129374">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_11KEI_030_jannah" ID="{E63A70CF-4068-43F7-BBB6-BE31F5D2D413}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_11KEI_030_jannah.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="518005892"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_11KEI_030_jannah" ID="{E63A70CF-4068-43F7-BBB6-BE31F5D2D413}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

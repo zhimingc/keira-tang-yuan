@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" SchemaVersion="103">
+	<InteractiveMusic>
+		<WorkUnit Name="BGM (Daniel)" ID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" PersistMode="Standalone"/>
+	</InteractiveMusic>
+</WwiseDocument>

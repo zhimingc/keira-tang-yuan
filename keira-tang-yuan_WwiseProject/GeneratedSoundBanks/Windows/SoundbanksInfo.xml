@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="979685098">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="896398768">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
+			<ShortName>Main_Bank</ShortName>
+			<Path>English(US)\Main_Bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="410205544" Name="VO_06INS_030_merwyn" ObjectPath="\Events\Voice\VO_06INS_030_merwyn" GUID="{EDCB3891-2638-4B56-ACB7-8F4A1E4C8C97}" DurationType="OneShot" DurationMin="4.466485" DurationMax="4.466485">
+					<IncludedMemoryFiles>
+						<File Id="394356925" Language="English(US)">
+							<ShortName>VO_06INS_030_merwyn.wav</ShortName>
+							<Path>Voices\English(US)\VO_06INS_030_merwyn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1285751974" Name="VO_06INS_050_merwyn" ObjectPath="\Events\Voice\VO_06INS_050_merwyn" GUID="{8F7974DD-238C-4B2C-8C81-26A1124DED4A}" DurationType="OneShot" DurationMin="14.829682" DurationMax="14.829682">
+					<IncludedMemoryFiles>
+						<File Id="919996557" Language="English(US)">
+							<ShortName>VO_06INS_050_merwyn.wav</ShortName>
+							<Path>Voices\English(US)\VO_06INS_050_merwyn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4001995393" Name="VO_06INS_060_merwyn" ObjectPath="\Events\Voice\VO_06INS_060_merwyn" GUID="{97A0A6A9-8B8A-40D6-AEC6-125EC74E2ECB}" DurationType="OneShot" DurationMin="4.952562" DurationMax="4.952562">
+					<IncludedMemoryFiles>
+						<File Id="611411550" Language="English(US)">
+							<ShortName>VO_06INS_060_merwyn.wav</ShortName>
+							<Path>Voices\English(US)\VO_06INS_060_merwyn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3094539428" Name="VO_06INS_070_merwyn" ObjectPath="\Events\Voice\VO_06INS_070_merwyn" GUID="{C85CD2E5-AB0E-452B-B89F-8F06FC8EF5BF}" DurationType="OneShot" DurationMin="2.047642" DurationMax="2.047642">
+					<IncludedMemoryFiles>
+						<File Id="516183401" Language="English(US)">
+							<ShortName>VO_06INS_070_merwyn.wav</ShortName>
+							<Path>Voices\English(US)\VO_06INS_070_merwyn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3573006388" Name="VO_06INS_100_merwyn" ObjectPath="\Events\Voice\VO_06INS_100_merwyn" GUID="{EB160D91-825D-46AA-8758-18EB0FC11265}" DurationType="OneShot" DurationMin="2.769342" DurationMax="2.769342">
+					<IncludedMemoryFiles>
+						<File Id="479512345" Language="English(US)">
+							<ShortName>VO_06INS_100_merwyn.wav</ShortName>
+							<Path>Voices\English(US)\VO_06INS_100_merwyn_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="831783015" Name="VO_08CHF_010_ethan" ObjectPath="\Events\Voice\VO_08CHF_010_ethan" GUID="{91A61A64-723E-46BA-AAC4-836D59F33F93}" DurationType="OneShot" DurationMin="10.152676" DurationMax="10.152676">
+					<IncludedMemoryFiles>
+						<File Id="649614475" Language="English(US)">
+							<ShortName>VO_08CHF_010_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_010_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="333640230" Name="VO_08CHF_020_ethan" ObjectPath="\Events\Voice\VO_08CHF_020_ethan" GUID="{A5A05C47-6823-4882-813F-6D3C3EE405F4}" DurationType="OneShot" DurationMin="9.412018" DurationMax="9.412018">
+					<IncludedMemoryFiles>
+						<File Id="71116483" Language="English(US)">
+							<ShortName>VO_08CHF_020_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_020_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3568377795" Name="VO_08CHF_050_ethan" ObjectPath="\Events\Voice\VO_08CHF_050_ethan" GUID="{2282F9ED-AE85-4728-9F85-520A757D37FB}" DurationType="OneShot" DurationMin="12.252653" DurationMax="12.252653">
+					<IncludedMemoryFiles>
+						<File Id="219790000" Language="English(US)">
+							<ShortName>VO_08CHF_050_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_050_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1935602725" Name="VO_08CHF_070_ethan" ObjectPath="\Events\Voice\VO_08CHF_070_ethan" GUID="{FF6D7F0F-C80D-4C73-B358-AB3E1CAD691F}" DurationType="OneShot" DurationMin="5.593333" DurationMax="5.593333">
+					<IncludedMemoryFiles>
+						<File Id="487570577" Language="English(US)">
+							<ShortName>VO_08CHF_070_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_070_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="815836500" Name="VO_08CHF_080_ethan" ObjectPath="\Events\Voice\VO_08CHF_080_ethan" GUID="{2A0B0CB9-FBC8-4F54-A479-B4FE682159ED}" DurationType="OneShot" DurationMin="13.657098" DurationMax="13.657098">
+					<IncludedMemoryFiles>
+						<File Id="1068417411" Language="English(US)">
+							<ShortName>VO_08CHF_080_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_080_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932602975" Name="VO_08CHF_090_ethan" ObjectPath="\Events\Voice\VO_08CHF_090_ethan" GUID="{97A5033E-8877-43E4-A6A3-17A6AB99CD6C}" DurationType="OneShot" DurationMin="28.172812" DurationMax="28.172812">
+					<IncludedMemoryFiles>
+						<File Id="923454895" Language="English(US)">
+							<ShortName>VO_08CHF_090_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_090_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="513475766" Name="VO_08CHF_110_ethan" ObjectPath="\Events\Voice\VO_08CHF_110_ethan" GUID="{4ED73864-F1F1-46E6-A0BD-3B76C1ABFD5F}" DurationType="OneShot" DurationMin="9.739682" DurationMax="9.739682">
+					<IncludedMemoryFiles>
+						<File Id="484103522" Language="English(US)">
+							<ShortName>VO_08CHF_110_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_110_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="296267319" Name="VO_08CHF_120_ethan" ObjectPath="\Events\Voice\VO_08CHF_120_ethan" GUID="{EA1E7D47-CB2F-4170-B038-695F8473C13C}" DurationType="OneShot" DurationMin="49.667347" DurationMax="49.667347">
+					<IncludedMemoryFiles>
+						<File Id="1037013897" Language="English(US)">
+							<ShortName>VO_08CHF_120_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_120_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="903915116" Name="VO_08CHF_130_ethan" ObjectPath="\Events\Voice\VO_08CHF_130_ethan" GUID="{082243D9-22D8-45F7-936D-A5F8222EB045}" DurationType="OneShot" DurationMin="26.857960" DurationMax="26.857960">
+					<IncludedMemoryFiles>
+						<File Id="602108252" Language="English(US)">
+							<ShortName>VO_08CHF_130_ethan.wav</ShortName>
+							<Path>Voices\English(US)\VO_08CHF_130_ethan_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2240928088" Name="VO_09HRW_020_husband" ObjectPath="\Events\Voice\VO_09HRW_020_husband" GUID="{140FEE05-5E84-421C-B211-C4A22F366FE9}" DurationType="OneShot" DurationMin="1.993832" DurationMax="1.993832">
+					<IncludedMemoryFiles>
+						<File Id="581680188" Language="English(US)">
+							<ShortName>VO_09HRW_020_husband.wav</ShortName>
+							<Path>Voices\English(US)\VO_09HRW_020_husband_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2816861167" Name="VO_11KEI_010_jannah" ObjectPath="\Events\Voice\VO_11KEI_010_jannah" GUID="{0F6FC906-8E6D-4412-9F4A-2D8FEB98972E}" DurationType="OneShot" DurationMin="7.557437" DurationMax="7.557437">
+					<IncludedMemoryFiles>
+						<File Id="382524768" Language="English(US)">
+							<ShortName>VO_11KEI_010_jannah.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_010_jannah_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3576593044" Name="VO_11KEI_020_jannah" ObjectPath="\Events\Voice\VO_11KEI_020_jannah" GUID="{F2DDB761-B289-4E9E-9FCA-A5F548014643}" DurationType="OneShot" DurationMin="22.472494" DurationMax="22.472494">
+					<IncludedMemoryFiles>
+						<File Id="980209497" Language="English(US)">
+							<ShortName>VO_11KEI_020_jannah.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_020_jannah_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2776257953" Name="VO_11KEI_030_jannah" ObjectPath="\Events\Voice\VO_11KEI_030_jannah" GUID="{C5217255-25BD-4837-9A3D-8F842A509FD4}" DurationType="OneShot" DurationMin="10.219388" DurationMax="10.219388">
+					<IncludedMemoryFiles>
+						<File Id="518005892" Language="English(US)">
+							<ShortName>VO_11KEI_030_jannah.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_030_jannah_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2569653828" Name="VO_11KEI_160_husband" ObjectPath="\Events\Voice\VO_11KEI_160_husband" GUID="{8C653827-7C8F-4A38-B50D-5F5EFFE43EFB}" DurationType="OneShot" DurationMin="2.882993" DurationMax="2.882993">
+					<IncludedMemoryFiles>
+						<File Id="136367700" Language="English(US)">
+							<ShortName>VO_11KEI_160_husband.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_160_husband_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3103793179" Name="VO_11KEI_170_husband" ObjectPath="\Events\Voice\VO_11KEI_170_husband" GUID="{34D6EAB2-8CAB-4821-A77B-3CF41433C61E}" DurationType="OneShot" DurationMin="11.156077" DurationMax="11.156077">
+					<IncludedMemoryFiles>
+						<File Id="858529293" Language="English(US)">
+							<ShortName>VO_11KEI_170_husband.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_170_husband_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3250207694" Name="VO_11KEI_180_husband" ObjectPath="\Events\Voice\VO_11KEI_180_husband" GUID="{550171F8-5B73-4652-A35E-17C4CC412466}" DurationType="OneShot" DurationMin="3.456009" DurationMax="3.456009">
+					<IncludedMemoryFiles>
+						<File Id="936556488" Language="English(US)">
+							<ShortName>VO_11KEI_180_husband.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_180_husband_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
