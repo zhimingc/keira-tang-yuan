@@ -1,50 +1,138 @@
 Event	ID	Name			Wwise Object Path	Notes
+	41232090	sfx_04ACM_lighter			\SFX\sfx_04ACM_lighter	
 	296267319	VO_08CHF_120_ethan			\Voice\VO_08CHF_120_ethan	
+	333498414	VO_04ACM_060_alex			\Voice\VO_04ACM_060_alex	
 	333640230	VO_08CHF_020_ethan			\Voice\VO_08CHF_020_ethan	
+	356528211	VO_11KEI_050_keira			\Voice\VO_11KEI_050_keira	
+	376518116	sfx_01OPN_photo			\SFX\sfx_01OPN_photo	
 	410205544	VO_06INS_030_merwyn			\Voice\VO_06INS_030_merwyn	
 	513475766	VO_08CHF_110_ethan			\Voice\VO_08CHF_110_ethan	
 	815836500	VO_08CHF_080_ethan			\Voice\VO_08CHF_080_ethan	
 	831783015	VO_08CHF_010_ethan			\Voice\VO_08CHF_010_ethan	
+	839339977	sfx_10VCM_vacuum_stop			\SFX\sfx_10VCM_vacuum_stop	
 	903915116	VO_08CHF_130_ethan			\Voice\VO_08CHF_130_ethan	
+	912741289	sfx_10VCM_phone			\SFX\sfx_10VCM_phone	
+	942777237	VO_11KEI_100_keira			\Voice\VO_11KEI_100_keira	
+	1010927348	sfx_00GEN_click			\SFX\sfx_00GEN_click	
+	1131043679	VO_03ZOM_060_wendy			\Voice\VO_03ZOM_060_wendy	
+	1269518332	sfx_11KEI_doorbell			\SFX\sfx_11KEI_doorbell	
 	1285751974	VO_06INS_050_merwyn			\Voice\VO_06INS_050_merwyn	
+	1297885619	sfx_06INS_openbook			\SFX\sfx_06INS_openbook	
+	1310102706	VO_11KEI_120_mum			\Voice\VO_11KEI_120_mum	
+	1361983429	VO_11KEI_070_keira			\Voice\VO_11KEI_070_keira	
+	1433897677	VO_03ZOM_090_paul			\Voice\VO_03ZOM_090_paul	
+	1654728357	sfx_10VCM_recliner			\SFX\sfx_10VCM_recliner	
+	1761702355	VO_04ACM_030_alex			\Voice\VO_04ACM_030_alex	
+	1854270925	sfx_01OPN_jet			\SFX\sfx_01OPN_jet	
 	1935602725	VO_08CHF_070_ethan			\Voice\VO_08CHF_070_ethan	
+	1937623344	VO_04ACM_080_alex			\Voice\VO_04ACM_080_alex	
+	2038536189	sfx_08CHF_cutlery			\SFX\sfx_08CHF_cutlery	
+	2224723115	sfx_10VCM_vacuum_start			\SFX\sfx_10VCM_vacuum_start	
 	2240928088	VO_09HRW_020_husband			\Voice\VO_09HRW_020_husband	
+	2256124074	sfx_04ACM_fix			\SFX\sfx_04ACM_fix	
+	2261318223	sfx_00GEN_doorbell			\SFX\sfx_00GEN_doorbell	
+	2319967843	sfx_09HRW_pack			\SFX\sfx_09HRW_pack	
+	2342739123	sfx_11KEI_dog			\SFX\sfx_11KEI_dog	
+	2457604163	sfx_02DLV_footsteps			\SFX\sfx_02DLV_footsteps	
 	2569653828	VO_11KEI_160_husband			\Voice\VO_11KEI_160_husband	
+	2614593559	sfx_05MIR_selfie			\SFX\sfx_05MIR_selfie	
+	2627611537	sfx_09HRW_ktv			\SFX\sfx_09HRW_ktv	
+	2655851741	VO_02DLV_020_delivery			\Voice\VO_02DLV_020_delivery	
+	2772396626	sfx_01OPN_couch			\SFX\sfx_01OPN_couch	
 	2776257953	VO_11KEI_030_jannah			\Voice\VO_11KEI_030_jannah	
 	2816861167	VO_11KEI_010_jannah			\Voice\VO_11KEI_010_jannah	
+	2852847869	sfx_03ZOM_zoom_stop			\SFX\sfx_03ZOM_zoom_stop	
+	2867537081	VO_04ACM_010_alex			\Voice\VO_04ACM_010_alex	
+	2902341918	sfx_03ZOM_zoom			\SFX\sfx_03ZOM_zoom	
 	2932602975	VO_08CHF_090_ethan			\Voice\VO_08CHF_090_ethan	
+	2950033031	sfx_04ACM_pour			\SFX\sfx_04ACM_pour	
+	2981718853	VO_03ZOM_040_wendy			\Voice\VO_03ZOM_040_wendy	
 	3094539428	VO_06INS_070_merwyn			\Voice\VO_06INS_070_merwyn	
 	3103793179	VO_11KEI_170_husband			\Voice\VO_11KEI_170_husband	
 	3250207694	VO_11KEI_180_husband			\Voice\VO_11KEI_180_husband	
+	3273819246	VO_02DLV_010_delivery			\Voice\VO_02DLV_010_delivery	
+	3523608175	VO_11KEI_110_mum			\Voice\VO_11KEI_110_mum	
+	3555550800	VO_11KEI_040_keira			\Voice\VO_11KEI_040_keira	
 	3568377795	VO_08CHF_050_ethan			\Voice\VO_08CHF_050_ethan	
 	3573006388	VO_06INS_100_merwyn			\Voice\VO_06INS_100_merwyn	
 	3576593044	VO_11KEI_020_jannah			\Voice\VO_11KEI_020_jannah	
+	3579149732	VO_11KEI_080_keira			\Voice\VO_11KEI_080_keira	
+	3619859189	sfx_04ACM_ac			\SFX\sfx_04ACM_ac	
+	3774266052	sfx_02DLV_bag			\SFX\sfx_02DLV_bag	
+	3791463254	VO_03ZOM_010_wendy			\Voice\VO_03ZOM_010_wendy	
+	3875258401	VO_03ZOM_080_wendy			\Voice\VO_03ZOM_080_wendy	
 	4001995393	VO_06INS_060_merwyn			\Voice\VO_06INS_060_merwyn	
+	4016277978	VO_11KEI_060_keira			\Voice\VO_11KEI_060_keira	
+	4280253252	sfx_00GEN_door			\SFX\sfx_00GEN_door	
 
 Effect plug-ins	ID	Name	Type				Notes
 	270713491	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	2171939413	Dialog_Leveler_Hard	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	71116483	VO_08CHF_020_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_020_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_020_ethan		1660344
-	136367700	VO_11KEI_160_husband	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_160_husband_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_160_husband		508624
-	219790000	VO_08CHF_050_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_050_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_050_ethan		2161432
-	382524768	VO_11KEI_010_jannah	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_010_jannah_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_010_jannah		1333196
-	394356925	VO_06INS_030_merwyn	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_030_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_030_merwyn		787952
-	479512345	VO_06INS_100_merwyn	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_100_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_100_merwyn		488576
-	484103522	VO_08CHF_110_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_110_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_110_ethan		1718144
-	487570577	VO_08CHF_070_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_070_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_070_ethan		986728
-	516183401	VO_06INS_070_merwyn	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_070_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_070_merwyn		361268
-	518005892	VO_11KEI_030_jannah	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_030_jannah_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_030_jannah		1802764
-	581680188	VO_09HRW_020_husband	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_09HRW_020_husband_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\09HRW\VO_09HRW_020_husband		351776
-	602108252	VO_08CHF_130_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_130_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_130_ethan		4737808
-	611411550	VO_06INS_060_merwyn	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_060_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_060_merwyn		873696
-	649614475	VO_08CHF_010_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_010_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_010_ethan		1790996
-	858529293	VO_11KEI_170_husband	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_170_husband_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_170_husband		1967996
-	919996557	VO_06INS_050_merwyn	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_050_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_050_merwyn		2616020
-	923454895	VO_08CHF_090_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_090_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_090_ethan		4969748
-	936556488	VO_11KEI_180_husband	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_180_husband_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_180_husband		609704
-	980209497	VO_11KEI_020_jannah	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_020_jannah_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_020_jannah		3964212
-	1037013897	VO_08CHF_120_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_120_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_120_ethan		8761384
-	1068417411	VO_08CHF_080_ethan	E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_080_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_080_ethan		2409176
+	14270852	VO_03ZOM_060_wendy	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_03ZOM_060_wendy_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\03ZOM\VO_03ZOM_060_wendy		362252
+	32414067	VO_11KEI_080_keira	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_080_keira_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_080_keira		2725916
+	45095367	VO_04ACM_010_alex	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_04ACM_010_alex_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\04ACM\VO_04ACM_010_alex		79512
+	54765420	sfx_03ZOM_zoom	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_03ZOM_zoom_D79FB2B7.wem		\Actor-Mixer Hierarchy\SFX\SFX\03ZOM\sfx_03ZOM_zoom		723304
+	71116483	VO_08CHF_020_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_020_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_020_ethan		1660344
+	78429735	sfx_00GEN_doorbell	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_00GEN_doorbell_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\00GEN\sfx_00GEN_doorbell		282304
+	117129142	sfx_04ACM_fix	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_04ACM_fix_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\04ACM\sfx_04ACM_fix		1746424
+	136367700	VO_11KEI_160_husband	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_160_husband_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_160_husband		508624
+	136385936	sfx_01OPN_jet	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_01OPN_jet_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\01OPN\sfx_01OPN_jet		2452024
+	219790000	VO_08CHF_050_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_050_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_050_ethan		2161432
+	228705130	VO_04ACM_030_alex	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_04ACM_030_alex_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\04ACM\VO_04ACM_030_alex		101208
+	241418716	sfx_01OPN_photo	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_01OPN_photo_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\01OPN\sfx_01OPN_photo		66436
+	241853596	VO_11KEI_110_mum	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_110_mum_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_110_mum		436880
+	279056587	sfx_10VCM_vacuum_loop	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_10VCM_vacuum_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\SFX\SFX\10VCM\sfx_10VCM_vacuum_loop		823264
+	312085936	sfx_04ACM_lighter	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_04ACM_lighter_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\04ACM\sfx_04ACM_lighter		158824
+	325619686	sfx_10VCM_vacuum_stop	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_10VCM_vacuum_stop_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\10VCM\sfx_10VCM_vacuum_stop		529264
+	331996224	VO_03ZOM_080_wendy	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_03ZOM_080_wendy_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\03ZOM\VO_03ZOM_080_wendy		266152
+	341480443	VO_11KEI_060_keira	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_060_keira_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_060_keira		1239208
+	349014858	sfx_06INS_openbook	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_06INS_openbook_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\06INS\sfx_06INS_openbook		729184
+	381879348	VO_03ZOM_010_wendy	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_03ZOM_010_wendy_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\03ZOM\VO_03ZOM_010_wendy		5912342
+	382524768	VO_11KEI_010_jannah	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_010_jannah_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_010_jannah		1333196
+	394356925	VO_06INS_030_merwyn	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_030_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_030_merwyn		787952
+	396609259	VO_02DLV_020_delivery	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_02DLV_020_delivery_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\02DLV\VO_02DLV_020_delivery		132364
+	400526915	sfx_11KEI_dog	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_11KEI_dog_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\11KEI\sfx_11KEI_dog		335224
+	407534650	VO_03ZOM_090_paul	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_03ZOM_090_paul_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\03ZOM\VO_03ZOM_090_paul		1487050
+	408717471	sfx_04ACM_ac	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_04ACM_ac_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\04ACM\sfx_04ACM_ac		94144
+	433872106	VO_02DLV_010_delivery	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_02DLV_010_delivery_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\02DLV\VO_02DLV_010_delivery		143390
+	479512345	VO_06INS_100_merwyn	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_100_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_100_merwyn		488576
+	484103522	VO_08CHF_110_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_110_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_110_ethan		1718144
+	487570577	VO_08CHF_070_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_070_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_070_ethan		986728
+	509461508	sfx_02DLV_bag	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_02DLV_bag_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\02DLV\sfx_02DLV_bag		152944
+	516183401	VO_06INS_070_merwyn	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_070_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_070_merwyn		361268
+	518005892	VO_11KEI_030_jannah	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_030_jannah_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_030_jannah		1802764
+	547469702	VO_11KEI_120_mum	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_120_mum_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_120_mum		2735768
+	554307944	sfx_09HRW_ktv	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_09HRW_ktv_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\09HRW\sfx_09HRW_ktv		2763664
+	561692553	VO_03ZOM_040_wendy	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_03ZOM_040_wendy_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\03ZOM\VO_03ZOM_040_wendy		202056
+	581680188	VO_09HRW_020_husband	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_09HRW_020_husband_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\09HRW\VO_09HRW_020_husband		351776
+	602108252	VO_08CHF_130_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_130_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_130_ethan		4737808
+	611411550	VO_06INS_060_merwyn	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_060_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_060_merwyn		873696
+	613494281	sfx_08CHF_cutlery	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_08CHF_cutlery_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\08CHF\sfx_08CHF_cutlery		147064
+	649614475	VO_08CHF_010_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_010_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_010_ethan		1790996
+	723416782	sfx_10VCM_vacuum_start	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_10VCM_vacuum_start_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\10VCM\sfx_10VCM_vacuum_start		376384
+	737188642	sfx_02DLV_footsteps	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_02DLV_footsteps_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\02DLV\sfx_02DLV_footsteps		646864
+	780633426	VO_11KEI_050_keira	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_050_keira_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_050_keira		182636
+	800665825	sfx_10VCM_recliner	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_10VCM_recliner_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\10VCM\sfx_10VCM_recliner		1475944
+	816018671	sfx_00GEN_door	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_00GEN_door_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\00GEN\sfx_00GEN_door		117664
+	838064482	sfx_00GEN_click	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_00GEN_click_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\00GEN\sfx_00GEN_click		11824
+	840956016	sfx_05MIR_selfie	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_05MIR_selfie_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\05MIR\sfx_05MIR_selfie		88264
+	854381892	VO_11KEI_100_keira	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_100_keira_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_100_keira		1069560
+	858529293	VO_11KEI_170_husband	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_170_husband_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_170_husband		1967996
+	886528860	VO_04ACM_080_alex	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_04ACM_080_alex_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\04ACM\VO_04ACM_080_alex		728970
+	913199836	sfx_11KEI_doorbell	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_11KEI_doorbell_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\11KEI\sfx_11KEI_doorbell		823264
+	917043476	VO_04ACM_060_alex	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_04ACM_060_alex_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\04ACM\VO_04ACM_060_alex		944436
+	919996557	VO_06INS_050_merwyn	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_06INS_050_merwyn_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_050_merwyn		2616020
+	923454895	VO_08CHF_090_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_090_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_090_ethan		4969748
+	928808119	VO_11KEI_070_keira	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_070_keira_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_070_keira		1909784
+	934271634	sfx_01OPN_couch	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_01OPN_couch_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\01OPN\sfx_01OPN_couch		258784
+	936556488	VO_11KEI_180_husband	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_180_husband_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_180_husband		609704
+	941255203	sfx_10VCM_phone	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_10VCM_phone_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\10VCM\sfx_10VCM_phone		152944
+	943106829	sfx_04ACM_pour	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_04ACM_pour_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\04ACM\sfx_04ACM_pour		458704
+	950763085	VO_11KEI_040_keira	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_040_keira_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_040_keira		618728
+	976711918	sfx_09HRW_pack	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\SFX\sfx_09HRW_pack_10C4C929.wem		\Actor-Mixer Hierarchy\SFX\SFX\09HRW\sfx_09HRW_pack		852664
+	980209497	VO_11KEI_020_jannah	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_11KEI_020_jannah_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_020_jannah		3964212
+	1037013897	VO_08CHF_120_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_120_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_120_ethan		8761384
+	1068417411	VO_08CHF_080_ethan	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\Voices\English(US)\VO_08CHF_080_ethan_10C4C929.wem		\Actor-Mixer Hierarchy\VO\VO\08CHF\VO_08CHF_080_ethan		2409176
 

@@ -158,7 +158,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 511ce48fdcf912469449d56d73acf8bd
     GuidInternal: 
-    m_lastTime: -8585646399206027077
+    m_lastTime: -8585645274211319543
     List: []
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
@@ -171,8 +171,433 @@ MonoBehaviour:
     ParentPath: Events\SFX
     guid: 64e85c7aedab4940b3635074180a7bc3
     GuidInternal: 
-    m_lastTime: -8585647008868261578
-    List: []
+    m_lastTime: -8585645279103773937
+    List:
+    - name: sfx_00GEN_click
+      guid: 3bdb522313f47a499cddb688c94f1aa7
+      id: 1010927348
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_00GEN_click
+        ObjectType: 3
+        guid: 3bdb522313f47a499cddb688c94f1aa7
+      Path: Events\SFX\sfx_00GEN_click
+      maxAttenuation: 0
+      maxDuration: 0.066667
+      minDuration: 0.066667
+    - name: sfx_00GEN_door
+      guid: 9490819231c4114bab6026a8b3e728eb
+      id: 4280253252
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_00GEN_door
+        ObjectType: 3
+        guid: 9490819231c4114bab6026a8b3e728eb
+      Path: Events\SFX\sfx_00GEN_door
+      maxAttenuation: 0
+      maxDuration: 0.666667
+      minDuration: 0.666667
+    - name: sfx_00GEN_doorbell
+      guid: 4eb474152481ca4e906b6f56401a66ff
+      id: 2261318223
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_00GEN_doorbell
+        ObjectType: 3
+        guid: 4eb474152481ca4e906b6f56401a66ff
+      Path: Events\SFX\sfx_00GEN_doorbell
+      maxAttenuation: 0
+      maxDuration: 1.6
+      minDuration: 1.6
+    - name: sfx_01OPN_couch
+      guid: 2b09d33c7118b7498e690a6276e29e1d
+      id: 2772396626
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_01OPN_couch
+        ObjectType: 3
+        guid: 2b09d33c7118b7498e690a6276e29e1d
+      Path: Events\SFX\sfx_01OPN_couch
+      maxAttenuation: 0
+      maxDuration: 1.466667
+      minDuration: 1.466667
+    - name: sfx_01OPN_jet
+      guid: d640ff30cc570240af0618020ffa4283
+      id: 1854270925
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_01OPN_jet
+        ObjectType: 3
+        guid: d640ff30cc570240af0618020ffa4283
+      Path: Events\SFX\sfx_01OPN_jet
+      maxAttenuation: 0
+      maxDuration: 13.9
+      minDuration: 13.9
+    - name: sfx_01OPN_photo
+      guid: 7f0fd7691d95f84b977d658e8cb14a7b
+      id: 376518116
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_01OPN_photo
+        ObjectType: 3
+        guid: 7f0fd7691d95f84b977d658e8cb14a7b
+      Path: Events\SFX\sfx_01OPN_photo
+      maxAttenuation: 0
+      maxDuration: 0.376258
+      minDuration: 0.376258
+    - name: sfx_02DLV_bag
+      guid: 6852b993f0fc39479504d96ba807db4b
+      id: 3774266052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_02DLV_bag
+        ObjectType: 3
+        guid: 6852b993f0fc39479504d96ba807db4b
+      Path: Events\SFX\sfx_02DLV_bag
+      maxAttenuation: 0
+      maxDuration: 0.866667
+      minDuration: 0.866667
+    - name: sfx_02DLV_footsteps
+      guid: 7beca3026254f14db7208ac22d8c4b95
+      id: 2457604163
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_02DLV_footsteps
+        ObjectType: 3
+        guid: 7beca3026254f14db7208ac22d8c4b95
+      Path: Events\SFX\sfx_02DLV_footsteps
+      maxAttenuation: 0
+      maxDuration: 3.666667
+      minDuration: 3.666667
+    - name: sfx_03ZOM_zoom
+      guid: 1e35454362968841aaa68b9efc582de1
+      id: 2902341918
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_03ZOM_zoom
+        ObjectType: 3
+        guid: 1e35454362968841aaa68b9efc582de1
+      Path: Events\SFX\sfx_03ZOM_zoom
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_03ZOM_zoom_stop
+      guid: 305e89892a3073418b59b416d999728d
+      id: 2852847869
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_03ZOM_zoom_stop
+        ObjectType: 3
+        guid: 305e89892a3073418b59b416d999728d
+      Path: Events\SFX\sfx_03ZOM_zoom_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: sfx_04ACM_ac
+      guid: b051daacfe4ed04f94c65057379776d0
+      id: 3619859189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_04ACM_ac
+        ObjectType: 3
+        guid: b051daacfe4ed04f94c65057379776d0
+      Path: Events\SFX\sfx_04ACM_ac
+      maxAttenuation: 0
+      maxDuration: 0.533333
+      minDuration: 0.533333
+    - name: sfx_04ACM_fix
+      guid: ac07efab16e402438189474ef6674d4b
+      id: 2256124074
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_04ACM_fix
+        ObjectType: 3
+        guid: ac07efab16e402438189474ef6674d4b
+      Path: Events\SFX\sfx_04ACM_fix
+      maxAttenuation: 0
+      maxDuration: 9.9
+      minDuration: 9.9
+    - name: sfx_04ACM_lighter
+      guid: 260e7bb5388e1b4ca3b8b5e1b78ce61a
+      id: 41232090
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_04ACM_lighter
+        ObjectType: 3
+        guid: 260e7bb5388e1b4ca3b8b5e1b78ce61a
+      Path: Events\SFX\sfx_04ACM_lighter
+      maxAttenuation: 0
+      maxDuration: 0.9
+      minDuration: 0.9
+    - name: sfx_04ACM_pour
+      guid: 4ce64fc4a985014ca9cd77de67169d55
+      id: 2950033031
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_04ACM_pour
+        ObjectType: 3
+        guid: 4ce64fc4a985014ca9cd77de67169d55
+      Path: Events\SFX\sfx_04ACM_pour
+      maxAttenuation: 0
+      maxDuration: 2.6
+      minDuration: 2.6
+    - name: sfx_05MIR_selfie
+      guid: a934faa5d11a2a48bb6972dfbd590517
+      id: 2614593559
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_05MIR_selfie
+        ObjectType: 3
+        guid: a934faa5d11a2a48bb6972dfbd590517
+      Path: Events\SFX\sfx_05MIR_selfie
+      maxAttenuation: 0
+      maxDuration: 0.5
+      minDuration: 0.5
+    - name: sfx_06INS_openbook
+      guid: a6c1f63938eefe48bf926e4775510d50
+      id: 1297885619
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_06INS_openbook
+        ObjectType: 3
+        guid: a6c1f63938eefe48bf926e4775510d50
+      Path: Events\SFX\sfx_06INS_openbook
+      maxAttenuation: 0
+      maxDuration: 4.133333
+      minDuration: 4.133333
+    - name: sfx_08CHF_cutlery
+      guid: 66d8bdbce2be654bb3cbd7e080d4e691
+      id: 2038536189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_08CHF_cutlery
+        ObjectType: 3
+        guid: 66d8bdbce2be654bb3cbd7e080d4e691
+      Path: Events\SFX\sfx_08CHF_cutlery
+      maxAttenuation: 0
+      maxDuration: 0.833333
+      minDuration: 0.833333
+    - name: sfx_09HRW_ktv
+      guid: 79b1a0c4c95b4a428315aa6246fd240f
+      id: 2627611537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_09HRW_ktv
+        ObjectType: 3
+        guid: 79b1a0c4c95b4a428315aa6246fd240f
+      Path: Events\SFX\sfx_09HRW_ktv
+      maxAttenuation: 0
+      maxDuration: 15.666667
+      minDuration: 15.666667
+    - name: sfx_09HRW_pack
+      guid: 9edb74e4433fec45a220b156c8a36e26
+      id: 2319967843
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_09HRW_pack
+        ObjectType: 3
+        guid: 9edb74e4433fec45a220b156c8a36e26
+      Path: Events\SFX\sfx_09HRW_pack
+      maxAttenuation: 0
+      maxDuration: 4.833333
+      minDuration: 4.833333
+    - name: sfx_10VCM_phone
+      guid: 4ce2fc04e768404ba19a858c70411e62
+      id: 912741289
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_10VCM_phone
+        ObjectType: 3
+        guid: 4ce2fc04e768404ba19a858c70411e62
+      Path: Events\SFX\sfx_10VCM_phone
+      maxAttenuation: 0
+      maxDuration: 0.866667
+      minDuration: 0.866667
+    - name: sfx_10VCM_recliner
+      guid: 63bccafae25b0549951e3482a3c71611
+      id: 1654728357
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_10VCM_recliner
+        ObjectType: 3
+        guid: 63bccafae25b0549951e3482a3c71611
+      Path: Events\SFX\sfx_10VCM_recliner
+      maxAttenuation: 0
+      maxDuration: 8.366667
+      minDuration: 8.366667
+    - name: sfx_10VCM_vacuum_start
+      guid: 79c1a844dba9dd458dc7032ed33bd107
+      id: 2224723115
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_10VCM_vacuum_start
+        ObjectType: 3
+        guid: 79c1a844dba9dd458dc7032ed33bd107
+      Path: Events\SFX\sfx_10VCM_vacuum_start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_10VCM_vacuum_stop
+      guid: 7aa699b3945cfb4eb51a76ac2dd244c5
+      id: 839339977
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_10VCM_vacuum_stop
+        ObjectType: 3
+        guid: 7aa699b3945cfb4eb51a76ac2dd244c5
+      Path: Events\SFX\sfx_10VCM_vacuum_stop
+      maxAttenuation: 0
+      maxDuration: 3
+      minDuration: 3
+    - name: sfx_11KEI_dog
+      guid: f9b35e27e7485d4a86489ad5e73daad7
+      id: 2342739123
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_11KEI_dog
+        ObjectType: 3
+        guid: f9b35e27e7485d4a86489ad5e73daad7
+      Path: Events\SFX\sfx_11KEI_dog
+      maxAttenuation: 0
+      maxDuration: 1.9
+      minDuration: 1.9
+    - name: sfx_11KEI_doorbell
+      guid: 74eb73fa6ec37d41a503bb252d736115
+      id: 1269518332
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_11KEI_doorbell
+        ObjectType: 3
+        guid: 74eb73fa6ec37d41a503bb252d736115
+      Path: Events\SFX\sfx_11KEI_doorbell
+      maxAttenuation: 0
+      maxDuration: 4.666667
+      minDuration: 4.666667
   - PhysicalPath: Events\Voice.wwu
     PathAndIcons:
     - ElementName: Events
@@ -184,8 +609,195 @@ MonoBehaviour:
     ParentPath: Events\Voice
     guid: e3afecd20562804a86402f8bb5b365a9
     GuidInternal: 
-    m_lastTime: -8585646399205957061
+    m_lastTime: -8585645274211259533
     List:
+    - name: VO_02DLV_010_delivery
+      guid: 32d4900dee056141b5ad8577a2909166
+      id: 3273819246
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_02DLV_010_delivery
+        ObjectType: 3
+        guid: 32d4900dee056141b5ad8577a2909166
+      Path: Events\Voice\VO_02DLV_010_delivery
+      maxAttenuation: 0
+      maxDuration: 1.625011
+      minDuration: 1.625011
+    - name: VO_02DLV_020_delivery
+      guid: 874868697742674991454449147c222b
+      id: 2655851741
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_02DLV_020_delivery
+        ObjectType: 3
+        guid: 874868697742674991454449147c222b
+      Path: Events\Voice\VO_02DLV_020_delivery
+      maxAttenuation: 0
+      maxDuration: 1.5
+      minDuration: 1.5
+    - name: VO_03ZOM_010_wendy
+      guid: f4711042d1ccc442a0d7e7e8934b40d6
+      id: 3791463254
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_010_wendy
+        ObjectType: 3
+        guid: f4711042d1ccc442a0d7e7e8934b40d6
+      Path: Events\Voice\VO_03ZOM_010_wendy
+      maxAttenuation: 0
+      maxDuration: 67.03263
+      minDuration: 67.03263
+    - name: VO_03ZOM_040_wendy
+      guid: a000f66c6e76b84289bd4dcdf66d2050
+      id: 2981718853
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_040_wendy
+        ObjectType: 3
+        guid: a000f66c6e76b84289bd4dcdf66d2050
+      Path: Events\Voice\VO_03ZOM_040_wendy
+      maxAttenuation: 0
+      maxDuration: 2.290159
+      minDuration: 2.290159
+    - name: VO_03ZOM_060_wendy
+      guid: e1efc707b9290d45af1667499c3047a3
+      id: 1131043679
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_060_wendy
+        ObjectType: 3
+        guid: e1efc707b9290d45af1667499c3047a3
+      Path: Events\Voice\VO_03ZOM_060_wendy
+      maxAttenuation: 0
+      maxDuration: 4.10644
+      minDuration: 4.10644
+    - name: VO_03ZOM_080_wendy
+      guid: 435fee293e6b844cbf0531d18fa4fa3e
+      id: 3875258401
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_080_wendy
+        ObjectType: 3
+        guid: 435fee293e6b844cbf0531d18fa4fa3e
+      Path: Events\Voice\VO_03ZOM_080_wendy
+      maxAttenuation: 0
+      maxDuration: 3.016871
+      minDuration: 3.016871
+    - name: VO_03ZOM_090_paul
+      guid: d6e9427af4a79743b0e0068f4c221964
+      id: 1433897677
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_090_paul
+        ObjectType: 3
+        guid: d6e9427af4a79743b0e0068f4c221964
+      Path: Events\Voice\VO_03ZOM_090_paul
+      maxAttenuation: 0
+      maxDuration: 16.858345
+      minDuration: 16.858345
+    - name: VO_04ACM_010_alex
+      guid: 9514bf44e0c53d4eb1b7e2c51fd0cedc
+      id: 2867537081
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_010_alex
+        ObjectType: 3
+        guid: 9514bf44e0c53d4eb1b7e2c51fd0cedc
+      Path: Events\Voice\VO_04ACM_010_alex
+      maxAttenuation: 0
+      maxDuration: 0.899864
+      minDuration: 0.899864
+    - name: VO_04ACM_030_alex
+      guid: ef66b560dadfd547b653a299f4347e46
+      id: 1761702355
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_030_alex
+        ObjectType: 3
+        guid: ef66b560dadfd547b653a299f4347e46
+      Path: Events\Voice\VO_04ACM_030_alex
+      maxAttenuation: 0
+      maxDuration: 1.14585
+      minDuration: 1.14585
+    - name: VO_04ACM_060_alex
+      guid: b68a993531e67340b0b9912827893eaf
+      id: 333498414
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_060_alex
+        ObjectType: 3
+        guid: b68a993531e67340b0b9912827893eaf
+      Path: Events\Voice\VO_04ACM_060_alex
+      maxAttenuation: 0
+      maxDuration: 10.706259
+      minDuration: 10.706259
+    - name: VO_04ACM_080_alex
+      guid: 649d73814ba1b54289dac73022d2825c
+      id: 1937623344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_080_alex
+        ObjectType: 3
+        guid: 649d73814ba1b54289dac73022d2825c
+      Path: Events\Voice\VO_04ACM_080_alex
+      maxAttenuation: 0
+      maxDuration: 8.263333
+      minDuration: 8.263333
     - name: VO_06INS_030_merwyn
       guid: 9138cbed3826564bacb78f4a1e4c8c97
       id: 410205544
@@ -201,8 +813,8 @@ MonoBehaviour:
         guid: 9138cbed3826564bacb78f4a1e4c8c97
       Path: Events\Voice\VO_06INS_030_merwyn
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.466485
+      minDuration: 4.466485
     - name: VO_06INS_050_merwyn
       guid: dd74798f8c232c4b8c8126a1124ded4a
       id: 1285751974
@@ -218,8 +830,8 @@ MonoBehaviour:
         guid: dd74798f8c232c4b8c8126a1124ded4a
       Path: Events\Voice\VO_06INS_050_merwyn
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 14.829682
+      minDuration: 14.829682
     - name: VO_06INS_060_merwyn
       guid: a9a6a0978a8bd640aec6125ec74e2ecb
       id: 4001995393
@@ -235,8 +847,8 @@ MonoBehaviour:
         guid: a9a6a0978a8bd640aec6125ec74e2ecb
       Path: Events\Voice\VO_06INS_060_merwyn
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.952562
+      minDuration: 4.952562
     - name: VO_06INS_070_merwyn
       guid: e5d25cc80eab2b45b89f8f06fc8ef5bf
       id: 3094539428
@@ -252,8 +864,8 @@ MonoBehaviour:
         guid: e5d25cc80eab2b45b89f8f06fc8ef5bf
       Path: Events\Voice\VO_06INS_070_merwyn
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.047642
+      minDuration: 2.047642
     - name: VO_06INS_100_merwyn
       guid: 910d16eb5d82aa46875818eb0fc11265
       id: 3573006388
@@ -269,8 +881,8 @@ MonoBehaviour:
         guid: 910d16eb5d82aa46875818eb0fc11265
       Path: Events\Voice\VO_06INS_100_merwyn
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.769342
+      minDuration: 2.769342
     - name: VO_08CHF_010_ethan
       guid: 641aa6913e72ba46aac4836d59f33f93
       id: 831783015
@@ -286,8 +898,8 @@ MonoBehaviour:
         guid: 641aa6913e72ba46aac4836d59f33f93
       Path: Events\Voice\VO_08CHF_010_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 10.152676
+      minDuration: 10.152676
     - name: VO_08CHF_020_ethan
       guid: 475ca0a523688248813f6d3c3ee405f4
       id: 333640230
@@ -303,8 +915,8 @@ MonoBehaviour:
         guid: 475ca0a523688248813f6d3c3ee405f4
       Path: Events\Voice\VO_08CHF_020_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.412018
+      minDuration: 9.412018
     - name: VO_08CHF_050_ethan
       guid: edf9822285ae28479f85520a757d37fb
       id: 3568377795
@@ -320,8 +932,8 @@ MonoBehaviour:
         guid: edf9822285ae28479f85520a757d37fb
       Path: Events\Voice\VO_08CHF_050_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 12.252653
+      minDuration: 12.252653
     - name: VO_08CHF_070_ethan
       guid: 0f7f6dff0dc8734cb358ab3e1cad691f
       id: 1935602725
@@ -337,8 +949,8 @@ MonoBehaviour:
         guid: 0f7f6dff0dc8734cb358ab3e1cad691f
       Path: Events\Voice\VO_08CHF_070_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 5.593333
+      minDuration: 5.593333
     - name: VO_08CHF_080_ethan
       guid: b90c0b2ac8fb544fa479b4fe682159ed
       id: 815836500
@@ -354,8 +966,8 @@ MonoBehaviour:
         guid: b90c0b2ac8fb544fa479b4fe682159ed
       Path: Events\Voice\VO_08CHF_080_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 13.657098
+      minDuration: 13.657098
     - name: VO_08CHF_090_ethan
       guid: 3e03a5977788e443a6a317a6ab99cd6c
       id: 2932602975
@@ -371,8 +983,8 @@ MonoBehaviour:
         guid: 3e03a5977788e443a6a317a6ab99cd6c
       Path: Events\Voice\VO_08CHF_090_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 28.172812
+      minDuration: 28.172812
     - name: VO_08CHF_110_ethan
       guid: 6438d74ef1f1e646a0bd3b76c1abfd5f
       id: 513475766
@@ -388,8 +1000,8 @@ MonoBehaviour:
         guid: 6438d74ef1f1e646a0bd3b76c1abfd5f
       Path: Events\Voice\VO_08CHF_110_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 9.739682
+      minDuration: 9.739682
     - name: VO_08CHF_120_ethan
       guid: 477d1eea2fcb7041b038695f8473c13c
       id: 296267319
@@ -405,8 +1017,8 @@ MonoBehaviour:
         guid: 477d1eea2fcb7041b038695f8473c13c
       Path: Events\Voice\VO_08CHF_120_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 49.667347
+      minDuration: 49.667347
     - name: VO_08CHF_130_ethan
       guid: d9432208d822f745936da5f8222eb045
       id: 903915116
@@ -422,8 +1034,8 @@ MonoBehaviour:
         guid: d9432208d822f745936da5f8222eb045
       Path: Events\Voice\VO_08CHF_130_ethan
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 26.85796
+      minDuration: 26.85796
     - name: VO_09HRW_020_husband
       guid: 05ee0f14845e1c42b211c4a22f366fe9
       id: 2240928088
@@ -439,8 +1051,8 @@ MonoBehaviour:
         guid: 05ee0f14845e1c42b211c4a22f366fe9
       Path: Events\Voice\VO_09HRW_020_husband
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.993832
+      minDuration: 1.993832
     - name: VO_11KEI_010_jannah
       guid: 06c96f0f6d8e12449f4a2d8feb98972e
       id: 2816861167
@@ -456,8 +1068,8 @@ MonoBehaviour:
         guid: 06c96f0f6d8e12449f4a2d8feb98972e
       Path: Events\Voice\VO_11KEI_010_jannah
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.557437
+      minDuration: 7.557437
     - name: VO_11KEI_020_jannah
       guid: 61b7ddf289b29e4e9fcaa5f548014643
       id: 3576593044
@@ -473,8 +1085,8 @@ MonoBehaviour:
         guid: 61b7ddf289b29e4e9fcaa5f548014643
       Path: Events\Voice\VO_11KEI_020_jannah
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 22.472494
+      minDuration: 22.472494
     - name: VO_11KEI_030_jannah
       guid: 557221c5bd2537489a3d8f842a509fd4
       id: 2776257953
@@ -490,8 +1102,144 @@ MonoBehaviour:
         guid: 557221c5bd2537489a3d8f842a509fd4
       Path: Events\Voice\VO_11KEI_030_jannah
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 10.219388
+      minDuration: 10.219388
+    - name: VO_11KEI_040_keira
+      guid: 0b3de1f53792d84c840ba82607322029
+      id: 3555550800
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_040_keira
+        ObjectType: 3
+        guid: 0b3de1f53792d84c840ba82607322029
+      Path: Events\Voice\VO_11KEI_040_keira
+      maxAttenuation: 0
+      maxDuration: 3.507165
+      minDuration: 3.507165
+    - name: VO_11KEI_050_keira
+      guid: cc321c27a864ed47b1b05441ee1b329f
+      id: 356528211
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_050_keira
+        ObjectType: 3
+        guid: cc321c27a864ed47b1b05441ee1b329f
+      Path: Events\Voice\VO_11KEI_050_keira
+      maxAttenuation: 0
+      maxDuration: 1.034989
+      minDuration: 1.034989
+    - name: VO_11KEI_060_keira
+      guid: 9ccca6a444041f4ea27beced421799ef
+      id: 4016277978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_060_keira
+        ObjectType: 3
+        guid: 9ccca6a444041f4ea27beced421799ef
+      Path: Events\Voice\VO_11KEI_060_keira
+      maxAttenuation: 0
+      maxDuration: 7.024626
+      minDuration: 7.024626
+    - name: VO_11KEI_070_keira
+      guid: ab131453082f144593377092081206bd
+      id: 1361983429
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_070_keira
+        ObjectType: 3
+        guid: ab131453082f144593377092081206bd
+      Path: Events\Voice\VO_11KEI_070_keira
+      maxAttenuation: 0
+      maxDuration: 10.826077
+      minDuration: 10.826077
+    - name: VO_11KEI_080_keira
+      guid: ecb631fe709cc748ba9ed55e05d13c9e
+      id: 3579149732
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_080_keira
+        ObjectType: 3
+        guid: ecb631fe709cc748ba9ed55e05d13c9e
+      Path: Events\Voice\VO_11KEI_080_keira
+      maxAttenuation: 0
+      maxDuration: 15.452676
+      minDuration: 15.452676
+    - name: VO_11KEI_100_keira
+      guid: 73b57c4c375e3b46abf4edcf340e074c
+      id: 942777237
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_100_keira
+        ObjectType: 3
+        guid: 73b57c4c375e3b46abf4edcf340e074c
+      Path: Events\Voice\VO_11KEI_100_keira
+      maxAttenuation: 0
+      maxDuration: 6.062902
+      minDuration: 6.062902
+    - name: VO_11KEI_110_mum
+      guid: a6e41b5fa0d2a44bb063cf89a673b8ef
+      id: 3523608175
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_110_mum
+        ObjectType: 3
+        guid: a6e41b5fa0d2a44bb063cf89a673b8ef
+      Path: Events\Voice\VO_11KEI_110_mum
+      maxAttenuation: 0
+      maxDuration: 2.476281
+      minDuration: 2.476281
+    - name: VO_11KEI_120_mum
+      guid: e028c0512cd6ba49b0d1ce4db1e5442c
+      id: 1310102706
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_120_mum
+        ObjectType: 3
+        guid: e028c0512cd6ba49b0d1ce4db1e5442c
+      Path: Events\Voice\VO_11KEI_120_mum
+      maxAttenuation: 0
+      maxDuration: 15.508526
+      minDuration: 15.508526
     - name: VO_11KEI_160_husband
       guid: 2738658c8f7c384ab50d5f5effe43efb
       id: 2569653828
@@ -507,8 +1255,8 @@ MonoBehaviour:
         guid: 2738658c8f7c384ab50d5f5effe43efb
       Path: Events\Voice\VO_11KEI_160_husband
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.882993
+      minDuration: 2.882993
     - name: VO_11KEI_170_husband
       guid: b2ead634ab8c2148a77b3cf41433c61e
       id: 3103793179
@@ -524,8 +1272,8 @@ MonoBehaviour:
         guid: b2ead634ab8c2148a77b3cf41433c61e
       Path: Events\Voice\VO_11KEI_170_husband
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 11.156077
+      minDuration: 11.156077
     - name: VO_11KEI_180_husband
       guid: f8710155735b5246a35e17c4cc412466
       id: 3250207694
@@ -541,8 +1289,8 @@ MonoBehaviour:
         guid: f8710155735b5246a35e17c4cc412466
       Path: Events\Voice\VO_11KEI_180_husband
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.456009
+      minDuration: 3.456009
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
