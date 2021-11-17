@@ -13,7 +13,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<ObjectRef Name="Dialog_Leveler_Hard" ID="{865FB36F-8717-4D30-AD05-14E56375CD40}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -24,6 +24,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="10VCM" ID="{8B65B246-8A32-4715-9C8B-62B3BBAC45E1}" ShortID="632248310">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
@@ -32,6 +39,320 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VO_10VCM_010_carol" ID="{88BC1EA8-CCC4-4B1E-AD09-C3169C72DEB0}" ShortID="91279685">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_010_carol" ID="{9F958295-53EA-48E7-9B52-AC9B13C338A7}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_010_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="58584061"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_010_carol" ID="{9F958295-53EA-48E7-9B52-AC9B13C338A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_020_carol" ID="{4DCF75EB-A07E-4C75-B350-EDA1274BD94D}" ShortID="164394199">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_020_carol" ID="{DE230377-232E-43FC-9857-4CA5892A7674}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_020_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="925678835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_020_carol" ID="{DE230377-232E-43FC-9857-4CA5892A7674}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_030_carol" ID="{015BDCE6-A2E5-4A20-A12C-67CEA5F82242}" ShortID="51423529">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_030_carol" ID="{D555195E-FFB0-4987-95B4-62BE705D6CDF}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_030_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="992703582"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_030_carol" ID="{D555195E-FFB0-4987-95B4-62BE705D6CDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_040_carol" ID="{6313290E-A8F1-4A3E-9868-EBD7593857CA}" ShortID="72130606">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_040_carol" ID="{7B1C0CBF-8FBC-44A8-A19E-DE9E66DE6FE4}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_040_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="413658104"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_040_carol" ID="{7B1C0CBF-8FBC-44A8-A19E-DE9E66DE6FE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_050_carol" ID="{286BC71A-9463-4BD3-8120-003E8C70320D}" ShortID="62297309">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_050_carol" ID="{27037169-76EC-488D-942A-C1E4115F53C1}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_050_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="310328139"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_050_carol" ID="{27037169-76EC-488D-942A-C1E4115F53C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_060_carol" ID="{C2CF3881-D73C-4F76-85A8-2CDB528F06D5}" ShortID="579767943">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_060_carol" ID="{04E19265-380A-4087-8762-4B5DFDB11895}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_060_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="428500385"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_060_carol" ID="{04E19265-380A-4087-8762-4B5DFDB11895}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_070_carol" ID="{AAFE7CAB-619D-4F6B-9805-65EBB0B4C0A3}" ShortID="122699620">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_070_carol" ID="{F048DDE8-BB85-4E55-95E1-CE38008DAC8C}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_070_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162667069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_070_carol" ID="{F048DDE8-BB85-4E55-95E1-CE38008DAC8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_080_carol" ID="{8FA0D630-2EC4-4033-A17F-F509E1775305}" ShortID="595812868">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_080_carol" ID="{CCA38536-2D51-4409-89CC-50ABC7441A8B}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_080_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="661101023"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_080_carol" ID="{CCA38536-2D51-4409-89CC-50ABC7441A8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_090_carol" ID="{A12297EF-67C8-495B-9C16-0F569B972488}" ShortID="1054943010">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_090_carol" ID="{521CFF3A-74CE-4FCB-8163-7BB50AB369B8}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_090_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="655767452"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_090_carol" ID="{521CFF3A-74CE-4FCB-8163-7BB50AB369B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_110_carol" ID="{457F3517-92BE-4753-80C8-0B60F2F75FF4}" ShortID="155267998">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_110_carol" ID="{B61855EE-6F6A-41A1-A033-690AE7D0472A}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_110_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="281253380"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_110_carol" ID="{B61855EE-6F6A-41A1-A033-690AE7D0472A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_130_carol" ID="{2DC7674D-16AF-43F4-826B-72284EDD0655}" ShortID="195929607">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_130_carol" ID="{EF3DE96D-AE66-4F42-8B33-BF611BB94A3F}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_130_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="748993938"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_130_carol" ID="{EF3DE96D-AE66-4F42-8B33-BF611BB94A3F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="VO_10VCM_140_carol" ID="{8E625786-6679-4F9D-895B-1D9297C50A7D}" ShortID="218180514">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VO_10VCM_140_carol" ID="{3F5A5841-EA42-4F49-B00C-777F09C4F169}">
+											<Language>English(US)</Language>
+											<AudioFile>VO_10VCM_140_carol.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="931453243"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="VO_10VCM_140_carol" ID="{3F5A5841-EA42-4F49-B00C-777F09C4F169}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="08CHF" ID="{0CF28156-5093-4731-B2F6-639A25E5629F}" ShortID="658838816">
@@ -41,26 +362,6 @@
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
-								</Reference>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="Wwise Parametric EQ (Custom)" ID="{013E243B-5004-4D24-AD51-640C37B74EA7}" ShortID="270713491" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
-											<PropertyList>
-												<Property Name="FilterTypeBand2" Type="int32" Value="1"/>
-												<Property Name="FilterTypeBand3" Type="int32" Value="6"/>
-												<Property Name="FrequencyBand1" Type="Real32" Value="4230"/>
-												<Property Name="FrequencyBand2" Type="Real32" Value="103"/>
-												<Property Name="FrequencyBand3" Type="Real32" Value="9397"/>
-												<Property Name="GainBand1" Type="Real32" Value="-4.5"/>
-												<Property Name="GainBand2" Type="Real32" Value="-6.5"/>
-												<Property Name="GainBand3" Type="Real32" Value="3.5"/>
-												<Property Name="OnOffBand1" Type="bool" Value="False"/>
-												<Property Name="OutputLevel" Type="Real32" Value="-2"/>
-												<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
-												<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
-											</PropertyList>
-										</Effect>
-									</Custom>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
@@ -317,6 +618,11 @@
 								<Sound Name="VO_09HRW_020_husband" ID="{40B8BB09-9590-417B-80C0-CFA04D42A26B}" ShortID="489035071">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -499,6 +805,11 @@
 								<Sound Name="VO_03ZOM_010_wendy" ID="{7901F2BD-0842-4EC2-BBC1-EBAE3F8FB9B3}" ShortID="736761788">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -525,6 +836,11 @@
 								<Sound Name="VO_03ZOM_040_wendy" ID="{9EBB04FB-C262-4983-8381-B6D571271A7B}" ShortID="153564973">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -551,6 +867,11 @@
 								<Sound Name="VO_03ZOM_060_wendy" ID="{D0532D0E-E48A-4B03-AD7E-E94BD0A5D217}" ShortID="57411875">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -577,6 +898,11 @@
 								<Sound Name="VO_03ZOM_080_wendy" ID="{83D26C11-DA9B-469F-812A-D19066ACD08C}" ShortID="222070812">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -602,7 +928,22 @@
 								</Sound>
 								<Sound Name="VO_03ZOM_090_paul" ID="{F416CB30-1507-41CF-953C-D1838BD30DA5}" ShortID="426007807">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>39</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>19</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -614,6 +955,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="VO_03ZOM_090_paul" ID="{6D5AF8C0-2578-428F-96D6-7A1DD78248D0}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.89911171579743"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.89911171579743"/>
+											</PropertyList>
 											<Language>English(US)</Language>
 											<AudioFile>VO_03ZOM_090_paul.wav</AudioFile>
 											<MediaIDList>
@@ -735,13 +1081,6 @@
 							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="04ACM" ID="{6744CB80-AB1C-4FB7-A52B-3220D903D9CE}" ShortID="1058445627">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
@@ -754,6 +1093,11 @@
 								<Sound Name="VO_04ACM_010_alex" ID="{9A54D6F5-CBF7-4C81-BECD-B557E256325D}" ShortID="353724089">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -780,6 +1124,11 @@
 								<Sound Name="VO_04ACM_030_alex" ID="{0F2D637A-EABC-4564-A2A0-3ADAFEDD9054}" ShortID="1026919927">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -806,6 +1155,11 @@
 								<Sound Name="VO_04ACM_060_alex" ID="{9F302BC1-E6C1-4BA7-AAE9-CF7963E3A9FB}" ShortID="1002649978">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -832,6 +1186,11 @@
 								<Sound Name="VO_04ACM_080_alex" ID="{6EE11218-244F-4A19-9F1B-B728D0BE9CB0}" ShortID="567416089">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

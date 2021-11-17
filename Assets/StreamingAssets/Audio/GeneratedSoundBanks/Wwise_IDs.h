@@ -13,6 +13,16 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMB_00GEN_HOUSE = 3905820869U;
+        static const AkUniqueID AMB_00GEN_HOUSE_STOP = 1094607688U;
+        static const AkUniqueID AMB_03ZOM_KEYBOARD = 1249405771U;
+        static const AkUniqueID AMB_03ZOM_KEYBOARD_STOP = 1506996934U;
+        static const AkUniqueID AMB_08CHF_CLOCK = 514181220U;
+        static const AkUniqueID AMB_08CHF_CLOCK_STOP = 3045522563U;
+        static const AkUniqueID AMB_08CHF_RAIN = 1601665568U;
+        static const AkUniqueID AMB_08CHF_RAIN_STOP = 1277821199U;
+        static const AkUniqueID AMB_11KEI_HOUSE = 753899016U;
+        static const AkUniqueID AMB_11KEI_HOUSE_STOP = 3910002983U;
         static const AkUniqueID SFX_00GEN_CLICK = 1010927348U;
         static const AkUniqueID SFX_00GEN_DOOR = 4280253252U;
         static const AkUniqueID SFX_00GEN_DOORBELL = 2261318223U;
@@ -38,6 +48,7 @@ namespace AK
         static const AkUniqueID SFX_10VCM_VACUUM_STOP = 839339977U;
         static const AkUniqueID SFX_11KEI_DOG = 2342739123U;
         static const AkUniqueID SFX_11KEI_DOORBELL = 1269518332U;
+        static const AkUniqueID SFX_STOP = 650331997U;
         static const AkUniqueID VO_02DLV_010_DELIVERY = 3273819246U;
         static const AkUniqueID VO_02DLV_020_DELIVERY = 2655851741U;
         static const AkUniqueID VO_03ZOM_010_WENDY = 3791463254U;
@@ -64,6 +75,18 @@ namespace AK
         static const AkUniqueID VO_08CHF_120_ETHAN = 296267319U;
         static const AkUniqueID VO_08CHF_130_ETHAN = 903915116U;
         static const AkUniqueID VO_09HRW_020_HUSBAND = 2240928088U;
+        static const AkUniqueID VO_10VCM_010_CAROL = 2108005042U;
+        static const AkUniqueID VO_10VCM_020_CAROL = 3301898191U;
+        static const AkUniqueID VO_10VCM_030_CAROL = 4271274736U;
+        static const AkUniqueID VO_10VCM_040_CAROL = 1193522245U;
+        static const AkUniqueID VO_10VCM_050_CAROL = 118453502U;
+        static const AkUniqueID VO_10VCM_060_CAROL = 1888402043U;
+        static const AkUniqueID VO_10VCM_070_CAROL = 3017484508U;
+        static const AkUniqueID VO_10VCM_080_CAROL = 2202863809U;
+        static const AkUniqueID VO_10VCM_090_CAROL = 2265390010U;
+        static const AkUniqueID VO_10VCM_110_CAROL = 939230987U;
+        static const AkUniqueID VO_10VCM_130_CAROL = 436769429U;
+        static const AkUniqueID VO_10VCM_140_CAROL = 3736805440U;
         static const AkUniqueID VO_11KEI_010_JANNAH = 2816861167U;
         static const AkUniqueID VO_11KEI_020_JANNAH = 3576593044U;
         static const AkUniqueID VO_11KEI_030_JANNAH = 2776257953U;
@@ -78,6 +101,7 @@ namespace AK
         static const AkUniqueID VO_11KEI_160_HUSBAND = 2569653828U;
         static const AkUniqueID VO_11KEI_170_HUSBAND = 3103793179U;
         static const AkUniqueID VO_11KEI_180_HUSBAND = 3250207694U;
+        static const AkUniqueID VO_STOP = 3484353603U;
     } // namespace EVENTS
 
     namespace BANKS
@@ -93,6 +117,11 @@ namespace AK
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID VO = 1534528548U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID UI_VERB = 4155165709U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

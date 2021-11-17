@@ -9,6 +9,8 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
     public Image backing;
     public Vector2 backingBuffer;
 
+ 
+
     private Text text;
     private StoryScript storyParent;
 
@@ -32,6 +34,9 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
         if (storyParent)
         {
             storyParent.Advance();
+            
+
+
         }
     }
 }

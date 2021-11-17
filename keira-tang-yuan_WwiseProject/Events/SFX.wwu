@@ -316,6 +316,165 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="amb_08CHF_rain_stop" ID="{9E66E144-3C28-4493-859D-FCD0DCADBA26}">
+					<ChildrenList>
+						<Action Name="" ID="{98C113A9-3E6B-40A7-B14E-D0ED2A0AF7BC}" ShortID="697602022">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_08CHF_rain" ID="{56A2CB7F-888C-4CC0-BE06-EBFC4386C023}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_00GEN_house_stop" ID="{FCE49541-5E78-43D8-9FE0-4AD0F1BDE7F3}">
+					<ChildrenList>
+						<Action Name="" ID="{870255DD-898F-4AF6-89E5-ACE7EFA39635}" ShortID="659005006">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_00GEN_house" ID="{097FD467-2931-43EE-BC76-E0BC580B216B}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_03ZOM_keyboard_stop" ID="{4ADB705E-0E8B-4D87-8666-77EA01C54D77}">
+					<ChildrenList>
+						<Action Name="" ID="{73E62084-6230-4F30-92EA-09C31BFD1DF2}" ShortID="742696506">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_03ZOM_keyboard" ID="{88986EA5-80F8-405E-A27A-1CA759DA7E9E}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_08CHF_clock_stop" ID="{4A96A85F-73EB-45E9-B62A-3DA5DAB0773A}">
+					<ChildrenList>
+						<Action Name="" ID="{1CCDCFB5-6741-4409-AECC-39834B99B513}" ShortID="30761094">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_08CHF_clock" ID="{C55C5A0C-F872-4B00-B5B3-86BC8FD49F2B}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_11KEI_house_stop" ID="{9B1EB896-693C-43F6-90FD-18CB1DEC81AF}">
+					<ChildrenList>
+						<Action Name="" ID="{103F1011-9F61-4CE2-AEF9-F915DE963F95}" ShortID="994428346">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_11KEI_house" ID="{C8FAA8D4-1D15-4063-876B-16B0CD2B2255}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_08CHF_clock" ID="{9D9DDD42-EA40-4C96-BBCE-942C7150546F}">
+					<ChildrenList>
+						<Action Name="" ID="{94F026A1-E3EF-4918-96F3-DD99CF8C3102}" ShortID="245827925">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_08CHF_clock" ID="{C55C5A0C-F872-4B00-B5B3-86BC8FD49F2B}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_08CHF_rain" ID="{36A467A2-17F7-4524-AFA6-71D031ED6201}">
+					<ChildrenList>
+						<Action Name="" ID="{C339B0C4-4C2F-4000-A588-4857A9FAA00E}" ShortID="333831859">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_08CHF_rain" ID="{56A2CB7F-888C-4CC0-BE06-EBFC4386C023}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_11KEI_house" ID="{E84E82B6-A8F4-4DA0-8F0B-CDB4E546EB2E}">
+					<ChildrenList>
+						<Action Name="" ID="{5E2EA32C-636A-413C-8376-6E3A84673F2D}" ShortID="1066126789">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_11KEI_house" ID="{C8FAA8D4-1D15-4063-876B-16B0CD2B2255}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_03ZOM_keyboard" ID="{226B62FC-8B6E-4D96-8E72-2C85BE604D42}">
+					<ChildrenList>
+						<Action Name="" ID="{2D7B7118-7928-4B85-B905-55B6344CF200}" ShortID="369428556">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_03ZOM_keyboard" ID="{88986EA5-80F8-405E-A27A-1CA759DA7E9E}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="amb_00GEN_house" ID="{1215D1CF-1268-4CDE-BC75-A26E21E4C959}">
+					<ChildrenList>
+						<Action Name="" ID="{EA1F2FE9-C9DD-4A08-B85B-9C27B6AF1E51}" ShortID="585321801">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="amb_00GEN_house" ID="{097FD467-2931-43EE-BC76-E0BC580B216B}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_stop" ID="{1468BD4F-A5F5-4447-98E7-70D684B9CC77}">
+					<ChildrenList>
+						<Action Name="" ID="{1977C5DB-1FEB-40B8-A3F2-9F07C8D8063A}" ShortID="1026813836">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX" ID="{5112B895-A002-4FCF-BC4D-5E951B0DEDD1}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

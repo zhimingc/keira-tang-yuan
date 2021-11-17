@@ -4,6 +4,12 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4155165709	UI_Verb			\Default Work Unit\Master Audio Bus\SFX\UI_Verb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	952479126	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
