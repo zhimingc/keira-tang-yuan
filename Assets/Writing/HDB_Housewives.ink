@@ -457,7 +457,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 
 "Mom missed her medical appointment today. I think she's hung over. I tried to reschedule, but next opening in 6 months time. No beds or something. I gotta do food delivery tonight. Can you come home earlier and take care of her? She says everywhere pain."
 
-****[Sit with her until she wakes]
+****[Fall asleep beside her on the couch]
     BooooombadaBangBangBang!
     *****[Continue]
     ->Keirashouse11KEI
