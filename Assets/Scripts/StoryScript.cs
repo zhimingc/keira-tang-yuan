@@ -43,9 +43,10 @@ public class StoryScript : MonoBehaviour
 			if (_inkStory.canContinue)
 			{
 				if (advance)
-                {
+        {
 					UnityEngine.UI.Text storyText = Instantiate(text) as UnityEngine.UI.Text;
 					storyText.text = _inkStory.Continue();
+					print(storyText.text);
 					storyText.transform.SetParent(canvas.transform, false);
 					storyText.transform.Translate(new Vector2(0, offset));
 					offset -= (storyText.preferredHeight + elementPadding);
@@ -54,7 +55,7 @@ public class StoryScript : MonoBehaviour
 			}
 			
 			if (!_inkStory.canContinue)
-            {
+      {
 				if (_inkStory.currentChoices.Count > 0)
 				{
 					for (int i = 0; i < _inkStory.currentChoices.Count; ++i)
@@ -74,7 +75,7 @@ public class StoryScript : MonoBehaviour
 						offset -= (choiceText.preferredHeight + layoutGroup.padding.top + layoutGroup.padding.bottom + elementPadding);
 					}
 				}
-            }
+      }
 
 
 			storyNeeded = false;
@@ -91,11 +92,10 @@ public class StoryScript : MonoBehaviour
 	}
 
 	public void Advance()
-    {
+   {
 		storyNeeded = true;
 		advance = true;
-		
-    }
+  }
 
 	public void ChoiceSelected(int id)
 	{
