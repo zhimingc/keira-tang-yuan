@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A3E371A9-8AF0-438B-8053-A0DEC721B2D8}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{A3E371A9-8AF0-438B-8053-A0DEC721B2D8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A3E371A9-8AF0-438B-8053-A0DEC721B2D8}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="test" ID="{40D134B2-F75E-4DE0-9AD9-2994B91C0D60}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="sfx_10VCM_vacuum_start" ID="{44A8C179-A9DB-45DD-8DC7-032ED33BD107}" WorkUnitID="{7A5CE864-ABED-4049-B363-5074180A7BC3}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sfx_10VCM_vacuum_stop" ID="{B399A67A-5C94-4EFB-B51A-76AC2DD244C5}" WorkUnitID="{7A5CE864-ABED-4049-B363-5074180A7BC3}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

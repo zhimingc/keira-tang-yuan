@@ -21,6 +21,9 @@ public class StoryScript : MonoBehaviour
 	private UnityEngine.UI.Text text;
 	[SerializeField]
 	private UnityEngine.UI.Button button;
+	
+	[SerializeField]
+	private AK.Wwise.Event buttonAudio;
 
 	void Awake()
 	{
@@ -91,11 +94,13 @@ public class StoryScript : MonoBehaviour
     {
 		storyNeeded = true;
 		advance = true;
+		
     }
 
 	public void ChoiceSelected(int id)
 	{
 		_inkStory.ChooseChoiceIndex(id);
+		buttonAudio.Post(gameObject);
 		Advance();
 	}
 }

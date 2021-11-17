@@ -14,6 +14,24 @@
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="SFX" ID="{A65BD988-4ADA-4B11-9C63-33AC8AAF7BF0}">
+							<ChildrenList>
+								<AuxBus Name="UI_Verb" ID="{A3BC64B7-7AB0-4355-B818-FA6F296CAD0D}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Matrix Reverb (Custom)" ID="{EB0F9585-0E7F-4B8C-B38F-6135E5C29A67}" ShortID="952479126" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<PropertyList>
+														<Property Name="PreDelay" Type="Real32" Value="0.05"/>
+														<Property Name="ReverbTime" Type="Real32" Value="0.5"/>
+														<Property Name="WetLevel" Type="Real32" Value="-30"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="VO" ID="{C743694F-260E-48C9-9585-4003D6FFC6F1}">

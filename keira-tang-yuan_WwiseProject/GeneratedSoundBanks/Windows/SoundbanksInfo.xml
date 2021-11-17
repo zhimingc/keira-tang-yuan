@@ -1,31 +1,368 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Users\gwen\HDB Housewife\keira-tang-yuan\keira-tang-yuan_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="979685098">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2222828944">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="4155165709" Name="UI_Verb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\UI_Verb" GUID="{A3BC64B7-7AB0-4355-B818-FA6F296CAD0D}"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="896398768">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="140463960">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3905820869" Name="amb_00GEN_house" ObjectPath="\Events\SFX\amb_00GEN_house" GUID="{1215D1CF-1268-4CDE-BC75-A26E21E4C959}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="761013173" Language="SFX">
+							<ShortName>amb_00GEN_house.wav</ShortName>
+							<Path>SFX\amb_00GEN_house_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1094607688" Name="amb_00GEN_house_stop" ObjectPath="\Events\SFX\amb_00GEN_house_stop" GUID="{FCE49541-5E78-43D8-9FE0-4AD0F1BDE7F3}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1249405771" Name="amb_03ZOM_keyboard" ObjectPath="\Events\SFX\amb_03ZOM_keyboard" GUID="{226B62FC-8B6E-4D96-8E72-2C85BE604D42}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="804701643" Language="SFX">
+							<ShortName>amb_03ZOM_keyboard.wav</ShortName>
+							<Path>SFX\amb_03ZOM_keyboard_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1506996934" Name="amb_03ZOM_keyboard_stop" ObjectPath="\Events\SFX\amb_03ZOM_keyboard_stop" GUID="{4ADB705E-0E8B-4D87-8666-77EA01C54D77}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="514181220" Name="amb_08CHF_clock" ObjectPath="\Events\SFX\amb_08CHF_clock" GUID="{9D9DDD42-EA40-4C96-BBCE-942C7150546F}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="760896528" Language="SFX">
+							<ShortName>amb_08CHF_clock.wav</ShortName>
+							<Path>SFX\amb_08CHF_clock_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3045522563" Name="amb_08CHF_clock_stop" ObjectPath="\Events\SFX\amb_08CHF_clock_stop" GUID="{4A96A85F-73EB-45E9-B62A-3DA5DAB0773A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1601665568" Name="amb_08CHF_rain" ObjectPath="\Events\SFX\amb_08CHF_rain" GUID="{36A467A2-17F7-4524-AFA6-71D031ED6201}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1053335121" Language="SFX">
+							<ShortName>amb_08CHF_rain.wav</ShortName>
+							<Path>SFX\amb_08CHF_rain_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1277821199" Name="amb_08CHF_rain_stop" ObjectPath="\Events\SFX\amb_08CHF_rain_stop" GUID="{9E66E144-3C28-4493-859D-FCD0DCADBA26}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="753899016" Name="amb_11KEI_house" ObjectPath="\Events\SFX\amb_11KEI_house" GUID="{E84E82B6-A8F4-4DA0-8F0B-CDB4E546EB2E}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="221561861" Language="SFX">
+							<ShortName>amb_11KEI_house.wav</ShortName>
+							<Path>SFX\amb_11KEI_house_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3910002983" Name="amb_11KEI_house_stop" ObjectPath="\Events\SFX\amb_11KEI_house_stop" GUID="{9B1EB896-693C-43F6-90FD-18CB1DEC81AF}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1010927348" Name="sfx_00GEN_click" ObjectPath="\Events\SFX\sfx_00GEN_click" GUID="{2352DB3B-F413-497A-9CDD-B688C94F1AA7}" DurationType="OneShot" DurationMin="0.036879" DurationMax="0.037960">
+					<IncludedMemoryFiles>
+						<File Id="838064482" Language="SFX">
+							<ShortName>sfx_00GEN_click.wav</ShortName>
+							<Path>SFX\sfx_00GEN_click_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="4155165709" Name="UI_Verb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\UI_Verb" GUID="{A3BC64B7-7AB0-4355-B818-FA6F296CAD0D}"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4280253252" Name="sfx_00GEN_door" ObjectPath="\Events\SFX\sfx_00GEN_door" GUID="{92819094-C431-4B11-AB60-26A8B3E728EB}" DurationType="OneShot" DurationMin="0.666667" DurationMax="0.666667">
+					<IncludedMemoryFiles>
+						<File Id="816018671" Language="SFX">
+							<ShortName>sfx_00GEN_door.wav</ShortName>
+							<Path>SFX\sfx_00GEN_door_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2261318223" Name="sfx_00GEN_doorbell" ObjectPath="\Events\SFX\sfx_00GEN_doorbell" GUID="{1574B44E-8124-4ECA-906B-6F56401A66FF}" DurationType="OneShot" DurationMin="1.600000" DurationMax="1.600000">
+					<IncludedMemoryFiles>
+						<File Id="78429735" Language="SFX">
+							<ShortName>sfx_00GEN_doorbell.wav</ShortName>
+							<Path>SFX\sfx_00GEN_doorbell_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2772396626" Name="sfx_01OPN_couch" ObjectPath="\Events\SFX\sfx_01OPN_couch" GUID="{3CD3092B-1871-49B7-8E69-0A6276E29E1D}" DurationType="OneShot" DurationMin="1.466667" DurationMax="1.466667">
+					<IncludedMemoryFiles>
+						<File Id="934271634" Language="SFX">
+							<ShortName>sfx_01OPN_couch.wav</ShortName>
+							<Path>SFX\sfx_01OPN_couch_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1854270925" Name="sfx_01OPN_jet" ObjectPath="\Events\SFX\sfx_01OPN_jet" GUID="{30FF40D6-57CC-4002-AF06-18020FFA4283}" DurationType="OneShot" DurationMin="13.900000" DurationMax="13.900000">
+					<IncludedMemoryFiles>
+						<File Id="136385936" Language="SFX">
+							<ShortName>sfx_01OPN_jet.wav</ShortName>
+							<Path>SFX\sfx_01OPN_jet_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="376518116" Name="sfx_01OPN_photo" ObjectPath="\Events\SFX\sfx_01OPN_photo" GUID="{69D70F7F-951D-4BF8-977D-658E8CB14A7B}" DurationType="OneShot" DurationMin="0.376258" DurationMax="0.376258">
+					<IncludedMemoryFiles>
+						<File Id="241418716" Language="SFX">
+							<ShortName>sfx_01OPN_photo.wav</ShortName>
+							<Path>SFX\sfx_01OPN_photo_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3774266052" Name="sfx_02DLV_bag" ObjectPath="\Events\SFX\sfx_02DLV_bag" GUID="{93B95268-FCF0-4739-9504-D96BA807DB4B}" DurationType="OneShot" DurationMin="0.866667" DurationMax="0.866667">
+					<IncludedMemoryFiles>
+						<File Id="509461508" Language="SFX">
+							<ShortName>sfx_02DLV_bag.wav</ShortName>
+							<Path>SFX\sfx_02DLV_bag_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2457604163" Name="sfx_02DLV_footsteps" ObjectPath="\Events\SFX\sfx_02DLV_footsteps" GUID="{02A3EC7B-5462-4DF1-B720-8AC22D8C4B95}" DurationType="OneShot" DurationMin="3.666667" DurationMax="3.666667">
+					<IncludedMemoryFiles>
+						<File Id="737188642" Language="SFX">
+							<ShortName>sfx_02DLV_footsteps.wav</ShortName>
+							<Path>SFX\sfx_02DLV_footsteps_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2902341918" Name="sfx_03ZOM_zoom" ObjectPath="\Events\SFX\sfx_03ZOM_zoom" GUID="{4345351E-9662-4188-AAA6-8B9EFC582DE1}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="54765420" Language="SFX">
+							<ShortName>sfx_03ZOM_zoom.wav</ShortName>
+							<Path>SFX\sfx_03ZOM_zoom_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2852847869" Name="sfx_03ZOM_zoom_stop" ObjectPath="\Events\SFX\sfx_03ZOM_zoom_stop" GUID="{89895E30-302A-4173-8B59-B416D999728D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3619859189" Name="sfx_04ACM_ac" ObjectPath="\Events\SFX\sfx_04ACM_ac" GUID="{ACDA51B0-4EFE-4FD0-94C6-5057379776D0}" DurationType="OneShot" DurationMin="0.533333" DurationMax="0.533333">
+					<IncludedMemoryFiles>
+						<File Id="408717471" Language="SFX">
+							<ShortName>sfx_04ACM_ac.wav</ShortName>
+							<Path>SFX\sfx_04ACM_ac_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2256124074" Name="sfx_04ACM_fix" ObjectPath="\Events\SFX\sfx_04ACM_fix" GUID="{ABEF07AC-E416-4302-8189-474EF6674D4B}" DurationType="OneShot" DurationMin="9.900000" DurationMax="9.900000">
+					<IncludedMemoryFiles>
+						<File Id="117129142" Language="SFX">
+							<ShortName>sfx_04ACM_fix.wav</ShortName>
+							<Path>SFX\sfx_04ACM_fix_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="41232090" Name="sfx_04ACM_lighter" ObjectPath="\Events\SFX\sfx_04ACM_lighter" GUID="{B57B0E26-8E38-4C1B-A3B8-B5E1B78CE61A}" DurationType="OneShot" DurationMin="0.900000" DurationMax="0.900000">
+					<IncludedMemoryFiles>
+						<File Id="312085936" Language="SFX">
+							<ShortName>sfx_04ACM_lighter.wav</ShortName>
+							<Path>SFX\sfx_04ACM_lighter_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2950033031" Name="sfx_04ACM_pour" ObjectPath="\Events\SFX\sfx_04ACM_pour" GUID="{C44FE64C-85A9-4C01-A9CD-77DE67169D55}" DurationType="OneShot" DurationMin="2.600000" DurationMax="2.600000">
+					<IncludedMemoryFiles>
+						<File Id="943106829" Language="SFX">
+							<ShortName>sfx_04ACM_pour.wav</ShortName>
+							<Path>SFX\sfx_04ACM_pour_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2614593559" Name="sfx_05MIR_selfie" ObjectPath="\Events\SFX\sfx_05MIR_selfie" GUID="{A5FA34A9-1AD1-482A-BB69-72DFBD590517}" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000">
+					<IncludedMemoryFiles>
+						<File Id="840956016" Language="SFX">
+							<ShortName>sfx_05MIR_selfie.wav</ShortName>
+							<Path>SFX\sfx_05MIR_selfie_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1297885619" Name="sfx_06INS_openbook" ObjectPath="\Events\SFX\sfx_06INS_openbook" GUID="{39F6C1A6-EE38-48FE-BF92-6E4775510D50}" DurationType="OneShot" DurationMin="4.133333" DurationMax="4.133333">
+					<IncludedMemoryFiles>
+						<File Id="349014858" Language="SFX">
+							<ShortName>sfx_06INS_openbook.wav</ShortName>
+							<Path>SFX\sfx_06INS_openbook_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2038536189" Name="sfx_08CHF_cutlery" ObjectPath="\Events\SFX\sfx_08CHF_cutlery" GUID="{BCBDD866-BEE2-4B65-B3CB-D7E080D4E691}" DurationType="OneShot" DurationMin="0.833333" DurationMax="0.833333">
+					<IncludedMemoryFiles>
+						<File Id="613494281" Language="SFX">
+							<ShortName>sfx_08CHF_cutlery.wav</ShortName>
+							<Path>SFX\sfx_08CHF_cutlery_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2627611537" Name="sfx_09HRW_ktv" ObjectPath="\Events\SFX\sfx_09HRW_ktv" GUID="{C4A0B179-5BC9-424A-8315-AA6246FD240F}" DurationType="OneShot" DurationMin="15.666667" DurationMax="15.666667">
+					<IncludedMemoryFiles>
+						<File Id="554307944" Language="SFX">
+							<ShortName>sfx_09HRW_ktv.wav</ShortName>
+							<Path>SFX\sfx_09HRW_ktv_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2319967843" Name="sfx_09HRW_pack" ObjectPath="\Events\SFX\sfx_09HRW_pack" GUID="{E474DB9E-3F43-45EC-A220-B156C8A36E26}" DurationType="OneShot" DurationMin="4.833333" DurationMax="4.833333">
+					<IncludedMemoryFiles>
+						<File Id="976711918" Language="SFX">
+							<ShortName>sfx_09HRW_pack.wav</ShortName>
+							<Path>SFX\sfx_09HRW_pack_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="912741289" Name="sfx_10VCM_phone" ObjectPath="\Events\SFX\sfx_10VCM_phone" GUID="{04FCE24C-68E7-4B40-A19A-858C70411E62}" DurationType="OneShot" DurationMin="0.866667" DurationMax="0.866667">
+					<IncludedMemoryFiles>
+						<File Id="941255203" Language="SFX">
+							<ShortName>sfx_10VCM_phone.wav</ShortName>
+							<Path>SFX\sfx_10VCM_phone_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1654728357" Name="sfx_10VCM_recliner" ObjectPath="\Events\SFX\sfx_10VCM_recliner" GUID="{FACABC63-5BE2-4905-951E-3482A3C71611}" DurationType="OneShot" DurationMin="8.366667" DurationMax="8.366667">
+					<IncludedMemoryFiles>
+						<File Id="800665825" Language="SFX">
+							<ShortName>sfx_10VCM_recliner.wav</ShortName>
+							<Path>SFX\sfx_10VCM_recliner_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2224723115" Name="sfx_10VCM_vacuum_start" ObjectPath="\Events\SFX\sfx_10VCM_vacuum_start" GUID="{44A8C179-A9DB-45DD-8DC7-032ED33BD107}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="279056587" Language="SFX">
+							<ShortName>sfx_10VCM_vacuum_loop.wav</ShortName>
+							<Path>SFX\sfx_10VCM_vacuum_loop_0762CC47.wem</Path>
+						</File>
+						<File Id="723416782" Language="SFX">
+							<ShortName>sfx_10VCM_vacuum_start.wav</ShortName>
+							<Path>SFX\sfx_10VCM_vacuum_start_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="839339977" Name="sfx_10VCM_vacuum_stop" ObjectPath="\Events\SFX\sfx_10VCM_vacuum_stop" GUID="{B399A67A-5C94-4EFB-B51A-76AC2DD244C5}" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="325619686" Language="SFX">
+							<ShortName>sfx_10VCM_vacuum_stop.wav</ShortName>
+							<Path>SFX\sfx_10VCM_vacuum_stop_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2342739123" Name="sfx_11KEI_dog" ObjectPath="\Events\SFX\sfx_11KEI_dog" GUID="{275EB3F9-48E7-4A5D-8648-9AD5E73DAAD7}" DurationType="OneShot" DurationMin="1.900000" DurationMax="1.900000">
+					<IncludedMemoryFiles>
+						<File Id="400526915" Language="SFX">
+							<ShortName>sfx_11KEI_dog.wav</ShortName>
+							<Path>SFX\sfx_11KEI_dog_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1269518332" Name="sfx_11KEI_doorbell" ObjectPath="\Events\SFX\sfx_11KEI_doorbell" GUID="{FA73EB74-C36E-417D-A503-BB252D736115}" DurationType="OneShot" DurationMin="4.666667" DurationMax="4.666667">
+					<IncludedMemoryFiles>
+						<File Id="913199836" Language="SFX">
+							<ShortName>sfx_11KEI_doorbell.wav</ShortName>
+							<Path>SFX\sfx_11KEI_doorbell_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="650331997" Name="SFX_stop" ObjectPath="\Events\SFX\SFX_stop" GUID="{1468BD4F-A5F5-4447-98E7-70D684B9CC77}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3273819246" Name="VO_02DLV_010_delivery" ObjectPath="\Events\Voice\VO_02DLV_010_delivery" GUID="{0D90D432-05EE-4161-B5AD-8577A2909166}" DurationType="OneShot" DurationMin="1.625011" DurationMax="1.625011">
+					<IncludedMemoryFiles>
+						<File Id="433872106" Language="English(US)">
+							<ShortName>VO_02DLV_010_delivery.wav</ShortName>
+							<Path>Voices\English(US)\VO_02DLV_010_delivery_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2655851741" Name="VO_02DLV_020_delivery" ObjectPath="\Events\Voice\VO_02DLV_020_delivery" GUID="{69684887-4277-4967-9145-4449147C222B}" DurationType="OneShot" DurationMin="1.500000" DurationMax="1.500000">
+					<IncludedMemoryFiles>
+						<File Id="396609259" Language="English(US)">
+							<ShortName>VO_02DLV_020_delivery.wav</ShortName>
+							<Path>Voices\English(US)\VO_02DLV_020_delivery_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3791463254" Name="VO_03ZOM_010_wendy" ObjectPath="\Events\Voice\VO_03ZOM_010_wendy" GUID="{421071F4-CCD1-42C4-A0D7-E7E8934B40D6}" DurationType="OneShot" DurationMin="67.032631" DurationMax="67.032631">
+					<IncludedMemoryFiles>
+						<File Id="381879348" Language="English(US)">
+							<ShortName>VO_03ZOM_010_wendy.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_010_wendy_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2981718853" Name="VO_03ZOM_040_wendy" ObjectPath="\Events\Voice\VO_03ZOM_040_wendy" GUID="{6CF600A0-766E-42B8-89BD-4DCDF66D2050}" DurationType="OneShot" DurationMin="2.290159" DurationMax="2.290159">
+					<IncludedMemoryFiles>
+						<File Id="561692553" Language="English(US)">
+							<ShortName>VO_03ZOM_040_wendy.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_040_wendy_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1131043679" Name="VO_03ZOM_060_wendy" ObjectPath="\Events\Voice\VO_03ZOM_060_wendy" GUID="{07C7EFE1-29B9-450D-AF16-67499C3047A3}" DurationType="OneShot" DurationMin="4.106440" DurationMax="4.106440">
+					<IncludedMemoryFiles>
+						<File Id="14270852" Language="English(US)">
+							<ShortName>VO_03ZOM_060_wendy.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_060_wendy_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3875258401" Name="VO_03ZOM_080_wendy" ObjectPath="\Events\Voice\VO_03ZOM_080_wendy" GUID="{29EE5F43-6B3E-4C84-BF05-31D18FA4FA3E}" DurationType="OneShot" DurationMin="3.016871" DurationMax="3.016871">
+					<IncludedMemoryFiles>
+						<File Id="331996224" Language="English(US)">
+							<ShortName>VO_03ZOM_080_wendy.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_080_wendy_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1433897677" Name="VO_03ZOM_090_paul" ObjectPath="\Events\Voice\VO_03ZOM_090_paul" GUID="{7A42E9D6-A7F4-4397-B0E0-068F4C221964}" DurationType="OneShot" DurationMin="15.959233" DurationMax="15.959233">
+					<IncludedMemoryFiles>
+						<File Id="407534650" Language="English(US)">
+							<ShortName>VO_03ZOM_090_paul.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_090_paul_D58E48BD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2867537081" Name="VO_04ACM_010_alex" ObjectPath="\Events\Voice\VO_04ACM_010_alex" GUID="{44BF1495-C5E0-4E3D-B1B7-E2C51FD0CEDC}" DurationType="OneShot" DurationMin="0.899864" DurationMax="0.899864">
+					<IncludedMemoryFiles>
+						<File Id="45095367" Language="English(US)">
+							<ShortName>VO_04ACM_010_alex.wav</ShortName>
+							<Path>Voices\English(US)\VO_04ACM_010_alex_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1761702355" Name="VO_04ACM_030_alex" ObjectPath="\Events\Voice\VO_04ACM_030_alex" GUID="{60B566EF-DFDA-47D5-B653-A299F4347E46}" DurationType="OneShot" DurationMin="1.145850" DurationMax="1.145850">
+					<IncludedMemoryFiles>
+						<File Id="228705130" Language="English(US)">
+							<ShortName>VO_04ACM_030_alex.wav</ShortName>
+							<Path>Voices\English(US)\VO_04ACM_030_alex_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="333498414" Name="VO_04ACM_060_alex" ObjectPath="\Events\Voice\VO_04ACM_060_alex" GUID="{35998AB6-E631-4073-B0B9-912827893EAF}" DurationType="OneShot" DurationMin="10.706259" DurationMax="10.706259">
+					<IncludedMemoryFiles>
+						<File Id="917043476" Language="English(US)">
+							<ShortName>VO_04ACM_060_alex.wav</ShortName>
+							<Path>Voices\English(US)\VO_04ACM_060_alex_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1937623344" Name="VO_04ACM_080_alex" ObjectPath="\Events\Voice\VO_04ACM_080_alex" GUID="{81739D64-A14B-42B5-89DA-C73022D2825C}" DurationType="OneShot" DurationMin="8.263333" DurationMax="8.263333">
+					<IncludedMemoryFiles>
+						<File Id="886528860" Language="English(US)">
+							<ShortName>VO_04ACM_080_alex.wav</ShortName>
+							<Path>Voices\English(US)\VO_04ACM_080_alex_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="410205544" Name="VO_06INS_030_merwyn" ObjectPath="\Events\Voice\VO_06INS_030_merwyn" GUID="{EDCB3891-2638-4B56-ACB7-8F4A1E4C8C97}" DurationType="OneShot" DurationMin="4.466485" DurationMax="4.466485">
 					<IncludedMemoryFiles>
 						<File Id="394356925" Language="English(US)">
 							<ShortName>VO_06INS_030_merwyn.wav</ShortName>
-							<Path>Voices\English(US)\VO_06INS_030_merwyn_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_06INS_030_merwyn_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -33,7 +370,7 @@
 					<IncludedMemoryFiles>
 						<File Id="919996557" Language="English(US)">
 							<ShortName>VO_06INS_050_merwyn.wav</ShortName>
-							<Path>Voices\English(US)\VO_06INS_050_merwyn_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_06INS_050_merwyn_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -41,7 +378,7 @@
 					<IncludedMemoryFiles>
 						<File Id="611411550" Language="English(US)">
 							<ShortName>VO_06INS_060_merwyn.wav</ShortName>
-							<Path>Voices\English(US)\VO_06INS_060_merwyn_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_06INS_060_merwyn_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -49,7 +386,7 @@
 					<IncludedMemoryFiles>
 						<File Id="516183401" Language="English(US)">
 							<ShortName>VO_06INS_070_merwyn.wav</ShortName>
-							<Path>Voices\English(US)\VO_06INS_070_merwyn_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_06INS_070_merwyn_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,7 +394,7 @@
 					<IncludedMemoryFiles>
 						<File Id="479512345" Language="English(US)">
 							<ShortName>VO_06INS_100_merwyn.wav</ShortName>
-							<Path>Voices\English(US)\VO_06INS_100_merwyn_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_06INS_100_merwyn_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -65,7 +402,7 @@
 					<IncludedMemoryFiles>
 						<File Id="649614475" Language="English(US)">
 							<ShortName>VO_08CHF_010_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_010_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_010_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -73,7 +410,7 @@
 					<IncludedMemoryFiles>
 						<File Id="71116483" Language="English(US)">
 							<ShortName>VO_08CHF_020_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_020_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_020_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -81,7 +418,7 @@
 					<IncludedMemoryFiles>
 						<File Id="219790000" Language="English(US)">
 							<ShortName>VO_08CHF_050_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_050_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_050_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -89,7 +426,7 @@
 					<IncludedMemoryFiles>
 						<File Id="487570577" Language="English(US)">
 							<ShortName>VO_08CHF_070_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_070_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_070_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -97,7 +434,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1068417411" Language="English(US)">
 							<ShortName>VO_08CHF_080_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_080_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_080_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -105,7 +442,7 @@
 					<IncludedMemoryFiles>
 						<File Id="923454895" Language="English(US)">
 							<ShortName>VO_08CHF_090_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_090_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_090_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -113,7 +450,7 @@
 					<IncludedMemoryFiles>
 						<File Id="484103522" Language="English(US)">
 							<ShortName>VO_08CHF_110_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_110_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_110_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -121,7 +458,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1037013897" Language="English(US)">
 							<ShortName>VO_08CHF_120_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_120_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_120_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -129,7 +466,7 @@
 					<IncludedMemoryFiles>
 						<File Id="602108252" Language="English(US)">
 							<ShortName>VO_08CHF_130_ethan.wav</ShortName>
-							<Path>Voices\English(US)\VO_08CHF_130_ethan_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_08CHF_130_ethan_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -137,7 +474,103 @@
 					<IncludedMemoryFiles>
 						<File Id="581680188" Language="English(US)">
 							<ShortName>VO_09HRW_020_husband.wav</ShortName>
-							<Path>Voices\English(US)\VO_09HRW_020_husband_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_09HRW_020_husband_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2108005042" Name="VO_10VCM_010_carol" ObjectPath="\Events\Voice\VO_10VCM_010_carol" GUID="{D64FD5A2-E1F5-477D-ACB6-A971AD5A7C5F}" DurationType="OneShot" DurationMin="1.503084" DurationMax="1.503084">
+					<IncludedMemoryFiles>
+						<File Id="58584061" Language="English(US)">
+							<ShortName>VO_10VCM_010_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_010_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3301898191" Name="VO_10VCM_020_carol" ObjectPath="\Events\Voice\VO_10VCM_020_carol" GUID="{AA8E77B8-8A4A-4727-8501-B4015A78062A}" DurationType="OneShot" DurationMin="8.020136" DurationMax="8.020136">
+					<IncludedMemoryFiles>
+						<File Id="925678835" Language="English(US)">
+							<ShortName>VO_10VCM_020_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_020_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4271274736" Name="VO_10VCM_030_carol" ObjectPath="\Events\Voice\VO_10VCM_030_carol" GUID="{B5D1F34D-7380-4BDB-9355-EA7F6A3555D8}" DurationType="OneShot" DurationMin="2.904308" DurationMax="2.904308">
+					<IncludedMemoryFiles>
+						<File Id="992703582" Language="English(US)">
+							<ShortName>VO_10VCM_030_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_030_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1193522245" Name="VO_10VCM_040_carol" ObjectPath="\Events\Voice\VO_10VCM_040_carol" GUID="{3CB8D697-425A-4E5E-AEBA-8FA9B7000A50}" DurationType="OneShot" DurationMin="2.024331" DurationMax="2.024331">
+					<IncludedMemoryFiles>
+						<File Id="413658104" Language="English(US)">
+							<ShortName>VO_10VCM_040_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_040_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="118453502" Name="VO_10VCM_050_carol" ObjectPath="\Events\Voice\VO_10VCM_050_carol" GUID="{08908998-76A1-48F2-BCBA-A820F0D61673}" DurationType="OneShot" DurationMin="0.962404" DurationMax="0.962404">
+					<IncludedMemoryFiles>
+						<File Id="310328139" Language="English(US)">
+							<ShortName>VO_10VCM_050_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_050_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1888402043" Name="VO_10VCM_060_carol" ObjectPath="\Events\Voice\VO_10VCM_060_carol" GUID="{9BBFDAB6-EF63-46A1-B1FF-AE7D3031DB9A}" DurationType="OneShot" DurationMin="9.765737" DurationMax="9.765737">
+					<IncludedMemoryFiles>
+						<File Id="428500385" Language="English(US)">
+							<ShortName>VO_10VCM_060_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_060_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3017484508" Name="VO_10VCM_070_carol" ObjectPath="\Events\Voice\VO_10VCM_070_carol" GUID="{FB78BE73-A958-4751-9708-B1ED9D8708B2}" DurationType="OneShot" DurationMin="2.634014" DurationMax="2.634014">
+					<IncludedMemoryFiles>
+						<File Id="162667069" Language="English(US)">
+							<ShortName>VO_10VCM_070_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_070_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2202863809" Name="VO_10VCM_080_carol" ObjectPath="\Events\Voice\VO_10VCM_080_carol" GUID="{B9973C39-EA01-4D8D-BD53-474FEAE1DC32}" DurationType="OneShot" DurationMin="5.813605" DurationMax="5.813605">
+					<IncludedMemoryFiles>
+						<File Id="661101023" Language="English(US)">
+							<ShortName>VO_10VCM_080_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_080_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2265390010" Name="VO_10VCM_090_carol" ObjectPath="\Events\Voice\VO_10VCM_090_carol" GUID="{A39E3E01-D9CD-410E-AA2E-41AFBDADAD4B}" DurationType="OneShot" DurationMin="2.319138" DurationMax="2.319138">
+					<IncludedMemoryFiles>
+						<File Id="655767452" Language="English(US)">
+							<ShortName>VO_10VCM_090_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_090_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="939230987" Name="VO_10VCM_110_carol" ObjectPath="\Events\Voice\VO_10VCM_110_carol" GUID="{D86E618C-F7F8-48F2-B9A8-3E571ADECD55}" DurationType="OneShot" DurationMin="5.910431" DurationMax="5.910431">
+					<IncludedMemoryFiles>
+						<File Id="281253380" Language="English(US)">
+							<ShortName>VO_10VCM_110_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_110_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="436769429" Name="VO_10VCM_130_carol" ObjectPath="\Events\Voice\VO_10VCM_130_carol" GUID="{C90B8AC7-225C-4719-9EF3-C17268F9B8BB}" DurationType="OneShot" DurationMin="1.918526" DurationMax="1.918526">
+					<IncludedMemoryFiles>
+						<File Id="748993938" Language="English(US)">
+							<ShortName>VO_10VCM_130_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_130_carol_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3736805440" Name="VO_10VCM_140_carol" ObjectPath="\Events\Voice\VO_10VCM_140_carol" GUID="{73FE0E11-6756-49D8-930C-7AD73F320EC9}" DurationType="OneShot" DurationMin="11.144467" DurationMax="11.144467">
+					<IncludedMemoryFiles>
+						<File Id="931453243" Language="English(US)">
+							<ShortName>VO_10VCM_140_carol.wav</ShortName>
+							<Path>Voices\English(US)\VO_10VCM_140_carol_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -145,7 +578,7 @@
 					<IncludedMemoryFiles>
 						<File Id="382524768" Language="English(US)">
 							<ShortName>VO_11KEI_010_jannah.wav</ShortName>
-							<Path>Voices\English(US)\VO_11KEI_010_jannah_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_11KEI_010_jannah_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -153,7 +586,7 @@
 					<IncludedMemoryFiles>
 						<File Id="980209497" Language="English(US)">
 							<ShortName>VO_11KEI_020_jannah.wav</ShortName>
-							<Path>Voices\English(US)\VO_11KEI_020_jannah_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_11KEI_020_jannah_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -161,7 +594,71 @@
 					<IncludedMemoryFiles>
 						<File Id="518005892" Language="English(US)">
 							<ShortName>VO_11KEI_030_jannah.wav</ShortName>
-							<Path>Voices\English(US)\VO_11KEI_030_jannah_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_11KEI_030_jannah_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3555550800" Name="VO_11KEI_040_keira" ObjectPath="\Events\Voice\VO_11KEI_040_keira" GUID="{F5E13D0B-9237-4CD8-840B-A82607322029}" DurationType="OneShot" DurationMin="3.507165" DurationMax="3.507165">
+					<IncludedMemoryFiles>
+						<File Id="950763085" Language="English(US)">
+							<ShortName>VO_11KEI_040_keira.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_040_keira_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="356528211" Name="VO_11KEI_050_keira" ObjectPath="\Events\Voice\VO_11KEI_050_keira" GUID="{271C32CC-64A8-47ED-B1B0-5441EE1B329F}" DurationType="OneShot" DurationMin="1.034989" DurationMax="1.034989">
+					<IncludedMemoryFiles>
+						<File Id="780633426" Language="English(US)">
+							<ShortName>VO_11KEI_050_keira.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_050_keira_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4016277978" Name="VO_11KEI_060_keira" ObjectPath="\Events\Voice\VO_11KEI_060_keira" GUID="{A4A6CC9C-0444-4E1F-A27B-ECED421799EF}" DurationType="OneShot" DurationMin="7.024626" DurationMax="7.024626">
+					<IncludedMemoryFiles>
+						<File Id="341480443" Language="English(US)">
+							<ShortName>VO_11KEI_060_keira.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_060_keira_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1361983429" Name="VO_11KEI_070_keira" ObjectPath="\Events\Voice\VO_11KEI_070_keira" GUID="{531413AB-2F08-4514-9337-7092081206BD}" DurationType="OneShot" DurationMin="10.826077" DurationMax="10.826077">
+					<IncludedMemoryFiles>
+						<File Id="928808119" Language="English(US)">
+							<ShortName>VO_11KEI_070_keira.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_070_keira_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3579149732" Name="VO_11KEI_080_keira" ObjectPath="\Events\Voice\VO_11KEI_080_keira" GUID="{FE31B6EC-9C70-48C7-BA9E-D55E05D13C9E}" DurationType="OneShot" DurationMin="15.452676" DurationMax="15.452676">
+					<IncludedMemoryFiles>
+						<File Id="32414067" Language="English(US)">
+							<ShortName>VO_11KEI_080_keira.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_080_keira_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="942777237" Name="VO_11KEI_100_keira" ObjectPath="\Events\Voice\VO_11KEI_100_keira" GUID="{4C7CB573-5E37-463B-ABF4-EDCF340E074C}" DurationType="OneShot" DurationMin="6.062902" DurationMax="6.062902">
+					<IncludedMemoryFiles>
+						<File Id="854381892" Language="English(US)">
+							<ShortName>VO_11KEI_100_keira.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_100_keira_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3523608175" Name="VO_11KEI_110_mum" ObjectPath="\Events\Voice\VO_11KEI_110_mum" GUID="{5F1BE4A6-D2A0-4BA4-B063-CF89A673B8EF}" DurationType="OneShot" DurationMin="2.476281" DurationMax="2.476281">
+					<IncludedMemoryFiles>
+						<File Id="241853596" Language="English(US)">
+							<ShortName>VO_11KEI_110_mum.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_110_mum_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1310102706" Name="VO_11KEI_120_mum" ObjectPath="\Events\Voice\VO_11KEI_120_mum" GUID="{51C028E0-D62C-49BA-B0D1-CE4DB1E5442C}" DurationType="OneShot" DurationMin="15.508526" DurationMax="15.508526">
+					<IncludedMemoryFiles>
+						<File Id="547469702" Language="English(US)">
+							<ShortName>VO_11KEI_120_mum.wav</ShortName>
+							<Path>Voices\English(US)\VO_11KEI_120_mum_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -169,7 +666,7 @@
 					<IncludedMemoryFiles>
 						<File Id="136367700" Language="English(US)">
 							<ShortName>VO_11KEI_160_husband.wav</ShortName>
-							<Path>Voices\English(US)\VO_11KEI_160_husband_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_11KEI_160_husband_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -177,7 +674,7 @@
 					<IncludedMemoryFiles>
 						<File Id="858529293" Language="English(US)">
 							<ShortName>VO_11KEI_170_husband.wav</ShortName>
-							<Path>Voices\English(US)\VO_11KEI_170_husband_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_11KEI_170_husband_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -185,10 +682,11 @@
 					<IncludedMemoryFiles>
 						<File Id="936556488" Language="English(US)">
 							<ShortName>VO_11KEI_180_husband.wav</ShortName>
-							<Path>Voices\English(US)\VO_11KEI_180_husband_10C4C929.wem</Path>
+							<Path>Voices\English(US)\VO_11KEI_180_husband_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3484353603" Name="VO_stop" ObjectPath="\Events\Voice\VO_stop" GUID="{2375072B-BD1D-4966-A39F-4DC5B4C4CA25}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
