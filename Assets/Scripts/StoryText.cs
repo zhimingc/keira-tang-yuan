@@ -6,18 +6,18 @@ using UnityEngine.EventSystems;
 
 public class StoryText : MonoBehaviour, IPointerDownHandler
 {
+    //public List<Sprite> backingTypes;
+    public List<Image> backings;
+    public List<Color> fontColorTypes;
     public Image backing;
     public Vector2 backingBuffer;
-
  
-
     private Text text;
     private StoryScript storyParent;
 
     // Start is called before the first frame update
     void Start()
     {
-        text = GetComponent<Text>();
         storyParent = GetComponentInParent<StoryScript>();
         //backing.rectTransform.sizeDelta = new Vector2(text.rectTransform.sizeDelta.x, text.preferredHeight) + backingBuffer * 2.0f;
         //backing.rectTransform.anchoredPosition = new Vector3(-backingBuffer.x, backingBuffer.y, 0.0f);
@@ -26,7 +26,23 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
     // Update is called once per frame
     void Update()
     {
+        print(backings[0].enabled);
+    }
 
+    public void SetBacking(int backingIndex)
+    {
+        //foreach (Image backing in backings)
+        //{
+        //    backing.enabled = false;
+        //}
+
+        text = GetComponent<Text>();
+        if (backingIndex < backings.Count)
+        {
+            //backing.sprite = backingTypes[backingIndex];
+            backings[backingIndex].enabled = true;
+            text.color = fontColorTypes[backingIndex];
+        }
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -34,9 +50,6 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
         if (storyParent)
         {
             storyParent.Advance();
-            
-
-
         }
     }
 }

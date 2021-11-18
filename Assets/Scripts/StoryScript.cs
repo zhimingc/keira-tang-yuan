@@ -3,6 +3,14 @@ using System.Collections;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
 
+public enum STORY_STATE
+{
+	THOUGHT,
+	SPEECH,
+	CHOICE,
+	NUM
+}
+
 public class StoryScript : MonoBehaviour
 {
 	[SerializeField]
@@ -21,7 +29,11 @@ public class StoryScript : MonoBehaviour
 	private UnityEngine.UI.Text text;
 	[SerializeField]
 	private UnityEngine.UI.Button button;
-	
+	private UnityEngine.UI.Text storyText;
+
+	/* State Machine */
+	public STORY_STATE StoryState;
+
 	[SerializeField]
 	private AK.Wwise.Event buttonAudio;
 
@@ -43,19 +55,27 @@ public class StoryScript : MonoBehaviour
 			if (_inkStory.canContinue)
 			{
 				if (advance)
-        {
-					UnityEngine.UI.Text storyText = Instantiate(text) as UnityEngine.UI.Text;
-					storyText.text = _inkStory.Continue();
-					print(storyText.text);
+				{
+					storyText = Instantiate(text) as UnityEngine.UI.Text;
+					string storyString;
+					// HACK: to fix weird behaviour from Ink where lines after choices will be blank.
+					do
+					{
+						storyString = _inkStory.Continue();
+					}
+					while (_inkStory.canContinue && storyString == "\n");
+					storyText.text = storyString;
+					ProcessTags(_inkStory);
+					storyText.GetComponent<StoryText>().SetBacking((int)StoryState);
 					storyText.transform.SetParent(canvas.transform, false);
 					storyText.transform.Translate(new Vector2(0, offset));
 					offset -= (storyText.preferredHeight + elementPadding);
 					advance = false;
 				}
 			}
-			
+
 			if (!_inkStory.canContinue)
-      {
+			{
 				if (_inkStory.currentChoices.Count > 0)
 				{
 					for (int i = 0; i < _inkStory.currentChoices.Count; ++i)
@@ -72,17 +92,31 @@ public class StoryScript : MonoBehaviour
 						int choiceId = i;
 						choice.onClick.AddListener(delegate { ChoiceSelected(choiceId); });
 
-						offset -= (choiceText.preferredHeight + layoutGroup.padding.top + layoutGroup.padding.bottom + elementPadding);
+						offset += (choiceText.preferredHeight + layoutGroup.padding.top + layoutGroup.padding.bottom + elementPadding);
 					}
 				}
-      }
-
+			}
 
 			storyNeeded = false;
 		}
 	}
 
-	void RemoveChildren()
+    void ProcessTags(Story inkStory)
+    {
+		for (int i = 0; i < (int)STORY_STATE.NUM; ++i)
+        {
+			string storyStateString = ((STORY_STATE)i).ToString().ToLower();
+			for (int j = 0; j < inkStory.currentTags.Count; ++j)
+			{
+				if (_inkStory.currentTags[j] == storyStateString)
+                {
+					StoryState = (STORY_STATE)i;
+                }
+			}
+		}
+    }
+
+    void RemoveChildren()
 	{
 		int childCount = canvas.transform.childCount;
 		for (int i = childCount - 1; i >= 0; --i)
@@ -92,10 +126,10 @@ public class StoryScript : MonoBehaviour
 	}
 
 	public void Advance()
-   {
+	{
 		storyNeeded = true;
 		advance = true;
-  }
+	}
 
 	public void ChoiceSelected(int id)
 	{

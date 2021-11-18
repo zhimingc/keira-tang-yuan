@@ -9,16 +9,21 @@ The thing they don't tell you about adulting is that you will always be cleaning
 
 
 === Dusting
+#thought
+#MC
 There is no victory over dust. I could probably let it sit for a few more days but my husband has a sensitive nose and when he starts sneezing through the night it's miserable for everyone. More miserable for him I suppose.
     ** [Pick up wedding photo]
+    #thought
         Look at us 5 years ago, just married, unsure about everything except the fact that we want to face it together. Gosh, we make a good looking couple. And look at his shoulders, in that shirt... Mmm.
     ***[Pick up the next picture] 
+    #thought
     That's us after collecting our keys and stepping into our flat for the first time. We've lived away from our parents before, but nothing is quite like owning your first home. Every decision tailored to our own shared ideas of comfort and good organisation. Our contractors were bewildered when we insisted that Cat 6 Ethernet ports be installed in every room. But not long after we started seeing all the contractors include that option in their packages. 
     **** [Clean the windows] 
     -> Windows
 
 === Windows
 # sound of fighter jet
+#thought
 Given how small our island is, a fighter jet only has a couple of minutes of flying in a straight line before it has to turn around again. I guess that means there are very few places in Singapore that don't suffer this noise pollution. They've tried to adjust their flight times to avoid disturbing residents, but with more of us working from home, having Zoom meeting disrupted by the shattering roar of multiple jet fighters seems commonplace. My international clients must think I live near an airforce base. In a way, we all do.
     ** [Look out the window] 
     I hear these jets nearly everyday, but I never catch sight of them. All I have is a small patch of sky. It's far easier to look into the homes of my neighbours and catch... There! There he is again, the guy that walks around naked in his apartment. Technically, it's illegal. But if I complain about that, maybe my own neighbour will complain about the large shoe rack I put outside my door. 
@@ -35,8 +40,11 @@ My heart nearly missed a beat.
 I've nearly forgotten that I ordered bubble tea for myself
 Well, perfect timing to kick back and reward myself for cleaning the living room.
 *[Open the door]
+#speech
+#DeliveryBoy
 "Ma'am, your bubble tea"
-
+#thought
+#MC
 I've never seen this delivery rider before. He's all decked out in professional riding attire: a neon yellow dry fit T-shirt and a retro-looking pair of wraparound sunglasses. I can barely see the outline of his pectoral muscles under his T-shirt. He's lean and wiry; not an ounce of fat on him. 
 
 He looks like he means rides a lot; a narrow waist and muscular thighs like someone training for the Tour de France. But unlike the disciplined intensity I've come to associate with road cyclists in Singapore, his dark brown complexion is framed by ear-length yellow hair, and even though he's wearing a mask, his smile reaches his eyes.
