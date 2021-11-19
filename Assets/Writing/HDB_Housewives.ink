@@ -1,7 +1,7 @@
 -> Opening01OPN
 
 === Opening01OPN
-The thing they don't tell you about adulting is that you will always be cleaning. You start off enjoying the process and the fruits of your efforts, but after a while the sheer relentlessness of it begins to wear you down. It doesn't matter if you clean while you cook, or if you order food in, you will be cleaning the kitchen; if not today, then tomorrow. The day after that, you will be doing laundry. Round and round it goes and it's hard to silence my inner child from asking "Is this my life?" 
+The thing they don't tell you about adulting is that you will always be cleaning. You start off enjoying the process and the fruits of your efforts, but after a while the sheer relentlessness of it begins to wear you down. It doesn't matter if you clean while you cook, or if you order food in; you will be cleaning the kitchen-- if not today, then tomorrow. The day after that, you will be doing laundry. Round and round it goes and it's hard to silence my inner child from asking "Is this my life?" 
 
 
 * [Dust the shelves] 
@@ -17,51 +17,51 @@ There is no victory over dust. I could probably let it sit for a few more days b
         Look at us 5 years ago, just married, unsure about everything except the fact that we want to face it together. Gosh, we make a good looking couple. And look at his shoulders, in that shirt... Mmm.
     ***[Pick up the next picture] 
     #thought
-    That's us after collecting our keys and stepping into our flat for the first time. We've lived away from our parents before, but nothing is quite like owning your first home. Every decision tailored to our own shared ideas of comfort and good organisation. Our contractors were bewildered when we insisted that Cat 6 Ethernet ports be installed in every room. But not long after we started seeing all the contractors include that option in their packages. 
+    That's us after collecting our keys and stepping into our flat for the first time. We've lived away from our parents before, but nothing is quite like owning your first home; every decision tailored towards our shared ideas of comfort and good organisation. Our contractors were bewildered when we insisted that Cat 6 Ethernet ports be installed in every room. But not long after, we started seeing all the contractors include that option in their packages. 
     **** [Clean the windows] 
     -> Windows
 
 === Windows
 # sound of fighter jet
 #thought
-Given how small our island is, a fighter jet only has a couple of minutes of flying in a straight line before it has to turn around again. I guess that means there are very few places in Singapore that don't suffer this noise pollution. They've tried to adjust their flight times to avoid disturbing residents, but with more of us working from home, having Zoom meeting disrupted by the shattering roar of multiple jet fighters seems commonplace. My international clients must think I live near an airforce base. In a way, we all do.
+Given how small our island is, a fighter jet only has a couple of minutes of flying in a straight line before it has to turn around again. I guess that means there are very few places in Singapore that don't suffer from this brand of noise pollution. They've tried to adjust their flight times to avoid disturbing residents, but with more of us working from home, having Zoom meeting disrupted by the shattering roar of multiple jet fighters seems commonplace. My international clients must think I live near an airforce base. In a way, we all do.
     ** [Look out the window] 
     I hear these jets nearly everyday, but I never catch sight of them. All I have is a small patch of sky. It's far easier to look into the homes of my neighbours and catch... There! There he is again, the guy that walks around naked in his apartment. Technically, it's illegal. But if I complain about that, maybe my own neighbour will complain about the large shoe rack I put outside my door. 
-    If we all think this way, it's impossible to live so close together, and I don't want to be that guy in the estate Whatsapp chat. You know who I mean. Might be worth investing in some binoculars though…    
+    If we all complain about each other, it would be impossible to live so close together, and I don't want to be that guy in the estate Whatsapp chat. You know who I mean. Might be worth investing in some binoculars though…    
         *** [Take a break]
         Can't complain lah. I've got Netflix, Disney+, HBO. Sometimes even when my friends call me out I say no. It's just so comfortable sitting here in my pyjamas, enjoying the house which I work so hard to keep clean.
-        Anyway our lockdown means going out is limited to two people again, so what's the point in going out? Sorry, is it "heightened alert"? or "circuit breaker"? If this goes on we're going to run out of words. Eventually I bet we'll resort to colours or levels. We're practical that way.
+        Anyway our lockdown means going out is limited to two people again, so what's the point in going out? Sorry, is it "heightened alert"? or "circuit breaker"? If this goes on we're going to run out of words. Eventually I bet we'll resort to colours or levels. That would be less confusing.
         **** [Ding Dong!] 
         -> Deliveryguy02DLV
         
 === Deliveryguy02DLV
 My heart nearly missed a beat.
 
-I've nearly forgotten that I ordered bubble tea for myself
+I've nearly forgotten that I ordered bubble tea for myself.
 Well, perfect timing to kick back and reward myself for cleaning the living room.
 *[Open the door]
 #speech
 #DeliveryBoy
-"Ma'am, your bubble tea"
+"Ma'am, your bubble tea!"
 #thought
 #MC
 I've never seen this delivery rider before. He's all decked out in professional riding attire: a neon yellow dry fit T-shirt and a retro-looking pair of wraparound sunglasses. I can barely see the outline of his pectoral muscles under his T-shirt. He's lean and wiry; not an ounce of fat on him. 
 
-He looks like he means rides a lot; a narrow waist and muscular thighs like someone training for the Tour de France. But unlike the disciplined intensity I've come to associate with road cyclists in Singapore, his dark brown complexion is framed by ear-length yellow hair, and even though he's wearing a mask, his smile reaches his eyes.
+He looks like he rides a lot; a narrow waist and muscular thighs like someone training for the Tour de France. But unlike the disciplined intensity I've come to associate with road cyclists in Singapore, his dark brown complexion is framed by ear-length yellow hair, and even though he's wearing a mask, his smile reaches his eyes.
 **[Take the bag from him]
 As he passes the paper bag to me, our fingers brush each others.
 His veined forearms are corded with muscle and a bead of sweat slides towards his elbow.
 
 I am mesmerised by that bead of sweat, both repelled by the idea that it could have fallen into my bubble tea and entranced by the perfect naturalness of it. His eyes never leave mine.
 
-Suddenly conscious of my own sweaty appearance, I glance down unnecessarily to check that my loose dress reaches at least past mid-thigh. He turns to walk away
+Suddenly conscious of my own sweaty appearance, I glance down unnecessarily to check that my loose dress reaches at least past mid-thigh. He turns to walk away.
 ***[Try to catch his eye]
 ''Delivery man walks down the corridor away from the door''
-Like the gremlin I am, I didn't even say "thank you" and calling it out now would make me appear like a tryhard
+Like the gremlin I am, I didn't even say "thank you" and calling it out now would make me appear like a tryhard.
 
 I watch him as he walks away, wondering if he will turn back for one last glance. I tell myself that if he does, I will smile and give him a nod of acknowledgement at least.
 He does not turn back.
-*****[Reach for him]
+*****[Run after him]
     BowChicaBowow!
     ****** [Continue] 
     -> ZoomCalls03ZOM
@@ -75,14 +75,14 @@ The fact that it's harder to engage them through Zoom or Skype is less of an iss
 
 So I've come to expect that, at best, their attention span lasts 15 minutes and nothing more. I break the time I have with them into what I can achieve in 15 minutes or less. Each chunk is a different form of media: a game, a video, an exercise, a break for questions.
 
-It used to take me a lot of time to prepare for on session and it doesn't always work and I accept that challenge. For some kids, my rudimentary structure seems to work better than anything else they've experienced online. For Bran here, he shows an enthusiasm in picking up new topics, but it doesn't readily translate to good grades.
+It used to take me a lot of time to prepare for one session and it doesn't always work. I accept that challenge. For some kids, my rudimentary structure seems to work better than anything else they've experienced online. For Bran here, he shows an enthusiasm in picking up new topics, but it doesn't readily translate to good grades.
 *[Talk to parents]
 ->Wendy
 
 === Wendy
 Working with parents though, is a whole other ball game.
 
-Take Wendy for example, she's a ball of anxiety when it comes to her kid. She's nice enough when she isn't trying to blame me for any imperfections in her child. For all the time I spend listening to her, I could charge her for being her part-time therapist.
+Take Wendy for example, she's a ball of anxiety when it comes to her kid. But when she isn't trying to blame me for any imperfections in her child she's nice enough to listen to. For all the time I spend listening to her, I could charge her for being her part-time therapist.
 
 Not like it's unjustified though. It's stressful for kids here. The narrative of meritocracy trickles down to society's most impressionable and most vulnerable. 
 
@@ -91,7 +91,7 @@ I see a bit of myself in Wendy. I might not be very much different from her if I
 *[Continue listening to her problems]
 She's telling me about how alone she feels when it comes to managing her son. What she is hinting at is that she wishes her husband was more involved with his son.
 
-She's giving me an out here. A way for us to confide in each other as women and lay the sins of the world where it rightfully belongs -- at our husbands' feet.
+She's giving me an out here. A way for us to confide in each other as women and lay the sins of the world where it rightfully belongs-- at our husbands' feet.
 
 **[Except I can't take that path]
 My focus needs to remain on the child and not to pry into personal affairs that are not my own. 
@@ -102,9 +102,9 @@ She nods in acknowledgement.
 
 "I just want him to try, you know?" she says after a moment.
 
-"He does, Wendy. And as long as failure doesn't defeat him, I believe he will keep trying."
+"I understand... and as long as failure doesn't defeat him, I believe he will keep trying."
 
-Wendy tears up at this. I don't really know why. But after a moment she says, "Thank you for believing so much in my son."
+Wendy tears up at this. I don't really know why. But after a moment she says: "Thank you for believing so much in my son."
     ***[Tell her that I'm there for her but that I have a call to attend to right now]
     ->Paul
 
@@ -114,7 +114,7 @@ She needs a listening ear and if it will defuse some of her anxiety I can be tha
 
 "Yeah, my husband is exactly the same way. He thinks his obligations to the world starts and ends with work," I tell her.
 
-She sighs and pours out the difficulties she faces at home to me. She is fearful of so many things, but most of all she is fearful of her own inadequacy as a parent.
+She sighs and pours out the difficulties she faces at home. She is fearful of so many things, but most of all she is fearful of her own inadequacy as a parent.
 
 I tell her it's normal to feel that way.
 
@@ -126,11 +126,11 @@ I tell her it's normal to feel that way.
 ===Paul
 Paul is a rare treasure of a parent. I wish my dad was more like him. 
 
-His daughter has dyslexia but Paul is always cool about it. Naturally, he wants his child to suceed, but his priority is to always see her happy. He is a full time father, his wife is a nurse at the front lines of our current crisis.
+His daughter has dyslexia but Paul is cool about it. Naturally he wants his child to suceed, but he always puts her happiness first. He is a full time father and his wife is a nurse at the front lines of our current crisis.
 
 "Life's too short as it is," is his favourite line -- usually a precursor to dismissing any gravely put concern I raise. But I get the sense that he listens very carefully to what I say. He just has a very different perspective to life.
 
-You can see a lot of Paul in his daughter. She is as stubborn as her dad and a lot fiestier. She just takes in whatever I can teach her and laughs off all her mistakes. I can easily picture her as a CEO of a startup or a lead singer of a band -- she is that indomitable.
+You can see a lot of Paul in his daughter. She is as stubborn as her dad and a lot fiestier. She just takes in whatever I can teach her and laughs off all her mistakes. I can easily picture her as a CEO of a startup or a lead singer of a band-- she is indomitable.
 
 * [Reflect]
 I wonder what kind of father my husband would make.
@@ -150,23 +150,23 @@ A man is coming in to service the aircon today and although he's been here befor
 *[Answer the door]
 Alex has serviced our aircon since the days we were renting. He fills a niche in the market: people that don't want to sign up to a package from big aircon servicing companies because they don't use all their aircon units all the time. I always assumed we were the majority, but now I'm not so sure.
 
-He comes in all hot and bothered. That's the way he always arrives -- lugging his toolbox and heavy duty vacuum cleaner with him. He won't accept the first glass of water I've prepared for him, although in about half an hour he'll ask if he might have something to drink, preferably cold. I think he's used to interactions where business comes first and it takes a while for him to remember that, unless we're in some kind of rush, we can just be, well, people.
+He comes in all hot and bothered. That's the way he always arrives-- lugging his toolbox and with him. He won't accept the first glass of water I've prepared for him, although in about half an hour he'll ask if he might have something to drink, preferably cold. I think he's used to interactions where business must come first and it takes a while for him to remember that, unless we're in some kind of rush, we can just be, well, people.
 
 **[Watch him fix the aircon]
 Alex can prise open the cover of an aircon, hold the screwdriver in his mouth, remove multiple dustcovers with one hand and operate a compressed air duster with the other, while standing on a chair. Slick.
 
-After he's done with the basic servicing, I point out the corner of the unit where water has been leaking, and Alex acknowledges it with a grunt. He doesn't jump at the problem the way I present it to him, nor does he mock me for my ignorance. Unhurried now, I watch as his hands and eyes trace the root of the problem systematically, examining the pipe leading to the bathroom, taking a close look at the aircon unit and even looking at the condenser out on the balcony. His next few actions are decisive, involving sprays, brushes, rods and tubes.
+After he's done with the basic servicing, I point out the corner of the unit where water has been leaking, and Alex acknowledges it with a grunt. He doesn't jump at the problem the way I present it to him, nor does he mock me for my ignorance. His hands and eyes unhurriedly trace the root of the problem, systematically examining the pipe leading to the bathroom, taking a close look at the aircon unit and even looking at the condenser out on the balcony. His next few actions are decisive; involving sprays, brushes, rods and tubes in perfect harmony.
 
 Things break down. And the people that can put them back together again make me feel really secure.
 
 ***[Test the aircon]
-Alex turns on all the airconditioning units in the house and suggests we have a cigarette while we wait to see if any of the units still leak. I follow him from to the stairwell and he offers me a cigarette.
+Alex turns on all the airconditioning units in the house and suggests we have a cigarette while we wait to see if any of the units still leak. I follow him to the stairwell and he offers me a cigarette.
 
 "I'm trying quit," I tell him. "Can I just take a drag from you?"
 
 He hesitates for a while and say, "You sure you don't want your own?"
 
-"Too much for me to finish and I don't want to waste"
+"Too much for me to finish and I don't want to waste."
 
 He nods and lights up.
 
@@ -179,7 +179,7 @@ I'm not entirely shocked to learn that his wife has finally divorced him. His ma
 
 "Is she gonna pay for her half of the HDB flat?" I ask.
 
-"Yes, but eventually have to sell anyway, the mortgage cannot I one person handle. Just that now is such a bad time to sell. If I can just //tahan// a couple of years maybe better price."
+"Yes, but eventually have to sell anyway, the mortgage cannot I one person handle. Just that now is such a bad time to sell. If I can just tahan a couple of years maybe better price."
 
 "Why not just sell now and buy a 1-2 room for a cheap price?" 
 
@@ -188,18 +188,18 @@ I'm not entirely shocked to learn that his wife has finally divorced him. His ma
 *****[Reach out and reassure him]
 We are endlessly practical as Singaporeans. Discussing matters of money and shelter when our hearts have been broken. But I can see from the slump of his shoulders that Alex is dejected. Humiliation and anger is close to the surface, hiding in the corners of his worn and lined face.
 
-It is one thing to be brushed off at first glance, as any 40+ year old like Alex would have known by now; it is quite another to hope that you are judged insufficient after years of trying to hard.
+It is one thing to be brushed off at first glance, as any adult like Alex would have known by now; it is quite another to realise that you've been judged insufficient after years of trying your best.
 
 And it's not even just that. Alex has been looking for well over a decade for someone who will love his daughter as much as he does. He knows with absolute certainty that even if he doesn't deserve that much, she does.
 
-Yet through the eyes of another rat in the race, he's just an uneducated man; with no prospects and accompanied by a potentially troubleseome preteen.
+Yet through the eyes of another rat in the race, he's just an uneducated man; with no prospects, and accompanied by a potentially troubleseome preteen.
 
 I put a hand on his shoulder awkwardly and tell him that's it's gonna be alright. I tell him that there are not many people in the world that have the love Fan Fan and him have. Beneath me, I feel a shudder pass through his body even though I can't see his face. His eyes are glued to the floor between his feet.
 
-I want to take it further, to somehow prove to him that that's not what the world really thinks; but I can't offer him what he really needs.
+I want to take it further-- to somehow prove to him that that's not what the world really thinks-- but I can't offer him what he really needs.
 
 ******[Offer Alex a drink]
-Re-entering the flat, you offer Alex a drink, not specifying what kind.
+Re-entering the flat, I offer Alex a drink, not specifying what kind.
 
 "We have something stronger if you like. I've got Soju and a bottle of whisky that I can't finish."
 
@@ -220,7 +220,7 @@ There hasn't been much time to keep up my appearances. If I'm not glued to scree
 Eugh! Let me take that again, but from a higher angle this time. There, that makes my face look slimmer. I don't remember when was the last time I put on make up, but luckily there are apps like Meitu these days to save me the effort. Look at this girl's instagram post. She looks fantastic. She's the same age as me but she looks like she spends 2 hours each day at the gym. I want those thighs and that ass. Is she on some special diet or is it just good genes? It makes me want to delete my post.
 
 **[Post anyway]
-I don't know why I keep going back to these feeds when I know there's no point comparing and it just makes me feel bad. Deep down, I think I just miss the attention. And why shouldn't I? It's been at least 6 months since we last had sex. He comes back so late, and so tired. If he doesn't go straight to bed, all he wants to do is Netflix and chill... like //literally.//
+I don't know why I keep going back to these feeds when I know there's no point comparing and it just makes me feel bad. Deep down, I think I just miss the attention. And why shouldn't I? It's been at least 6 months since the last time we were... intimate. He comes back so late, and so tired. If he doesn't go straight to bed, all he wants to do is Netflix and chill... like literally.
 
 ***[Browse my old photos]
 ''Couple photo with husband at hawker centre''
@@ -229,7 +229,7 @@ Heh! I remember this place! We used to love going there for dates. Too bad it's 
 
 Man, did we look young then. I remember this was the first time I deliberately chose not to wear make up in front of him. I wanted to find out if this was somebody who I could really feel comfortable with, somebody who enjoyed being around me or just sleeping with me. Or worse, he could've been someone with an archaic notion about women always needing to be 'presentable' in front of him and in public.
 
-To his credit, he didn't even appear to notice. Just looked me straight in the eye, gave me a peck on the cheek and whispered lustily in my ear, "I'm hungry, what do you want to eat?" Then he cracked up laughing at his own idea of a joke. What a dope!
+To his credit, he didn't even appear to notice. Just looked me straight in the eye, gave me a peck on the cheek and whispered in my ear, "I'm hungry, what do you want to eat?" Then he cracked up laughing at his own idea of a joke. What a dope!
 
 ****[Ding Dong!]
 ->Insuranceguy06INS
@@ -242,7 +242,7 @@ Oh that's right, I have an appointment with my insurance guy today. We normally 
 
 He blushes so adorably.
 
-I like to provoke Merwyn, he takes his professionalism so seriously. He does not see the hilarity of wearing a jacket (and sometimes a tie) in our tropical climate. He does not question it, for him it is the proper way to perform his task as an insurance agent and I think he enjoys it as much as I enjoy poking holes in it
+I like to provoke Merwyn, he takes his professionalism so seriously. He does not see the hilarity of wearing a jacket (and sometimes a tie) in our tropical climate. He does not question it, for him it is the proper way to perform his task as an insurance agent and I think he enjoys it as much as I enjoy poking holes in it.
 
 **[Ask him difficult questions]
 I ask him big unanswerable questions like What Is It All For. 
@@ -256,7 +256,7 @@ We don't just talk about insurance. Sometimes I tell him what I've gathered from
 He let's me lead.
 
 ***[Ask him what he does outside work]
-Because Merwyn is so composed and seldom starts a new topic of conversation, I imagine him going home after work, ironing his immaculately pressed shirts. and docking himself into a charging station. Today curiousity gets the better of me.
+Because Merwyn is so composed and seldom starts a new topic of conversation, I imagine him going home after work, ironing his immaculately pressed shirts, and docking himself into a charging station. Today curiousity gets the better of me.
 
 "Merwyn, if you don't mind me asking, what do you do in your spare time?"
 
@@ -268,7 +268,7 @@ He looks down sheepishly at his moleskin organiser.
 
 He purses his lips together, coming to some internal decision 
 
-"You know how I don't have a car right? Even though I have to meet clients late into the night when they're free after work. I make it a rule to always take the bus as far as possible. I like taking new bus routes and seeing Singapore pass by and..."
+"You know how I don't have a car right? Even though I have to meet clients at night after their work. I make it a rule to always take the bus as far as possible. I like taking new bus routes and seeing Singapore pass by and..."
 
 He looks me straight in the eye, challenging me to laugh at him.
 
@@ -281,11 +281,11 @@ Again he glances at his organiser.
 ****[Listen to poem]
 He leafs through his notebook starting from the back. Neat chinese script flows down the unlined pages and he begins to read for me.
 
-Now, I barely passed my chinese 'O' levels in school and much of the meaning and artistry is absolutely wasted on me, but as his voice stops wavering and gains confidence, I hear him paint a scene of a schoolgirl watching her uncle play chess under the void deck. She asks for money to buy a drink from the nearby //mamak// stall and points out a move he missed.
+Now, I barely passed my chinese 'O' levels in school and much of the meaning and artistry is absolutely wasted on me, but as his voice stops wavering and gains confidence, I hear him paint a scene of a schoolgirl watching her uncle play chess under the void deck. She asks for money to buy a drink from the nearby mamak stall and points out a move he missed.
 
 Merwyn captures the characters with a loving gaze and describes them intimately: the posture of old men bent over a chessboard, the clink of a metal teaspoon in a glass of hot tea.
 
-As he finishes reading, I can almost hear the sighs and laughter of the bystanders watching the game. He looks up at me and smiles. For all his diffidence, he's proud of his work. Before his leans back in his chair I catch a whiff of his cologne; it is spicy, masculine, and pleasing.
+As he finishes reading, I can almost hear the sighs and laughter of the bystanders watching the game. He looks up at me and smiles. For all his diffidence, he's proud of his work. Before his leans back in his chair, I catch a whiff of his cologne; it is spicy, masculine, and pleasing.
 
 *****[Break the tension]
 I discover that I'm the one who's awkward now. I don't know how to respond and end up trying to make a joke of it, lamely.
@@ -309,14 +309,14 @@ It was exciting for a while, but it's been nearly a year now and my ideas have r
 *[Trying something new]
 He hasn't complained about the monotony of meals, but his birthday is coming up next week and I've decided to splurge on something radically different as a pre-birthday celebration.
 
-A friend of mine has provided me with the contact and the idea: get a private chef to bring the ingredients to my house and put together a 5 course meal for the two of us. He will serve us in the French style of table service-- main courses of poultry, red meat or fish will be first presented whole on a platter before being taken away to be carved and plated for individual portions. For a pretty exorbitant price, appetisers, starters and desserts, paired with the appropriate wine, will be included. 
+A friend of mine has provided me with the contact and the idea: get a private chef to bring the ingredients to my house and put together a 5 course meal for the two of us. He will serve us in the French style of table service: main courses of poultry, red meat or fish will be first presented whole on a platter before being taken away to be carved and plated for individual portions. For a pretty exorbitant price, appetisers, starters and desserts, paired with the appropriate wine, will be included. 
 
 The menu I've been sent makes me drool.
 
 **[Excited for dinner]
 To be frank, we've never even gone out for a dinner like that before.  It's just something we see on the television. I probably would worry over how to act in such a restaurant, which makes the fact that I'll be in the comfort of my own home all the more charming.
 
-I've sent him a message to come home on time for dinner tonight and I've gotten a series of emoji "thumbs up", "okay" and "punching fist" symbols in reply. Since the afternoon rain shows no indication of stopping, I've closed the windows, switch on the air-conditioner and piped jazz from my computer speakers in anticipation of a romantic dinner.
+I've sent him a message to come home on time for dinner tonight and I've gotten a series of emoji "thumbs up", "okay" and "punching fist" symbols in reply. Since the afternoon rain shows no indication of stopping, I've closed the windows, switched on the air-conditioner and piped jazz from my computer speakers in anticipation of a romantic dinner.
 
 ***[Ding Dong!]
 ->Chef08CHF
@@ -324,7 +324,7 @@ I've sent him a message to come home on time for dinner tonight and I've gotten 
 ===Chef08CHF
 With his neatly pressed chef's apron covering a bit of a paunch, a small man stands with a trolley of prepared ingredients outside my door. I usher him in.
 
-His actions are brisk as he quickly takes over my kitchen and dining room in a whirlwind of preparation. Wishing to be available in case he needs help but not wanting to appear like I know better than a trained chef, I try not to appear to watch him too intently-- but I do. Out of the corner of my eye, I notice that with every step he bounces, nearly invisibly, with the beat and tiny fragments of humming escape under breath. He moves with the dynamism of a young man, but the wrinkles around his face and hands belie his age.
+His actions are brisk as he quickly takes over my kitchen and dining room in a whirlwind of preparation. Wishing to be available in case he needs help but not wanting to appear like I know better than a trained chef, I try not to appear to watch him too intently-- but I do. Out of the corner of my eye, I notice that with every step, he bounces-- nearly imperceptibly-- with the beat, and tiny fragments of humming escape under breath. He moves with the dynamism of a young man, but the wrinkles around his face and hands belie his age.
 
 Initially, he doesn't say much other than to greet me and ask a few succinct and direct questions about where and when I would like to eat. His voice is surprisingly deep for a shorter man, but his tiny grunts of acknowledgement embrace my ears like a hug.
 
@@ -335,9 +335,9 @@ All of a sudden, he pauses mid-action and inclines his head to me.
 A warm flush passes through me and I stutter an awkward thank-you.
 
 *[Wait for my husband]
-As the clock ticks its way past 8 pm, I couldn't be closer to tears.
+As the clock ticks its way past 8 pm, I couldn't be closer to tears. My husband hasn't shown up and he's not answering his phone. All I've received is two words from him in a message: "Working late." 
 
-My husband hasn't shown up and he's not answering his phone. All I've received is two words from him in a message: "Working late." Every time Ethan, as is his name, glances at me I feel the need to apologise again, but I'm also so embarrassed and furious that I can't trust myself to speak. The cold appetizers, intricately constructed and plated, are growing warm on the table.
+Every time Ethan, the chef, glances at me, I feel the need to apologise again, but I'm also so embarrassed and furious that I can't trust myself to speak. The cold appetizers, intricately constructed and plated, are growing warm on the table.
 
 His almond shaped eyes are filled with compassion, but he's hesitant to break his role as a service provider. I come to a decision.
 
@@ -345,7 +345,7 @@ His almond shaped eyes are filled with compassion, but he's hesitant to break hi
 
 "Ma'am, that wouldn't be right, you're paying me after all--" He sees the tears I'm holding back and relents. "But sure! It would be a pity to waste!"
 
-We get stuck into the appetizers and the first course-- a caviar and mushroom soup. As we eat, he explains each dish, helping me make sense of the delectable burst of flavours that overwhelm every bite I take. Reluctantly, I'm beginning to enjoy myself. Under his mask he sports a salt and pepper moustache and wriggles adorably as he chews.
+We get stuck into the appetizers and the first course-- a caviar and mushroom soup. As we eat, he explains each dish, helping me make sense of the delectable burst of flavours that overwhelm every mouthful. Reluctantly, I'm beginning to enjoy myself. Under his mask he sports a salt and pepper moustache that wriggles adorably as he chews.
 
 "So, how many lives have you led?" I enquire with a grin.
 
@@ -353,7 +353,7 @@ We get stuck into the appetizers and the first course-- a caviar and mushroom so
 
 "But my very first job was as a jockey and stable boy at the Turf club. I could spend every day for the rest of my life among horses." His animated face lights up as he reminisces. "Once I had a chance to ride The Inferno, a chestnut gelding that had a clear shot at winning the Melbourne Cup. The owners even flew me over there to take care of the horse. You haven't seen a race till you've been to the Melbourne Cup: ladies and gents all turn up looking like royalty. And the horses..."
 
-He has a charming facial tic. When he's beaming from cheek to cheek he occasionally smiles so hard he winks at me; it's like he's sharing a treasured secret. If he stops eating to talk, he will subconsciously put his cutlery down in order to gesticulate with his hands. His hands are so expressive I can almost see horses bolting from their start line.
+He has a charming facial tic. When he's beaming from cheek to cheek he occasionally smiles so hard he winks at me-- like he's sharing a treasured secret. If he stops eating to talk, he will subconsciously put his cutlery down in order to gesticulate with his hands. His hands are so expressive I can almost see horses bolting from their start line.
 
 **[Ask if he's married]
 I finally work up the courage to ask him the one burning question on my mind: "And through all your adventures, did you ever find the time to get married?"
@@ -366,7 +366,7 @@ It seems as if he doesn't want to talk about it, but after a few second of eatin
 
 He gives me a tight-lipped smile before continuing.
 
-"I've made all sorts of mistakes in my life, in my relationships. And I  would endure far worse to have my wife back. Except that there are some things that once broken, can't be put back together, and I don't think my wife and I, either of us, will ever forgive ourselves.
+"I've made all sorts of mistakes in my life, in my relationships. And I would endure far worse to have my wife back. Except that there are some things that once broken, can't be put back together, and I don't think my wife and I, either of us, will ever forgive ourselves.
 
 I want to tell him that smiles shouldn't be sad.
 
@@ -426,7 +426,7 @@ And cackling loudly she moves past me, dragging her gear with her. Her laughter 
 
 "Yes." I lie. Her laugh really does remind me of Christmas hand bells.
 
-"Well it's a good thing he still has work. My brother is a tour guide. His company have kept him on the payroll for now, but who knows when he'll actually receive a salary again."
+"Well it's a good thing he still has work. My brother is a tour guide. His company has kept him on the payroll for now, but who knows when he'll actually receive a salary again."
 
 The tourism industry is arguably the first and worst hit by the pandemic.
 
@@ -494,7 +494,7 @@ Before I can answer Janna, our hostess comes out of her room with anxious energy
 
 "So, what are we having for dinner? I'm angry and hungry, and I want carbs."
 
-Notwithstanding my full belly from the brownie, I nod enthusiastically at Keira. She probably hasn't eaten anything the whole day, and it's her house, so it's not like I'm going to quibble over an early dinner. Anyway, Keira tends to answer her own questions.
+Notwithstanding my full belly from the brownie, I nod enthusiastically at Keira. She probably hasn't eaten anything the whole day, and it's her house; so it's not like I'm going to quibble over an early dinner. Anyway, Keira tends to answer her own questions.
 
 "I know, I know!" She really is very predictable. "There's a sourdough place that we can order from. Have you tried sourdough pizza? It's-- kill me now-- it's to die for."
 
@@ -519,7 +519,7 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 ****[Open the door]
 As I open the door, the delivery guy has his back half turned away from me as he organises the items in the waterproof bag mounted behind his bicycle. Something about the way he holds himself strikes me as familiar. He is, as Keira described, wearing a black bicycle helmet, a light blue Oxford shirt and khaki chinos. Leather shoes entirely unsuitable for cycling.
 
-When he towards me the colour on his face drains away and he nearly drops our order from his nerveless fingers. 
+When he turns towards me, the colour on my husband's face drains away and he nearly drops our order from his nerveless fingers. 
 
 "Darling? What are you doing here?" We say at the same time.
 
