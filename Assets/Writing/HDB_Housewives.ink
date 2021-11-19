@@ -283,7 +283,7 @@ He leafs through his notebook starting from the back. Neat chinese script flows 
 
 Now, I barely passed my chinese 'O' levels in school and much of the meaning and artistry is absolutely wasted on me, but as his voice stops wavering and gains confidence, I hear him paint a scene of a schoolgirl watching her uncle play chess under the void deck. She asks for money to buy a drink from the nearby mamak stall and points out a move he missed.
 
-Merwyn captures the characters with a loving gaze and describes them intimately: the posture of old men bent over a chessboard, the clink of a metal teaspoon in a glass of hot tea.
+Merwyn captures the characters with a loving gaze and describes them intimately. His poem evokes my own memories: the posture of old men bent over a chessboard, the clink of a metal teaspoon in a mug of hot milky tea.
 
 As he finishes reading, I can almost hear the sighs and laughter of the bystanders watching the game. He looks up at me and smiles. For all his diffidence, he's proud of his work. Before his leans back in his chair, I catch a whiff of his cologne; it is spicy, masculine, and pleasing.
 
