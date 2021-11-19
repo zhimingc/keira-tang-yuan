@@ -14,7 +14,20 @@
 							<Position X="2" Y="1"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="bgm_volume" ID="{6B5751CA-3D25-42CC-9A63-CA3D0A43E7CA}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="vo_volume" ID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="sfx_volume" ID="{37999000-B6F7-4870-BF11-521272235D74}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

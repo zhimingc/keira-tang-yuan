@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 4bd15ed3500e4749b0d6d94484b7f438
     GuidInternal: 
-    m_lastTime: -8585644667338004366
+    m_lastTime: -8585642641579634749
     List:
     - name: BGM
       guid: 025e370794d3e043bbce3243d427f060
@@ -1852,6 +1852,61 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585648040375989587
     List: []
+  - PhysicalPath: Game Parameters\volume sliders.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: volume sliders
+      ObjectType: 12
+      guid: f0ba6a1643857043b1e8ff061ce0508a
+    ParentPath: Game Parameters\volume sliders
+    guid: f0ba6a1643857043b1e8ff061ce0508a
+    GuidInternal: 
+    m_lastTime: -8585642641579594743
+    List:
+    - name: bgm_volume
+      guid: ca51576b253dcc429a63ca3d0a43e7ca
+      id: 341651998
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: volume sliders
+        ObjectType: 12
+        guid: f0ba6a1643857043b1e8ff061ce0508a
+      - ElementName: bgm_volume
+        ObjectType: 13
+        guid: ca51576b253dcc429a63ca3d0a43e7ca
+      Path: Game Parameters\volume sliders\bgm_volume
+    - name: sfx_volume
+      guid: 00909937f7b67048bf11521272235d74
+      id: 1564184899
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: volume sliders
+        ObjectType: 12
+        guid: f0ba6a1643857043b1e8ff061ce0508a
+      - ElementName: sfx_volume
+        ObjectType: 13
+        guid: 00909937f7b67048bf11521272235d74
+      Path: Game Parameters\volume sliders\sfx_volume
+    - name: vo_volume
+      guid: c26cadb1d1dee2479e5e31cc7f316a52
+      id: 2295491857
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: volume sliders
+        ObjectType: 12
+        guid: f0ba6a1643857043b1e8ff061ce0508a
+      - ElementName: vo_volume
+        ObjectType: 13
+        guid: c26cadb1d1dee2479e5e31cc7f316a52
+      Path: Game Parameters\volume sliders\vo_volume
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

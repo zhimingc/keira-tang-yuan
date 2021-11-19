@@ -11,13 +11,18 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2222828944">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3409929814">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
 				<AuxBus Id="4155165709" Name="UI_Verb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\UI_Verb" GUID="{A3BC64B7-7AB0-4355-B818-FA6F296CAD0D}"/>
 			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="341651998" Name="bgm_volume" ObjectPath="\Game Parameters\volume sliders\bgm_volume" GUID="{6B5751CA-3D25-42CC-9A63-CA3D0A43E7CA}"/>
+				<GameParameter Id="1564184899" Name="sfx_volume" ObjectPath="\Game Parameters\volume sliders\sfx_volume" GUID="{37999000-B6F7-4870-BF11-521272235D74}"/>
+				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="3633385265">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>

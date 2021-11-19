@@ -111,6 +111,13 @@ namespace AK
         static const AkUniqueID VO_STOP = 3484353603U;
     } // namespace EVENTS
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID BGM_VOLUME = 341651998U;
+        static const AkUniqueID SFX_VOLUME = 1564184899U;
+        static const AkUniqueID VO_VOLUME = 2295491857U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
