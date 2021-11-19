@@ -41,7 +41,7 @@ I've nearly forgotten that I ordered bubble tea for myself.
 Well, perfect timing to kick back and reward myself for cleaning the living room.
 *[Open the door]
 #speech
-#DeliveryBoy
+#CP_DeliveryBoy
 "Ma'am, your bubble tea!"
 #thought
 #MC

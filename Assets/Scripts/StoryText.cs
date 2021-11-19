@@ -10,6 +10,7 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
     public List<Image> backings;
     public List<Color> fontColorTypes;
     public Image backing;
+    public Text characterNameText;
     public Vector2 backingBuffer;
  
     private Text text;
@@ -46,5 +47,10 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
         {
             storyParent.Advance();
         }
+    }
+
+    public void SetCharacterName(string cName)
+    {
+        characterNameText.text = cName;
     }
 }

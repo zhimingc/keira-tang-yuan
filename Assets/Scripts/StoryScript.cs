@@ -13,25 +13,22 @@ public enum STORY_STATE
 
 public class StoryScript : MonoBehaviour
 {
-	[SerializeField]
-	private TextAsset inkAsset;
+	public TextAsset inkAsset;
 	private Story _inkStory;
 	private bool storyNeeded;
 	private bool advance;
 
-	[SerializeField]
-	private Canvas canvas;
-	[SerializeField]
-	private float elementPadding;
+	public Canvas canvas;
+	public float elementPadding;
 
 	/* UI Prefabs */
-	[SerializeField]
-	private UnityEngine.UI.Text text;
-	[SerializeField]
-	private UnityEngine.UI.Image choiceAsk;
-	[SerializeField]
-	private UnityEngine.UI.Button button;
+	public UnityEngine.UI.Text text;
+	public UnityEngine.UI.Image choiceAsk;
+	public UnityEngine.UI.Button button;
 	private UnityEngine.UI.Text storyText;
+
+	/* UI scripts */
+	private StoryText storyTextScript;
 
 	/* State Machine */
 	public STORY_STATE StoryState;
@@ -58,6 +55,7 @@ public class StoryScript : MonoBehaviour
 				if (advance)
 				{
 					storyText = Instantiate(text) as UnityEngine.UI.Text;
+					storyTextScript = storyText.GetComponent<StoryText>();
 					string storyString;
 					// HACK: to fix weird behaviour from Ink where lines after choices will be blank.
 					do
@@ -67,7 +65,7 @@ public class StoryScript : MonoBehaviour
 					while (_inkStory.canContinue && storyString == "\n");
 					storyText.text = storyString;
 					ProcessTags(_inkStory);
-					storyText.GetComponent<StoryText>().SetBacking((int)StoryState);
+					storyTextScript.SetBacking((int)StoryState);
 					storyText.transform.SetParent(canvas.transform, false);
 					advance = false;
 				}
@@ -111,18 +109,32 @@ public class StoryScript : MonoBehaviour
 
     void ProcessTags(Story inkStory)
     {
-		for (int i = 0; i < (int)STORY_STATE.NUM; ++i)
-        {
-			string storyStateString = ((STORY_STATE)i).ToString().ToLower();
-			for (int j = 0; j < inkStory.currentTags.Count; ++j)
+		for (int j = 0; j < inkStory.currentTags.Count; ++j)
+		{
+			string currentTag = _inkStory.currentTags[j];
+			string[] splitTag = currentTag.Split('_');
+			string prefix = splitTag[0];
+			// Check for story state tags
+			for (int i = 0; i < (int)STORY_STATE.NUM; ++i)
 			{
-				if (_inkStory.currentTags[j].Contains(storyStateString))
-                {
+				string storyStateString = ((STORY_STATE)i).ToString().ToLower();
+				if (currentTag.Contains(storyStateString))
+				{
 					StoryState = (STORY_STATE)i;
-                }
+				}
 			}
+
+			// Check for prefix tags
+			switch (prefix)
+            {
+				// Character Portrait
+				case "CP":
+					string name = splitTag[1];
+					storyTextScript.SetCharacterName(name);
+					break;
+            }
 		}
-    }
+	}
 
     void RemoveChildren()
 	{
