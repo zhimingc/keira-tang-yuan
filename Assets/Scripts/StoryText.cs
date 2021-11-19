@@ -26,21 +26,16 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
     // Update is called once per frame
     void Update()
     {
-        print(backings[0].enabled);
+
     }
 
     public void SetBacking(int backingIndex)
     {
-        //foreach (Image backing in backings)
-        //{
-        //    backing.enabled = false;
-        //}
-
         text = GetComponent<Text>();
         if (backingIndex < backings.Count)
         {
             //backing.sprite = backingTypes[backingIndex];
-            backings[backingIndex].enabled = true;
+            backings[backingIndex].gameObject.SetActive(true);
             text.color = fontColorTypes[backingIndex];
         }
     }

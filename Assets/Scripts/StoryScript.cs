@@ -28,6 +28,8 @@ public class StoryScript : MonoBehaviour
 	[SerializeField]
 	private UnityEngine.UI.Text text;
 	[SerializeField]
+	private UnityEngine.UI.Image choiceAsk;
+	[SerializeField]
 	private UnityEngine.UI.Button button;
 	private UnityEngine.UI.Text storyText;
 
@@ -51,7 +53,6 @@ public class StoryScript : MonoBehaviour
 		{
 			RemoveChildren();
 
-			float offset = 0;
 			if (_inkStory.canContinue)
 			{
 				if (advance)
@@ -68,8 +69,6 @@ public class StoryScript : MonoBehaviour
 					ProcessTags(_inkStory);
 					storyText.GetComponent<StoryText>().SetBacking((int)StoryState);
 					storyText.transform.SetParent(canvas.transform, false);
-					storyText.transform.Translate(new Vector2(0, offset));
-					offset -= (storyText.preferredHeight + elementPadding);
 					advance = false;
 				}
 			}
@@ -78,6 +77,8 @@ public class StoryScript : MonoBehaviour
 			{
 				if (_inkStory.currentChoices.Count > 0)
 				{
+					bool createAsk = _inkStory.currentChoices.Count > 0;
+					float offset = -75;
 					for (int i = 0; i < _inkStory.currentChoices.Count; ++i)
 					{
 						UnityEngine.UI.Button choice = Instantiate(button) as UnityEngine.UI.Button;
@@ -92,7 +93,14 @@ public class StoryScript : MonoBehaviour
 						int choiceId = i;
 						choice.onClick.AddListener(delegate { ChoiceSelected(choiceId); });
 
-						offset += (choiceText.preferredHeight + layoutGroup.padding.top + layoutGroup.padding.bottom + elementPadding);
+						offset += (layoutGroup.padding.top + layoutGroup.padding.bottom + elementPadding);
+					}
+
+					if (createAsk)
+					{
+						UnityEngine.UI.Image askImage = Instantiate<UnityEngine.UI.Image>(choiceAsk);
+						askImage.transform.SetParent(canvas.transform, false);
+						askImage.transform.Translate(new Vector2(0, offset));
 					}
 				}
 			}
@@ -108,7 +116,7 @@ public class StoryScript : MonoBehaviour
 			string storyStateString = ((STORY_STATE)i).ToString().ToLower();
 			for (int j = 0; j < inkStory.currentTags.Count; ++j)
 			{
-				if (_inkStory.currentTags[j] == storyStateString)
+				if (_inkStory.currentTags[j].Contains(storyStateString))
                 {
 					StoryState = (STORY_STATE)i;
                 }
