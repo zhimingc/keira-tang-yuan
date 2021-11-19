@@ -178,7 +178,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 511ce48fdcf912469449d56d73acf8bd
     GuidInternal: 
-    m_lastTime: -8585644700154136499
+    m_lastTime: -8585643066116715209
     List: []
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
@@ -816,8 +816,25 @@ MonoBehaviour:
     ParentPath: Events\Voice
     guid: e3afecd20562804a86402f8bb5b365a9
     GuidInternal: 
-    m_lastTime: -8585644665107370543
+    m_lastTime: -8585643066116794526
     List:
+    - name: VO_01OPN_010_mc_stop
+      guid: 48f8c7582e2d7041b91268a259ce4820
+      id: 2732647079
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_01OPN_010_mc_stop
+        ObjectType: 3
+        guid: 48f8c7582e2d7041b91268a259ce4820
+      Path: Events\Voice\VO_01OPN_010_mc_stop
+      maxAttenuation: 0
+      maxDuration: 1.787506
+      minDuration: 1.787506
     - name: VO_02DLV_010_delivery
       guid: 32d4900dee056141b5ad8577a2909166
       id: 3273819246
@@ -869,6 +886,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 67.03263
       minDuration: 67.03263
+    - name: VO_03ZOM_020_mc_stop
+      guid: 254f07043efaa34f831378e2d5c3dbb7
+      id: 2399135059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_020_mc_stop
+        ObjectType: 3
+        guid: 254f07043efaa34f831378e2d5c3dbb7
+      Path: Events\Voice\VO_03ZOM_020_mc_stop
+      maxAttenuation: 0
+      maxDuration: 3.010045
+      minDuration: 3.010045
+    - name: VO_03ZOM_030_mc_stop
+      guid: 458b4e9075ec7840ad84b44107d420b4
+      id: 3439848916
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_030_mc_stop
+        ObjectType: 3
+        guid: 458b4e9075ec7840ad84b44107d420b4
+      Path: Events\Voice\VO_03ZOM_030_mc_stop
+      maxAttenuation: 0
+      maxDuration: 8.033334
+      minDuration: 8.033334
     - name: VO_03ZOM_040_wendy
       guid: a000f66c6e76b84289bd4dcdf66d2050
       id: 2981718853
@@ -886,6 +937,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.290159
       minDuration: 2.290159
+    - name: VO_03ZOM_050_mc_stop
+      guid: 575ae05f526f41428bae8249806c107d
+      id: 2736681294
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_050_mc_stop
+        ObjectType: 3
+        guid: 575ae05f526f41428bae8249806c107d
+      Path: Events\Voice\VO_03ZOM_050_mc_stop
+      maxAttenuation: 0
+      maxDuration: 6.3
+      minDuration: 6.3
     - name: VO_03ZOM_060_wendy
       guid: e1efc707b9290d45af1667499c3047a3
       id: 1131043679
@@ -903,6 +971,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.10644
       minDuration: 4.10644
+    - name: VO_03ZOM_070_mc_stop
+      guid: 6f486caed4908943b95b1d453f13b81f
+      id: 1372993760
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_03ZOM_070_mc_stop
+        ObjectType: 3
+        guid: 6f486caed4908943b95b1d453f13b81f
+      Path: Events\Voice\VO_03ZOM_070_mc_stop
+      maxAttenuation: 0
+      maxDuration: 5.933333
+      minDuration: 5.933333
     - name: VO_03ZOM_080_wendy
       guid: 435fee293e6b844cbf0531d18fa4fa3e
       id: 3875258401
@@ -954,6 +1039,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.899864
       minDuration: 0.899864
+    - name: VO_04ACM_020_mc_stop
+      guid: ba576153f7831346acc7d33d9dc24d9f
+      id: 4024794761
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_020_mc_stop
+        ObjectType: 3
+        guid: ba576153f7831346acc7d33d9dc24d9f
+      Path: Events\Voice\VO_04ACM_020_mc_stop
+      maxAttenuation: 0
+      maxDuration: 4.366689
+      minDuration: 4.366689
     - name: VO_04ACM_030_alex
       guid: ef66b560dadfd547b653a299f4347e46
       id: 1761702355
@@ -971,6 +1073,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.14585
       minDuration: 1.14585
+    - name: VO_04ACM_040_mc_stop
+      guid: 3369daefe1b61245860ea77cba354a2e
+      id: 1030661095
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_040_mc_stop
+        ObjectType: 3
+        guid: 3369daefe1b61245860ea77cba354a2e
+      Path: Events\Voice\VO_04ACM_040_mc_stop
+      maxAttenuation: 0
+      maxDuration: 3.233333
+      minDuration: 3.233333
     - name: VO_04ACM_060_alex
       guid: b68a993531e67340b0b9912827893eaf
       id: 333498414

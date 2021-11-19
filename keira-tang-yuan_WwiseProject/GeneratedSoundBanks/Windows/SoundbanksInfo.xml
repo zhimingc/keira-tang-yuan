@@ -19,7 +19,7 @@
 				<AuxBus Id="4155165709" Name="UI_Verb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\UI_Verb" GUID="{A3BC64B7-7AB0-4355-B818-FA6F296CAD0D}"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="140463960">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="3633385265">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
@@ -270,6 +270,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="650331997" Name="SFX_stop" ObjectPath="\Events\SFX\SFX_stop" GUID="{1468BD4F-A5F5-4447-98E7-70D684B9CC77}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2732647079" Name="VO_01OPN_010_mc_stop" ObjectPath="\Events\Voice\VO_01OPN_010_mc_stop" GUID="{58C7F848-2D2E-4170-B912-68A259CE4820}" DurationType="OneShot" DurationMin="1.787506" DurationMax="1.787506">
+					<IncludedMemoryFiles>
+						<File Id="978863347" Language="English(US)">
+							<ShortName>VO_01OPN_010_mc.wav</ShortName>
+							<Path>Voices\English(US)\VO_01OPN_010_mc_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3273819246" Name="VO_02DLV_010_delivery" ObjectPath="\Events\Voice\VO_02DLV_010_delivery" GUID="{0D90D432-05EE-4161-B5AD-8577A2909166}" DurationType="OneShot" DurationMin="1.625011" DurationMax="1.625011">
 					<IncludedMemoryFiles>
 						<File Id="433872106" Language="English(US)">
@@ -294,6 +302,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2399135059" Name="VO_03ZOM_020_mc_stop" ObjectPath="\Events\Voice\VO_03ZOM_020_mc_stop" GUID="{04074F25-FA3E-4FA3-8313-78E2D5C3DBB7}" DurationType="OneShot" DurationMin="3.010045" DurationMax="3.010045">
+					<IncludedMemoryFiles>
+						<File Id="431474547" Language="English(US)">
+							<ShortName>VO_03ZOM_020_mc.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_020_mc_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3439848916" Name="VO_03ZOM_030_mc_stop" ObjectPath="\Events\Voice\VO_03ZOM_030_mc_stop" GUID="{904E8B45-EC75-4078-AD84-B44107D420B4}" DurationType="OneShot" DurationMin="8.033334" DurationMax="8.033334">
+					<IncludedMemoryFiles>
+						<File Id="598813191" Language="English(US)">
+							<ShortName>VO_03ZOM_030_mc.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_030_mc_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2981718853" Name="VO_03ZOM_040_wendy" ObjectPath="\Events\Voice\VO_03ZOM_040_wendy" GUID="{6CF600A0-766E-42B8-89BD-4DCDF66D2050}" DurationType="OneShot" DurationMin="2.290159" DurationMax="2.290159">
 					<IncludedMemoryFiles>
 						<File Id="561692553" Language="English(US)">
@@ -302,11 +326,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2736681294" Name="VO_03ZOM_050_mc_stop" ObjectPath="\Events\Voice\VO_03ZOM_050_mc_stop" GUID="{5FE05A57-6F52-4241-8BAE-8249806C107D}" DurationType="OneShot" DurationMin="6.300000" DurationMax="6.300000">
+					<IncludedMemoryFiles>
+						<File Id="105012531" Language="English(US)">
+							<ShortName>VO_03ZOM_050_mc.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_050_mc_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1131043679" Name="VO_03ZOM_060_wendy" ObjectPath="\Events\Voice\VO_03ZOM_060_wendy" GUID="{07C7EFE1-29B9-450D-AF16-67499C3047A3}" DurationType="OneShot" DurationMin="4.106440" DurationMax="4.106440">
 					<IncludedMemoryFiles>
 						<File Id="14270852" Language="English(US)">
 							<ShortName>VO_03ZOM_060_wendy.wav</ShortName>
 							<Path>Voices\English(US)\VO_03ZOM_060_wendy_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1372993760" Name="VO_03ZOM_070_mc_stop" ObjectPath="\Events\Voice\VO_03ZOM_070_mc_stop" GUID="{AE6C486F-90D4-4389-B95B-1D453F13B81F}" DurationType="OneShot" DurationMin="5.933333" DurationMax="5.933333">
+					<IncludedMemoryFiles>
+						<File Id="150967447" Language="English(US)">
+							<ShortName>VO_03ZOM_070_mc.wav</ShortName>
+							<Path>Voices\English(US)\VO_03ZOM_070_mc_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -334,11 +374,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="4024794761" Name="VO_04ACM_020_mc_stop" ObjectPath="\Events\Voice\VO_04ACM_020_mc_stop" GUID="{536157BA-83F7-4613-ACC7-D33D9DC24D9F}" DurationType="OneShot" DurationMin="4.366689" DurationMax="4.366689">
+					<IncludedMemoryFiles>
+						<File Id="919145627" Language="English(US)">
+							<ShortName>VO_04ACM_020_mc.wav</ShortName>
+							<Path>Voices\English(US)\VO_04ACM_020_mc_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1761702355" Name="VO_04ACM_030_alex" ObjectPath="\Events\Voice\VO_04ACM_030_alex" GUID="{60B566EF-DFDA-47D5-B653-A299F4347E46}" DurationType="OneShot" DurationMin="1.145850" DurationMax="1.145850">
 					<IncludedMemoryFiles>
 						<File Id="228705130" Language="English(US)">
 							<ShortName>VO_04ACM_030_alex.wav</ShortName>
 							<Path>Voices\English(US)\VO_04ACM_030_alex_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1030661095" Name="VO_04ACM_040_mc_stop" ObjectPath="\Events\Voice\VO_04ACM_040_mc_stop" GUID="{EFDA6933-B6E1-4512-860E-A77CBA354A2E}" DurationType="OneShot" DurationMin="3.233333" DurationMax="3.233333">
+					<IncludedMemoryFiles>
+						<File Id="970122492" Language="English(US)">
+							<ShortName>VO_04ACM_040_mc.wav</ShortName>
+							<Path>Voices\English(US)\VO_04ACM_040_mc_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
