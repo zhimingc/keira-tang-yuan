@@ -9,6 +9,7 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
     //public List<Sprite> backingTypes;
     public List<Image> backings;
     public List<Color> fontColorTypes;
+    public Image RHSCharacterPortrait;
     public Image backing;
     public Text characterNameText;
     public Vector2 backingBuffer;
@@ -18,10 +19,8 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
 
     // Start is called before the first frame update
     void Start()
-    {
+    { 
         storyParent = GetComponentInParent<StoryScript>();
-        //backing.rectTransform.sizeDelta = new Vector2(text.rectTransform.sizeDelta.x, text.preferredHeight) + backingBuffer * 2.0f;
-        //backing.rectTransform.anchoredPosition = new Vector3(-backingBuffer.x, backingBuffer.y, 0.0f);
     }
 
     // Update is called once per frame
@@ -38,6 +37,10 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
             //backing.sprite = backingTypes[backingIndex];
             backings[backingIndex].gameObject.SetActive(true);
             text.color = fontColorTypes[backingIndex];
+
+            if (backingIndex == 0)
+            {
+            }
         }
     }
 

@@ -1,7 +1,9 @@
 using UnityEngine;
+using System.Collections.Generic;
 using System.Collections;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public enum STORY_STATE
 {
@@ -14,6 +16,8 @@ public enum STORY_STATE
 public class StoryScript : MonoBehaviour
 {
 	public TextAsset inkAsset;
+	public CharacterPortraits cpController;
+
 	private Story _inkStory;
 	private bool storyNeeded;
 	private bool advance;
@@ -22,10 +26,14 @@ public class StoryScript : MonoBehaviour
 	public float elementPadding;
 
 	/* UI Prefabs */
-	public UnityEngine.UI.Text text;
-	public UnityEngine.UI.Image choiceAsk;
-	public UnityEngine.UI.Button button;
-	private UnityEngine.UI.Text storyText;
+	public Text text;
+	public Image choiceAsk;
+	public Button button;
+	private Text storyText;
+
+	/* Instanced gameobjects */
+	// to be removed every Continue
+	private List<GameObject> tempObjs = new List<GameObject>();	
 
 	/* UI scripts */
 	private StoryText storyTextScript;
@@ -54,7 +62,7 @@ public class StoryScript : MonoBehaviour
 			{
 				if (advance)
 				{
-					storyText = Instantiate(text) as UnityEngine.UI.Text;
+					storyText = Instantiate(text);
 					storyTextScript = storyText.GetComponent<StoryText>();
 					string storyString;
 					// HACK: to fix weird behaviour from Ink where lines after choices will be blank.
@@ -68,6 +76,7 @@ public class StoryScript : MonoBehaviour
 					storyTextScript.SetBacking((int)StoryState);
 					storyText.transform.SetParent(canvas.transform, false);
 					advance = false;
+					tempObjs.Add(storyText.gameObject);
 				}
 			}
 
@@ -79,26 +88,28 @@ public class StoryScript : MonoBehaviour
 					float offset = -75;
 					for (int i = 0; i < _inkStory.currentChoices.Count; ++i)
 					{
-						UnityEngine.UI.Button choice = Instantiate(button) as UnityEngine.UI.Button;
+						Button choice = Instantiate(button);
 						choice.transform.SetParent(canvas.transform, false);
 						choice.transform.Translate(new Vector2(0, offset));
 
-						UnityEngine.UI.Text choiceText = choice.GetComponentInChildren<UnityEngine.UI.Text>();
+						Text choiceText = choice.GetComponentInChildren<Text>();
 						choiceText.text = _inkStory.currentChoices[i].text;
 
-						UnityEngine.UI.HorizontalLayoutGroup layoutGroup = choice.GetComponent<UnityEngine.UI.HorizontalLayoutGroup>();
+						HorizontalLayoutGroup layoutGroup = choice.GetComponent<HorizontalLayoutGroup>();
 
 						int choiceId = i;
 						choice.onClick.AddListener(delegate { ChoiceSelected(choiceId); });
 
 						offset += (layoutGroup.padding.top + layoutGroup.padding.bottom + elementPadding);
+						tempObjs.Add(choice.gameObject);
 					}
 
 					if (createAsk)
 					{
-						UnityEngine.UI.Image askImage = Instantiate<UnityEngine.UI.Image>(choiceAsk);
+						Image askImage = Instantiate(choiceAsk);
 						askImage.transform.SetParent(canvas.transform, false);
 						askImage.transform.Translate(new Vector2(0, offset));
+						tempObjs.Add(askImage.gameObject);
 					}
 				}
 			}
@@ -121,6 +132,10 @@ public class StoryScript : MonoBehaviour
 				if (currentTag.Contains(storyStateString))
 				{
 					StoryState = (STORY_STATE)i;
+					if (i == 0)
+                    {
+						cpController.RemoveCharacter();
+					}
 				}
 			}
 
@@ -131,6 +146,7 @@ public class StoryScript : MonoBehaviour
 				case "CP":
 					string name = splitTag[1];
 					storyTextScript.SetCharacterName(name);
+					cpController.AddCharacter();
 					break;
             }
 		}
@@ -138,11 +154,10 @@ public class StoryScript : MonoBehaviour
 
     void RemoveChildren()
 	{
-		int childCount = canvas.transform.childCount;
-		for (int i = childCount - 1; i >= 0; --i)
-		{
-			GameObject.Destroy(canvas.transform.GetChild(i).gameObject);
-		}
+		for (int i = 0; i < tempObjs.Count; ++i)
+        {
+			Destroy(tempObjs[i]);
+        }
 	}
 
 	public void Advance()

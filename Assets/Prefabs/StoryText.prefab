@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 71, y: 53}
+  m_AnchoredPosition: {x: 800, y: 53}
   m_SizeDelta: {x: 468.75, y: 102.75}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1595541371781711470
@@ -499,6 +499,9 @@ MonoBehaviour:
   fontColorTypes:
   - {r: 1, g: 1, b: 1, a: 1}
   - {r: 0.9098039, g: 0.40392157, b: 0.10980392, a: 1}
+  RHSCharacterPortrait: {fileID: 0}
   backing: {fileID: 6238286333323989117}
   characterNameText: {fileID: 6304508349195739044}
   backingBuffer: {x: 100, y: 100}
+  rhsCP_endPos: {x: 0, y: 0, z: 0}
+  rhsCP_startPos: {x: 0, y: 0, z: 0}
