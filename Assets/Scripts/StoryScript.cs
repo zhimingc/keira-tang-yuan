@@ -199,7 +199,26 @@ public class StoryScript : MonoBehaviour
 						print("WARNING: Trying to load background with invalid path! [" + afterPrefix + "]");
                     }
 					break;
-            }
+				case "VO":
+				case "sfx":
+				case "amb":
+					// Debug.Log("Play Sound " + currentTag);
+					AkSoundEngine.PostEvent(currentTag, gameObject);
+					break;
+				case "BGM":
+					// Debug.Log("Change state " + currentTag);
+					AkSoundEngine.SetState("HH_States", currentTag);
+					break;
+				case "RTPC":
+					//Debug.Log("RTPC RAW" + currentTag);
+					string[] rtpcTag = currentTag.Split(' ');
+					if (rtpcTag.Length < 2)
+						break;
+					//Debug.Log(rtpcTag.Length + ", RTPC VALUE " + rtpcTag[0] + " to " + rtpcTag[1]);
+					AkSoundEngine.SetRTPCValue(rtpcTag[0], float.Parse(rtpcTag[1]));
+					break;
+
+			}
 		}
 	}
 
