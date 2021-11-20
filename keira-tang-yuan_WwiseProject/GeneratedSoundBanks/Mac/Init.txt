@@ -1,0 +1,21 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	341651998	bgm_volume			\volume sliders\bgm_volume	
+	1564184899	sfx_volume			\volume sliders\sfx_volume	
+	2295491857	vo_volume			\volume sliders\vo_volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	412724365	BGM			\Default Work Unit\Master Audio Bus\BGM	
+	1534528548	VO			\Default Work Unit\Master Audio Bus\VO	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	4155165709	UI_Verb			\Default Work Unit\Master Audio Bus\SFX\UI_Verb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	952479126	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

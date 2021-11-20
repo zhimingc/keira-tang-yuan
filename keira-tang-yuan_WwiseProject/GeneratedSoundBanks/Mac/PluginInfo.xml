@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Project="keira-tang-yuan_WwiseProject" Platform="Mac" BasePlatform="Mac">
+	<Plugins>
+		<Plugin Name="Wwise Compressor" ID="7077891" DLL="AkCompressor" StaticLib="AkCompressorFX"/>
+		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
+		<Plugin Name="System" ID="11403271"/>
+		<Plugin Name="No Output" ID="11862023"/>
+	</Plugins>
+</PluginInfo>

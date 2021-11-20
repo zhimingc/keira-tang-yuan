@@ -24,7 +24,7 @@
 				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="3633385265">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="4053979017">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
