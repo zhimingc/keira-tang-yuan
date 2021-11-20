@@ -17,6 +17,7 @@ public class StoryScript : MonoBehaviour
 {
 	public TextAsset inkAsset;
 	public CharacterPortraits cpController;
+	public CameraPan panningScript;
 
 	private Story _inkStory;
 	private bool storyNeeded;

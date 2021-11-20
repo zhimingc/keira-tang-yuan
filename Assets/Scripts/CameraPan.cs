@@ -7,7 +7,7 @@ public class CameraPan : MonoBehaviour
     [SerializeField]
     public UnityEngine.UI.Image imagePrefab;
 
-    private UnityEngine.UI.Image image;
+    public UnityEngine.UI.Image image;
 
     [SerializeField]
     public Canvas canvas;
@@ -154,6 +154,12 @@ public class CameraPan : MonoBehaviour
     {
         SetImageSize();
         HandleMouseMovement();
+    }
+
+    public void SetBackgroundImage(Sprite texture)
+    {
+        image.sprite = texture;
+        SetImageSize();
     }
 
     private void LateUpdate()
