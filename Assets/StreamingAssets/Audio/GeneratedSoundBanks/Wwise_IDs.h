@@ -26,6 +26,8 @@ namespace AK
         static const AkUniqueID SFX_00GEN_CLICK = 1010927348U;
         static const AkUniqueID SFX_00GEN_DOOR = 4280253252U;
         static const AkUniqueID SFX_00GEN_DOORBELL = 2261318223U;
+        static const AkUniqueID SFX_00GEN_SEX = 770338152U;
+        static const AkUniqueID SFX_00GEN_SEX_STOP = 1900871751U;
         static const AkUniqueID SFX_01OPN_COUCH = 2772396626U;
         static const AkUniqueID SFX_01OPN_JET = 1854270925U;
         static const AkUniqueID SFX_01OPN_PHOTO = 376518116U;
@@ -48,6 +50,10 @@ namespace AK
         static const AkUniqueID SFX_10VCM_VACUUM_STOP = 839339977U;
         static const AkUniqueID SFX_11KEI_DOG = 2342739123U;
         static const AkUniqueID SFX_11KEI_DOORBELL = 1269518332U;
+        static const AkUniqueID SFX_BGM_MC = 2228393324U;
+        static const AkUniqueID SFX_BGM_PAUSE = 3095557022U;
+        static const AkUniqueID SFX_BGM_START = 3964665964U;
+        static const AkUniqueID SFX_BGM_STOP = 1293310080U;
         static const AkUniqueID SFX_STOP = 650331997U;
         static const AkUniqueID VO_01OPN_010_MC = 3811221128U;
         static const AkUniqueID VO_02DLV_010_DELIVERY = 3273819246U;
@@ -132,9 +138,34 @@ namespace AK
         static const AkUniqueID VO_STOP = 3484353603U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace HH_STATES
+        {
+            static const AkUniqueID GROUP = 2553923198U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BGM_ACM = 2227843141U;
+                static const AkUniqueID BGM_CHF = 1540358061U;
+                static const AkUniqueID BGM_DLV = 2110944158U;
+                static const AkUniqueID BGM_DOORBELL = 315087739U;
+                static const AkUniqueID BGM_END = 1641317903U;
+                static const AkUniqueID BGM_INS = 1639346468U;
+                static const AkUniqueID BGM_KEI = 1723528717U;
+                static const AkUniqueID BGM_MC = 3080045164U;
+                static const AkUniqueID BGM_VCM = 1689238054U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace HH_STATES
+
+    } // namespace STATES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID BGM_VOLUME = 341651998U;
+        static const AkUniqueID RTPC_LUST = 1365294111U;
+        static const AkUniqueID RTPC_SEX = 3488785021U;
         static const AkUniqueID SFX_VOLUME = 1564184899U;
         static const AkUniqueID VO_VOLUME = 2295491857U;
     } // namespace GAME_PARAMETERS

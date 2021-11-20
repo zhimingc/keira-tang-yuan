@@ -169,10 +169,18 @@
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{4F777774-707B-4498-95ED-CB7ED14E733E}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{4F777774-707B-4498-95ED-CB7ED14E733E}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="QualityFactor" Type="Real32" Value="6"/>
+										</PropertyList>
+									</ConversionPlugin>
 								</ConversionPluginInfo>
 								<ConversionPluginInfo Platform="Mac">
-									<ConversionPlugin Name="" ID="{B3DE6AA7-F49D-4DBE-9F16-E5F934DFD184}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{B3DE6AA7-F49D-4DBE-9F16-E5F934DFD184}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="QualityFactor" Type="Real32" Value="6"/>
+										</PropertyList>
+									</ConversionPlugin>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>

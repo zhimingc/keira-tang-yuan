@@ -11,7 +11,7 @@
 								<RTPC Name="" ID="{E9DA9733-BF89-4FF3-AD2A-8B65A8CC3929}" ShortID="1018181070">
 									<ReferenceList>
 										<Reference Name="ControlInput">
-											<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+											<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 										</Reference>
 									</ReferenceList>
 									<Curve Name="" ID="{81B6EE0A-9245-4016-A5A5-7B97E2831156}">

@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="BGM" ID="{65C456E9-E10F-4475-AF64-982BB20067C0}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Music" ID="{DF42CEE0-41F7-493B-B153-0CE4929F8EEE}">
+				<Event Name="sfx_BGM_start" ID="{DF42CEE0-41F7-493B-B153-0CE4929F8EEE}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="17"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -21,7 +21,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_Music" ID="{96E2E8CE-923E-44D8-96DB-2C81C73626CE}">
+				<Event Name="sfx_BGM_stop" ID="{96E2E8CE-923E-44D8-96DB-2C81C73626CE}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="23"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -40,7 +40,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Pause_Music" ID="{81FB6332-5542-4D0A-AFA9-4CEE78649732}">
+				<Event Name="sfx_BGM_pause" ID="{81FB6332-5542-4D0A-AFA9-4CEE78649732}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="19"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -54,6 +54,50 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BGM_Switch" ID="{2F6FD6E3-5C4F-4202-8E83-72AB74324753}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_BGM_mc" ID="{E817D17C-DAEA-49AA-934C-D5A035361D20}">
+					<ChildrenList>
+						<Action Name="" ID="{6953829E-D606-4AF6-AAF6-A0691DD97785}" ShortID="868017048">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_MC" ID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}" WorkUnitID="{04994CD8-32C0-4043-BAF3-5B7E74AC5985}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4ADC4FC2-3670-43B9-950B-0C6FCEFFD5C6}" ShortID="526623978">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{957DB1D4-7A6E-4D52-A929-D739BA4EE069}" ShortID="89158408">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CF46A6D2-B29A-436C-A5D9-1A5FD077CBA1}" ShortID="174821690">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SEX" ID="{1CB6E411-602C-4A7E-8252-F699A51A2CA7}" WorkUnitID="{2445AA74-F2A0-4127-B321-0A1C61244F65}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

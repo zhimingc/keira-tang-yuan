@@ -6,15 +6,15 @@
 				<SoundcasterSession Name="test" ID="{40D134B2-F75E-4DE0-9AD9-2994B91C0D60}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Pause_Music" ID="{81FB6332-5542-4D0A-AFA9-4CEE78649732}" WorkUnitID="{65C456E9-E10F-4475-AF64-982BB20067C0}"/>
+							<ObjectRef Name="sfx_BGM_pause" ID="{81FB6332-5542-4D0A-AFA9-4CEE78649732}" WorkUnitID="{65C456E9-E10F-4475-AF64-982BB20067C0}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="sfx_12SEX_Play" ID="{284F6874-EA33-46B9-881E-32BD9BF6AD8A}" WorkUnitID="{B5C6CBC7-AD94-4891-A005-F377594080FD}"/>
+							<ObjectRef Name="sfx_00GEN_sex" ID="{284F6874-EA33-46B9-881E-32BD9BF6AD8A}" WorkUnitID="{7A5CE864-ABED-4049-B363-5074180A7BC3}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Music" ID="{DF42CEE0-41F7-493B-B153-0CE4929F8EEE}" WorkUnitID="{65C456E9-E10F-4475-AF64-982BB20067C0}"/>
+							<ObjectRef Name="sfx_BGM_start" ID="{DF42CEE0-41F7-493B-B153-0CE4929F8EEE}" WorkUnitID="{65C456E9-E10F-4475-AF64-982BB20067C0}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
@@ -22,7 +22,7 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_Music" ID="{96E2E8CE-923E-44D8-96DB-2C81C73626CE}" WorkUnitID="{65C456E9-E10F-4475-AF64-982BB20067C0}"/>
+							<ObjectRef Name="sfx_BGM_stop" ID="{96E2E8CE-923E-44D8-96DB-2C81C73626CE}" WorkUnitID="{65C456E9-E10F-4475-AF64-982BB20067C0}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
@@ -36,7 +36,7 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}"/>
+							<GameParameterRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}"/>
 							<Value>10</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -48,12 +48,12 @@
 							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
-							<GameParameterRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}"/>
+							<GameParameterRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}"/>
 							<Value>10</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="BBT" ID="{585CC0D9-C875-4491-B19E-3386175B620A}"/>
+						<CurrentStateRef Name="BGM_DLV" ID="{585CC0D9-C875-4491-B19E-3386175B620A}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

@@ -10,54 +10,54 @@
 					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}"/>
-						<State Name="MC" ID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}">
+						<State Name="BGM_MC" ID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="21"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
-						<State Name="BBT" ID="{585CC0D9-C875-4491-B19E-3386175B620A}">
+						<State Name="BGM_DLV" ID="{585CC0D9-C875-4491-B19E-3386175B620A}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="17"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
-						<State Name="Insurance" ID="{3F11A23C-F6B3-476E-95B2-5DED98AAB832}">
+						<State Name="BGM_INS" ID="{3F11A23C-F6B3-476E-95B2-5DED98AAB832}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="2"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
-						<State Name="Aircon" ID="{689F6015-8E70-4522-BB6B-6573B827BDE3}">
+						<State Name="BGM_ACM" ID="{689F6015-8E70-4522-BB6B-6573B827BDE3}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="27"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
-						<State Name="Carol" ID="{CCBFBE2A-AA11-4125-8D80-B51C8A690122}">
+						<State Name="BGM_VCM" ID="{CCBFBE2A-AA11-4125-8D80-B51C8A690122}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="25"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
-						<State Name="Chef" ID="{2B99C433-45CE-46E2-8349-2FEDFE8578D6}">
+						<State Name="BGM_CHF" ID="{2B99C433-45CE-46E2-8349-2FEDFE8578D6}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="19"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
-						<State Name="Husband" ID="{C61B5B09-C084-4265-904D-DD227F822930}">
+						<State Name="BGM_KEI" ID="{C61B5B09-C084-4265-904D-DD227F822930}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="9"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
-						<State Name="Doorbell" ID="{2F1F783F-702B-4856-9F4A-234F828FB8AE}">
+						<State Name="BGM_Doorbell" ID="{2F1F783F-702B-4856-9F4A-234F828FB8AE}">
 							<PropertyList>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
-						<State Name="END" ID="{32D9ED02-9B50-48DB-B2DA-46F5DEEB6F1A}">
+						<State Name="BGM_END" ID="{32D9ED02-9B50-48DB-B2DA-46F5DEEB6F1A}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="23"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
