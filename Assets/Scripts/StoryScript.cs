@@ -15,10 +15,11 @@ public enum STORY_STATE
 
 public class StoryScript : MonoBehaviour
 {
+	public GameObject[] debugObjs;
 	public TextAsset inkAsset;
 	public CharacterPortraits cpController;
 	public CameraPan panningScript;
-
+	
 	private Story _inkStory;
 	private bool storyNeeded;
 	private bool advance;
@@ -55,22 +56,30 @@ public class StoryScript : MonoBehaviour
 
 	void Update_Debug()
     {
-
+		// toggle debug display
+		if (Input.GetKeyDown(KeyCode.Escape))
+        {
+			foreach (GameObject obj in debugObjs)
+            {
+				obj.SetActive(!obj.activeSelf);
+            }
+        }
     }
 
 	// Update is called once per frame
 	void Update()
 	{
-		
+		Update_Debug();
+
 		if (storyNeeded == true)
 		{
 			RemoveChildren();
 
-			if (advance)
+			if (advance && _inkStory.canContinue)
 			{
-				string storyString = "";
 				// HACK: to fix weird behaviour from Ink where lines after choices will be blank.
-				while (_inkStory.canContinue || storyString == "\n")
+				string storyString = "\n";
+				while (storyString == "\n")
 				{
 					storyString = _inkStory.Continue();
 				}
@@ -156,8 +165,21 @@ public class StoryScript : MonoBehaviour
 				// Character Portrait
 				case "CP":
 					string name = splitTag[1];
+					if (name == "MC") break;
 					storyTextScript.SetCharacterName(name);
 					cpController.AddCharacter();
+					break;
+				case "BG":
+					string bgName = currentTag.Substring(currentTag.IndexOf('_') + 1, currentTag.Length - currentTag.IndexOf('_') - 1);
+					Sprite bgSprite = Resources.Load<Sprite>("Art/Background/" + bgName);
+					if (bgSprite != null)
+					{
+						panningScript.SetBackgroundImage(bgSprite);
+					}
+					else
+                    {
+						print("WARNING: Trying to load background with invalid path!");
+                    }
 					break;
             }
 		}
@@ -173,8 +195,11 @@ public class StoryScript : MonoBehaviour
 
 	public void Advance()
 	{
-		storyNeeded = true;
-		advance = true;
+		if (_inkStory.canContinue)
+        {
+			storyNeeded = true;
+			advance = true;
+        }
 	}
 
 	public void ChoiceSelected(int id)
