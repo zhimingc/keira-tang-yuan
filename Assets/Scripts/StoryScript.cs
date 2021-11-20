@@ -21,6 +21,7 @@ public class StoryScript : MonoBehaviour
 	private Story _inkStory;
 	private bool storyNeeded;
 	private bool advance;
+	private bool refreshStory;
 
 	public Canvas canvas;
 	public float elementPadding;
@@ -51,33 +52,42 @@ public class StoryScript : MonoBehaviour
 		advance = true;
 	}
 
+	void Update_Debug()
+    {
+
+    }
+
 	// Update is called once per frame
 	void Update()
 	{
-		if (storyNeeded == true && _inkStory.canContinue)
+		
+		if (storyNeeded == true)
 		{
 			RemoveChildren();
 
-			if (_inkStory.canContinue)
+			if (advance)
 			{
-				if (advance)
+				string storyString = "";
+				// HACK: to fix weird behaviour from Ink where lines after choices will be blank.
+				while (_inkStory.canContinue || storyString == "\n")
 				{
-					storyText = Instantiate(text);
-					storyTextScript = storyText.GetComponent<StoryText>();
-					string storyString;
-					// HACK: to fix weird behaviour from Ink where lines after choices will be blank.
-					do
-					{
-						storyString = _inkStory.Continue();
-					}
-					while (_inkStory.canContinue && storyString == "\n");
-					storyText.text = storyString;
-					ProcessTags(_inkStory);
-					storyTextScript.SetBacking((int)StoryState);
-					storyText.transform.SetParent(canvas.transform, false);
-					advance = false;
-					tempObjs.Add(storyText.gameObject);
+					storyString = _inkStory.Continue();
 				}
+				advance = false;
+				refreshStory = true;
+			}
+
+			if (refreshStory)
+            {
+				string storyString = _inkStory.currentText;
+				storyText = Instantiate(text);
+				storyTextScript = storyText.GetComponent<StoryText>();
+				storyText.text = storyString;
+				ProcessTags();
+				storyTextScript.SetBacking((int)StoryState);
+				storyText.transform.SetParent(canvas.transform, false);
+				tempObjs.Add(storyText.gameObject);
+				refreshStory = false;
 			}
 
 			if (!_inkStory.canContinue)
@@ -118,9 +128,9 @@ public class StoryScript : MonoBehaviour
 		}
 	}
 
-    void ProcessTags(Story inkStory)
+    void ProcessTags()
     {
-		for (int j = 0; j < inkStory.currentTags.Count; ++j)
+		for (int j = 0; j < _inkStory.currentTags.Count; ++j)
 		{
 			string currentTag = _inkStory.currentTags[j];
 			string[] splitTag = currentTag.Split('_');
@@ -171,5 +181,12 @@ public class StoryScript : MonoBehaviour
 		_inkStory.ChooseChoiceIndex(id);
 		buttonAudio.Post(gameObject);
 		Advance();
+	}
+
+	public void SetStory(Story newStory)
+    {
+		_inkStory = newStory;
+		refreshStory = true;
+		storyNeeded = true;
 	}
 }
