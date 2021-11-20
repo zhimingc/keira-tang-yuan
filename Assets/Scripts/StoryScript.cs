@@ -71,7 +71,8 @@ public class StoryScript : MonoBehaviour
 						storyString = _inkStory.Continue();
 					}
 					while (_inkStory.canContinue && storyString == "\n");
-					storyText.text = storyString;
+					storyTextScript.SetText(storyString);
+					// storyText.text = storyString;
 					ProcessTags(_inkStory);
 					storyTextScript.SetBacking((int)StoryState);
 					storyText.transform.SetParent(canvas.transform, false);
@@ -172,4 +173,5 @@ public class StoryScript : MonoBehaviour
 		buttonAudio.Post(gameObject);
 		Advance();
 	}
+
 }

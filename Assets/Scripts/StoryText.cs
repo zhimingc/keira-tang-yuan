@@ -16,6 +16,9 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
  
     private Text text;
     private StoryScript storyParent;
+    private TextSpawner textSpawner;
+
+    public string fullText;
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +49,12 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        if (textSpawner != null && !textSpawner.IsCompleted())
+        {
+            textSpawner.Skip();
+            return;
+        }
+
         if (storyParent)
         {
             storyParent.Advance();
@@ -55,5 +64,17 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
     public void SetCharacterName(string cName)
     {
         characterNameText.text = cName;
+    }
+
+    public void SetText(string textToSet) 
+    {
+        textSpawner = GetComponent<TextSpawner>();
+        if (textSpawner == null)
+        {
+            GetComponent<Text>().text = textToSet;
+            return;
+        }
+        textSpawner.PopulateText(textToSet);
+        Debug.Log("Populating");
     }
 }

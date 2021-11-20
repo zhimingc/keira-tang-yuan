@@ -411,6 +411,7 @@ GameObject:
   - component: {fileID: 7024371150418148460}
   - component: {fileID: 8268336890703624258}
   - component: {fileID: -5590988932122518112}
+  - component: {fileID: -3999244607107689901}
   m_Layer: 5
   m_Name: StoryText
   m_TagString: Untagged
@@ -503,5 +504,22 @@ MonoBehaviour:
   backing: {fileID: 6238286333323989117}
   characterNameText: {fileID: 6304508349195739044}
   backingBuffer: {x: 100, y: 100}
-  rhsCP_endPos: {x: 0, y: 0, z: 0}
-  rhsCP_startPos: {x: 0, y: 0, z: 0}
+  fullText: 
+--- !u!114 &-3999244607107689901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8699061501743236590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eaf44fc167403c47a7a40b97a7dfbb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnSpeed: 5
+  fullText: 
+  button_click:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
