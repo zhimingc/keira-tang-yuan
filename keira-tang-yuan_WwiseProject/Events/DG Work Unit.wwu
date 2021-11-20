@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5C6CBC7-AD94-4891-A005-F377594080FD}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="DG Work Unit" ID="{B5C6CBC7-AD94-4891-A005-F377594080FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="sfx_12SEX_Play" ID="{284F6874-EA33-46B9-881E-32BD9BF6AD8A}">
+					<ChildrenList>
+						<Action Name="" ID="{53675603-37C6-46D3-8E70-1959715CD439}" ShortID="847539294">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SEX" ID="{1CB6E411-602C-4A7E-8252-F699A51A2CA7}" WorkUnitID="{2445AA74-F2A0-4127-B321-0A1C61244F65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_12SEX_stop" ID="{724ACEA0-8589-4809-8981-5006DF19557F}">
+					<ChildrenList>
+						<Action Name="" ID="{AC9AA7D0-F7FB-4511-A31F-C76254DB622B}" ShortID="634069626">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SEX" ID="{1CB6E411-602C-4A7E-8252-F699A51A2CA7}" WorkUnitID="{2445AA74-F2A0-4127-B321-0A1C61244F65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

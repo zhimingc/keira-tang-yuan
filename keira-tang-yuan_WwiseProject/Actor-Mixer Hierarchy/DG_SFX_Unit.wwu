@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2445AA74-F2A0-4127-B321-0A1C61244F65}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="DG_SFX_Unit" ID="{2445AA74-F2A0-4127-B321-0A1C61244F65}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SEX" ID="{1CB6E411-602C-4A7E-8252-F699A51A2CA7}" ShortID="276271461">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{E9DA9733-BF89-4FF3-AD2A-8B65A8CC3929}" ShortID="1018181070">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{81B6EE0A-9245-4016-A5A5-7B97E2831156}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>9.999</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>-0.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{A65BD988-4ADA-4B11-9C63-33AC8AAF7BF0}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HDB_Sex" ID="{3EC6C0CB-991F-4A89-A65F-EB23BC40262E}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0980676727999441"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.261513794133186"/>
+								<Property Name="LoopEnd" Type="Real64" Value="8.58092136999518"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="8.67898904279513"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>HDB_Sex.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="401369101"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="HDB_Sex" ID="{3EC6C0CB-991F-4A89-A65F-EB23BC40262E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
