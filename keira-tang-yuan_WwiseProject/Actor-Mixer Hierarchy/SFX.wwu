@@ -148,6 +148,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="sfx_01OPN_jet" ID="{C53E839D-E747-479F-9C43-56F4E797B471}" ShortID="278549">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
