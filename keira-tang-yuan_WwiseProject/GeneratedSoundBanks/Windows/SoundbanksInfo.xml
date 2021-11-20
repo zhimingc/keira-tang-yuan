@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="2155756017">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="3968289150">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -24,7 +24,7 @@
 				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="2145252463">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="2073114308">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
@@ -93,14 +93,23 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2261318223" Name="sfx_00GEN_doorbell" ObjectPath="\Events\SFX\sfx_00GEN_doorbell" GUID="{1574B44E-8124-4ECA-906B-6F56401A66FF}" DurationType="OneShot" DurationMin="1.600000" DurationMax="1.600000">
+				<Event Id="2261318223" Name="sfx_00GEN_doorbell" ObjectPath="\Events\SFX\sfx_00GEN_doorbell" GUID="{FA73EB74-C36E-417D-A503-BB252D736115}" DurationType="OneShot" DurationMin="4.666667" DurationMax="4.666667">
 					<IncludedMemoryFiles>
-						<File Id="78429735" Language="SFX">
-							<ShortName>sfx_00GEN_doorbell.wav</ShortName>
-							<Path>SFX\sfx_00GEN_doorbell_D8C07C79.wem</Path>
+						<File Id="913199836" Language="SFX">
+							<ShortName>sfx_11KEI_doorbell.wav</ShortName>
+							<Path>SFX\sfx_11KEI_doorbell_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="770338152" Name="sfx_00GEN_sex" ObjectPath="\Events\SFX\sfx_00GEN_sex" GUID="{284F6874-EA33-46B9-881E-32BD9BF6AD8A}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="401369101" Language="SFX">
+							<ShortName>HDB_Sex.wav</ShortName>
+							<Path>SFX\HDB_Sex_776185BD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1900871751" Name="sfx_00GEN_sex_stop" ObjectPath="\Events\SFX\sfx_00GEN_sex_stop" GUID="{724ACEA0-8589-4809-8981-5006DF19557F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2772396626" Name="sfx_01OPN_couch" ObjectPath="\Events\SFX\sfx_01OPN_couch" GUID="{3CD3092B-1871-49B7-8E69-0A6276E29E1D}" DurationType="OneShot" DurationMin="1.466667" DurationMax="1.466667">
 					<IncludedMemoryFiles>
 						<File Id="934271634" Language="SFX">
@@ -266,15 +275,153 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1269518332" Name="sfx_11KEI_doorbell" ObjectPath="\Events\SFX\sfx_11KEI_doorbell" GUID="{FA73EB74-C36E-417D-A503-BB252D736115}" DurationType="OneShot" DurationMin="4.666667" DurationMax="4.666667">
+				<Event Id="1269518332" Name="sfx_11KEI_doorbell" ObjectPath="\Events\SFX\sfx_11KEI_doorbell" GUID="{1574B44E-8124-4ECA-906B-6F56401A66FF}" DurationType="OneShot" DurationMin="1.600000" DurationMax="1.600000">
 					<IncludedMemoryFiles>
-						<File Id="913199836" Language="SFX">
-							<ShortName>sfx_11KEI_doorbell.wav</ShortName>
-							<Path>SFX\sfx_11KEI_doorbell_D8C07C79.wem</Path>
+						<File Id="78429735" Language="SFX">
+							<ShortName>sfx_00GEN_doorbell.wav</ShortName>
+							<Path>SFX\sfx_00GEN_doorbell_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\HH_States\None" GUID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}"/>
+					</ActionSetState>
 				</Event>
-				<Event Id="650331997" Name="SFX_stop" ObjectPath="\Events\SFX\SFX_stop" GUID="{1468BD4F-A5F5-4447-98E7-70D684B9CC77}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2228393324" Name="sfx_BGM_mc" ObjectPath="\Events\BGM\sfx_BGM_mc" GUID="{E817D17C-DAEA-49AA-934C-D5A035361D20}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3080045164" Name="BGM_MC" ObjectPath="\States\Default Work Unit\HH_States\BGM_MC" GUID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3095557022" Name="sfx_BGM_pause" ObjectPath="\Events\BGM\sfx_BGM_pause" GUID="{81FB6332-5542-4D0A-AFA9-4CEE78649732}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3964665964" Name="sfx_BGM_start" ObjectPath="\Events\BGM\sfx_BGM_start" GUID="{DF42CEE0-41F7-493B-B153-0CE4929F8EEE}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="53242257" Language="SFX">
+							<ShortName>BGM_INS_L1.wav</ShortName>
+							<Path>SFX\BGM_INS_L1_0762CC47.wem</Path>
+						</File>
+						<File Id="85274256" Language="SFX">
+							<ShortName>BGM_AIR_L2.wav</ShortName>
+							<Path>SFX\BGM_AIR_L2_0762CC47.wem</Path>
+						</File>
+						<File Id="100357646" Language="SFX">
+							<ShortName>BGM_CHF_L3.wav</ShortName>
+							<Path>SFX\BGM_CHF_L3_0762CC47.wem</Path>
+						</File>
+						<File Id="175830175" Language="SFX">
+							<ShortName>BGM_AIR_L3.wav</ShortName>
+							<Path>SFX\BGM_AIR_L3_0762CC47.wem</Path>
+						</File>
+						<File Id="244884657" Language="SFX">
+							<ShortName>BGM_HB_2.wav</ShortName>
+							<Path>SFX\BGM_HB_2_0762CC47.wem</Path>
+						</File>
+						<File Id="281162764" Language="SFX">
+							<ShortName>BGM_CHF_L2.wav</ShortName>
+							<Path>SFX\BGM_CHF_L2_0762CC47.wem</Path>
+						</File>
+						<File Id="386012465" Language="SFX">
+							<ShortName>BGM_CHF_L1.wav</ShortName>
+							<Path>SFX\BGM_CHF_L1_0762CC47.wem</Path>
+						</File>
+						<File Id="491555084" Language="SFX">
+							<ShortName>BGM_CRL_L1.wav</ShortName>
+							<Path>SFX\BGM_CRL_L1_0762CC47.wem</Path>
+						</File>
+						<File Id="507534086" Language="SFX">
+							<ShortName>BGM_CRL_L3.wav</ShortName>
+							<Path>SFX\BGM_CRL_L3_0762CC47.wem</Path>
+						</File>
+						<File Id="548981122" Language="SFX">
+							<ShortName>BGM_MC_FULL.wav</ShortName>
+							<Path>SFX\BGM_MC_FULL_0762CC47.wem</Path>
+						</File>
+						<File Id="574172293" Language="SFX">
+							<ShortName>BGM_INS_L2.wav</ShortName>
+							<Path>SFX\BGM_INS_L2_0762CC47.wem</Path>
+						</File>
+						<File Id="795974096" Language="SFX">
+							<ShortName>BGM_CRL_L2.wav</ShortName>
+							<Path>SFX\BGM_CRL_L2_0762CC47.wem</Path>
+						</File>
+						<File Id="845675883" Language="SFX">
+							<ShortName>BGM_MC_P1.wav</ShortName>
+							<Path>SFX\BGM_MC_P1_0762CC47.wem</Path>
+						</File>
+						<File Id="864950307" Language="SFX">
+							<ShortName>sfx_11KEI_doorbell.wav</ShortName>
+							<Path>SFX\sfx_11KEI_doorbell_0762CC47.wem</Path>
+						</File>
+						<File Id="907854973" Language="SFX">
+							<ShortName>BGM_INS_L3.wav</ShortName>
+							<Path>SFX\BGM_INS_L3_0762CC47.wem</Path>
+						</File>
+						<File Id="921427323" Language="SFX">
+							<ShortName>BGM_HB_1.wav</ShortName>
+							<Path>SFX\BGM_HB_1_0762CC47.wem</Path>
+						</File>
+						<File Id="1005300857" Language="SFX">
+							<ShortName>BGM_AIR_L1.wav</ShortName>
+							<Path>SFX\BGM_AIR_L1_0762CC47.wem</Path>
+						</File>
+						<File Id="1034020154" Language="SFX">
+							<ShortName>BGM_MC_P2.wav</ShortName>
+							<Path>SFX\BGM_MC_P2_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{689F6015-8E70-4522-BB6B-6573B827BDE3}">
+							<Media>
+								<File Id="85274256"/>
+								<File Id="175830175"/>
+								<File Id="1005300857"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CCBFBE2A-AA11-4125-8D80-B51C8A690122}">
+							<Media>
+								<File Id="491555084"/>
+								<File Id="507534086"/>
+								<File Id="795974096"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2B99C433-45CE-46E2-8349-2FEDFE8578D6}">
+							<Media>
+								<File Id="100357646"/>
+								<File Id="281162764"/>
+								<File Id="386012465"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C61B5B09-C084-4265-904D-DD227F822930}">
+							<Media>
+								<File Id="921427323"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3F11A23C-F6B3-476E-95B2-5DED98AAB832}">
+							<Media>
+								<File Id="53242257"/>
+								<File Id="574172293"/>
+								<File Id="907854973"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}">
+							<Media>
+								<File Id="548981122"/>
+								<File Id="845675883"/>
+								<File Id="1034020154"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2F1F783F-702B-4856-9F4A-234F828FB8AE}">
+							<Media>
+								<File Id="864950307"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32D9ED02-9B50-48DB-B2DA-46F5DEEB6F1A}">
+							<Media>
+								<File Id="244884657"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1293310080" Name="sfx_BGM_stop" ObjectPath="\Events\BGM\sfx_BGM_stop" GUID="{96E2E8CE-923E-44D8-96DB-2C81C73626CE}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="650331997" Name="sfx_stop" ObjectPath="\Events\SFX\sfx_stop" GUID="{1468BD4F-A5F5-4447-98E7-70D684B9CC77}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3811221128" Name="VO_01OPN_010_mc" ObjectPath="\Events\Voice\VO_01OPN_010_mc" GUID="{58C7F848-2D2E-4170-B912-68A259CE4820}" DurationType="OneShot" DurationMin="1.787506" DurationMax="1.787506">
 					<IncludedMemoryFiles>
 						<File Id="978863347" Language="English(US)">
@@ -917,6 +1064,33 @@
 				</Event>
 				<Event Id="3484353603" Name="VO_stop" ObjectPath="\Events\Voice\VO_stop" GUID="{2375072B-BD1D-4966-A39F-4DC5B4C4CA25}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1365294111" Name="RTPC_Lust" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Lust" GUID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}"/>
+				<GameParameter Id="3488785021" Name="RTPC_Sex" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Sex" GUID="{7F971E3C-E622-459F-AE73-F9739254CA3A}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\HH_States\None" GUID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2553923198" Name="HH_States" ObjectPath="\States\Default Work Unit\HH_States" GUID="{8D44AE3E-8C09-4D57-A261-02A9EF9F3B0B}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\HH_States\None" GUID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}"/>
+						<State Id="3080045164" Name="BGM_MC" ObjectPath="\States\Default Work Unit\HH_States\BGM_MC" GUID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}"/>
+						<State Id="2110944158" Name="BGM_DLV" ObjectPath="\States\Default Work Unit\HH_States\BGM_DLV" GUID="{585CC0D9-C875-4491-B19E-3386175B620A}"/>
+						<State Id="1639346468" Name="BGM_INS" ObjectPath="\States\Default Work Unit\HH_States\BGM_INS" GUID="{3F11A23C-F6B3-476E-95B2-5DED98AAB832}"/>
+						<State Id="2227843141" Name="BGM_ACM" ObjectPath="\States\Default Work Unit\HH_States\BGM_ACM" GUID="{689F6015-8E70-4522-BB6B-6573B827BDE3}"/>
+						<State Id="1689238054" Name="BGM_VCM" ObjectPath="\States\Default Work Unit\HH_States\BGM_VCM" GUID="{CCBFBE2A-AA11-4125-8D80-B51C8A690122}"/>
+						<State Id="1540358061" Name="BGM_CHF" ObjectPath="\States\Default Work Unit\HH_States\BGM_CHF" GUID="{2B99C433-45CE-46E2-8349-2FEDFE8578D6}"/>
+						<State Id="1723528717" Name="BGM_KEI" ObjectPath="\States\Default Work Unit\HH_States\BGM_KEI" GUID="{C61B5B09-C084-4265-904D-DD227F822930}"/>
+						<State Id="315087739" Name="BGM_Doorbell" ObjectPath="\States\Default Work Unit\HH_States\BGM_Doorbell" GUID="{2F1F783F-702B-4856-9F4A-234F828FB8AE}"/>
+						<State Id="1641317903" Name="BGM_END" ObjectPath="\States\Default Work Unit\HH_States\BGM_END" GUID="{32D9ED02-9B50-48DB-B2DA-46F5DEEB6F1A}"/>
+						<State Id="743913214" Name="BGM_NONE" ObjectPath="\States\Default Work Unit\HH_States\BGM_NONE" GUID="{C9C1967B-FDDB-47AD-90DF-75A97877FB1D}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3080045164" Name="BGM_MC" ObjectPath="\States\Default Work Unit\HH_States\BGM_MC" GUID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

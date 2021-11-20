@@ -162,8 +162,8 @@ public class StoryScript : MonoBehaviour
 				// Character Portrait
 				case "CP":
 					string name = splitTag[1];
-					if (name == "MC") break;
 					storyTextScript.SetCharacterName(name);
+					if (name == "MC") break;
 					if (splitTag.Length > 2 && splitTag[2] == "Off")
 					{
 						cpController.MoveCharacterOut();

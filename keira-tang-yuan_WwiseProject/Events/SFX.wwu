@@ -69,7 +69,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="sfx_11KEI_doorbell" ID="{FA73EB74-C36E-417D-A503-BB252D736115}">
+				<Event Name="sfx_00GEN_doorbell" ID="{FA73EB74-C36E-417D-A503-BB252D736115}">
 					<ChildrenList>
 						<Action Name="" ID="{70847020-9966-4AD9-B3B0-24B8CB2152F3}" ShortID="549255474">
 							<ReferenceList>
@@ -189,12 +189,22 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="sfx_00GEN_doorbell" ID="{1574B44E-8124-4ECA-906B-6F56401A66FF}">
+				<Event Name="sfx_11KEI_doorbell" ID="{1574B44E-8124-4ECA-906B-6F56401A66FF}">
 					<ChildrenList>
 						<Action Name="" ID="{AC150ADF-60AE-45B1-8289-2AFB351984FC}" ShortID="497976125">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="sfx_00GEN_doorbell" ID="{B3B8B4B7-1451-420E-82B2-59226D3B0C3F}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D0989C47-3009-40BD-9B1F-DD7D040AFB55}" ShortID="395526415">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}" WorkUnitID="{04994CD8-32C0-4043-BAF3-5B7E74AC5985}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -461,7 +471,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="SFX_stop" ID="{1468BD4F-A5F5-4447-98E7-70D684B9CC77}">
+				<Event Name="sfx_stop" ID="{1468BD4F-A5F5-4447-98E7-70D684B9CC77}">
 					<ChildrenList>
 						<Action Name="" ID="{1977C5DB-1FEB-40B8-A3F2-9F07C8D8063A}" ShortID="1026813836">
 							<PropertyList>
@@ -470,6 +480,31 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="SFX" ID="{5112B895-A002-4FCF-BC4D-5E951B0DEDD1}" WorkUnitID="{0FA012A7-586B-401C-86A2-E2E395EF263A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_00GEN_sex_stop" ID="{724ACEA0-8589-4809-8981-5006DF19557F}">
+					<ChildrenList>
+						<Action Name="" ID="{AC9AA7D0-F7FB-4511-A31F-C76254DB622B}" ShortID="634069626">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SEX" ID="{1CB6E411-602C-4A7E-8252-F699A51A2CA7}" WorkUnitID="{2445AA74-F2A0-4127-B321-0A1C61244F65}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_00GEN_sex" ID="{284F6874-EA33-46B9-881E-32BD9BF6AD8A}">
+					<ChildrenList>
+						<Action Name="" ID="{53675603-37C6-46D3-8E70-1959715CD439}" ShortID="847539294">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SEX" ID="{1CB6E411-602C-4A7E-8252-F699A51A2CA7}" WorkUnitID="{2445AA74-F2A0-4127-B321-0A1C61244F65}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

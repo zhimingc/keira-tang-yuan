@@ -12,6 +12,8 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
     public Image RHSCharacterPortrait;
     public Image backing;
     public Text characterNameText;
+    public GameObject LHSNameLabel;
+    public GameObject RHSNameLabel;
     public Vector2 backingBuffer;
  
     private Text text;
@@ -63,7 +65,15 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
 
     public void SetCharacterName(string cName)
     {
-        characterNameText.text = cName;
+        if (cName == "MC")
+        {
+            LHSNameLabel.SetActive(true);
+        }
+        else
+        {
+            RHSNameLabel.SetActive(true);
+            characterNameText.text = cName;
+        }
     }
 
     public void SetText(string textToSet) 

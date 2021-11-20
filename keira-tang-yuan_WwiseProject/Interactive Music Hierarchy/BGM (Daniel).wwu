@@ -16,10 +16,10 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+							<ObjectRef Name="BGM" ID="{07375E02-D394-43E0-BBCE-3243D427F060}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -356,7 +356,7 @@
 										<RTPC Name="" ID="{F1F405AA-B4D8-4FF5-A4C2-263D0E361E4C}" ShortID="469354727">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{E6FCA189-C405-42FC-8E2F-545A06851BC7}">
@@ -389,7 +389,7 @@
 										<RTPC Name="" ID="{EA9D65E9-5BE8-4C7C-9117-8690309A3DAB}" ShortID="195139094">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{3AB54BA4-808A-4A5C-B8E0-EBE3C9AB3F83}">
@@ -501,7 +501,7 @@
 														<RTPC Name="" ID="{21F8CED1-A54E-4303-974C-02524E900A6D}" ShortID="197878722">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{6382B85E-D1B7-4E23-A634-15D3B10F842A}">
@@ -599,7 +599,7 @@
 														<RTPC Name="" ID="{98CAD4B3-4A41-414E-8E29-57ED6E5D0708}" ShortID="680548660">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{BF7A4261-CA03-4628-850C-11D7D1371907}">
@@ -745,7 +745,7 @@
 										<RTPC Name="" ID="{B8447532-8D5C-49B5-98D0-07EE14445E13}" ShortID="272973496">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{A20E4FAE-B962-4AB2-80C2-F1B359B0903B}">
@@ -778,7 +778,7 @@
 										<RTPC Name="" ID="{0C9481EE-3E91-4AA0-B325-E1735CF56462}" ShortID="396418605">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{9CABFFE8-78BB-4D66-9D3C-63CD286E8C1C}">
@@ -887,7 +887,7 @@
 														<RTPC Name="" ID="{72F110B5-D2C1-4765-AFBE-692C15108970}" ShortID="671513869">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{4A3E09B4-8529-4B0C-B5FD-E9B36DA7E63E}">
@@ -982,7 +982,7 @@
 														<RTPC Name="" ID="{05B8D2B1-499D-4596-9347-5113F1B14670}" ShortID="702264370">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{0A46F858-195A-45AB-9053-15085B07C755}">
@@ -1125,7 +1125,7 @@
 										<RTPC Name="" ID="{71B9B7DE-3B40-435C-82DC-0DC92E700A5D}" ShortID="806538830">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{14ACDFBD-4837-44FE-8A34-3E8CB1D203CE}">
@@ -1158,7 +1158,7 @@
 										<RTPC Name="" ID="{AF631DBA-B3B1-4F1E-AEA5-C09FFB4EAF0E}" ShortID="482906705">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{16D3A262-990D-4BC0-8AFB-768181B53356}">
@@ -1219,7 +1219,7 @@
 														<RTPC Name="" ID="{25AC71DE-0574-4248-8207-72833810B340}" ShortID="265825139">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{79412832-409A-449E-B7F3-4B6BD668B4C6}">
@@ -1312,7 +1312,7 @@
 														<RTPC Name="" ID="{4E9D4DBA-7E4D-434B-819A-924A8C81A69F}" ShortID="174882090">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{D4028915-0AC4-42FA-A8E7-229B2A555636}">
@@ -1516,7 +1516,7 @@
 										<RTPC Name="" ID="{AB95109B-A233-4FA3-9DDF-20ED71D7FFF9}" ShortID="398511922">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{CA737F90-2CF6-43AA-8DA9-1B7447749A45}">
@@ -1549,7 +1549,7 @@
 										<RTPC Name="" ID="{B797A15A-8F8A-46A0-8B39-D461F09DECF6}" ShortID="440839897">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{349C6CFE-D9AF-4F92-A116-A1A53938850D}">
@@ -1586,7 +1586,7 @@
 										<RTPC Name="" ID="{997AC09A-A514-4FB7-9657-B4075F747B0B}" ShortID="598578852">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{5ED9ED3D-F2A2-4B26-80F2-ABFF14A875D4}">
@@ -1644,7 +1644,7 @@
 														<RTPC Name="" ID="{7EFFE6EE-1A6C-4611-A11D-9121A248920B}" ShortID="490807060">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{0BCB6FA2-A9BD-4B41-9170-AA9562B5AB05}">
@@ -1790,7 +1790,7 @@
 														<RTPC Name="" ID="{2ECAA53A-2CAC-4D45-B47D-0E6F47C06DEB}" ShortID="67948539">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{A44C933A-FC1D-450D-AE0B-F829A20B2265}">
@@ -1938,7 +1938,7 @@
 										<RTPC Name="" ID="{74459837-A0B5-4104-A6A5-3E982BEB1AE0}" ShortID="456493318">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{77610D8B-C327-4FD4-8519-6E9B8C797A8F}">
@@ -1971,7 +1971,7 @@
 										<RTPC Name="" ID="{28FDD006-4883-443E-B8CB-1FB98E24DAFA}" ShortID="1012100552">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{4B3DE722-001A-4D28-8EDA-081D920EDFC6}">
@@ -2010,7 +2010,7 @@
 										<RTPC Name="" ID="{0BBA53E8-BE6F-48DB-A47D-9D2D6902CEF9}" ShortID="298323983">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{A46FC24F-10FA-4D73-BA96-0E7198DC976A}">
@@ -2131,7 +2131,7 @@
 														<RTPC Name="" ID="{8BA08C2A-03BF-497F-B582-778673DCEEFF}" ShortID="307369902">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{5BD86AB0-2589-4853-800D-A7505107AAD8}">
@@ -2232,7 +2232,7 @@
 														<RTPC Name="" ID="{D8D48D00-4EBA-4C29-BAE8-E45E278675A6}" ShortID="562459190">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+																	<ObjectRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{FDDEFE23-DCD0-44A9-BE49-78432C0D455D}">
@@ -2382,7 +2382,7 @@
 										<RTPC Name="" ID="{A6A2B757-BE33-4E27-866F-524E8CEF0874}" ShortID="1033778215">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{63D973CE-3892-4E54-8E99-4CD15B8E468E}">
@@ -2415,7 +2415,7 @@
 										<RTPC Name="" ID="{69DCF361-DE2F-4726-A01A-8D4FA8264E4F}" ShortID="298892110">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{55ABF2B7-0409-4090-97B1-FB279CA3C125}">
@@ -2588,7 +2588,7 @@
 										<RTPC Name="" ID="{7B0A289F-6DFF-4821-AC42-9EFBEF88F589}" ShortID="350194990">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{9F42970E-F0FA-42A6-9015-E3D5000747E6}">
@@ -2621,7 +2621,7 @@
 										<RTPC Name="" ID="{AC18750D-2123-45B5-A1C5-1C41C58C2892}" ShortID="512026073">
 											<ReferenceList>
 												<Reference Name="ControlInput">
-													<ObjectRef Name="Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
+													<ObjectRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}" WorkUnitID="{237E5102-C903-4C38-A666-F8387739D4BA}"/>
 												</Reference>
 											</ReferenceList>
 											<Curve Name="" ID="{5C30760D-58D9-4E1C-8B5E-BDA39C155438}">
@@ -2741,7 +2741,7 @@
 													<MusicCue Name="Exit Cue" ID="{D4B6D484-6298-46A6-9909-FB4AD47378C1}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="4583.33333333333"/>
+															<Property Name="TimeMs" Type="Real64" Value="4666.66666666667"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -2904,6 +2904,76 @@
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="END" ID="{8BB79204-2016-478E-A606-F95A23CFEE3A}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="None Playlist" ID="{E1267A9E-71E4-42F2-97F8-37B0642FE62E}" ShortID="806296166">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="None" ID="{E53890C4-92EF-4C6F-89BB-D3EC981415B1}" ShortID="42913865">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D35ED14B-0E50-4947-B0D6-D94484B7F438}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A444C4AC-C809-4475-B210-D73F48B55459}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4F4DD585-B02A-4879-AC10-8A7D6824E5D4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="1000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A979ACED-7782-4A45-8FC9-4B72593EA7A0}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{58C1BBAC-312E-409D-BA83-D55B5049B396}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{B99D72E4-F50C-4592-A0CA-0102E3A6C3DC}" ShortID="788660797">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{9551CE4E-992A-43E3-920A-2BCA72F79A6D}" ShortID="892367819">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="None" ID="{E53890C4-92EF-4C6F-89BB-D3EC981415B1}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -3478,6 +3548,30 @@
 										</DestinationFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{FEEBF0F4-9125-4CFC-A7C5-229A30562BD5}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="None Playlist" ID="{E1267A9E-71E4-42F2-97F8-37B0642FE62E}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{169B8060-44CB-4013-A794-A02315DE8EFD}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -3499,7 +3593,7 @@
 					<EntryList>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Aircon" ID="{689F6015-8E70-4522-BB6B-6573B827BDE3}"/>
+								<PathElementRef Name="BGM_ACM" ID="{689F6015-8E70-4522-BB6B-6573B827BDE3}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Aircon_Playlist" ID="{C9ACD68B-017D-4B07-AD09-08D479ADA90E}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
@@ -3507,15 +3601,7 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="BBT" ID="{585CC0D9-C875-4491-B19E-3386175B620A}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="BBT_Playlist" ID="{92D14DCE-1C39-4E73-BA25-363EC405A395}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="Carol" ID="{CCBFBE2A-AA11-4125-8D80-B51C8A690122}"/>
+								<PathElementRef Name="BGM_VCM" ID="{CCBFBE2A-AA11-4125-8D80-B51C8A690122}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Carol_Playlist" ID="{9E23CE0B-4179-4EDD-AEB6-94D93DCA6756}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
@@ -3523,7 +3609,7 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Chef" ID="{2B99C433-45CE-46E2-8349-2FEDFE8578D6}"/>
+								<PathElementRef Name="BGM_CHF" ID="{2B99C433-45CE-46E2-8349-2FEDFE8578D6}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Chef_Playlist" ID="{9FD15CB4-0C09-4C5F-B025-8F64CE0365ED}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
@@ -3531,7 +3617,7 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Husband" ID="{C61B5B09-C084-4265-904D-DD227F822930}"/>
+								<PathElementRef Name="BGM_KEI" ID="{C61B5B09-C084-4265-904D-DD227F822930}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Husband_Playlist" ID="{A5E05D12-E9F5-486C-8BED-83AC2CA6EF1B}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
@@ -3539,7 +3625,7 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Insurance" ID="{3F11A23C-F6B3-476E-95B2-5DED98AAB832}"/>
+								<PathElementRef Name="BGM_INS" ID="{3F11A23C-F6B3-476E-95B2-5DED98AAB832}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Insurance_Playlist" ID="{9738CCE5-B0E2-4C4E-AB30-94173405E01C}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
@@ -3547,7 +3633,7 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="MC" ID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}"/>
+								<PathElementRef Name="BGM_MC" ID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="MC_Playlist" ID="{7CB85C6A-AA4D-41CE-B237-9B1D8FC64008}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
@@ -3555,7 +3641,7 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="Doorbell" ID="{2F1F783F-702B-4856-9F4A-234F828FB8AE}"/>
+								<PathElementRef Name="BGM_Doorbell" ID="{2F1F783F-702B-4856-9F4A-234F828FB8AE}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Doorbell_Playlist" ID="{009531AB-1AD1-4080-B13F-716878B6B306}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
@@ -3563,10 +3649,18 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="END" ID="{32D9ED02-9B50-48DB-B2DA-46F5DEEB6F1A}"/>
+								<PathElementRef Name="BGM_END" ID="{32D9ED02-9B50-48DB-B2DA-46F5DEEB6F1A}"/>
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="END_Playlist" ID="{7D81AAFA-650F-480D-98A2-A883418B80CB}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="BGM_NONE" ID="{C9C1967B-FDDB-47AD-90DF-75A97877FB1D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="None Playlist" ID="{E1267A9E-71E4-42F2-97F8-37B0642FE62E}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
