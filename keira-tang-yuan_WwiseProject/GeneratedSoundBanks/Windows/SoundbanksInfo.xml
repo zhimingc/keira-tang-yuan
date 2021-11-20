@@ -24,7 +24,7 @@
 				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="1631352946">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="2073114308">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
@@ -282,6 +282,9 @@
 							<Path>SFX\sfx_00GEN_doorbell_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\HH_States\None" GUID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="2228393324" Name="sfx_BGM_mc" ObjectPath="\Events\BGM\sfx_BGM_mc" GUID="{E817D17C-DAEA-49AA-934C-D5A035361D20}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
@@ -294,10 +297,6 @@
 						<File Id="53242257" Language="SFX">
 							<ShortName>BGM_INS_L1.wav</ShortName>
 							<Path>SFX\BGM_INS_L1_0762CC47.wem</Path>
-						</File>
-						<File Id="68466577" Language="SFX">
-							<ShortName>BGM_BBT_L2.wav</ShortName>
-							<Path>SFX\BGM_BBT_L2_0762CC47.wem</Path>
 						</File>
 						<File Id="85274256" Language="SFX">
 							<ShortName>BGM_AIR_L2.wav</ShortName>
@@ -323,10 +322,6 @@
 							<ShortName>BGM_CHF_L1.wav</ShortName>
 							<Path>SFX\BGM_CHF_L1_0762CC47.wem</Path>
 						</File>
-						<File Id="386422434" Language="SFX">
-							<ShortName>BGM_BBT_L3.wav</ShortName>
-							<Path>SFX\BGM_BBT_L3_0762CC47.wem</Path>
-						</File>
 						<File Id="491555084" Language="SFX">
 							<ShortName>BGM_CRL_L1.wav</ShortName>
 							<Path>SFX\BGM_CRL_L1_0762CC47.wem</Path>
@@ -342,10 +337,6 @@
 						<File Id="574172293" Language="SFX">
 							<ShortName>BGM_INS_L2.wav</ShortName>
 							<Path>SFX\BGM_INS_L2_0762CC47.wem</Path>
-						</File>
-						<File Id="694425148" Language="SFX">
-							<ShortName>BGM_BBT_L1.wav</ShortName>
-							<Path>SFX\BGM_BBT_L1_0762CC47.wem</Path>
 						</File>
 						<File Id="795974096" Language="SFX">
 							<ShortName>BGM_CRL_L2.wav</ShortName>
@@ -382,13 +373,6 @@
 								<File Id="85274256"/>
 								<File Id="175830175"/>
 								<File Id="1005300857"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{585CC0D9-C875-4491-B19E-3386175B620A}">
-							<Media>
-								<File Id="68466577"/>
-								<File Id="386422434"/>
-								<File Id="694425148"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{CCBFBE2A-AA11-4125-8D80-B51C8A690122}">
@@ -1085,6 +1069,9 @@
 				<GameParameter Id="3488785021" Name="RTPC_Sex" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Sex" GUID="{7F971E3C-E622-459F-AE73-F9739254CA3A}"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\HH_States\None" GUID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="2553923198" Name="HH_States" ObjectPath="\States\Default Work Unit\HH_States" GUID="{8D44AE3E-8C09-4D57-A261-02A9EF9F3B0B}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\HH_States\None" GUID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}"/>
@@ -1097,6 +1084,7 @@
 						<State Id="1723528717" Name="BGM_KEI" ObjectPath="\States\Default Work Unit\HH_States\BGM_KEI" GUID="{C61B5B09-C084-4265-904D-DD227F822930}"/>
 						<State Id="315087739" Name="BGM_Doorbell" ObjectPath="\States\Default Work Unit\HH_States\BGM_Doorbell" GUID="{2F1F783F-702B-4856-9F4A-234F828FB8AE}"/>
 						<State Id="1641317903" Name="BGM_END" ObjectPath="\States\Default Work Unit\HH_States\BGM_END" GUID="{32D9ED02-9B50-48DB-B2DA-46F5DEEB6F1A}"/>
+						<State Id="743913214" Name="BGM_NONE" ObjectPath="\States\Default Work Unit\HH_States\BGM_NONE" GUID="{C9C1967B-FDDB-47AD-90DF-75A97877FB1D}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="3080045164" Name="BGM_MC" ObjectPath="\States\Default Work Unit\HH_States\BGM_MC" GUID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}">

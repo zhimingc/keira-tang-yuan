@@ -165,8 +165,25 @@ MonoBehaviour:
     ParentPath: Events\BGM
     guid: e956c4650fe17544af64982bb20067c0
     GuidInternal: 
-    m_lastTime: -8585641954864722610
-    List: []
+    m_lastTime: -8585641873091626517
+    List:
+    - name: bgm_play
+      guid: 78ce34a17e90e74f91f73e5b15e97ae0
+      id: 1093876158
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: BGM
+        ObjectType: 12
+        guid: e956c4650fe17544af64982bb20067c0
+      - ElementName: bgm_play
+        ObjectType: 3
+        guid: 78ce34a17e90e74f91f73e5b15e97ae0
+      Path: Events\BGM\bgm_play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -191,7 +208,7 @@ MonoBehaviour:
     ParentPath: Events\SFX
     guid: 64e85c7aedab4940b3635074180a7bc3
     GuidInternal: 
-    m_lastTime: -8585641954864832637
+    m_lastTime: -8585641865234988206
     List:
     - name: amb_00GEN_house
       guid: cfd115126812de4cbc75a26e21e4c959
@@ -398,7 +415,7 @@ MonoBehaviour:
       maxDuration: 0.666667
       minDuration: 0.666667
     - name: sfx_00GEN_doorbell
-      guid: 4eb474152481ca4e906b6f56401a66ff
+      guid: 74eb73fa6ec37d41a503bb252d736115
       id: 2261318223
       PathAndIcons:
       - ElementName: Events
@@ -409,7 +426,7 @@ MonoBehaviour:
         guid: 64e85c7aedab4940b3635074180a7bc3
       - ElementName: sfx_00GEN_doorbell
         ObjectType: 3
-        guid: 4eb474152481ca4e906b6f56401a66ff
+        guid: 74eb73fa6ec37d41a503bb252d736115
       Path: Events\SFX\sfx_00GEN_doorbell
       maxAttenuation: 0
       maxDuration: 1.6
@@ -772,7 +789,7 @@ MonoBehaviour:
       maxDuration: 1.9
       minDuration: 1.9
     - name: sfx_11KEI_doorbell
-      guid: 74eb73fa6ec37d41a503bb252d736115
+      guid: 4eb474152481ca4e906b6f56401a66ff
       id: 1269518332
       PathAndIcons:
       - ElementName: Events
@@ -783,7 +800,7 @@ MonoBehaviour:
         guid: 64e85c7aedab4940b3635074180a7bc3
       - ElementName: sfx_11KEI_doorbell
         ObjectType: 3
-        guid: 74eb73fa6ec37d41a503bb252d736115
+        guid: 4eb474152481ca4e906b6f56401a66ff
       Path: Events\SFX\sfx_11KEI_doorbell
       maxAttenuation: 0
       maxDuration: 4.666667
@@ -2207,8 +2224,36 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 02517e2303c9384ca666f8387739d4ba
     GuidInternal: 
-    m_lastTime: -8585641954865012679
-    List: []
+    m_lastTime: -8585641881570496427
+    List:
+    - name: Lust
+      guid: 224f67894bd9644fb26172ee2dce4e70
+      id: 358999217
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 02517e2303c9384ca666f8387739d4ba
+      - ElementName: Lust
+        ObjectType: 13
+        guid: 224f67894bd9644fb26172ee2dce4e70
+      Path: Game Parameters\Default Work Unit\Lust
+    - name: Sex
+      guid: 3c1e977f22e69f45ae73f9739254ca3a
+      id: 376462283
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 02517e2303c9384ca666f8387739d4ba
+      - ElementName: Sex
+        ObjectType: 13
+        guid: 3c1e977f22e69f45ae73f9739254ca3a
+      Path: Game Parameters\Default Work Unit\Sex
   - PhysicalPath: Game Parameters\volume sliders.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -2276,8 +2321,186 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: d84c9904c0324340baf35b7e74ac5985
     GuidInternal: 
-    m_lastTime: -8585641954865042685
-    List: []
+    m_lastTime: -8585641873091426480
+    List:
+    - name: HH_States
+      guid: 3eae448d098c574da26102a9ef9f3b0b
+      id: 2553923198
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d84c9904c0324340baf35b7e74ac5985
+      - ElementName: HH_States
+        ObjectType: 9
+        guid: 3eae448d098c574da26102a9ef9f3b0b
+      Path: States\Default Work Unit\HH_States
+      values:
+      - name: ACM
+        guid: 15609f68708e2245bb6b6573b827bde3
+        id: 1151086806
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: ACM
+          ObjectType: 8
+          guid: 15609f68708e2245bb6b6573b827bde3
+      - name: CHF
+        guid: 33c4992bce45e24683492fedfe8578d6
+        id: 1100459698
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: CHF
+          ObjectType: 8
+          guid: 33c4992bce45e24683492fedfe8578d6
+      - name: DLV
+        guid: d9c05c5875c89144b19e3386175b620a
+        id: 529873601
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: DLV
+          ObjectType: 8
+          guid: d9c05c5875c89144b19e3386175b620a
+      - name: Doorbell
+        guid: 3f781f2f2b7056489f4a234f828fb8ae
+        id: 647453594
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: Doorbell
+          ObjectType: 8
+          guid: 3f781f2f2b7056489f4a234f828fb8ae
+      - name: END
+        guid: 02edd932509bdb48b2da46f5deeb6f1a
+        id: 529726532
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: END
+          ObjectType: 8
+          guid: 02edd932509bdb48b2da46f5deeb6f1a
+      - name: INS
+        guid: 3ca2113fb3f66e4795b25ded98aab832
+        id: 529034935
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: INS
+          ObjectType: 8
+          guid: 3ca2113fb3f66e4795b25ded98aab832
+      - name: KEI
+        guid: 095b1bc684c06542904ddd227f822930
+        id: 1183067794
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: KEI
+          ObjectType: 8
+          guid: 095b1bc684c06542904ddd227f822930
+      - name: MC
+        guid: 4633e3a9569e6643b8378fb5f90eb0dd
+        id: 1685527061
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: MC
+          ObjectType: 8
+          guid: 4633e3a9569e6643b8378fb5f90eb0dd
+      - name: None
+        guid: 689a73ff5bcd9545aeb874dd0b98d61a
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: None
+          ObjectType: 8
+          guid: 689a73ff5bcd9545aeb874dd0b98d61a
+      - name: VCM
+        guid: 2abebfcc11aa25418d80b51c8a690122
+        id: 610804373
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: VCM
+          ObjectType: 8
+          guid: 2abebfcc11aa25418d80b51c8a690122
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:

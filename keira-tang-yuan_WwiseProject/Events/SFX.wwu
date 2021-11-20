@@ -198,6 +198,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{D0989C47-3009-40BD-9B1F-DD7D040AFB55}" ShortID="395526415">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="None" ID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}" WorkUnitID="{04994CD8-32C0-4043-BAF3-5B7E74AC5985}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="sfx_09HRW_ktv" ID="{C4A0B179-5BC9-424A-8315-AA6246FD240F}">

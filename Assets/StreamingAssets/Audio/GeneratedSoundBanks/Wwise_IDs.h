@@ -154,6 +154,7 @@ namespace AK
                 static const AkUniqueID BGM_INS = 1639346468U;
                 static const AkUniqueID BGM_KEI = 1723528717U;
                 static const AkUniqueID BGM_MC = 3080045164U;
+                static const AkUniqueID BGM_NONE = 743913214U;
                 static const AkUniqueID BGM_VCM = 1689238054U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE

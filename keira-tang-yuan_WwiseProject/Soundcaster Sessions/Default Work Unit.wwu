@@ -37,7 +37,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}"/>
-							<Value>10</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="vo_volume" ID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
@@ -49,11 +49,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="RTPC_Lust" ID="{89674F22-D94B-4F64-B261-72EE2DCE4E70}"/>
-							<Value>10</Value>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="BGM_DLV" ID="{585CC0D9-C875-4491-B19E-3386175B620A}"/>
+						<CurrentStateRef Name="BGM_KEI" ID="{C61B5B09-C084-4265-904D-DD227F822930}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

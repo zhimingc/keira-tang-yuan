@@ -614,6 +614,11 @@
 								<Sound Name="sfx_03ZOM_zoom" ID="{B7778F3C-B580-4819-ABE0-BEC082AF7951}" ShortID="71555844">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

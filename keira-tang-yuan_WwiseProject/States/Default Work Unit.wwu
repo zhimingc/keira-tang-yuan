@@ -63,6 +63,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</State>
+						<State Name="BGM_NONE" ID="{C9C1967B-FDDB-47AD-90DF-75A97877FB1D}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
