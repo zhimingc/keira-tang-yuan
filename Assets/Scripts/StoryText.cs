@@ -65,14 +65,18 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
 
     public void SetCharacterName(string cName)
     {
-        if (cName == "MC")
+        characterNameText.text = cName;
+    }
+
+    public void ToggleCharacterName(bool lhs)
+    {
+        if (lhs)
         {
             LHSNameLabel.SetActive(true);
         }
         else
         {
             RHSNameLabel.SetActive(true);
-            characterNameText.text = cName;
         }
     }
 

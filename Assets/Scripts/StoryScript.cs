@@ -173,6 +173,17 @@ public class StoryScript : MonoBehaviour
 						cpController.AddCharacter(name);
 					}
 					break;
+				case "UI":
+					if (currentTag.Contains("speech_right"))
+                    {
+						storyTextScript.ToggleCharacterName(false);
+					}
+					else if (currentTag.Contains("speech_left"))
+                    {
+						storyTextScript.ToggleCharacterName(true);
+
+					}
+					break;
 				case "BG":
 					string bgName = currentTag.Substring(currentTag.IndexOf('_') + 1, currentTag.Length - currentTag.IndexOf('_') - 1);
 					Sprite bgSprite = Resources.Load<Sprite>("Art/Background/" + bgName);
