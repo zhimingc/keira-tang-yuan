@@ -70,7 +70,7 @@ Well, perfect timing to kick back and reward myself for cleaning the living room
 #sfx_00GEN_door
 #BGM_DLV
 #BG_Livingroom_frontdoor_open
-#CP_DeliveryGuy
+#CP_DeliveryGuy_Happy
 #UI_speech_right
 #VO_02DLV_010_delivery
 "Ma'am, your bubble tea!"
@@ -81,6 +81,7 @@ I've never seen this delivery rider before. He's all decked out in professional 
 He looks like he rides a lot; a narrow waist and muscular thighs like someone training for the Tour de France. But unlike the disciplined intensity I've come to associate with road cyclists in Singapore, his dark brown complexion is framed by ear-length yellow hair, and even though he's wearing a mask, his smile reaches his eyes.
 **[Take the bag from him]
 #CP_MC_Surprised_Blush
+#CP_MC_DeliveryGuy_Normal
 #sfx_02DLV_bag
 #RTPC_Lust 5
 As he passes the paper bag to me, our fingers brush each others.
@@ -109,6 +110,7 @@ He does not turn back.
     #VID_Montage_Delivery
     #RTPC_Sex
     #sfx_00GEN_sex
+    
     ****** [Continue] 
     -> ZoomCalls03ZOM
 *****[Continue]
@@ -138,7 +140,7 @@ It used to take me a lot of time to prepare for one session and it doesn't alway
 #UI_thought
 Working with parents though, is a whole other ball game.
 
-#CP_Wendy
+#CP_Wendy_Worried
 #VO_03ZOM_010_wendy
 #amb_03ZOM_keyboard_stop
 Take Wendy for example, she's a ball of anxiety when it comes to her kid. But when she isn't trying to blame me for any imperfections in her child she's nice enough to listen to. For all the time I spend listening to her, I could charge her for being her part-time therapist.
@@ -148,11 +150,13 @@ Not like it's unjustified though. It's stressful for kids here. The narrative of
 I see a bit of myself in Wendy. I might not be very much different from her if I had a child. Maybe that's the reason I don't want to have children.
 
 *[Continue listening to her problems]
+#CP_Wendy_Worried
 She's telling me about how alone she feels when it comes to managing her son. What she is hinting at is that she wishes her husband was more involved with his son.
 
 She's giving me an out here. A way for us to confide in each other as women and lay the sins of the world where it rightfully belongs-- at our husbands' feet.
 
 **[Except I can't take that path]
+#CP_Wendy_Worried
 #CP_MC_Neutral_CloseEyes
 #UI_thought
 My focus needs to remain on the child and not to pry into personal affairs that are not my own. 
@@ -169,10 +173,10 @@ My focus needs to remain on the child and not to pry into personal affairs that 
 "As long as Bran retains an interest in learning and has a mother that accepts and supports him, he'll do fine the moment he decides what he wants to pursue."
 
 #CP_MC_Default
+#CP_Wendy_Reassured
 #UI_thought
 She nods in acknowledgement. 
 
-#CP_Wendy
 #UI_speech_right
 #VO_03ZOM_040_wendy
 "I just want him to try, you know?" she says after a moment.
@@ -183,11 +187,11 @@ She nods in acknowledgement.
 "I understand... and as long as failure doesn't defeat him, I believe he will keep trying."
 
 #CP_MC_Thirst_Looking
+#CP_Wendy_Reassured_Tears
 #UI_thought
 #VO_03ZOM_060_wendy
 Wendy tears up at this. I don't really know why. 
 
-#CP_Wendy
 #UI_speech_right
 #sfx_03ZOM_zoom
 But after a moment she says: "Thank you for believing so much in my son."
@@ -197,6 +201,7 @@ But after a moment she says: "Thank you for believing so much in my son."
 
 **[She needs my support in that way]
 #CP_MC_Neutral_CloseEyes
+#CP_Wendy_Worried
 #UI_thought
 #sfx_03ZOM_zoom_stop
 She needs a listening ear and if it will defuse some of her anxiety I can be that ear.
@@ -212,7 +217,7 @@ She sighs and pours out the difficulties she faces at home. She is fearful of so
 
 I tell her it's normal to feel that way.
 
-#CP_Wendy
+#CP_Wendy_Reassured
 #UI_speech_right
 #VO_03ZOM_080_wendy
 #sfx_03ZOM_zoom
@@ -222,17 +227,15 @@ I tell her it's normal to feel that way.
     ->Paul
 
 ===Paul
-
 #CP_Wendy_Off
 #CP_MC_Neutral_Smile
 #UI_thought
 #sfx_03ZOM_zoom_stop
-
 Paul is a rare treasure of a parent. I wish my dad was more like him. 
 
 His daughter has dyslexia but Paul is cool about it. Naturally he wants his child to suceed, but he always puts her happiness first. He is a full time father and his wife is a nurse at the front lines of our current crisis.
 
-#CP_Paul
+#CP_Paul_Happy
 #UI_speech_right
 #VO_03ZOM_090_paul
 "Life's too short as it is," is his favourite line -- usually a precursor to dismissing any gravely put concern I raise. But I get the sense that he listens very carefully to what I say. He just has a very different perspective to life.
@@ -272,12 +275,13 @@ A man is coming in to service the aircon today and although he's been here befor
 Alex has serviced our aircon since the days we were renting. He fills a niche in the market: people that don't want to sign up to a package from big aircon servicing companies because they don't use all their aircon units all the time. I always assumed we were the majority, but now I'm not so sure.
 
 #CP_MC_Default
-#CP_Alex
+#CP_Alex_Neutral
 He comes in all hot and bothered. That's the way he always arrives-- lugging his toolbox and with him. He won't accept the first glass of water I've prepared for him, although in about half an hour he'll ask if he might have something to drink, preferably cold. I think he's used to interactions where business must come first and it takes a while for him to remember that, unless we're in some kind of rush, we can just be, well, people.
 
 **[Watch him fix the aircon]
 #BG_Bedroom
 #CP_MC_Neutral_Smile
+#CP_Alex_Focused
 #sfx_04ACM_fix
 #RTPC_Lust 3
 Alex can prise open the cover of an aircon, hold the screwdriver in his mouth, remove multiple dustcovers with one hand and operate a compressed air duster with the other, while standing on a chair. Slick.
@@ -292,6 +296,7 @@ Things break down. And the people that can put them back together again make me 
 #BG_Livingroom_frontdoor_open
 #sfx_04ACM_ac
 #CP_MC_Neutral_Smile
+#CP_Alex_Neutral
 Alex turns on all the airconditioning units in the house and suggests we have a cigarette while we wait to see if any of the units still leak. 
 
 ##BG_Stairwell
@@ -302,7 +307,6 @@ I follow him to the stairwell and he offers me a cigarette.
 #VO_04ACM_020_mc
 "I'm trying quit," I tell him. "Can I just take a drag from you?"
 
-#CP_Alex
 #UI_speech_right
 #VO_04ACM_030_alex
 He hesitates for a while and says, "You sure you don't want your own?"
@@ -313,7 +317,7 @@ He hesitates for a while and says, "You sure you don't want your own?"
 "Too much for me to finish and I don't want to waste."
 
 #sfx_04ACM_lighter
-#CP_MC
+#CP_Alex_Tired
 #UI_thought
 #RTPC_Lust 5
 He nods and lights up.
@@ -332,17 +336,16 @@ I'm not entirely shocked to learn that his wife has finally divorced him. His ma
 #VO_04ACM_050_mc
 "Is she gonna pay for her half of the HDB flat?" I ask.
 
-#CP_Alex
+#CP_Alex_Focused
 #UI_speech_right
 #VO_04ACM_060_alex
 "Yes, but eventually have to sell anyway, the mortgage cannot I one person handle. Just that now is such a bad time to sell. If I can just tahan a couple of years maybe better price."
 
-#CP_MC
 #UI_speech_left
 #VO_04ACM_070_mc
 "Why not just sell now and buy a 1-2 room for a cheap price?" 
 
-#CP_Alex
+#CP_Alex_Frustrated
 #UI_speech_right
 #VO_04ACM_080_alex
 "Then where is Fan Fan going to stay? This year is her PSLE year some more, cannot just change school or create all kinds of... disruptive, you know?"
@@ -360,6 +363,7 @@ And it's not even just that. Alex has been looking for well over a decade for so
 Yet through the eyes of another rat in the race, he's just an uneducated man; with no prospects, and accompanied by a potentially troubleseome preteen.
 
 #CP_MC_Surprised_Blush
+#CP_Alex_Tired
 #RTPC_Lust 8
 I put a hand on his shoulder awkwardly and tell him that's it's gonna be alright. I tell him that there are not many people in the world that have the love Fan Fan and him have. Beneath me, I feel a shudder pass through his body even though I can't see his face. His eyes are glued to the floor between his feet.
 
@@ -368,6 +372,7 @@ I want to take it further-- to somehow prove to him that that's not what the wor
 ******[Offer Alex a drink]
 #BG_Kitchen
 #CP_MC_Default
+#CP_Alex_Neutral
 #UI_thought
 #RTPC_Lust 9
 Re-entering the flat, I offer Alex a drink, not specifying what kind.
@@ -388,6 +393,7 @@ Alex declines and just asks for cold water. The same thing he always does.
     #RTPC_Sex 10
     #amb_00GEN_house_stop
     #sfx_00GEN_sex
+    
     ******** [Continue] 
     -> Mirrorselfie05MIR
 *******[Continue]
@@ -445,16 +451,19 @@ Oh that's right, I have an appointment with my insurance guy today. We normally 
 #BGM_INS
 #VO_06INS_010_mc
 #CP_MC_Neutral_Smile
+#CP_Merwyn_Neutral
 #UI_speech_left
 "You're always wearing that jacket, don't you ever find it hot?"
 
 #UI_thought
+#CP_Merwyn_Blush
 He blushes so adorably.
 
 I like to provoke Merwyn, he takes his professionalism so seriously. He does not see the hilarity of wearing a jacket (and sometimes a tie) in our tropical climate. He does not question it, for him it is the proper way to perform his task as an insurance agent and I think he enjoys it as much as I enjoy poking holes in it.
 
 **[Ask him difficult questions]
 #CP_MC_Default
+#CP_Merwyn_Neutral
 #UI_thought
 #BG_kitchen
 I ask him big unanswerable questions like What Is It All For. 
@@ -465,6 +474,7 @@ I ask him, who really gets to benefit from the insurance if I die? Why must I be
 #CP_MC_Default
 He fields these questions patiently. I get the sense that he really believes in his product and wants the best for his clients. To be honest, I have no intention of purchasing any more insurance today, but it's nice talking to someone who doesn't judge or evaluate me based off my answers.
 
+#CP_Merwyn_Happy
 We don't just talk about insurance. Sometimes I tell him what I've gathered from the news or even about the latest book I've read. It's not that we have the same taste in books or shows, but even then, he's able to understand me effortlessly and add to my thoughts based on what he's seen and heard. He's always encouraging me to elaborate with a gentle look in his eyes, and he's intelligent in so many areas that he can find a way to keep the conversation alive. 
 
 #CP_MC_Neutral_Smile
@@ -472,7 +482,6 @@ We don't just talk about insurance. Sometimes I tell him what I've gathered from
 He lets me lead.
 
 ***[Ask him what he does outside work]
-#CP_MC
 #UI_thought
 Because Merwyn is so composed and seldom starts a new topic of conversation, I imagine him going home after work, ironing his immaculately pressed shirts, and docking himself into a charging station. Today curiousity gets the better of me.
 
@@ -482,12 +491,11 @@ Because Merwyn is so composed and seldom starts a new topic of conversation, I i
 "Merwyn, if you don't mind me asking, what do you do in your spare time?"
 
 #UI_thought
+#CP_Merwyn_Blush
 He looks down sheepishly at his moleskin organiser.
 
-#CP_Merwyn
 #UI_speech_right
 #VO_06INS_030_merwyn
-
 "Do you really want to know? It's a little embarrassing"
 
 #CP_MC_Surprised
@@ -495,34 +503,36 @@ He looks down sheepishly at his moleskin organiser.
 #VO_06INS_040_mc
 "Yes, only if you're comfortable telling me. You don't have to."
 
+#CP_Merwyn_Content
 He purses his lips together, coming to some internal decision. 
 
-#CP_Merwyn
 #UI_speech_right
 #VO_06INS_050_merwyn
 "You know how I don't have a car right? Even though I have to meet clients at night after their work. I make it a rule to always take the bus as far as possible. I like taking new bus routes and seeing Singapore pass by and..."
 
 #CP_MC_Surprised_Blush
+#CP_Mewyn_Neutral
 #UI_thought
 #RTPC_Lust 5
 He looks me straight in the eye, challenging me to laugh at him.
 
-#CP_Merwyn
 #UI_speech_right
 #VO_06INS_060_merwyn
 "...and I write poetry about what I see and the people I meet."
 
 #CP_MC_Thirst_Looking
+#CP_Merwyn_Blush
 #UI_thought
 Again he glances at his organiser-- this time, thoughtfully.
 
-#CP_Merwyn
+#CP_Merwyn_Neutral
 #UI_speech_right
 #VO_06INS_070_merwyn
 "Do you want to hear one of them?"
 
 ****[Listen to poem]
 #CP_MC_Thirst_Looking
+#CP_Merwyn_Neutral
 #UI_thought
 #sfx_06INS_openbook
 He leafs through his notebook starting from the back. Neat chinese script flows down the unlined pages and he begins to read for me.
@@ -535,7 +545,7 @@ Now, I barely passed my chinese 'O' levels in school and much of the meaning and
 Merwyn captures the characters with a loving gaze and describes them intimately. His poem evokes memories of my own: the posture of old men bent over a chessboard, the clink of a metal teaspoon in a mug of hot milky tea.
 
 #CP_MC_Thirst_Looking
-
+#CP_Merwyn_Happy
 As he finishes reading, I can almost hear the sighs and laughter of the bystanders watching the game. He looks up at me and smiles. For all his diffidence, he's proud of his work. Before his leans back in his chair, I catch a whiff of his cologne; it is spicy, masculine, and pleasing.
 
 *****[Break the tension]
@@ -548,7 +558,6 @@ I discover that I'm the one who's awkward now. I don't know how to respond and e
 #VO_06INS_090_mc
 "Well, that isn't something you get to observe from the bus."
 
-#CP_MC
 #UI_thought
 #VO_06INS_100_merwyn
 He sees the reaction his poem has had on me, and he eases the tension with an affable laugh.
@@ -606,10 +615,12 @@ I've sent him a message to come home on time for dinner tonight and I've gotten 
 #sfx_00GEN_door
 #BG_Livingroom_frontdoor_open
 #CP_MC_Default
+#CP_Ethan_Neutral
 #UI_thought
 With his neatly pressed chef's apron covering a bit of a paunch, a small man stands with a trolley of prepared ingredients outside my door. I usher him in.
 
 #CP_MC_Surprised
+#CP_Ethan_Content
 #BG_Kitchen
 His actions are brisk as he quickly takes over my kitchen and dining room in a whirlwind of preparation. Wishing to be available in case he needs help but not wanting to appear like I know better than a trained chef, I try not to appear to watch him too intently-- but I do. Out of the corner of my eye, I notice that with every step, he bounces-- nearly imperceptibly-- with the beat, and tiny fragments of humming escape under breath. He moves with the dynamism of a young man, but the wrinkles around his face and hands belie his age.
 #RTPC_Lust 3
@@ -618,7 +629,7 @@ Initially, he doesn't say much other than to greet me and ask a few succinct and
 
 All of a sudden, he pauses mid-action and inclines his head to me.
 
-#CP_Ethan
+#CP_Ethan_Laugh
 #CP_MC_Surprised
 #UI_speech_right
 #VO_08CHF_010_ethan
@@ -638,6 +649,7 @@ A warm flush passes through me and I stutter an awkward thank-you.
 
 *[Wait for my husband]
 #CP_MC_MildUpset
+#CP_Ethan_Neutral
 #UI_thought
 #amb_08CHF_clock
 As the clock ticks its way past 8 pm, I couldn't be closer to tears. My husband hasn't shown up and he's not answering his phone. All I've received is two words from him in a message: "Working late." 
@@ -646,6 +658,7 @@ As the clock ticks its way past 8 pm, I couldn't be closer to tears. My husband 
 Every time Ethan, the chef, glances at me, I feel the need to apologise again, but I'm also so embarrassed and furious that I can't trust myself to speak. The cold appetizers, intricately constructed and plated, are growing warm on the table.
 
 #CP_MC_Neutral_CloseEyes
+#CP_Ethan_Worried
 His almond shaped eyes are filled with compassion, but he's hesitant to break his role as a service provider. I come to a decision.
 
 #CP_MC_MildUpset
@@ -663,6 +676,7 @@ His almond shaped eyes are filled with compassion, but he's hesitant to break hi
 #UI_thought
 #amb_08CHF_cutlery
 #RTPC_Lust 7
+#CP_Ethan_Neutral
 We get stuck into the appetizers and the first course-- a caviar and mushroom soup. As we eat, he explains each dish, helping me make sense of the delectable burst of flavours that overwhelm every mouthful. Reluctantly, I'm beginning to enjoy myself. Under his mask he sports a salt and pepper moustache that wriggles adorably as he chews.
 
 #CP_MC_Neutral_Smile
@@ -670,23 +684,24 @@ We get stuck into the appetizers and the first course-- a caviar and mushroom so
 #VO_08CHF_060_mc
 "So, how many lives have you led?" I enquire with a grin.
 
-#CP_Ethan
+#CP_Ethan_Laugh
 #UI_speech_right
 #VO_08CHF_070_ethan
 "Well, more than a cat for sure." And he begins to regale me with tales both ordinary and exceptional. Ethan's worked in more countries than I've had holidays. He's been a bartender; a house painter; a printing assistant; and, more recently, a personal chef aboard a luxury yacht.
 
-#CP_Ethan
+#CP_Ethan_Content
 #CP_MC_Surprised
 #UI_speech_right
 #VO_08CHF_080_ethan
 "But my very first job was as a jockey and stable boy at the Turf club. I could spend every day for the rest of my life among horses." His animated face lights up as he reminisces. 
 
-#CP_Ethan
+#CP_Ethan_Neutral
 #UI_speech_right
 #VO_08CHF_090_ethan
 "Once I had a chance to ride The Inferno, a chestnut gelding that had a clear shot at winning the Melbourne Cup. The owners even flew me over there to take care of the horse. You haven't seen a race till you've been to the Melbourne Cup: ladies and gents all turn up looking like royalty. And the horses..."
 
 #CP_MC_Thirst_Looking
+#CP_Ethan_Laugh
 #UI_thought
 #sfx_08CHF_cutlery
 #RTPC_Lust 8
@@ -694,11 +709,12 @@ He has a charming facial tic. When he's beaming from cheek to cheek he occasiona
 
 **[Ask if he's married]
 #CP_MC_Suprised_Blush
+#CP_Ethan_Content
 #UI_speech_left
 #VO_08CHF_100_mc
 I finally work up the courage to ask him the one burning question on my mind: "And through all your adventures, did you ever find the time to get married?"
 
-#CP_Ethan
+#CP_Ethan_Neutral
 #UI_speech_right
 #VO_08CHF_110_ethan
 "Well yes. I did marry an English girl. This was while I was working in Spain actually. It didn't work out." 
@@ -707,13 +723,13 @@ I finally work up the courage to ask him the one burning question on my mind: "A
 #UI_thought
 It seems as if he doesn't want to talk about it, but after a few second of eating, he once again puts his cutlery down.
 
-#CP_Ethan
+#CP_Ethan_Sad
 #UI_speech_right
 #VO_08CHF_120_ethan
 "We had a son together. He was so precious to me... but he was difficult, and I was hard on him. He had like a seed in his mind, and he could never see the upside of things, least of all himself. His mother and I didn't know how to handle it. At first we didn't want him to see a doctor, though we would give everything else to make him happy. Before the end, we were often frustrated... at him."
 
 #RTPC_Lust 10
-#CP_MC
+#CP_Ethan_Sad_Smile
 #UI_thought
 He gives me a tight-lipped smile before continuing.
 
@@ -757,7 +773,7 @@ My mind runs down the list of people I've met-- the chef, the insurance salesman
 
 *[Confront my husband]
 #CP_MC_Neutral_CloseEyes
-#CP_Husband
+#CP_Husband_Ashamed
 #UI_thought
 Cotton bud protruding from one nostril, he regards me shamefacedly.
 
@@ -766,7 +782,7 @@ Cotton bud protruding from one nostril, he regards me shamefacedly.
 #VO_09HRW_010_mc
 "What are you doing that for?" I ask muzzily. He examines his feet for a second.
 
-#CP_Husband
+#CP_Husband_LookAway
 #UI_speech_right
 #VO_09HRW_020_husband
 "I'm doing a COVID test." He answer finally.
@@ -812,7 +828,7 @@ Still, a human being is waiting on the other side of the door, and my father(or 
 #BG_Livingroom_frontdoor_open
 #BGM_VCM
 #VO_10VCM_010_carol
-#CP_Carol
+#CP_Carol_Neutral
 #CP_MC_Surprised
 #UI_thought
 What greets me on the other side is a petite woman with a subtle goth vibe. She's dressed in worn jeans and a tank top which shows off her toned muscles and a honeyed complexion. The hand which firmly grips the monster vacuum is adorned with a large embossed leather wrist cuff. Under her pixie cut dark brown hair, the tips of which show signs of having been bleached in the past, her neatly lined eyes pierce me.
@@ -820,18 +836,18 @@ What greets me on the other side is a petite woman with a subtle goth vibe. She'
 #CP_MC_Thirst_Looking
 A little intimidated, I rush through my prepared speech and await a response.
 
-#CP_Carol
 #UI_speech_right
 #VO_10VCM_020_carol
 "Well dearie, I'm afraid that it will be difficult for me to reschedule. If it's all the same to you, I'll take the risk and put in the hours." She leans towards me conspiratorially, 
 
-#CP_Carol
+#CP_Carol_Cheeky
 #CP_MC_Surprised_Blush
 #UI_speech_right
 #VO_10VCM_030_carol
 #RTPC_Lust 3
 "To be safe, let's not share bodily fluids, eh?"
 
+#CP_Carol_Laugh
 #UI_thought
 #VO_10VCM_040_carol
 And cackling loudly she moves past me, dragging her gear with her. Her laughter chimes like crystal.
@@ -841,7 +857,7 @@ And cackling loudly she moves past me, dragging her gear with her. Her laughter 
 #BG_Bedroom
 #CP_MC_Surprised
 #VO_10VCM_050_carol
-#CP_Carol
+#CP_Carol_Neutral
 #UI_speech_right
 "Husband at work?" Carol asks, while pulling away the bed covers. 
 
@@ -850,7 +866,6 @@ And cackling loudly she moves past me, dragging her gear with her. Her laughter 
 #VO_10VCM_060_mc
 "Yes." I lie. Her laugh really does remind me of Christmas hand bells.
 
-#CP_Carol
 #UI_speech_right
 #VO_10VCM_060_carol
 "Well it's a good thing he still has work. My brother is a tour guide. His company has kept him on the payroll for now, but who knows when he'll actually receive a salary again."
@@ -859,13 +874,12 @@ And cackling loudly she moves past me, dragging her gear with her. Her laughter 
 #UI_thought
 The tourism industry is arguably the first and worst hit by the pandemic.
 
-#CP_Carol
 #UI_speech_right
 #VO_10VCM_070_carol
 "I miss going on holidays," she continues. 
 
-#CP_Carol
 #UI_speech_right
+#CP_Carol_Cheeky
 #VO_10VCM_080_carol
 "Especially to Johor Bahru. I need to get my eyebrows done."
 
@@ -874,6 +888,7 @@ The tourism industry is arguably the first and worst hit by the pandemic.
 #RTPC_Lust 5
 In my opinion, her eyebrows are marvellous.
 
+#CP_Carol_Neutral
 #sfx_10VCM_vacuum_start
 She's cheerful and talkative, providing me opportunities to share in the conversation, but smoothly filling up my diffident silences. It is impossible to talk when she starts up the vacuum though; I imagine its roar can be heard by our neighbours two floor above and below us, not to mention the adjacent apartments. 
 
@@ -881,6 +896,7 @@ She's cheerful and talkative, providing me opportunities to share in the convers
 As she bends over to scour every inch of the mattress, her tank top rides up and I catch a glimpse of her muscled lower back and the edge of her underwear peeking out of her jeans. It is neon pink.
 
 #CP_MC_Surprised_Blush
+#CP_Carol_Cheeky
 #RTPC_Lust 7
 She glances up at me sharply, but if she has caught me staring, she doesn't say anything. Even her mask can't hide her irrepressible smile. 
 
@@ -890,7 +906,7 @@ All these promotions dictate that we go through the rigmarole of examining the w
 
 As with anybody that enters my house, I offer her a drink. Unlike Alex, Carol surprises me.
 
-#CP_Carol
+#CP_Carol_Cheeky
 #CP_MC_Surprised
 #UI_speech_right
 #VO_10VCM_090_carol
@@ -898,11 +914,13 @@ As with anybody that enters my house, I offer her a drink. Unlike Alex, Carol su
 
 ***[Offer her a drink]
 #CP_MC_Thirst_Looking
+#CP_Carol_Neutral
 #UI_thought
 #BG_Livingroom_frontdoor_closed
 Each of us nurse our Soju-and-Yakult concoctions and talk about the places we want to visit when we can travel again. The alcohol has really loosened me up.
 
 #CP_MC_Neutral_Smile
+#CP_Carol_Laugh
 #sfx_10VCM_recliner
 #RTPC_Lust 7
 We move the couch and I show her how to flip up the leg rest. We spend a few minutes abusing the mechanism and she giggles at the impression I do of my husband.
@@ -912,12 +930,13 @@ We move the couch and I show her how to flip up the leg rest. We spend a few min
 #VO_10VCM_100_mc
 "Remember, if you don't take care of your tools, they wont take care of you," I say in my deepest voice and giving her a mock-stern frown.
 
-#CP_Carol
+#CP_Carol_Neutral
 #UI_speech_right
 #VO_10VCM_110_carol
 "Hah! As if having fun has anything to do with following good advice," her magnificent eyebrows shoot up momentarily. "Men!"
 
 #CP_MC_Neutral_Smile
+#CP_Carol_Laugh
 #UI_thought
 #VO_10VCM_120_mc #VO_10VCM_130_carol
 #RTPC_Lust 8
@@ -954,12 +973,13 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 #amb_11KEI_house
 #sfx_BGM_mc
 #VO_11KEI_010_jolene
-#CP_Janna
+#CP_Janna_Neutral
 #CP_MC_MildUpset
 #UI_speech_right
 "It's not like COVID is all bad. I mean this is the first time my son has spent more than 4 hours a day with his father." My friend natters on, giving me a rundown on what the past half a year has been like for her. 
 
 #CP_MC_Default
+#CP_Janna_Amused
 #UI_thought
 #VO_11KEI_020_jolene
 Janna is my best friend, or at least the most longstanding one. The more I age, the more I grow to appreciate her comfortable manner. She goes on to detailing how it is possible to open up a Microsoft Word document, rest something against the spacebar key, and thus cheaply circumvent her company's "Appear offline" timer-- an insidious attempt by capitalism to control every minute of our lives, as she puts it.
@@ -975,13 +995,12 @@ The busy-ness of the large house emits a hospitable and happy hum, and I'm just 
 My fingers trail through the fur of Keira's sleeping golden retriever, a breed which HDB residents are barred from keeping. It's nose has made a wet spot on the carpet.
 
 *[Pay attention to Janna]
-#CP_Janna
+#CP_Janna_Neutral
 #CP_MC_Surprised
 #UI_speech_right
 #VO_11KEI_030_jolene
 Janna still tries to keep me engaged in conversation. "You know, Keira's son is kind of failing in English, you might want to go over there and look over his work. Keira would probably offer you a job, if you're interested."
 
-#CP_MC
 #UI_thought
 She looks meaningfully over at me. I surmise that this is the real reason why we're having tea at Keira's house. Janna thinks, bless her, that more employment might help me out of my blue funk.
 
@@ -990,33 +1009,30 @@ She looks meaningfully over at me. I surmise that this is the real reason why we
 #sfx_11KEI_dog
 Before I can answer Janna, our hostess comes out of her room with anxious energy. Keira peeks over her son's shoulder to check if he is making progress, then flops down on the floor with us, scaring her dog awake in the process. It immediately begins to groom itself.
 
-#CP_Keira
+#CP_Keira_Neutral
 #UI_speech_right
 #VO_11KEI_040_keira
 "So, what are we having for dinner? I'm angry and hungry, and I want carbs."
 
-#CP_MC
 #UI_thought
 Notwithstanding my full belly from the brownie, I nod enthusiastically at Keira. She probably hasn't eaten anything the whole day, and it's her house; so it's not like I'm going to quibble over an early dinner. Anyway, Keira tends to answer her own questions.
 
-#CP_Keira
+#CP_Keira_Happy
 #UI_speech_right
 #VO_11KEI_050_keira
 "I know, I know!" She really is very predictable. 
 
-#CP_Keira
 #UI_speech_right
 #VO_11KEI_060_keira
 "There's a sourdough place that we can order from. Have you tried sourdough pizza? It's-- kill me now-- it's to die for."
 
 **[Assent to carb heaven]
-#CP_Keira
+#CP_Keira_Conspire
 #CP_MC_Surprised
 #UI_speech_right
 #VO_11KEI_070_keira
 "Also! My god, the delivery guy that camps around here at this time is the cutest, sweetest guy. Janna you haven't met him; he dresses well." Keira looks over her shoulder as if her husband might somehow be spying on her. She has a penchant for the dramatic. 
 
-#CP_Keira
 #CP_MC_Thirst_Looking
 #UI_speech_right
 #VO_11KEI_080_keira
@@ -1031,7 +1047,7 @@ Keira is unabashedly vulgar. Janna is covering her face in mutual shame.
 #VO_11KEI_090_mc
 Half laughing, and yet fully sincere, I reply: "I know exactly what you mean."
 
-#CP_Keira
+#CP_Keira_Neutral
 #UI_speech_right
 #VO_11KEI_100_keira
 "Ok ok, it's settled then. I order now. You'll surely like him-- I mean the food. Keep your knickers on girls, my mum's around."
@@ -1082,8 +1098,7 @@ As I open the door, the delivery guy has his back half turned away from me as he
 #CP_MC_Surprised_Blush
 When he turns towards me, the colour on my husband's face drains away and he nearly drops our order from his nerveless fingers. 
 
-#CP_MC
-#CP_husband
+#CP_Husband_Surprised
 #UI_speech_both_MCandHusband
 #VO_11KEI_150_mc 
 #VO_11KEI_160_husband
@@ -1095,6 +1110,7 @@ I must look about to collapse myself as he quickly grasps my arm with his free h
 #VO_11KEI_170_husband
 "I-I couldn't bear to tell you. My job put me out on part time, and I've been doing food delivery after work hours to offset the income loss." 
 
+#CP_Husband_Concern
 #VO_11KEI_180_husband
 He adds, out of real concern, "Hey, are you ok? Close your mouth, dearie."
 
