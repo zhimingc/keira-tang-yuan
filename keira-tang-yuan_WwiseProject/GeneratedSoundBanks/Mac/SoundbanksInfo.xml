@@ -24,7 +24,7 @@
 				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="2073114308">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="2344728339">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
@@ -1030,7 +1030,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2569653828" Name="VO_11KEI_160_husband" ObjectPath="\Events\Voice\VO_11KEI_160_husband" GUID="{8C653827-7C8F-4A38-B50D-5F5EFFE43EFB}" DurationType="OneShot" DurationMin="2.882993" DurationMax="2.882993">
+				<Event Id="2569653828" Name="VO_11KEI_160_husband" ObjectPath="\Events\Voice\VO_11KEI_160_husband" GUID="{8C653827-7C8F-4A38-B50D-5F5EFFE43EFB}" DurationType="OneShot" DurationMin="2.163538" DurationMax="2.163538">
 					<IncludedMemoryFiles>
 						<File Id="136367700" Language="English(US)">
 							<ShortName>VO_11KEI_160_husband.wav</ShortName>

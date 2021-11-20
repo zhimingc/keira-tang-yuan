@@ -22,12 +22,20 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="VO_11KEI_160_husband" ID="{D55F999B-C874-439C-AC56-3499783679DD}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="sfx_BGM_stop" ID="{96E2E8CE-923E-44D8-96DB-2C81C73626CE}" WorkUnitID="{65C456E9-E10F-4475-AF64-982BB20067C0}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="sfx_10VCM_vacuum_stop" ID="{B399A67A-5C94-4EFB-B51A-76AC2DD244C5}" WorkUnitID="{7A5CE864-ABED-4049-B363-5074180A7BC3}"/>
 							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="VO_11KEI_150_mc" ID="{7E4E015B-B912-40D8-88FA-1FDD0F1B5460}" WorkUnitID="{7A427C37-0934-4F5F-AA07-DA80CCEBE165}"/>
+							<Position X="2" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -53,7 +61,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="BGM_KEI" ID="{C61B5B09-C084-4265-904D-DD227F822930}"/>
+						<CurrentStateRef Name="BGM_NONE" ID="{C9C1967B-FDDB-47AD-90DF-75A97877FB1D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

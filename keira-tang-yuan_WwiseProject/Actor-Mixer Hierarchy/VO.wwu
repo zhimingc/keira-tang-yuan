@@ -10,6 +10,17 @@
 								<Value>True</Value>
 							</ValueList>
 						</Property>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -302,6 +313,7 @@
 								</Sound>
 								<Sound Name="VO_10VCM_130_carol" ID="{2DC7674D-16AF-43F4-826B-72284EDD0655}" ShortID="195929607">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -406,6 +418,7 @@
 								</Sound>
 								<Sound Name="VO_10VCM_120_mc" ID="{CF6BE14F-015F-4493-8252-5E20B197DC7D}" ShortID="229984140">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1418,6 +1431,13 @@
 							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="01OPN" ID="{D9569F0A-24C0-415B-BB6B-BD5425D6A8D3}" ShortID="230200333">
+							<PropertyList>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>
@@ -1829,6 +1849,7 @@
 							<ChildrenList>
 								<Sound Name="VO_11KEI_160_husband" ID="{D55F999B-C874-439C-AC56-3499783679DD}" ShortID="480349248">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2271,6 +2292,7 @@
 								</Sound>
 								<Sound Name="VO_11KEI_150_mc" ID="{7E4E015B-B912-40D8-88FA-1FDD0F1B5460}" ShortID="73551876">
 									<PropertyList>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>

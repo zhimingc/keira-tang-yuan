@@ -165,11 +165,11 @@ MonoBehaviour:
     ParentPath: Events\BGM
     guid: e956c4650fe17544af64982bb20067c0
     GuidInternal: 
-    m_lastTime: -8585641873091626517
+    m_lastTime: -8585641834410863996
     List:
-    - name: bgm_play
-      guid: 78ce34a17e90e74f91f73e5b15e97ae0
-      id: 1093876158
+    - name: sfx_BGM_mc
+      guid: 7cd117e8eadaaa49934cd5a035361d20
+      id: 2228393324
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -177,13 +177,64 @@ MonoBehaviour:
       - ElementName: BGM
         ObjectType: 12
         guid: e956c4650fe17544af64982bb20067c0
-      - ElementName: bgm_play
+      - ElementName: sfx_BGM_mc
         ObjectType: 3
-        guid: 78ce34a17e90e74f91f73e5b15e97ae0
-      Path: Events\BGM\bgm_play
+        guid: 7cd117e8eadaaa49934cd5a035361d20
+      Path: Events\BGM\sfx_BGM_mc
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: sfx_BGM_pause
+      guid: 3263fb8142550a4dafa94cee78649732
+      id: 3095557022
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: BGM
+        ObjectType: 12
+        guid: e956c4650fe17544af64982bb20067c0
+      - ElementName: sfx_BGM_pause
+        ObjectType: 3
+        guid: 3263fb8142550a4dafa94cee78649732
+      Path: Events\BGM\sfx_BGM_pause
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: sfx_BGM_start
+      guid: e0ce42dff7413b49b1530ce4929f8eee
+      id: 3964665964
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: BGM
+        ObjectType: 12
+        guid: e956c4650fe17544af64982bb20067c0
+      - ElementName: sfx_BGM_start
+        ObjectType: 3
+        guid: e0ce42dff7413b49b1530ce4929f8eee
+      Path: Events\BGM\sfx_BGM_start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: sfx_BGM_stop
+      guid: cee8e2963e92d84496db2c81c73626ce
+      id: 1293310080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: BGM
+        ObjectType: 12
+        guid: e956c4650fe17544af64982bb20067c0
+      - ElementName: sfx_BGM_stop
+        ObjectType: 3
+        guid: cee8e2963e92d84496db2c81c73626ce
+      Path: Events\BGM\sfx_BGM_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -197,6 +248,19 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585641946765709197
     List: []
+  - PhysicalPath: Events\DG Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: DG Work Unit
+      ObjectType: 12
+      guid: c7cbc6b594ad9148a005f377594080fd
+    ParentPath: Events\DG Work Unit
+    guid: c7cbc6b594ad9148a005f377594080fd
+    GuidInternal: 
+    m_lastTime: -8585641837276436880
+    List: []
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
     - ElementName: Events
@@ -208,7 +272,7 @@ MonoBehaviour:
     ParentPath: Events\SFX
     guid: 64e85c7aedab4940b3635074180a7bc3
     GuidInternal: 
-    m_lastTime: -8585641865234988206
+    m_lastTime: -8585641807286446649
     List:
     - name: amb_00GEN_house
       guid: cfd115126812de4cbc75a26e21e4c959
@@ -429,8 +493,42 @@ MonoBehaviour:
         guid: 74eb73fa6ec37d41a503bb252d736115
       Path: Events\SFX\sfx_00GEN_doorbell
       maxAttenuation: 0
-      maxDuration: 1.6
-      minDuration: 1.6
+      maxDuration: 4.666667
+      minDuration: 4.666667
+    - name: sfx_00GEN_sex
+      guid: 74684f2833eab946881e32bd9bf6ad8a
+      id: 770338152
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_00GEN_sex
+        ObjectType: 3
+        guid: 74684f2833eab946881e32bd9bf6ad8a
+      Path: Events\SFX\sfx_00GEN_sex
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: sfx_00GEN_sex_stop
+      guid: a0ce4a728985094889815006df19557f
+      id: 1900871751
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 64e85c7aedab4940b3635074180a7bc3
+      - ElementName: sfx_00GEN_sex_stop
+        ObjectType: 3
+        guid: a0ce4a728985094889815006df19557f
+      Path: Events\SFX\sfx_00GEN_sex_stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: sfx_01OPN_couch
       guid: 2b09d33c7118b7498e690a6276e29e1d
       id: 2772396626
@@ -803,9 +901,9 @@ MonoBehaviour:
         guid: 4eb474152481ca4e906b6f56401a66ff
       Path: Events\SFX\sfx_11KEI_doorbell
       maxAttenuation: 0
-      maxDuration: 4.666667
-      minDuration: 4.666667
-    - name: SFX_stop
+      maxDuration: 1.6
+      minDuration: 1.6
+    - name: sfx_stop
       guid: 4fbd6814f5a5474498e770d684b9cc77
       id: 650331997
       PathAndIcons:
@@ -815,10 +913,10 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 12
         guid: 64e85c7aedab4940b3635074180a7bc3
-      - ElementName: SFX_stop
+      - ElementName: sfx_stop
         ObjectType: 3
         guid: 4fbd6814f5a5474498e770d684b9cc77
-      Path: Events\SFX\SFX_stop
+      Path: Events\SFX\sfx_stop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -833,7 +931,7 @@ MonoBehaviour:
     ParentPath: Events\Voice
     guid: e3afecd20562804a86402f8bb5b365a9
     GuidInternal: 
-    m_lastTime: -8585641927865635418
+    m_lastTime: -8585641790587624495
     List:
     - name: VO_01OPN_010_mc
       guid: 48f8c7582e2d7041b91268a259ce4820
@@ -2142,8 +2240,8 @@ MonoBehaviour:
         guid: 2738658c8f7c384ab50d5f5effe43efb
       Path: Events\Voice\VO_11KEI_160_husband
       maxAttenuation: 0
-      maxDuration: 2.882993
-      minDuration: 2.882993
+      maxDuration: 2.163538
+      minDuration: 2.163538
     - name: VO_11KEI_170_husband
       guid: b2ead634ab8c2148a77b3cf41433c61e
       id: 3103793179
@@ -2224,11 +2322,11 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 02517e2303c9384ca666f8387739d4ba
     GuidInternal: 
-    m_lastTime: -8585641881570496427
+    m_lastTime: -8585641834410908784
     List:
-    - name: Lust
+    - name: RTPC_Lust
       guid: 224f67894bd9644fb26172ee2dce4e70
-      id: 358999217
+      id: 1365294111
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -2236,13 +2334,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 02517e2303c9384ca666f8387739d4ba
-      - ElementName: Lust
+      - ElementName: RTPC_Lust
         ObjectType: 13
         guid: 224f67894bd9644fb26172ee2dce4e70
-      Path: Game Parameters\Default Work Unit\Lust
-    - name: Sex
+      Path: Game Parameters\Default Work Unit\RTPC_Lust
+    - name: RTPC_Sex
       guid: 3c1e977f22e69f45ae73f9739254ca3a
-      id: 376462283
+      id: 3488785021
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -2250,10 +2348,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 02517e2303c9384ca666f8387739d4ba
-      - ElementName: Sex
+      - ElementName: RTPC_Sex
         ObjectType: 13
         guid: 3c1e977f22e69f45ae73f9739254ca3a
-      Path: Game Parameters\Default Work Unit\Sex
+      Path: Game Parameters\Default Work Unit\RTPC_Sex
   - PhysicalPath: Game Parameters\volume sliders.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -2321,7 +2419,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: d84c9904c0324340baf35b7e74ac5985
     GuidInternal: 
-    m_lastTime: -8585641873091426480
+    m_lastTime: -8585641807286366628
     List:
     - name: HH_States
       guid: 3eae448d098c574da26102a9ef9f3b0b
@@ -2338,9 +2436,9 @@ MonoBehaviour:
         guid: 3eae448d098c574da26102a9ef9f3b0b
       Path: States\Default Work Unit\HH_States
       values:
-      - name: ACM
+      - name: BGM_ACM
         guid: 15609f68708e2245bb6b6573b827bde3
-        id: 1151086806
+        id: 2227843141
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2351,12 +2449,12 @@ MonoBehaviour:
         - ElementName: HH_States
           ObjectType: 9
           guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: ACM
+        - ElementName: BGM_ACM
           ObjectType: 8
           guid: 15609f68708e2245bb6b6573b827bde3
-      - name: CHF
+      - name: BGM_CHF
         guid: 33c4992bce45e24683492fedfe8578d6
-        id: 1100459698
+        id: 1540358061
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2367,12 +2465,12 @@ MonoBehaviour:
         - ElementName: HH_States
           ObjectType: 9
           guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: CHF
+        - ElementName: BGM_CHF
           ObjectType: 8
           guid: 33c4992bce45e24683492fedfe8578d6
-      - name: DLV
+      - name: BGM_DLV
         guid: d9c05c5875c89144b19e3386175b620a
-        id: 529873601
+        id: 2110944158
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2383,12 +2481,12 @@ MonoBehaviour:
         - ElementName: HH_States
           ObjectType: 9
           guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: DLV
+        - ElementName: BGM_DLV
           ObjectType: 8
           guid: d9c05c5875c89144b19e3386175b620a
-      - name: Doorbell
+      - name: BGM_Doorbell
         guid: 3f781f2f2b7056489f4a234f828fb8ae
-        id: 647453594
+        id: 315087739
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2399,12 +2497,12 @@ MonoBehaviour:
         - ElementName: HH_States
           ObjectType: 9
           guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: Doorbell
+        - ElementName: BGM_Doorbell
           ObjectType: 8
           guid: 3f781f2f2b7056489f4a234f828fb8ae
-      - name: END
+      - name: BGM_END
         guid: 02edd932509bdb48b2da46f5deeb6f1a
-        id: 529726532
+        id: 1641317903
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2415,12 +2513,12 @@ MonoBehaviour:
         - ElementName: HH_States
           ObjectType: 9
           guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: END
+        - ElementName: BGM_END
           ObjectType: 8
           guid: 02edd932509bdb48b2da46f5deeb6f1a
-      - name: INS
+      - name: BGM_INS
         guid: 3ca2113fb3f66e4795b25ded98aab832
-        id: 529034935
+        id: 1639346468
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2431,12 +2529,12 @@ MonoBehaviour:
         - ElementName: HH_States
           ObjectType: 9
           guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: INS
+        - ElementName: BGM_INS
           ObjectType: 8
           guid: 3ca2113fb3f66e4795b25ded98aab832
-      - name: KEI
+      - name: BGM_KEI
         guid: 095b1bc684c06542904ddd227f822930
-        id: 1183067794
+        id: 1723528717
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2447,12 +2545,12 @@ MonoBehaviour:
         - ElementName: HH_States
           ObjectType: 9
           guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: KEI
+        - ElementName: BGM_KEI
           ObjectType: 8
           guid: 095b1bc684c06542904ddd227f822930
-      - name: MC
+      - name: BGM_MC
         guid: 4633e3a9569e6643b8378fb5f90eb0dd
-        id: 1685527061
+        id: 3080045164
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2463,9 +2561,41 @@ MonoBehaviour:
         - ElementName: HH_States
           ObjectType: 9
           guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: MC
+        - ElementName: BGM_MC
           ObjectType: 8
           guid: 4633e3a9569e6643b8378fb5f90eb0dd
+      - name: BGM_NONE
+        guid: 7b96c1c9dbfdad4790df75a97877fb1d
+        id: 743913214
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: BGM_NONE
+          ObjectType: 8
+          guid: 7b96c1c9dbfdad4790df75a97877fb1d
+      - name: BGM_VCM
+        guid: 2abebfcc11aa25418d80b51c8a690122
+        id: 1689238054
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d84c9904c0324340baf35b7e74ac5985
+        - ElementName: HH_States
+          ObjectType: 9
+          guid: 3eae448d098c574da26102a9ef9f3b0b
+        - ElementName: BGM_VCM
+          ObjectType: 8
+          guid: 2abebfcc11aa25418d80b51c8a690122
       - name: None
         guid: 689a73ff5bcd9545aeb874dd0b98d61a
         id: 748895195
@@ -2482,22 +2612,6 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: 689a73ff5bcd9545aeb874dd0b98d61a
-      - name: VCM
-        guid: 2abebfcc11aa25418d80b51c8a690122
-        id: 610804373
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: d84c9904c0324340baf35b7e74ac5985
-        - ElementName: HH_States
-          ObjectType: 9
-          guid: 3eae448d098c574da26102a9ef9f3b0b
-        - ElementName: VCM
-          ObjectType: 8
-          guid: 2abebfcc11aa25418d80b51c8a690122
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
