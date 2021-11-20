@@ -26,8 +26,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	912741289	sfx_10VCM_phone			\SFX\sfx_10VCM_phone	
 	939230987	VO_10VCM_110_carol			\Voice\VO_10VCM_110_carol	
 	942777237	VO_11KEI_100_keira			\Voice\VO_11KEI_100_keira	
+	993732858	VO_04ACM_020_mc			\Voice\VO_04ACM_020_mc	
 	1010927348	sfx_00GEN_click			\SFX\sfx_00GEN_click	
-	1030661095	VO_04ACM_040_mc_stop			\Voice\VO_04ACM_040_mc_stop	
 	1094607688	amb_00GEN_house_stop			\SFX\amb_00GEN_house_stop	
 	1096117572	VO_11KEI_150_mc			\Voice\VO_11KEI_150_mc	
 	1131043679	VO_03ZOM_060_wendy			\Voice\VO_03ZOM_060_wendy	
@@ -41,7 +41,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1297885619	sfx_06INS_openbook			\SFX\sfx_06INS_openbook	
 	1310102706	VO_11KEI_120_mum			\Voice\VO_11KEI_120_mum	
 	1361983429	VO_11KEI_070_keira			\Voice\VO_11KEI_070_keira	
-	1372993760	VO_03ZOM_070_mc_stop			\Voice\VO_03ZOM_070_mc_stop	
 	1433897677	VO_03ZOM_090_paul			\Voice\VO_03ZOM_090_paul	
 	1506996934	amb_03ZOM_keyboard_stop			\SFX\amb_03ZOM_keyboard_stop	
 	1536178459	VO_04ACM_070_mc			\Voice\VO_04ACM_070_mc	
@@ -63,16 +62,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	2256124074	sfx_04ACM_fix			\SFX\sfx_04ACM_fix	
 	2261318223	sfx_00GEN_doorbell			\SFX\sfx_00GEN_doorbell	
 	2265390010	VO_10VCM_090_carol			\Voice\VO_10VCM_090_carol	
+	2297440456	VO_04ACM_040_mc			\Voice\VO_04ACM_040_mc	
 	2319967843	sfx_09HRW_pack			\SFX\sfx_09HRW_pack	
 	2342739123	sfx_11KEI_dog			\SFX\sfx_11KEI_dog	
-	2399135059	VO_03ZOM_020_mc_stop			\Voice\VO_03ZOM_020_mc_stop	
 	2457604163	sfx_02DLV_footsteps			\SFX\sfx_02DLV_footsteps	
 	2569653828	VO_11KEI_160_husband			\Voice\VO_11KEI_160_husband	
+	2611006641	VO_03ZOM_030_mc			\Voice\VO_03ZOM_030_mc	
 	2614593559	sfx_05MIR_selfie			\SFX\sfx_05MIR_selfie	
 	2627611537	sfx_09HRW_ktv			\SFX\sfx_09HRW_ktv	
+	2633045667	VO_03ZOM_050_mc			\Voice\VO_03ZOM_050_mc	
 	2655851741	VO_02DLV_020_delivery			\Voice\VO_02DLV_020_delivery	
-	2732647079	VO_01OPN_010_mc_stop			\Voice\VO_01OPN_010_mc_stop	
-	2736681294	VO_03ZOM_050_mc_stop			\Voice\VO_03ZOM_050_mc_stop	
 	2772396626	sfx_01OPN_couch			\SFX\sfx_01OPN_couch	
 	2776257953	VO_11KEI_030_jannah			\Voice\VO_11KEI_030_jannah	
 	2816861167	VO_11KEI_010_jannah			\Voice\VO_11KEI_010_jannah	
@@ -84,6 +83,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2962424272	VO_06INS_010_mc			\Voice\VO_06INS_010_mc	
 	2981718853	VO_03ZOM_040_wendy			\Voice\VO_03ZOM_040_wendy	
 	3017484508	VO_10VCM_070_carol			\Voice\VO_10VCM_070_carol	
+	3033172052	VO_03ZOM_020_mc			\Voice\VO_03ZOM_020_mc	
 	3045522563	amb_08CHF_clock_stop			\SFX\amb_08CHF_clock_stop	
 	3094539428	VO_06INS_070_merwyn			\Voice\VO_06INS_070_merwyn	
 	3103793179	VO_11KEI_170_husband			\Voice\VO_11KEI_170_husband	
@@ -91,7 +91,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3250207694	VO_11KEI_180_husband			\Voice\VO_11KEI_180_husband	
 	3273819246	VO_02DLV_010_delivery			\Voice\VO_02DLV_010_delivery	
 	3301898191	VO_10VCM_020_carol			\Voice\VO_10VCM_020_carol	
-	3439848916	VO_03ZOM_030_mc_stop			\Voice\VO_03ZOM_030_mc_stop	
 	3484353603	VO_stop			\Voice\VO_stop	
 	3523608175	VO_11KEI_110_mum			\Voice\VO_11KEI_110_mum	
 	3555550800	VO_11KEI_040_keira			\Voice\VO_11KEI_040_keira	
@@ -107,13 +106,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	3774266052	sfx_02DLV_bag			\SFX\sfx_02DLV_bag	
 	3790796625	VO_06INS_040_mc			\Voice\VO_06INS_040_mc	
 	3791463254	VO_03ZOM_010_wendy			\Voice\VO_03ZOM_010_wendy	
+	3811221128	VO_01OPN_010_mc			\Voice\VO_01OPN_010_mc	
 	3854412355	VO_06INS_020_mc			\Voice\VO_06INS_020_mc	
 	3875258401	VO_03ZOM_080_wendy			\Voice\VO_03ZOM_080_wendy	
 	3905820869	amb_00GEN_house			\SFX\amb_00GEN_house	
 	3910002983	amb_11KEI_house_stop			\SFX\amb_11KEI_house_stop	
 	4001995393	VO_06INS_060_merwyn			\Voice\VO_06INS_060_merwyn	
 	4016277978	VO_11KEI_060_keira			\Voice\VO_11KEI_060_keira	
-	4024794761	VO_04ACM_020_mc_stop			\Voice\VO_04ACM_020_mc_stop	
+	4215488429	VO_03ZOM_070_mc			\Voice\VO_03ZOM_070_mc	
 	4271274736	VO_10VCM_030_carol			\Voice\VO_10VCM_030_carol	
 	4280253252	sfx_00GEN_door			\SFX\sfx_00GEN_door	
 

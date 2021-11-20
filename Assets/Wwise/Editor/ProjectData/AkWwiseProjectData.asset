@@ -816,11 +816,11 @@ MonoBehaviour:
     ParentPath: Events\Voice
     guid: e3afecd20562804a86402f8bb5b365a9
     GuidInternal: 
-    m_lastTime: -8585641946765809222
+    m_lastTime: -8585641927865635418
     List:
-    - name: VO_01OPN_010_mc_stop
+    - name: VO_01OPN_010_mc
       guid: 48f8c7582e2d7041b91268a259ce4820
-      id: 2732647079
+      id: 3811221128
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -828,13 +828,13 @@ MonoBehaviour:
       - ElementName: Voice
         ObjectType: 12
         guid: e3afecd20562804a86402f8bb5b365a9
-      - ElementName: VO_01OPN_010_mc_stop
+      - ElementName: VO_01OPN_010_mc
         ObjectType: 3
         guid: 48f8c7582e2d7041b91268a259ce4820
-      Path: Events\Voice\VO_01OPN_010_mc_stop
+      Path: Events\Voice\VO_01OPN_010_mc
       maxAttenuation: 0
-      maxDuration: 1.787506
-      minDuration: 1.787506
+      maxDuration: -1
+      minDuration: -1
     - name: VO_02DLV_010_delivery
       guid: 32d4900dee056141b5ad8577a2909166
       id: 3273819246
@@ -850,8 +850,8 @@ MonoBehaviour:
         guid: 32d4900dee056141b5ad8577a2909166
       Path: Events\Voice\VO_02DLV_010_delivery
       maxAttenuation: 0
-      maxDuration: 1.625011
-      minDuration: 1.625011
+      maxDuration: -1
+      minDuration: -1
     - name: VO_02DLV_020_delivery
       guid: 874868697742674991454449147c222b
       id: 2655851741
@@ -867,8 +867,8 @@ MonoBehaviour:
         guid: 874868697742674991454449147c222b
       Path: Events\Voice\VO_02DLV_020_delivery
       maxAttenuation: 0
-      maxDuration: 1.5
-      minDuration: 1.5
+      maxDuration: -1
+      minDuration: -1
     - name: VO_03ZOM_010_wendy
       guid: f4711042d1ccc442a0d7e7e8934b40d6
       id: 3791463254
@@ -884,11 +884,11 @@ MonoBehaviour:
         guid: f4711042d1ccc442a0d7e7e8934b40d6
       Path: Events\Voice\VO_03ZOM_010_wendy
       maxAttenuation: 0
-      maxDuration: 67.03263
-      minDuration: 67.03263
-    - name: VO_03ZOM_020_mc_stop
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_03ZOM_020_mc
       guid: 254f07043efaa34f831378e2d5c3dbb7
-      id: 2399135059
+      id: 3033172052
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -896,16 +896,16 @@ MonoBehaviour:
       - ElementName: Voice
         ObjectType: 12
         guid: e3afecd20562804a86402f8bb5b365a9
-      - ElementName: VO_03ZOM_020_mc_stop
+      - ElementName: VO_03ZOM_020_mc
         ObjectType: 3
         guid: 254f07043efaa34f831378e2d5c3dbb7
-      Path: Events\Voice\VO_03ZOM_020_mc_stop
+      Path: Events\Voice\VO_03ZOM_020_mc
       maxAttenuation: 0
-      maxDuration: 3.010045
-      minDuration: 3.010045
-    - name: VO_03ZOM_030_mc_stop
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_03ZOM_030_mc
       guid: 458b4e9075ec7840ad84b44107d420b4
-      id: 3439848916
+      id: 2611006641
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -913,13 +913,13 @@ MonoBehaviour:
       - ElementName: Voice
         ObjectType: 12
         guid: e3afecd20562804a86402f8bb5b365a9
-      - ElementName: VO_03ZOM_030_mc_stop
+      - ElementName: VO_03ZOM_030_mc
         ObjectType: 3
         guid: 458b4e9075ec7840ad84b44107d420b4
-      Path: Events\Voice\VO_03ZOM_030_mc_stop
+      Path: Events\Voice\VO_03ZOM_030_mc
       maxAttenuation: 0
-      maxDuration: 8.033334
-      minDuration: 8.033334
+      maxDuration: -1
+      minDuration: -1
     - name: VO_03ZOM_040_wendy
       guid: a000f66c6e76b84289bd4dcdf66d2050
       id: 2981718853
@@ -935,11 +935,11 @@ MonoBehaviour:
         guid: a000f66c6e76b84289bd4dcdf66d2050
       Path: Events\Voice\VO_03ZOM_040_wendy
       maxAttenuation: 0
-      maxDuration: 2.290159
-      minDuration: 2.290159
-    - name: VO_03ZOM_050_mc_stop
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_03ZOM_050_mc
       guid: 575ae05f526f41428bae8249806c107d
-      id: 2736681294
+      id: 2633045667
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -947,13 +947,13 @@ MonoBehaviour:
       - ElementName: Voice
         ObjectType: 12
         guid: e3afecd20562804a86402f8bb5b365a9
-      - ElementName: VO_03ZOM_050_mc_stop
+      - ElementName: VO_03ZOM_050_mc
         ObjectType: 3
         guid: 575ae05f526f41428bae8249806c107d
-      Path: Events\Voice\VO_03ZOM_050_mc_stop
+      Path: Events\Voice\VO_03ZOM_050_mc
       maxAttenuation: 0
-      maxDuration: 6.3
-      minDuration: 6.3
+      maxDuration: -1
+      minDuration: -1
     - name: VO_03ZOM_060_wendy
       guid: e1efc707b9290d45af1667499c3047a3
       id: 1131043679
@@ -969,11 +969,11 @@ MonoBehaviour:
         guid: e1efc707b9290d45af1667499c3047a3
       Path: Events\Voice\VO_03ZOM_060_wendy
       maxAttenuation: 0
-      maxDuration: 4.10644
-      minDuration: 4.10644
-    - name: VO_03ZOM_070_mc_stop
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_03ZOM_070_mc
       guid: 6f486caed4908943b95b1d453f13b81f
-      id: 1372993760
+      id: 4215488429
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -981,13 +981,13 @@ MonoBehaviour:
       - ElementName: Voice
         ObjectType: 12
         guid: e3afecd20562804a86402f8bb5b365a9
-      - ElementName: VO_03ZOM_070_mc_stop
+      - ElementName: VO_03ZOM_070_mc
         ObjectType: 3
         guid: 6f486caed4908943b95b1d453f13b81f
-      Path: Events\Voice\VO_03ZOM_070_mc_stop
+      Path: Events\Voice\VO_03ZOM_070_mc
       maxAttenuation: 0
-      maxDuration: 5.933333
-      minDuration: 5.933333
+      maxDuration: -1
+      minDuration: -1
     - name: VO_03ZOM_080_wendy
       guid: 435fee293e6b844cbf0531d18fa4fa3e
       id: 3875258401
@@ -1003,8 +1003,8 @@ MonoBehaviour:
         guid: 435fee293e6b844cbf0531d18fa4fa3e
       Path: Events\Voice\VO_03ZOM_080_wendy
       maxAttenuation: 0
-      maxDuration: 3.016871
-      minDuration: 3.016871
+      maxDuration: -1
+      minDuration: -1
     - name: VO_03ZOM_090_paul
       guid: d6e9427af4a79743b0e0068f4c221964
       id: 1433897677
@@ -1020,8 +1020,8 @@ MonoBehaviour:
         guid: d6e9427af4a79743b0e0068f4c221964
       Path: Events\Voice\VO_03ZOM_090_paul
       maxAttenuation: 0
-      maxDuration: 15.959233
-      minDuration: 15.959233
+      maxDuration: -1
+      minDuration: -1
     - name: VO_04ACM_010_alex
       guid: 9514bf44e0c53d4eb1b7e2c51fd0cedc
       id: 2867537081
@@ -1037,11 +1037,11 @@ MonoBehaviour:
         guid: 9514bf44e0c53d4eb1b7e2c51fd0cedc
       Path: Events\Voice\VO_04ACM_010_alex
       maxAttenuation: 0
-      maxDuration: 0.899864
-      minDuration: 0.899864
-    - name: VO_04ACM_020_mc_stop
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_04ACM_020_mc
       guid: ba576153f7831346acc7d33d9dc24d9f
-      id: 4024794761
+      id: 993732858
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1049,13 +1049,13 @@ MonoBehaviour:
       - ElementName: Voice
         ObjectType: 12
         guid: e3afecd20562804a86402f8bb5b365a9
-      - ElementName: VO_04ACM_020_mc_stop
+      - ElementName: VO_04ACM_020_mc
         ObjectType: 3
         guid: ba576153f7831346acc7d33d9dc24d9f
-      Path: Events\Voice\VO_04ACM_020_mc_stop
+      Path: Events\Voice\VO_04ACM_020_mc
       maxAttenuation: 0
-      maxDuration: 4.366689
-      minDuration: 4.366689
+      maxDuration: -1
+      minDuration: -1
     - name: VO_04ACM_030_alex
       guid: ef66b560dadfd547b653a299f4347e46
       id: 1761702355
@@ -1071,11 +1071,11 @@ MonoBehaviour:
         guid: ef66b560dadfd547b653a299f4347e46
       Path: Events\Voice\VO_04ACM_030_alex
       maxAttenuation: 0
-      maxDuration: 1.14585
-      minDuration: 1.14585
-    - name: VO_04ACM_040_mc_stop
+      maxDuration: -1
+      minDuration: -1
+    - name: VO_04ACM_040_mc
       guid: 3369daefe1b61245860ea77cba354a2e
-      id: 1030661095
+      id: 2297440456
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1083,13 +1083,13 @@ MonoBehaviour:
       - ElementName: Voice
         ObjectType: 12
         guid: e3afecd20562804a86402f8bb5b365a9
-      - ElementName: VO_04ACM_040_mc_stop
+      - ElementName: VO_04ACM_040_mc
         ObjectType: 3
         guid: 3369daefe1b61245860ea77cba354a2e
-      Path: Events\Voice\VO_04ACM_040_mc_stop
+      Path: Events\Voice\VO_04ACM_040_mc
       maxAttenuation: 0
-      maxDuration: 3.233333
-      minDuration: 3.233333
+      maxDuration: -1
+      minDuration: -1
     - name: VO_04ACM_050_mc
       guid: dc5f42fb8653654c8e1baa8e13a80148
       id: 232470789
@@ -1105,8 +1105,8 @@ MonoBehaviour:
         guid: dc5f42fb8653654c8e1baa8e13a80148
       Path: Events\Voice\VO_04ACM_050_mc
       maxAttenuation: 0
-      maxDuration: 2.919728
-      minDuration: 2.919728
+      maxDuration: -1
+      minDuration: -1
     - name: VO_04ACM_060_alex
       guid: b68a993531e67340b0b9912827893eaf
       id: 333498414
@@ -1122,8 +1122,8 @@ MonoBehaviour:
         guid: b68a993531e67340b0b9912827893eaf
       Path: Events\Voice\VO_04ACM_060_alex
       maxAttenuation: 0
-      maxDuration: 10.706259
-      minDuration: 10.706259
+      maxDuration: -1
+      minDuration: -1
     - name: VO_04ACM_070_mc
       guid: 19d2e07f961acf488ad08bea48a92386
       id: 1536178459
@@ -1139,8 +1139,8 @@ MonoBehaviour:
         guid: 19d2e07f961acf488ad08bea48a92386
       Path: Events\Voice\VO_04ACM_070_mc
       maxAttenuation: 0
-      maxDuration: 3.8
-      minDuration: 3.8
+      maxDuration: -1
+      minDuration: -1
     - name: VO_04ACM_080_alex
       guid: 649d73814ba1b54289dac73022d2825c
       id: 1937623344
@@ -1156,8 +1156,8 @@ MonoBehaviour:
         guid: 649d73814ba1b54289dac73022d2825c
       Path: Events\Voice\VO_04ACM_080_alex
       maxAttenuation: 0
-      maxDuration: 8.263333
-      minDuration: 8.263333
+      maxDuration: -1
+      minDuration: -1
     - name: VO_04ACM_090_mc
       guid: 05b5517a3d40104386cb5e1ea275fe44
       id: 1161724321
@@ -1173,8 +1173,8 @@ MonoBehaviour:
         guid: 05b5517a3d40104386cb5e1ea275fe44
       Path: Events\Voice\VO_04ACM_090_mc
       maxAttenuation: 0
-      maxDuration: 5.466667
-      minDuration: 5.466667
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_010_mc
       guid: 914b52a290fd3448bab8ba40654ef0bc
       id: 2962424272
@@ -1190,8 +1190,8 @@ MonoBehaviour:
         guid: 914b52a290fd3448bab8ba40654ef0bc
       Path: Events\Voice\VO_06INS_010_mc
       maxAttenuation: 0
-      maxDuration: 3.566667
-      minDuration: 3.566667
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_020_mc
       guid: d4ceb1b9370e3b40b155a46c27ec3daf
       id: 3854412355
@@ -1207,8 +1207,8 @@ MonoBehaviour:
         guid: d4ceb1b9370e3b40b155a46c27ec3daf
       Path: Events\Voice\VO_06INS_020_mc
       maxAttenuation: 0
-      maxDuration: 4.266667
-      minDuration: 4.266667
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_030_merwyn
       guid: 9138cbed3826564bacb78f4a1e4c8c97
       id: 410205544
@@ -1224,8 +1224,8 @@ MonoBehaviour:
         guid: 9138cbed3826564bacb78f4a1e4c8c97
       Path: Events\Voice\VO_06INS_030_merwyn
       maxAttenuation: 0
-      maxDuration: 4.466485
-      minDuration: 4.466485
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_040_mc
       guid: 923fbbf93d560c4295f0d788b4f3cd4b
       id: 3790796625
@@ -1241,8 +1241,8 @@ MonoBehaviour:
         guid: 923fbbf93d560c4295f0d788b4f3cd4b
       Path: Events\Voice\VO_06INS_040_mc
       maxAttenuation: 0
-      maxDuration: 5
-      minDuration: 5
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_050_merwyn
       guid: dd74798f8c232c4b8c8126a1124ded4a
       id: 1285751974
@@ -1258,8 +1258,8 @@ MonoBehaviour:
         guid: dd74798f8c232c4b8c8126a1124ded4a
       Path: Events\Voice\VO_06INS_050_merwyn
       maxAttenuation: 0
-      maxDuration: 14.829682
-      minDuration: 14.829682
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_060_merwyn
       guid: a9a6a0978a8bd640aec6125ec74e2ecb
       id: 4001995393
@@ -1275,8 +1275,8 @@ MonoBehaviour:
         guid: a9a6a0978a8bd640aec6125ec74e2ecb
       Path: Events\Voice\VO_06INS_060_merwyn
       maxAttenuation: 0
-      maxDuration: 4.952562
-      minDuration: 4.952562
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_070_merwyn
       guid: e5d25cc80eab2b45b89f8f06fc8ef5bf
       id: 3094539428
@@ -1292,8 +1292,8 @@ MonoBehaviour:
         guid: e5d25cc80eab2b45b89f8f06fc8ef5bf
       Path: Events\Voice\VO_06INS_070_merwyn
       maxAttenuation: 0
-      maxDuration: 2.047642
-      minDuration: 2.047642
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_090_mc
       guid: baee16ddecfde94eabdedbc5ff66e731
       id: 3692590456
@@ -1309,8 +1309,8 @@ MonoBehaviour:
         guid: baee16ddecfde94eabdedbc5ff66e731
       Path: Events\Voice\VO_06INS_090_mc
       maxAttenuation: 0
-      maxDuration: 4.785102
-      minDuration: 4.785102
+      maxDuration: -1
+      minDuration: -1
     - name: VO_06INS_100_merwyn
       guid: 910d16eb5d82aa46875818eb0fc11265
       id: 3573006388
@@ -1326,8 +1326,8 @@ MonoBehaviour:
         guid: 910d16eb5d82aa46875818eb0fc11265
       Path: Events\Voice\VO_06INS_100_merwyn
       maxAttenuation: 0
-      maxDuration: 2.769342
-      minDuration: 2.769342
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_010_ethan
       guid: 641aa6913e72ba46aac4836d59f33f93
       id: 831783015
@@ -1343,8 +1343,8 @@ MonoBehaviour:
         guid: 641aa6913e72ba46aac4836d59f33f93
       Path: Events\Voice\VO_08CHF_010_ethan
       maxAttenuation: 0
-      maxDuration: 10.152676
-      minDuration: 10.152676
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_020_ethan
       guid: 475ca0a523688248813f6d3c3ee405f4
       id: 333640230
@@ -1360,8 +1360,8 @@ MonoBehaviour:
         guid: 475ca0a523688248813f6d3c3ee405f4
       Path: Events\Voice\VO_08CHF_020_ethan
       maxAttenuation: 0
-      maxDuration: 9.412018
-      minDuration: 9.412018
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_030_mc
       guid: 6f0f35250b4e86438faa43ceeed55059
       id: 595327147
@@ -1377,8 +1377,8 @@ MonoBehaviour:
         guid: 6f0f35250b4e86438faa43ceeed55059
       Path: Events\Voice\VO_08CHF_030_mc
       maxAttenuation: 0
-      maxDuration: 2.410567
-      minDuration: 2.410567
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_040_mc
       guid: dfb27eb2a6108947b02c696b2d204f35
       id: 427438844
@@ -1394,8 +1394,8 @@ MonoBehaviour:
         guid: dfb27eb2a6108947b02c696b2d204f35
       Path: Events\Voice\VO_08CHF_040_mc
       maxAttenuation: 0
-      maxDuration: 6.039682
-      minDuration: 6.039682
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_050_ethan
       guid: edf9822285ae28479f85520a757d37fb
       id: 3568377795
@@ -1411,8 +1411,8 @@ MonoBehaviour:
         guid: edf9822285ae28479f85520a757d37fb
       Path: Events\Voice\VO_08CHF_050_ethan
       maxAttenuation: 0
-      maxDuration: 12.252653
-      minDuration: 12.252653
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_060_mc
       guid: cf9877834ea5ba47b12388f46fad21c5
       id: 42538826
@@ -1428,8 +1428,8 @@ MonoBehaviour:
         guid: cf9877834ea5ba47b12388f46fad21c5
       Path: Events\Voice\VO_08CHF_060_mc
       maxAttenuation: 0
-      maxDuration: 3.281633
-      minDuration: 3.281633
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_070_ethan
       guid: 0f7f6dff0dc8734cb358ab3e1cad691f
       id: 1935602725
@@ -1445,8 +1445,8 @@ MonoBehaviour:
         guid: 0f7f6dff0dc8734cb358ab3e1cad691f
       Path: Events\Voice\VO_08CHF_070_ethan
       maxAttenuation: 0
-      maxDuration: 5.593333
-      minDuration: 5.593333
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_080_ethan
       guid: b90c0b2ac8fb544fa479b4fe682159ed
       id: 815836500
@@ -1462,8 +1462,8 @@ MonoBehaviour:
         guid: b90c0b2ac8fb544fa479b4fe682159ed
       Path: Events\Voice\VO_08CHF_080_ethan
       maxAttenuation: 0
-      maxDuration: 13.657098
-      minDuration: 13.657098
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_090_ethan
       guid: 3e03a5977788e443a6a317a6ab99cd6c
       id: 2932602975
@@ -1479,8 +1479,8 @@ MonoBehaviour:
         guid: 3e03a5977788e443a6a317a6ab99cd6c
       Path: Events\Voice\VO_08CHF_090_ethan
       maxAttenuation: 0
-      maxDuration: 28.172812
-      minDuration: 28.172812
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_100_mc
       guid: 0354a3f074721a4f802a0538f14b8d80
       id: 3624644603
@@ -1496,8 +1496,8 @@ MonoBehaviour:
         guid: 0354a3f074721a4f802a0538f14b8d80
       Path: Events\Voice\VO_08CHF_100_mc
       maxAttenuation: 0
-      maxDuration: 5.446916
-      minDuration: 5.446916
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_110_ethan
       guid: 6438d74ef1f1e646a0bd3b76c1abfd5f
       id: 513475766
@@ -1513,8 +1513,8 @@ MonoBehaviour:
         guid: 6438d74ef1f1e646a0bd3b76c1abfd5f
       Path: Events\Voice\VO_08CHF_110_ethan
       maxAttenuation: 0
-      maxDuration: 9.739682
-      minDuration: 9.739682
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_120_ethan
       guid: 477d1eea2fcb7041b038695f8473c13c
       id: 296267319
@@ -1530,8 +1530,8 @@ MonoBehaviour:
         guid: 477d1eea2fcb7041b038695f8473c13c
       Path: Events\Voice\VO_08CHF_120_ethan
       maxAttenuation: 0
-      maxDuration: 49.667347
-      minDuration: 49.667347
+      maxDuration: -1
+      minDuration: -1
     - name: VO_08CHF_130_ethan
       guid: d9432208d822f745936da5f8222eb045
       id: 903915116
@@ -1547,8 +1547,8 @@ MonoBehaviour:
         guid: d9432208d822f745936da5f8222eb045
       Path: Events\Voice\VO_08CHF_130_ethan
       maxAttenuation: 0
-      maxDuration: 26.85796
-      minDuration: 26.85796
+      maxDuration: -1
+      minDuration: -1
     - name: VO_09HRW_010_mc
       guid: 6b9f0167747b9049b4aa47070dd0b8a9
       id: 1673457568
@@ -1564,8 +1564,8 @@ MonoBehaviour:
         guid: 6b9f0167747b9049b4aa47070dd0b8a9
       Path: Events\Voice\VO_09HRW_010_mc
       maxAttenuation: 0
-      maxDuration: 1.506621
-      minDuration: 1.506621
+      maxDuration: -1
+      minDuration: -1
     - name: VO_09HRW_020_husband
       guid: 05ee0f14845e1c42b211c4a22f366fe9
       id: 2240928088
@@ -1581,8 +1581,8 @@ MonoBehaviour:
         guid: 05ee0f14845e1c42b211c4a22f366fe9
       Path: Events\Voice\VO_09HRW_020_husband
       maxAttenuation: 0
-      maxDuration: 1.993832
-      minDuration: 1.993832
+      maxDuration: -1
+      minDuration: -1
     - name: VO_09HRW_030_mc
       guid: 47c683d1ba654741b328475f3f8b4141
       id: 3132277646
@@ -1598,8 +1598,8 @@ MonoBehaviour:
         guid: 47c683d1ba654741b328475f3f8b4141
       Path: Events\Voice\VO_09HRW_030_mc
       maxAttenuation: 0
-      maxDuration: 38.937504
-      minDuration: 38.937504
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_010_carol
       guid: a2d54fd6f5e17d47acb6a971ad5a7c5f
       id: 2108005042
@@ -1615,8 +1615,8 @@ MonoBehaviour:
         guid: a2d54fd6f5e17d47acb6a971ad5a7c5f
       Path: Events\Voice\VO_10VCM_010_carol
       maxAttenuation: 0
-      maxDuration: 1.503084
-      minDuration: 1.503084
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_020_carol
       guid: b8778eaa4a8a27478501b4015a78062a
       id: 3301898191
@@ -1632,8 +1632,8 @@ MonoBehaviour:
         guid: b8778eaa4a8a27478501b4015a78062a
       Path: Events\Voice\VO_10VCM_020_carol
       maxAttenuation: 0
-      maxDuration: 8.020136
-      minDuration: 8.020136
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_030_carol
       guid: 4df3d1b58073db4b9355ea7f6a3555d8
       id: 4271274736
@@ -1649,8 +1649,8 @@ MonoBehaviour:
         guid: 4df3d1b58073db4b9355ea7f6a3555d8
       Path: Events\Voice\VO_10VCM_030_carol
       maxAttenuation: 0
-      maxDuration: 2.904308
-      minDuration: 2.904308
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_040_carol
       guid: 97d6b83c5a425e4eaeba8fa9b7000a50
       id: 1193522245
@@ -1666,8 +1666,8 @@ MonoBehaviour:
         guid: 97d6b83c5a425e4eaeba8fa9b7000a50
       Path: Events\Voice\VO_10VCM_040_carol
       maxAttenuation: 0
-      maxDuration: 2.024331
-      minDuration: 2.024331
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_050_carol
       guid: 98899008a176f248bcbaa820f0d61673
       id: 118453502
@@ -1683,8 +1683,8 @@ MonoBehaviour:
         guid: 98899008a176f248bcbaa820f0d61673
       Path: Events\Voice\VO_10VCM_050_carol
       maxAttenuation: 0
-      maxDuration: 0.962404
-      minDuration: 0.962404
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_060_carol
       guid: b6dabf9b63efa146b1ffae7d3031db9a
       id: 1888402043
@@ -1700,8 +1700,8 @@ MonoBehaviour:
         guid: b6dabf9b63efa146b1ffae7d3031db9a
       Path: Events\Voice\VO_10VCM_060_carol
       maxAttenuation: 0
-      maxDuration: 9.765737
-      minDuration: 9.765737
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_070_carol
       guid: 73be78fb58a951479708b1ed9d8708b2
       id: 3017484508
@@ -1717,8 +1717,8 @@ MonoBehaviour:
         guid: 73be78fb58a951479708b1ed9d8708b2
       Path: Events\Voice\VO_10VCM_070_carol
       maxAttenuation: 0
-      maxDuration: 2.634014
-      minDuration: 2.634014
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_070_mc
       guid: 77f8cf92bf6a1d4194fca95bf3cf45e5
       id: 3643496093
@@ -1734,8 +1734,8 @@ MonoBehaviour:
         guid: 77f8cf92bf6a1d4194fca95bf3cf45e5
       Path: Events\Voice\VO_10VCM_070_mc
       maxAttenuation: 0
-      maxDuration: 0.496372
-      minDuration: 0.496372
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_080_carol
       guid: 393c97b901ea8d4dbd53474feae1dc32
       id: 2202863809
@@ -1751,8 +1751,8 @@ MonoBehaviour:
         guid: 393c97b901ea8d4dbd53474feae1dc32
       Path: Events\Voice\VO_10VCM_080_carol
       maxAttenuation: 0
-      maxDuration: 5.813605
-      minDuration: 5.813605
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_090_carol
       guid: 013e9ea3cdd90e41aa2e41afbdadad4b
       id: 2265390010
@@ -1768,8 +1768,8 @@ MonoBehaviour:
         guid: 013e9ea3cdd90e41aa2e41afbdadad4b
       Path: Events\Voice\VO_10VCM_090_carol
       maxAttenuation: 0
-      maxDuration: 2.319138
-      minDuration: 2.319138
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_100_mc
       guid: a7210f4e02054648b617473de48fa87d
       id: 1929101037
@@ -1785,8 +1785,8 @@ MonoBehaviour:
         guid: a7210f4e02054648b617473de48fa87d
       Path: Events\Voice\VO_10VCM_100_mc
       maxAttenuation: 0
-      maxDuration: 4.359433
-      minDuration: 4.359433
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_110_carol
       guid: 8c616ed8f8f7f248b9a83e571adecd55
       id: 939230987
@@ -1802,8 +1802,8 @@ MonoBehaviour:
         guid: 8c616ed8f8f7f248b9a83e571adecd55
       Path: Events\Voice\VO_10VCM_110_carol
       maxAttenuation: 0
-      maxDuration: 5.910431
-      minDuration: 5.910431
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_120_mc
       guid: f37013ab1e310e43b5de3e118bb6c0f7
       id: 346555107
@@ -1819,8 +1819,8 @@ MonoBehaviour:
         guid: f37013ab1e310e43b5de3e118bb6c0f7
       Path: Events\Voice\VO_10VCM_120_mc
       maxAttenuation: 0
-      maxDuration: 1.115283
-      minDuration: 1.115283
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_130_carol
       guid: c78a0bc95c2219479ef3c17268f9b8bb
       id: 436769429
@@ -1836,8 +1836,8 @@ MonoBehaviour:
         guid: c78a0bc95c2219479ef3c17268f9b8bb
       Path: Events\Voice\VO_10VCM_130_carol
       maxAttenuation: 0
-      maxDuration: 1.918526
-      minDuration: 1.918526
+      maxDuration: -1
+      minDuration: -1
     - name: VO_10VCM_140_carol
       guid: 110efe735667d849930c7ad73f320ec9
       id: 3736805440
@@ -1853,8 +1853,8 @@ MonoBehaviour:
         guid: 110efe735667d849930c7ad73f320ec9
       Path: Events\Voice\VO_10VCM_140_carol
       maxAttenuation: 0
-      maxDuration: 11.144467
-      minDuration: 11.144467
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_010_jannah
       guid: 06c96f0f6d8e12449f4a2d8feb98972e
       id: 2816861167
@@ -1870,8 +1870,8 @@ MonoBehaviour:
         guid: 06c96f0f6d8e12449f4a2d8feb98972e
       Path: Events\Voice\VO_11KEI_010_jannah
       maxAttenuation: 0
-      maxDuration: 7.557437
-      minDuration: 7.557437
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_020_jannah
       guid: 61b7ddf289b29e4e9fcaa5f548014643
       id: 3576593044
@@ -1887,8 +1887,8 @@ MonoBehaviour:
         guid: 61b7ddf289b29e4e9fcaa5f548014643
       Path: Events\Voice\VO_11KEI_020_jannah
       maxAttenuation: 0
-      maxDuration: 22.472494
-      minDuration: 22.472494
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_030_jannah
       guid: 557221c5bd2537489a3d8f842a509fd4
       id: 2776257953
@@ -1904,8 +1904,8 @@ MonoBehaviour:
         guid: 557221c5bd2537489a3d8f842a509fd4
       Path: Events\Voice\VO_11KEI_030_jannah
       maxAttenuation: 0
-      maxDuration: 10.219388
-      minDuration: 10.219388
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_040_keira
       guid: 0b3de1f53792d84c840ba82607322029
       id: 3555550800
@@ -1921,8 +1921,8 @@ MonoBehaviour:
         guid: 0b3de1f53792d84c840ba82607322029
       Path: Events\Voice\VO_11KEI_040_keira
       maxAttenuation: 0
-      maxDuration: 3.507165
-      minDuration: 3.507165
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_050_keira
       guid: cc321c27a864ed47b1b05441ee1b329f
       id: 356528211
@@ -1938,8 +1938,8 @@ MonoBehaviour:
         guid: cc321c27a864ed47b1b05441ee1b329f
       Path: Events\Voice\VO_11KEI_050_keira
       maxAttenuation: 0
-      maxDuration: 1.034989
-      minDuration: 1.034989
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_060_keira
       guid: 9ccca6a444041f4ea27beced421799ef
       id: 4016277978
@@ -1955,8 +1955,8 @@ MonoBehaviour:
         guid: 9ccca6a444041f4ea27beced421799ef
       Path: Events\Voice\VO_11KEI_060_keira
       maxAttenuation: 0
-      maxDuration: 7.024626
-      minDuration: 7.024626
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_070_keira
       guid: ab131453082f144593377092081206bd
       id: 1361983429
@@ -1972,8 +1972,8 @@ MonoBehaviour:
         guid: ab131453082f144593377092081206bd
       Path: Events\Voice\VO_11KEI_070_keira
       maxAttenuation: 0
-      maxDuration: 10.826077
-      minDuration: 10.826077
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_080_keira
       guid: ecb631fe709cc748ba9ed55e05d13c9e
       id: 3579149732
@@ -1989,8 +1989,8 @@ MonoBehaviour:
         guid: ecb631fe709cc748ba9ed55e05d13c9e
       Path: Events\Voice\VO_11KEI_080_keira
       maxAttenuation: 0
-      maxDuration: 15.452676
-      minDuration: 15.452676
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_090_mc
       guid: d7277e56b11df747a71b753f498a4c94
       id: 276147407
@@ -2006,8 +2006,8 @@ MonoBehaviour:
         guid: d7277e56b11df747a71b753f498a4c94
       Path: Events\Voice\VO_11KEI_090_mc
       maxAttenuation: 0
-      maxDuration: 2.246258
-      minDuration: 2.246258
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_100_keira
       guid: 73b57c4c375e3b46abf4edcf340e074c
       id: 942777237
@@ -2023,8 +2023,8 @@ MonoBehaviour:
         guid: 73b57c4c375e3b46abf4edcf340e074c
       Path: Events\Voice\VO_11KEI_100_keira
       maxAttenuation: 0
-      maxDuration: 6.062902
-      minDuration: 6.062902
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_110_mum
       guid: a6e41b5fa0d2a44bb063cf89a673b8ef
       id: 3523608175
@@ -2040,8 +2040,8 @@ MonoBehaviour:
         guid: a6e41b5fa0d2a44bb063cf89a673b8ef
       Path: Events\Voice\VO_11KEI_110_mum
       maxAttenuation: 0
-      maxDuration: 2.476281
-      minDuration: 2.476281
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_120_mum
       guid: e028c0512cd6ba49b0d1ce4db1e5442c
       id: 1310102706
@@ -2057,8 +2057,8 @@ MonoBehaviour:
         guid: e028c0512cd6ba49b0d1ce4db1e5442c
       Path: Events\Voice\VO_11KEI_120_mum
       maxAttenuation: 0
-      maxDuration: 15.508526
-      minDuration: 15.508526
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_130_mc
       guid: 9adeefe9146ca140ae4fc24cf476394b
       id: 1262823182
@@ -2074,8 +2074,8 @@ MonoBehaviour:
         guid: 9adeefe9146ca140ae4fc24cf476394b
       Path: Events\Voice\VO_11KEI_130_mc
       maxAttenuation: 0
-      maxDuration: 1.68898
-      minDuration: 1.68898
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_140_mc
       guid: bc5caaba99b88446b10bf819a9af9862
       id: 674055329
@@ -2091,8 +2091,8 @@ MonoBehaviour:
         guid: bc5caaba99b88446b10bf819a9af9862
       Path: Events\Voice\VO_11KEI_140_mc
       maxAttenuation: 0
-      maxDuration: 4.413742
-      minDuration: 4.413742
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_150_mc
       guid: fae8fe1e6dc42a418ed7a3f185be30e4
       id: 1096117572
@@ -2108,8 +2108,8 @@ MonoBehaviour:
         guid: fae8fe1e6dc42a418ed7a3f185be30e4
       Path: Events\Voice\VO_11KEI_150_mc
       maxAttenuation: 0
-      maxDuration: 2.109546
-      minDuration: 2.109546
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_160_husband
       guid: 2738658c8f7c384ab50d5f5effe43efb
       id: 2569653828
@@ -2125,8 +2125,8 @@ MonoBehaviour:
         guid: 2738658c8f7c384ab50d5f5effe43efb
       Path: Events\Voice\VO_11KEI_160_husband
       maxAttenuation: 0
-      maxDuration: 2.882993
-      minDuration: 2.882993
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_170_husband
       guid: b2ead634ab8c2148a77b3cf41433c61e
       id: 3103793179
@@ -2142,8 +2142,8 @@ MonoBehaviour:
         guid: b2ead634ab8c2148a77b3cf41433c61e
       Path: Events\Voice\VO_11KEI_170_husband
       maxAttenuation: 0
-      maxDuration: 11.156077
-      minDuration: 11.156077
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_180_husband
       guid: f8710155735b5246a35e17c4cc412466
       id: 3250207694
@@ -2159,8 +2159,8 @@ MonoBehaviour:
         guid: f8710155735b5246a35e17c4cc412466
       Path: Events\Voice\VO_11KEI_180_husband
       maxAttenuation: 0
-      maxDuration: 3.456009
-      minDuration: 3.456009
+      maxDuration: -1
+      minDuration: -1
     - name: VO_11KEI_190_mc
       guid: dece56b28f601043af3f962571debc13
       id: 1809771464
@@ -2176,8 +2176,8 @@ MonoBehaviour:
         guid: dece56b28f601043af3f962571debc13
       Path: Events\Voice\VO_11KEI_190_mc
       maxAttenuation: 0
-      maxDuration: 2.641769
-      minDuration: 2.641769
+      maxDuration: -1
+      minDuration: -1
     - name: VO_stop
       guid: 2b0775231dbd6649a39f4dc5b4c4ca25
       id: 3484353603
@@ -2193,8 +2193,8 @@ MonoBehaviour:
         guid: 2b0775231dbd6649a39f4dc5b4c4ca25
       Path: Events\Voice\VO_stop
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:

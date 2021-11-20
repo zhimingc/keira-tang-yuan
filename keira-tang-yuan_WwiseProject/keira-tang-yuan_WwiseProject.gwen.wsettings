@@ -101,7 +101,7 @@
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{F13DC176-D94D-4D55-BB8F-9380D026D7F0}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="ht0F6XT3n0mvlB1w1y8EEg=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="tk6SNKCEiEGL9Rcrutb7oA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="BKb1t6V4NUKF66I1gc5bVA=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="9ENSrCZ8iEGizHRhv6yKDgHaWob/////GI+45z3MmEGuXXWDRTGC8QHaWob/////"/>
@@ -192,6 +192,7 @@
 							<Property Name="EnableReplace" Type="bool" Value="False"/>
 							<Property Name="InsertToInsert" Type="string" Value="_stop"/>
 							<Property Name="RemoveCount" Type="int32" Value="5"/>
+							<Property Name="RemoveFrom" Type="int16" Value="1"/>
 						</PropertyList>
 					</PluginInnerObject>
 				</List>
