@@ -793,6 +793,7 @@ Cotton bud protruding from one nostril, he regards me shamefacedly.
 From 0 to 100km/h in an instant, my heart races and I snap at him. Images of the drinking, the girls and the groping that I associate with KTV parlours flash through my mind. 
 
 #CP_MC_Furious
+#CP_Husband_Neutral
 ##VO_09HRW_030_mc
 I don't know what I'm saying to him, everything is spilling out of me in a rush. The lies, the avoidance, the absolute lack of any kind of relationship. It's been like living with a gloomy ghost in the house, and I fling curses trying to exorcise it. Exorcise him.
 
