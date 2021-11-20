@@ -92,7 +92,8 @@ public class StoryScript : MonoBehaviour
 				string storyString = _inkStory.currentText;
 				storyText = Instantiate(text);
 				storyTextScript = storyText.GetComponent<StoryText>();
-				storyText.text = storyString;
+				storyTextScript.SetText(storyString);
+				// storyText.text = storyString;
 				ProcessTags();
 				storyTextScript.SetBacking((int)StoryState);
 				storyText.transform.SetParent(canvas.transform, false);
