@@ -15,12 +15,15 @@ public enum STORY_STATE
 
 public class StoryScript : MonoBehaviour
 {
+	public GameObject[] debugObjs;
 	public TextAsset inkAsset;
 	public CharacterPortraits cpController;
-
+	public CameraPan panningScript;
+	
 	private Story _inkStory;
 	private bool storyNeeded;
 	private bool advance;
+	private bool refreshStory;
 
 	public Canvas canvas;
 	public float elementPadding;
@@ -51,34 +54,50 @@ public class StoryScript : MonoBehaviour
 		advance = true;
 	}
 
+	void Update_Debug()
+    {
+		// toggle debug display
+		if (Input.GetKeyDown(KeyCode.Escape))
+        {
+			foreach (GameObject obj in debugObjs)
+            {
+				obj.SetActive(!obj.activeSelf);
+            }
+        }
+    }
+
 	// Update is called once per frame
 	void Update()
 	{
-		if (storyNeeded == true && _inkStory.canContinue)
+		Update_Debug();
+
+		if (storyNeeded == true)
 		{
 			RemoveChildren();
 
-			if (_inkStory.canContinue)
+			if (advance && _inkStory.canContinue)
 			{
-				if (advance)
+				// HACK: to fix weird behaviour from Ink where lines after choices will be blank.
+				string storyString = "\n";
+				while (storyString == "\n")
 				{
-					storyText = Instantiate(text);
-					storyTextScript = storyText.GetComponent<StoryText>();
-					string storyString;
-					// HACK: to fix weird behaviour from Ink where lines after choices will be blank.
-					do
-					{
-						storyString = _inkStory.Continue();
-					}
-					while (_inkStory.canContinue && storyString == "\n");
-					storyTextScript.SetText(storyString);
-					// storyText.text = storyString;
-					ProcessTags(_inkStory);
-					storyTextScript.SetBacking((int)StoryState);
-					storyText.transform.SetParent(canvas.transform, false);
-					advance = false;
-					tempObjs.Add(storyText.gameObject);
+					storyString = _inkStory.Continue();
 				}
+				advance = false;
+				refreshStory = true;
+			}
+
+			if (refreshStory)
+            {
+				string storyString = _inkStory.currentText;
+				storyText = Instantiate(text);
+				storyTextScript = storyText.GetComponent<StoryText>();
+				storyText.text = storyString;
+				ProcessTags();
+				storyTextScript.SetBacking((int)StoryState);
+				storyText.transform.SetParent(canvas.transform, false);
+				tempObjs.Add(storyText.gameObject);
+				refreshStory = false;
 			}
 
 			if (!_inkStory.canContinue)
@@ -119,9 +138,9 @@ public class StoryScript : MonoBehaviour
 		}
 	}
 
-    void ProcessTags(Story inkStory)
+    void ProcessTags()
     {
-		for (int j = 0; j < inkStory.currentTags.Count; ++j)
+		for (int j = 0; j < _inkStory.currentTags.Count; ++j)
 		{
 			string currentTag = _inkStory.currentTags[j];
 			string[] splitTag = currentTag.Split('_');
@@ -133,10 +152,6 @@ public class StoryScript : MonoBehaviour
 				if (currentTag.Contains(storyStateString))
 				{
 					StoryState = (STORY_STATE)i;
-					if (i == 0)
-                    {
-						cpController.RemoveCharacter();
-					}
 				}
 			}
 
@@ -146,8 +161,28 @@ public class StoryScript : MonoBehaviour
 				// Character Portrait
 				case "CP":
 					string name = splitTag[1];
+					if (name == "MC") break;
 					storyTextScript.SetCharacterName(name);
-					cpController.AddCharacter();
+					if (splitTag.Length > 2 && splitTag[2] == "Off")
+					{
+						cpController.MoveCharacterOut();
+					}
+					else
+					{
+						cpController.AddCharacter(name);
+					}
+					break;
+				case "BG":
+					string bgName = currentTag.Substring(currentTag.IndexOf('_') + 1, currentTag.Length - currentTag.IndexOf('_') - 1);
+					Sprite bgSprite = Resources.Load<Sprite>("Art/Background/" + bgName);
+					if (bgSprite != null)
+					{
+						panningScript.SetBackgroundImage(bgSprite);
+					}
+					else
+                    {
+						print("WARNING: Trying to load background with invalid path! [" + bgName + "]");
+                    }
 					break;
             }
 		}
@@ -163,8 +198,11 @@ public class StoryScript : MonoBehaviour
 
 	public void Advance()
 	{
-		storyNeeded = true;
-		advance = true;
+		if (_inkStory.canContinue)
+        {
+			storyNeeded = true;
+			advance = true;
+        }
 	}
 
 	public void ChoiceSelected(int id)
@@ -174,4 +212,10 @@ public class StoryScript : MonoBehaviour
 		Advance();
 	}
 
+	public void SetStory(Story newStory)
+    {
+		_inkStory = newStory;
+		refreshStory = true;
+		storyNeeded = true;
+	}
 }

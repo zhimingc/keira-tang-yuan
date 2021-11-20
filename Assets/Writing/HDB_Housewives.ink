@@ -1,6 +1,7 @@
 -> Opening01OPN
 
 === Opening01OPN
+#CHP_1
 #BGM_HDB_Housewife
 #amb_00GEN_house
 #BG_Livingroom_frontdoor_closed
@@ -58,7 +59,7 @@ Well, perfect timing to kick back and reward myself for cleaning the living room
 #sfx_00GEN_door
 #BGM_HDB_Bubble_Tea
 #BG_Livingroom_frontdoor_open
-#CP_Delivery_Guy
+#CP_DeliveryGuy
 #UI_speech
 #VO_02DLV_010_delivery
 "Ma'am, your bubble tea!"
@@ -80,7 +81,7 @@ Suddenly conscious of my own sweaty appearance, I glance down unnecessarily to c
 He turns to walk away.
 ***[Try to catch his eye]
 #VO_02DLV_020_delivery
-#CP_Delivery_Guy_Off
+#CP_DeliveryGuy_Off
 Like the gremlin I am, I didn't even say "thank you" and calling it out now would make me appear like a tryhard.
 
 I watch him as he walks away, wondering if he will turn back for one last glance. I tell myself that if he does, I will smile and give him a nod of acknowledgement at least.
@@ -93,6 +94,7 @@ He does not turn back.
     -> ZoomCalls03ZOM
 
 ===ZoomCalls03ZOM
+#CHP_2
 #BG_Livingroom_frontdoor_closed 
 #BG_Zoom_call
 #amb_03ZOM_keyboard
@@ -225,6 +227,7 @@ Ok, that's a bit unfair. He's never been anything if not responsible. If he was 
 -> Airconman04ACM
 
 === Airconman04ACM
+#CHP_3
 #sfx_00GEN_doorbell
 #BG_Livingroom_frontdoor_closed
 #CP_MC
@@ -348,6 +351,7 @@ Alex declines and just asks for cold water. The same thing he always does.
     -> Mirrorselfie05MIR
     
 ===Mirrorselfie05MIR
+#CHP_4
 #BG_Bedroom
 #BGM_HDB_Housewife
 #CP_Alex_Off
@@ -504,6 +508,7 @@ He sees the reaction his poem has had on me, and he eases the tension with an af
 ->DinnerPrep07DIN
 
 ===DinnerPrep07DIN
+#CHP_5
 #BG_Livingroom_frontdoor_closed
 #BGM_HDB_Housewife
 #CP_Merwyn_Off
@@ -656,6 +661,7 @@ I want to tell him that smiles shouldn't be sad.
 ->Healthriskwarning09HRW
 
 ===Healthriskwarning09HRW
+#CHP_6
 #BG_Bedroom
 #BG_Phone
 #BGM_HDB_Housewife
@@ -706,6 +712,7 @@ Just like that the house is quiet again. I wish I could cry myself back to sleep
 ->Vacuumsalesperson10VCM
 
 ===Vacuumsalesperson10VCM
+#CHP_7
 #sfx_00GEN_doorbell
 #BG_Livingroom_frontdoor_closed
 #CP_MC
@@ -842,6 +849,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 ->Keirashouse11KEI
 
 ===Keirashouse11KEI
+#CHP_8
 #CP_Carol_Off
 #BG_FriendsLivingRoom_frontdoor_closed
 #amb_11KEI_house

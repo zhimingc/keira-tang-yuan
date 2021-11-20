@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CameraPan : MonoBehaviour
 {
     [SerializeField]
     public UnityEngine.UI.Image imagePrefab;
-
     private UnityEngine.UI.Image image;
 
     [SerializeField]
@@ -59,16 +59,16 @@ public class CameraPan : MonoBehaviour
     void SetImageSize() 
     {
         image.SetNativeSize();
-
+        Vector2 referenceResolution = GetComponent<CanvasScaler>().referenceResolution;
         if (fitToX)
         {
-            image.rectTransform.sizeDelta = new Vector2(Screen.width * imageSizeRelativeToScreen, //Scale width
-                                                        Screen.width * imageSizeRelativeToScreen / image.overrideSprite.rect.width * image.overrideSprite.rect.height); //Scale height, maintaining aspect ratio
+            image.rectTransform.sizeDelta = new Vector2(referenceResolution.x * imageSizeRelativeToScreen, //Scale width
+                                                        referenceResolution.x * imageSizeRelativeToScreen / image.overrideSprite.rect.width * image.overrideSprite.rect.height); //Scale height, maintaining aspect ratio
         }
         else 
         {
-            image.rectTransform.sizeDelta = new Vector2(Screen.height * imageSizeRelativeToScreen / image.overrideSprite.rect.height * image.overrideSprite.rect.width, //Scale width, maintaining aspect ratio
-                                                        Screen.height * imageSizeRelativeToScreen); //Scale height, 
+            image.rectTransform.sizeDelta = new Vector2(referenceResolution.y * imageSizeRelativeToScreen / image.overrideSprite.rect.height * image.overrideSprite.rect.width, //Scale width, maintaining aspect ratio
+                                                        referenceResolution.y * imageSizeRelativeToScreen); //Scale height, 
 
         }
 
@@ -154,6 +154,12 @@ public class CameraPan : MonoBehaviour
     {
         SetImageSize();
         HandleMouseMovement();
+    }
+
+    public void SetBackgroundImage(Sprite texture)
+    {
+        image.sprite = texture;
+        SetImageSize();
     }
 
     private void LateUpdate()
