@@ -125,6 +125,11 @@
 									</RTPCList>
 								</Property>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Dialog_Leveler_Soft" ID="{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
 							<ObjectLists/>
 						</Bus>
 					</ChildrenList>

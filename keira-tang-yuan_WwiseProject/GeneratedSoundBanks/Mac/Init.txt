@@ -14,6 +14,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	952479126	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

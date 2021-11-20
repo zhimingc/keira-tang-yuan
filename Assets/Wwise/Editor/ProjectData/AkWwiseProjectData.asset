@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 46c70574b493dc4781509359f90862e5
     GuidInternal: 
-    m_lastTime: -8585642026928777964
+    m_lastTime: -8585641954865572798
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 4bd15ed3500e4749b0d6d94484b7f438
     GuidInternal: 
-    m_lastTime: -8585642026928988010
+    m_lastTime: -8585641937917340806
     List:
     - name: BGM
       guid: 025e370794d3e043bbce3243d427f060
@@ -137,7 +137,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: b2f6b7552386cf4ebaff8b9a03548dd8
     GuidInternal: 
-    m_lastTime: -8585642026928047769
+    m_lastTime: -8585641954865292744
     List:
     - name: Main_Bank
       guid: 04a6f5b7a578354285eba23581ce5b54
@@ -165,7 +165,7 @@ MonoBehaviour:
     ParentPath: Events\BGM
     guid: e956c4650fe17544af64982bb20067c0
     GuidInternal: 
-    m_lastTime: -8585642026928717948
+    m_lastTime: -8585641954864722610
     List: []
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -178,7 +178,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 511ce48fdcf912469449d56d73acf8bd
     GuidInternal: 
-    m_lastTime: -8585642026928968006
+    m_lastTime: -8585641946765709197
     List: []
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
@@ -191,7 +191,7 @@ MonoBehaviour:
     ParentPath: Events\SFX
     guid: 64e85c7aedab4940b3635074180a7bc3
     GuidInternal: 
-    m_lastTime: -8585642026928827976
+    m_lastTime: -8585641954864832637
     List:
     - name: amb_00GEN_house
       guid: cfd115126812de4cbc75a26e21e4c959
@@ -816,7 +816,7 @@ MonoBehaviour:
     ParentPath: Events\Voice
     guid: e3afecd20562804a86402f8bb5b365a9
     GuidInternal: 
-    m_lastTime: -8585642026928857967
+    m_lastTime: -8585641946765809222
     List:
     - name: VO_01OPN_010_mc_stop
       guid: 48f8c7582e2d7041b91268a259ce4820
@@ -1090,6 +1090,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.233333
       minDuration: 3.233333
+    - name: VO_04ACM_050_mc
+      guid: dc5f42fb8653654c8e1baa8e13a80148
+      id: 232470789
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_050_mc
+        ObjectType: 3
+        guid: dc5f42fb8653654c8e1baa8e13a80148
+      Path: Events\Voice\VO_04ACM_050_mc
+      maxAttenuation: 0
+      maxDuration: 2.919728
+      minDuration: 2.919728
     - name: VO_04ACM_060_alex
       guid: b68a993531e67340b0b9912827893eaf
       id: 333498414
@@ -1107,6 +1124,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 10.706259
       minDuration: 10.706259
+    - name: VO_04ACM_070_mc
+      guid: 19d2e07f961acf488ad08bea48a92386
+      id: 1536178459
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_070_mc
+        ObjectType: 3
+        guid: 19d2e07f961acf488ad08bea48a92386
+      Path: Events\Voice\VO_04ACM_070_mc
+      maxAttenuation: 0
+      maxDuration: 3.8
+      minDuration: 3.8
     - name: VO_04ACM_080_alex
       guid: 649d73814ba1b54289dac73022d2825c
       id: 1937623344
@@ -1124,6 +1158,57 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 8.263333
       minDuration: 8.263333
+    - name: VO_04ACM_090_mc
+      guid: 05b5517a3d40104386cb5e1ea275fe44
+      id: 1161724321
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_04ACM_090_mc
+        ObjectType: 3
+        guid: 05b5517a3d40104386cb5e1ea275fe44
+      Path: Events\Voice\VO_04ACM_090_mc
+      maxAttenuation: 0
+      maxDuration: 5.466667
+      minDuration: 5.466667
+    - name: VO_06INS_010_mc
+      guid: 914b52a290fd3448bab8ba40654ef0bc
+      id: 2962424272
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_010_mc
+        ObjectType: 3
+        guid: 914b52a290fd3448bab8ba40654ef0bc
+      Path: Events\Voice\VO_06INS_010_mc
+      maxAttenuation: 0
+      maxDuration: 3.566667
+      minDuration: 3.566667
+    - name: VO_06INS_020_mc
+      guid: d4ceb1b9370e3b40b155a46c27ec3daf
+      id: 3854412355
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_020_mc
+        ObjectType: 3
+        guid: d4ceb1b9370e3b40b155a46c27ec3daf
+      Path: Events\Voice\VO_06INS_020_mc
+      maxAttenuation: 0
+      maxDuration: 4.266667
+      minDuration: 4.266667
     - name: VO_06INS_030_merwyn
       guid: 9138cbed3826564bacb78f4a1e4c8c97
       id: 410205544
@@ -1141,6 +1226,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.466485
       minDuration: 4.466485
+    - name: VO_06INS_040_mc
+      guid: 923fbbf93d560c4295f0d788b4f3cd4b
+      id: 3790796625
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_040_mc
+        ObjectType: 3
+        guid: 923fbbf93d560c4295f0d788b4f3cd4b
+      Path: Events\Voice\VO_06INS_040_mc
+      maxAttenuation: 0
+      maxDuration: 5
+      minDuration: 5
     - name: VO_06INS_050_merwyn
       guid: dd74798f8c232c4b8c8126a1124ded4a
       id: 1285751974
@@ -1192,6 +1294,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.047642
       minDuration: 2.047642
+    - name: VO_06INS_090_mc
+      guid: baee16ddecfde94eabdedbc5ff66e731
+      id: 3692590456
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_090_mc
+        ObjectType: 3
+        guid: baee16ddecfde94eabdedbc5ff66e731
+      Path: Events\Voice\VO_06INS_090_mc
+      maxAttenuation: 0
+      maxDuration: 4.785102
+      minDuration: 4.785102
     - name: VO_06INS_100_merwyn
       guid: 910d16eb5d82aa46875818eb0fc11265
       id: 3573006388
@@ -1243,6 +1362,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 9.412018
       minDuration: 9.412018
+    - name: VO_08CHF_030_mc
+      guid: 6f0f35250b4e86438faa43ceeed55059
+      id: 595327147
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_030_mc
+        ObjectType: 3
+        guid: 6f0f35250b4e86438faa43ceeed55059
+      Path: Events\Voice\VO_08CHF_030_mc
+      maxAttenuation: 0
+      maxDuration: 2.410567
+      minDuration: 2.410567
+    - name: VO_08CHF_040_mc
+      guid: dfb27eb2a6108947b02c696b2d204f35
+      id: 427438844
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_040_mc
+        ObjectType: 3
+        guid: dfb27eb2a6108947b02c696b2d204f35
+      Path: Events\Voice\VO_08CHF_040_mc
+      maxAttenuation: 0
+      maxDuration: 6.039682
+      minDuration: 6.039682
     - name: VO_08CHF_050_ethan
       guid: edf9822285ae28479f85520a757d37fb
       id: 3568377795
@@ -1260,6 +1413,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 12.252653
       minDuration: 12.252653
+    - name: VO_08CHF_060_mc
+      guid: cf9877834ea5ba47b12388f46fad21c5
+      id: 42538826
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_060_mc
+        ObjectType: 3
+        guid: cf9877834ea5ba47b12388f46fad21c5
+      Path: Events\Voice\VO_08CHF_060_mc
+      maxAttenuation: 0
+      maxDuration: 3.281633
+      minDuration: 3.281633
     - name: VO_08CHF_070_ethan
       guid: 0f7f6dff0dc8734cb358ab3e1cad691f
       id: 1935602725
@@ -1311,6 +1481,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 28.172812
       minDuration: 28.172812
+    - name: VO_08CHF_100_mc
+      guid: 0354a3f074721a4f802a0538f14b8d80
+      id: 3624644603
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_08CHF_100_mc
+        ObjectType: 3
+        guid: 0354a3f074721a4f802a0538f14b8d80
+      Path: Events\Voice\VO_08CHF_100_mc
+      maxAttenuation: 0
+      maxDuration: 5.446916
+      minDuration: 5.446916
     - name: VO_08CHF_110_ethan
       guid: 6438d74ef1f1e646a0bd3b76c1abfd5f
       id: 513475766
@@ -1362,6 +1549,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 26.85796
       minDuration: 26.85796
+    - name: VO_09HRW_010_mc
+      guid: 6b9f0167747b9049b4aa47070dd0b8a9
+      id: 1673457568
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_09HRW_010_mc
+        ObjectType: 3
+        guid: 6b9f0167747b9049b4aa47070dd0b8a9
+      Path: Events\Voice\VO_09HRW_010_mc
+      maxAttenuation: 0
+      maxDuration: 1.506621
+      minDuration: 1.506621
     - name: VO_09HRW_020_husband
       guid: 05ee0f14845e1c42b211c4a22f366fe9
       id: 2240928088
@@ -1379,6 +1583,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.993832
       minDuration: 1.993832
+    - name: VO_09HRW_030_mc
+      guid: 47c683d1ba654741b328475f3f8b4141
+      id: 3132277646
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_09HRW_030_mc
+        ObjectType: 3
+        guid: 47c683d1ba654741b328475f3f8b4141
+      Path: Events\Voice\VO_09HRW_030_mc
+      maxAttenuation: 0
+      maxDuration: 38.937504
+      minDuration: 38.937504
     - name: VO_10VCM_010_carol
       guid: a2d54fd6f5e17d47acb6a971ad5a7c5f
       id: 2108005042
@@ -1498,6 +1719,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.634014
       minDuration: 2.634014
+    - name: VO_10VCM_070_mc
+      guid: 77f8cf92bf6a1d4194fca95bf3cf45e5
+      id: 3643496093
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_10VCM_070_mc
+        ObjectType: 3
+        guid: 77f8cf92bf6a1d4194fca95bf3cf45e5
+      Path: Events\Voice\VO_10VCM_070_mc
+      maxAttenuation: 0
+      maxDuration: 0.496372
+      minDuration: 0.496372
     - name: VO_10VCM_080_carol
       guid: 393c97b901ea8d4dbd53474feae1dc32
       id: 2202863809
@@ -1532,6 +1770,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.319138
       minDuration: 2.319138
+    - name: VO_10VCM_100_mc
+      guid: a7210f4e02054648b617473de48fa87d
+      id: 1929101037
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_10VCM_100_mc
+        ObjectType: 3
+        guid: a7210f4e02054648b617473de48fa87d
+      Path: Events\Voice\VO_10VCM_100_mc
+      maxAttenuation: 0
+      maxDuration: 4.359433
+      minDuration: 4.359433
     - name: VO_10VCM_110_carol
       guid: 8c616ed8f8f7f248b9a83e571adecd55
       id: 939230987
@@ -1549,6 +1804,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 5.910431
       minDuration: 5.910431
+    - name: VO_10VCM_120_mc
+      guid: f37013ab1e310e43b5de3e118bb6c0f7
+      id: 346555107
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_10VCM_120_mc
+        ObjectType: 3
+        guid: f37013ab1e310e43b5de3e118bb6c0f7
+      Path: Events\Voice\VO_10VCM_120_mc
+      maxAttenuation: 0
+      maxDuration: 1.115283
+      minDuration: 1.115283
     - name: VO_10VCM_130_carol
       guid: c78a0bc95c2219479ef3c17268f9b8bb
       id: 436769429
@@ -1719,6 +1991,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 15.452676
       minDuration: 15.452676
+    - name: VO_11KEI_090_mc
+      guid: d7277e56b11df747a71b753f498a4c94
+      id: 276147407
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_090_mc
+        ObjectType: 3
+        guid: d7277e56b11df747a71b753f498a4c94
+      Path: Events\Voice\VO_11KEI_090_mc
+      maxAttenuation: 0
+      maxDuration: 2.246258
+      minDuration: 2.246258
     - name: VO_11KEI_100_keira
       guid: 73b57c4c375e3b46abf4edcf340e074c
       id: 942777237
@@ -1770,6 +2059,57 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 15.508526
       minDuration: 15.508526
+    - name: VO_11KEI_130_mc
+      guid: 9adeefe9146ca140ae4fc24cf476394b
+      id: 1262823182
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_130_mc
+        ObjectType: 3
+        guid: 9adeefe9146ca140ae4fc24cf476394b
+      Path: Events\Voice\VO_11KEI_130_mc
+      maxAttenuation: 0
+      maxDuration: 1.68898
+      minDuration: 1.68898
+    - name: VO_11KEI_140_mc
+      guid: bc5caaba99b88446b10bf819a9af9862
+      id: 674055329
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_140_mc
+        ObjectType: 3
+        guid: bc5caaba99b88446b10bf819a9af9862
+      Path: Events\Voice\VO_11KEI_140_mc
+      maxAttenuation: 0
+      maxDuration: 4.413742
+      minDuration: 4.413742
+    - name: VO_11KEI_150_mc
+      guid: fae8fe1e6dc42a418ed7a3f185be30e4
+      id: 1096117572
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_150_mc
+        ObjectType: 3
+        guid: fae8fe1e6dc42a418ed7a3f185be30e4
+      Path: Events\Voice\VO_11KEI_150_mc
+      maxAttenuation: 0
+      maxDuration: 2.109546
+      minDuration: 2.109546
     - name: VO_11KEI_160_husband
       guid: 2738658c8f7c384ab50d5f5effe43efb
       id: 2569653828
@@ -1821,6 +2161,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.456009
       minDuration: 3.456009
+    - name: VO_11KEI_190_mc
+      guid: dece56b28f601043af3f962571debc13
+      id: 1809771464
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_11KEI_190_mc
+        ObjectType: 3
+        guid: dece56b28f601043af3f962571debc13
+      Path: Events\Voice\VO_11KEI_190_mc
+      maxAttenuation: 0
+      maxDuration: 2.641769
+      minDuration: 2.641769
     - name: VO_stop
       guid: 2b0775231dbd6649a39f4dc5b4c4ca25
       id: 3484353603
@@ -1850,7 +2207,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 02517e2303c9384ca666f8387739d4ba
     GuidInternal: 
-    m_lastTime: -8585642026928617902
+    m_lastTime: -8585641954865012679
     List: []
   - PhysicalPath: Game Parameters\volume sliders.wwu
     PathAndIcons:
@@ -1863,7 +2220,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\volume sliders
     guid: f0ba6a1643857043b1e8ff061ce0508a
     GuidInternal: 
-    m_lastTime: -8585642026928217813
+    m_lastTime: -8585641954865212722
     List:
     - name: bgm_volume
       guid: ca51576b253dcc429a63ca3d0a43e7ca
@@ -1919,7 +2276,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: d84c9904c0324340baf35b7e74ac5985
     GuidInternal: 
-    m_lastTime: -8585642026928677936
+    m_lastTime: -8585641954865042685
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -1933,7 +2290,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 274a49c8ad5a4b48bc6d1717673c346d
     GuidInternal: 
-    m_lastTime: -8585642026928737947
+    m_lastTime: -8585641954865232731
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -1947,7 +2304,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 89de6ce1013eb84f89d1379a8242acec
     GuidInternal: 
-    m_lastTime: -8585642026928397850
+    m_lastTime: -8585641954865372751
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 05000000080000006400000065000000
