@@ -156,21 +156,25 @@ public class StoryScript : MonoBehaviour
 				}
 			}
 
+			string afterPrefix = currentTag.Substring(currentTag.IndexOf('_') + 1, currentTag.Length - currentTag.IndexOf('_') - 1);
 			// Check for prefix tags
 			switch (prefix)
             {
 				// Character Portrait
 				case "CP":
-					string name = splitTag[1];
-					storyTextScript.SetCharacterName(name);
-					if (name == "MC") break;
-					if (splitTag.Length > 2 && splitTag[2] == "Off")
+					string nameOnly = splitTag[1];
+					storyTextScript.SetCharacterName(nameOnly);
+					if (nameOnly == "MC")
+                    {
+						cpController.UpdateMC(afterPrefix);
+					}
+					else if (splitTag[splitTag.Length - 1] == "Off")
 					{
 						cpController.MoveCharacterOut();
 					}
 					else
 					{
-						cpController.AddCharacter(name);
+						cpController.AddCharacter(nameOnly, afterPrefix);
 					}
 					break;
 				case "UI":
@@ -185,15 +189,14 @@ public class StoryScript : MonoBehaviour
 					}
 					break;
 				case "BG":
-					string bgName = currentTag.Substring(currentTag.IndexOf('_') + 1, currentTag.Length - currentTag.IndexOf('_') - 1);
-					Sprite bgSprite = Resources.Load<Sprite>("Art/Background/" + bgName);
+					Sprite bgSprite = Resources.Load<Sprite>("Art/Background/" + afterPrefix);
 					if (bgSprite != null)
 					{
 						panningScript.SetBackgroundImage(bgSprite);
 					}
 					else
                     {
-						print("WARNING: Trying to load background with invalid path! [" + bgName + "]");
+						print("WARNING: Trying to load background with invalid path! [" + afterPrefix + "]");
                     }
 					break;
             }

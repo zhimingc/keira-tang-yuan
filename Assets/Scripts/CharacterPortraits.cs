@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class CharacterPortraits : MonoBehaviour
 {
+    public Image LHSCharacterPortrait;
     public Image RHSCharacterPortrait;
     public Sprite placeholderSprite;
     public Text placeholderText;
@@ -42,29 +43,42 @@ public class CharacterPortraits : MonoBehaviour
        // TODO: For CP transitions when there's already a diff character out
     }
 
-    public void AddCharacter(string cName)
+    public void UpdateMC(string nameExpression)
     {
-        if (currentCharacterName == cName) return;
+        Sprite cpSprite = Resources.Load<Sprite>("Art/Character/MC/" + nameExpression);
+        // else use a white square as placeholder
+        if (cpSprite == null)
+        {
+            print("WARNING: Tried to load [" + nameExpression + "] character portrait, but sprite could not be found!");
+            cpSprite = placeholderSprite;
+            placeholderText.text = "MC";
+        }
+        LHSCharacterPortrait.sprite = cpSprite;
+    }
+
+    public void AddCharacter(string nameOnly, string nameExpression)
+    {
+        if (currentCharacterName == nameOnly) return;
 
         placeholderText.text = "";
         // Load sprite
         // Look for sprite with official folder structure
-        Sprite cpSprite = Resources.Load<Sprite>("Art/Character/" + cName + "/" + cName + "_Default");
+        Sprite cpSprite = Resources.Load<Sprite>("Art/Character/" + nameOnly + "/" + nameExpression);
         // else look for sprite in placeholder folder
         if (cpSprite == null)
         {
-            cpSprite = Resources.Load<Sprite>("Art/Character/Placeholder/PH_" + cName);
+            cpSprite = Resources.Load<Sprite>("Art/Character/Placeholder/PH_" + nameOnly);
         }
         // else use a white square as placeholder
         if (cpSprite == null)
         {
-            print("WARNING: Tried to load [" + cName + "] character portrait, but sprite could not be found!");
+            print("WARNING: Tried to load [" + nameExpression + "] character portrait, but sprite could not be found!");
             cpSprite = placeholderSprite;
-            placeholderText.text = cName;
+            placeholderText.text = nameOnly;
         }
 
         RHSCharacterPortrait.gameObject.SetActive(true);
         RHSCharacterPortrait.sprite = cpSprite;
-        MoveCharacterIn(cName);
+        MoveCharacterIn(nameOnly);
     }
 }

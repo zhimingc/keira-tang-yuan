@@ -314,7 +314,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2688449239557349698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,6 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1176ad470bf30479f4d92a71deffd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LHSCharacterPortrait: {fileID: 753814246539374059}
   RHSCharacterPortrait: {fileID: 8222741150313131160}
   placeholderSprite: {fileID: 7482667652216324306, guid: e850fe8c6a2bf614388d27a99ce200e3, type: 3}
   placeholderText: {fileID: 8447008253059639013}
