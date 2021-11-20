@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{65C456E9-E10F-4475-AF64-982BB20067C0}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="BGM" ID="{65C456E9-E10F-4475-AF64-982BB20067C0}" PersistMode="Standalone"/>
+		<WorkUnit Name="BGM" ID="{65C456E9-E10F-4475-AF64-982BB20067C0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{DF42CEE0-41F7-493B-B153-0CE4929F8EEE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{10E8C9DE-74BE-4E95-A527-7A952CF2CFD8}" ShortID="608435447">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Switch" ID="{2F6FD6E3-5C4F-4202-8E83-72AB74324753}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{96E2E8CE-923E-44D8-96DB-2C81C73626CE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{AC6B27F3-8961-46E2-A654-3CD09A9222A6}" ShortID="532396280">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Switch" ID="{2F6FD6E3-5C4F-4202-8E83-72AB74324753}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pause_Music" ID="{81FB6332-5542-4D0A-AFA9-4CEE78649732}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{447EF925-E68B-439C-8497-8F89DCEEDA74}" ShortID="456173087">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Switch" ID="{2F6FD6E3-5C4F-4202-8E83-72AB74324753}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
