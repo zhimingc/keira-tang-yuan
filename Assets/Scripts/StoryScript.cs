@@ -19,7 +19,8 @@ public class StoryScript : MonoBehaviour
 	public TextAsset inkAsset;
 	public CharacterPortraits cpController;
 	public CameraPan panningScript;
-	
+	public VideoControl videoControl;
+
 	private Story _inkStory;
 	private bool storyNeeded;
 	private bool advance;
@@ -139,6 +140,11 @@ public class StoryScript : MonoBehaviour
 		}
 	}
 
+	public void AdvanceAfterVideo()
+    {
+		ChoiceSelected(0);
+	}
+
     void ProcessTags()
     {
 		for (int j = 0; j < _inkStory.currentTags.Count; ++j)
@@ -188,6 +194,7 @@ public class StoryScript : MonoBehaviour
 
 					}
 					break;
+				// Environment background images
 				case "BG":
 					Sprite bgSprite = Resources.Load<Sprite>("Art/Background/" + afterPrefix);
 					if (bgSprite != null)
@@ -199,6 +206,12 @@ public class StoryScript : MonoBehaviour
 						print("WARNING: Trying to load background with invalid path! [" + afterPrefix + "]");
                     }
 					break;
+				// play video for stock footage
+				case "VID":
+					videoControl.PlayVideo(currentTag);
+					gameObject.SetActive(false);
+					break;
+				// Sound stuff
 				case "VO":
 				case "sfx":
 				case "amb":
@@ -218,7 +231,7 @@ public class StoryScript : MonoBehaviour
 					AkSoundEngine.SetRTPCValue(rtpcTag[0], float.Parse(rtpcTag[1]));
 					break;
 
-			}
+            }
 		}
 	}
 
