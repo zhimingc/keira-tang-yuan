@@ -593,6 +593,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1807831698820386247, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3953271360917649011, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 450
@@ -601,6 +605,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoryCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
+      propertyPath: inkAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: afdd29198444bf74d8af7c16f8bc4449, type: 3}
     - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: panningScript
       value: 

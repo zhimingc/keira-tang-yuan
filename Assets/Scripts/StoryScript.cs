@@ -152,10 +152,6 @@ public class StoryScript : MonoBehaviour
 				if (currentTag.Contains(storyStateString))
 				{
 					StoryState = (STORY_STATE)i;
-					if (i == 0)
-                    {
-						cpController.RemoveCharacter();
-					}
 				}
 			}
 
@@ -167,7 +163,14 @@ public class StoryScript : MonoBehaviour
 					string name = splitTag[1];
 					if (name == "MC") break;
 					storyTextScript.SetCharacterName(name);
-					cpController.AddCharacter();
+					if (splitTag.Length > 2 && splitTag[2] == "Off")
+					{
+						cpController.MoveCharacterOut();
+					}
+					else
+					{
+						cpController.AddCharacter(name);
+					}
 					break;
 				case "BG":
 					string bgName = currentTag.Substring(currentTag.IndexOf('_') + 1, currentTag.Length - currentTag.IndexOf('_') - 1);
@@ -178,7 +181,7 @@ public class StoryScript : MonoBehaviour
 					}
 					else
                     {
-						print("WARNING: Trying to load background with invalid path!");
+						print("WARNING: Trying to load background with invalid path! [" + bgName + "]");
                     }
 					break;
             }

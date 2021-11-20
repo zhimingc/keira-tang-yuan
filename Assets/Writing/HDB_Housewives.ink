@@ -59,7 +59,7 @@ Well, perfect timing to kick back and reward myself for cleaning the living room
 #sfx_00GEN_door
 #BGM_HDB_Bubble_Tea
 #BG_Livingroom_frontdoor_open
-#CP_Delivery_Guy
+#CP_DeliveryGuy
 #UI_speech
 #VO_02DLV_010_delivery
 "Ma'am, your bubble tea!"
@@ -81,7 +81,7 @@ Suddenly conscious of my own sweaty appearance, I glance down unnecessarily to c
 He turns to walk away.
 ***[Try to catch his eye]
 #VO_02DLV_020_delivery
-#CP_Delivery_Guy_Off
+#CP_DeliveryGuy_Off
 Like the gremlin I am, I didn't even say "thank you" and calling it out now would make me appear like a tryhard.
 
 I watch him as he walks away, wondering if he will turn back for one last glance. I tell myself that if he does, I will smile and give him a nod of acknowledgement at least.
