@@ -158,7 +158,12 @@ public class CameraPan : MonoBehaviour
 
     public void SetBackgroundImage(Sprite texture)
     {
+        if (image.sprite == texture)
+            return;
+
         image.sprite = texture;
+        targetLocation = image.rectTransform.localPosition = new Vector2(0, 0);
+        smoothTimer = 0;
         SetImageSize();
     }
 

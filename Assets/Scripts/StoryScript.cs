@@ -48,6 +48,8 @@ public class StoryScript : MonoBehaviour
 	/* State Machine */
 	public STORY_STATE StoryState;
 
+	private bool delaySpawn;
+
 	[SerializeField]
 	public AK.Wwise.Event buttonAudio;
 
@@ -113,6 +115,7 @@ public class StoryScript : MonoBehaviour
 		if (storyNeeded == true && _inkStory != null)
 		{
 			RemoveChildren();
+			storyNeeded = false;
 
 			if (advance && _inkStory.canContinue)
 			{
@@ -140,6 +143,9 @@ public class StoryScript : MonoBehaviour
 				refreshStory = false;
 			}
 
+			if (!storyTextScript.IsDonePopulating())
+				delaySpawn = true;
+
 			if (!_inkStory.canContinue)
 			{
 				if (_inkStory.currentChoices.Count > 0)
@@ -149,6 +155,7 @@ public class StoryScript : MonoBehaviour
 					for (int i = 0; i < _inkStory.currentChoices.Count; ++i)
 					{
 						Button choice = Instantiate(button);
+						StartCoroutine(SetVisibleWhenDonePopulating(choice.gameObject));
 						choice.transform.SetParent(canvas.transform, false);
 						choice.transform.Translate(new Vector2(0, offset));
 
@@ -162,11 +169,13 @@ public class StoryScript : MonoBehaviour
 
 						offset += (layoutGroup.padding.top + layoutGroup.padding.bottom + elementPadding);
 						tempObjs.Add(choice.gameObject);
+
 					}
 
 					if (createAsk)
 					{
 						Image askImage = Instantiate(choiceAsk);
+						StartCoroutine(SetVisibleWhenDonePopulating(askImage.gameObject));
 						askImage.transform.SetParent(canvas.transform, false);
 						askImage.transform.Translate(new Vector2(0, offset));
 						tempObjs.Add(askImage.gameObject);
@@ -174,8 +183,18 @@ public class StoryScript : MonoBehaviour
 				}
 			}
 
-			storyNeeded = false;
 		}
+	}
+
+	IEnumerator SetVisibleWhenDonePopulating(GameObject go) 
+	{
+		Debug.Log("Running cor");
+		while (!storyTextScript.IsDonePopulating())
+		{
+			go.SetActive(false);
+			yield return null;
+		}
+		go.SetActive(true);
 	}
 
 	public void AdvanceAfterVideo()
