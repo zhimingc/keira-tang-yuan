@@ -974,7 +974,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 ===Keirashouse11KEI
 #CHP_8
 #CP_Carol_Off
-#BG_FriendsLivingRoom_frontdoor_closed
+#BG_Keira_Livingroom
 #amb_11KEI_house
 #sfx_BGM_mc
 #VO_11KEI_010_Jannah
@@ -1097,7 +1097,7 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 #BGM_KEI
 #CP_MC_Thirst_Looking
 #UI_thought
-#CP_Keira_mum_off
+#CP_Keira_Mum_off
 As I open the door, the delivery guy has his back half turned away from me as he organises the items in the waterproof bag mounted behind his bicycle. Something about the way he holds himself strikes me as familiar. He is, as Keira described, wearing a black bicycle helmet, a light Oxford shirt and khaki chinos. Leather shoes entirely unsuitable for cycling.
 
 #CP_MC_Surprised_Blush
