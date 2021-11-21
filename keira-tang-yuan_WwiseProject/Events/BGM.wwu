@@ -31,7 +31,6 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
-								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -139,6 +138,22 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MC_Playlist" ID="{7CB85C6A-AA4D-41CE-B237-9B1D8FC64008}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_BGM_credits_stop" ID="{C16DB3B6-D388-404E-97EA-E3DDF6E12B73}">
+					<ChildrenList>
+						<Action Name="" ID="{58E19343-875F-4177-A054-8736F4E62823}" ShortID="896766455">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="END_Playlist" ID="{7D81AAFA-650F-480D-98A2-A883418B80CB}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

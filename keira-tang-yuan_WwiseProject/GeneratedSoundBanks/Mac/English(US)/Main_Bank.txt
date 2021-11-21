@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	296267319	VO_08CHF_120_ethan			\Voice\VO_08CHF_120_ethan	
 	333498414	VO_04ACM_060_alex			\Voice\VO_04ACM_060_alex	
 	333640230	VO_08CHF_020_ethan			\Voice\VO_08CHF_020_ethan	
+	338450653	sfx_BGM_credits_stop			\BGM\sfx_BGM_credits_stop	
 	346555107	VO_10VCM_120_mc			\Voice\VO_10VCM_120_mc	
 	356528211	VO_11KEI_050_keira			\Voice\VO_11KEI_050_keira	
 	376518116	sfx_01OPN_photo			\SFX\sfx_01OPN_photo	
