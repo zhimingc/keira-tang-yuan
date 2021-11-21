@@ -231,7 +231,6 @@ public class StoryScript : MonoBehaviour
 				// Character Portrait
 				case "CP":
 					string nameOnly = splitTag[1];
-					currentSideCharacterName = nameOnly;
 					storyTextScript.SetCharacterName(nameOnly);
 					if (nameOnly == "MC")
                     {
@@ -244,6 +243,7 @@ public class StoryScript : MonoBehaviour
 					}
 					else
 					{
+						currentSideCharacterName = nameOnly;
 						cpController.AddCharacter(nameOnly, afterPrefix);
 					}
 					break;
