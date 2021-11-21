@@ -50,6 +50,7 @@ namespace AK
         static const AkUniqueID SFX_10VCM_VACUUM_STOP = 839339977U;
         static const AkUniqueID SFX_11KEI_DOG = 2342739123U;
         static const AkUniqueID SFX_11KEI_DOORBELL = 1269518332U;
+        static const AkUniqueID SFX_BGM_CREDITS_STOP = 338450653U;
         static const AkUniqueID SFX_BGM_MC = 2228393324U;
         static const AkUniqueID SFX_BGM_MENU = 2389148773U;
         static const AkUniqueID SFX_BGM_MENU_STOP = 1458135976U;

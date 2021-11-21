@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 using System.IO;
-
+using UnityEngine.SceneManagement;
 public enum STORY_STATE
 {
 	THOUGHT,
@@ -187,13 +187,11 @@ public class StoryScript : MonoBehaviour
 					}
 				}
 			}
-
 		}
 	}
 
 	IEnumerator SetVisibleWhenDonePopulating(GameObject go) 
 	{
-		Debug.Log("Running cor");
 		while (!storyTextScript.IsDonePopulating())
 		{
 			go.SetActive(false);
@@ -294,8 +292,11 @@ public class StoryScript : MonoBehaviour
 					//Debug.Log(rtpcTag.Length + ", RTPC VALUE " + rtpcTag[0] + " to " + rtpcTag[1]);
 					AkSoundEngine.SetRTPCValue(rtpcTag[0], float.Parse(rtpcTag[1]));
 					break;
+				case "CRD":
+					SceneManager.LoadScene("2-credits");
+					break;
 
-            }
+			}
 		}
 	}
 

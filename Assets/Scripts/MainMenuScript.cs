@@ -8,13 +8,13 @@ public class MainMenuScript : MonoBehaviour
 {
     [SerializeField]
     [Range(0.0f, 1.0f)]
-    static float sfxVolume = 0.5f;
+    public static float sfxVolume = 0.5f;
     [SerializeField]
     [Range(0.0f, 1.0f)]
-    static float dialogueVolume = 0.5f;
+    public static float dialogueVolume = 0.5f;
     [SerializeField]
     [Range(0.0f, 1.0f)]
-    static float bgmVolume = 0.5f;
+    public static float bgmVolume = 0.5f;
 
     [SerializeField]
     public List<GameObject> menuPopUps;
@@ -30,7 +30,10 @@ public class MainMenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        sliders[0].value = dialogueVolume;
+        sliders[1].value = sfxVolume;
+        sliders[2].value = bgmVolume;
+
     }
 
     // Update is called once per frame
