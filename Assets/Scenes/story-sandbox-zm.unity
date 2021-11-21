@@ -229,49 +229,12 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
-    - target: {fileID: 3275960574913261205, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3275960574913261205, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
-      propertyPath: m_ReferenceResolution.x
-      value: 1920
-      objectReference: {fileID: 0}
-    - target: {fileID: 3275960574913261205, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
-      propertyPath: m_ReferenceResolution.y
-      value: 1080
-      objectReference: {fileID: 0}
-    - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
-      propertyPath: fitToX
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
-      propertyPath: zonesX
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
-      propertyPath: zonesY
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
-      propertyPath: smoothingTime
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
-      propertyPath: imageSizeRelativeToScreen
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3275960574913261208, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
       propertyPath: m_Name
       value: BackgroundCanvas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
---- !u!1 &321404274 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3953271362690417232, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-  m_PrefabInstance: {fileID: 3953271362799420913}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,10 +665,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 558606515549265062, guid: c9aeef56f63b580478caef638a50d0c9, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 558606515549265062, guid: c9aeef56f63b580478caef638a50d0c9, type: 3}
       propertyPath: m_TargetCamera
       value: 
       objectReference: {fileID: 519420031}
@@ -730,22 +689,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1807831698820386247, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: m_PresetInfoIsWorld
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3953271360917649011, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 450
-      objectReference: {fileID: 0}
     - target: {fileID: 3953271362156508560, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: m_Name
       value: StoryCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: inkAsset
-      value: 
-      objectReference: {fileID: 4900000, guid: 3d9de128edd418447a625ab3bfc4445d, type: 3}
     - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: videoControl
       value: 
@@ -754,30 +701,6 @@ PrefabInstance:
       propertyPath: panningScript
       value: 
       objectReference: {fileID: 6557243}
-    - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: debugObjs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: debugObjs.Array.data[0]
-      value: 
-      objectReference: {fileID: 321404274}
-    - target: {fileID: 3953271362156508564, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: m_SortingOrder
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3953271362156508565, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: m_UiScaleMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3953271362156508565, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: m_ReferenceResolution.x
-      value: 1920
-      objectReference: {fileID: 0}
-    - target: {fileID: 3953271362156508565, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: m_ReferenceResolution.y
-      value: 1080
-      objectReference: {fileID: 0}
     - target: {fileID: 3953271362156508567, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -860,10 +783,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3953271362156508567, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3953271362690417232, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
