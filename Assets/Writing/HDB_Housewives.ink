@@ -511,7 +511,7 @@ He purses his lips together, coming to some internal decision.
 "You know how I don't have a car right? Even though I have to meet clients at night after their work. I make it a rule to always take the bus as far as possible. I like taking new bus routes and seeing Singapore pass by and..."
 
 #CP_MC_Surprised_Blush
-#CP_Mewyn_Neutral
+#CP_Merwyn_Neutral
 #UI_thought
 #RTPC_Lust 5
 He looks me straight in the eye, challenging me to laugh at him.
@@ -708,7 +708,7 @@ We get stuck into the appetizers and the first course-- a caviar and mushroom so
 He has a charming facial tic. When he's beaming from cheek to cheek he occasionally smiles so hard he winks at me-- like he's sharing a treasured secret. If he stops eating to talk, he will subconsciously put his cutlery down in order to gesticulate with his hands. His hands are so expressive I can almost see horses bolting from their start line.
 
 **[Ask if he's married]
-#CP_MC_Suprised_Blush
+#CP_MC_Surprised_Blush
 #CP_Ethan_Content
 #UI_speech_left
 #VO_08CHF_100_mc
@@ -927,7 +927,7 @@ Each of us nurse our Soju-and-Yakult concoctions and talk about the places we wa
 #RTPC_Lust 7
 We move the couch and I show her how to flip up the leg rest. We spend a few minutes abusing the mechanism and she giggles at the impression I do of my husband.
 
-#CP_MC_CloseEyes
+#CP_MC_Neutral_CloseEyes
 #UI_speech_left
 #VO_10VCM_100_mc
 "Remember, if you don't take care of your tools, they wont take care of you," I say in my deepest voice and giving her a mock-stern frown.
