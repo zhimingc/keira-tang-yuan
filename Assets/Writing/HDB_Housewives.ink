@@ -24,12 +24,12 @@ There is no victory over dust. I could probably let it sit for a few more days b
     ** [Pick up wedding photo]
     #CP_MC_Thirst_Looking
     #sfx_01OPN_photo
-    #BG_photo_wedding_normal
+    #II_photo_wedding_normal
         Look at us 5 years ago, just married, unsure about everything except the fact that we want to face it together. Gosh, we make a good looking couple. And look at his shoulders, in that shirt... Mmm.
     ***[Pick up the next picture]
     #CP_MC_Neutral_Smile
     #sfx_01OPN_photo
-    #BG_hand_key_photo
+    #II_hand_key_photo
     That's us after collecting our keys and stepping into our flat for the first time. We've lived away from our parents before, but nothing is quite like owning your first home; every decision tailored towards our shared ideas of comfort and good organisation. Our contractors were bewildered when we insisted that Cat 6 Ethernet ports be installed in every room. But not long after, we started seeing all the contractors include that option in their packages. 
     **** [Clean the windows] 
     -> Windows
@@ -81,7 +81,7 @@ I've never seen this delivery rider before. He's all decked out in professional 
 He looks like he rides a lot; a narrow waist and muscular thighs like someone training for the Tour de France. But unlike the disciplined intensity I've come to associate with road cyclists in Singapore, his dark brown complexion is framed by ear-length yellow hair, and even though he's wearing a mask, his smile reaches his eyes.
 **[Take the bag from him]
 #CP_MC_Surprised_Blush
-#CP_MC_DeliveryGuy_Normal
+#CP_DeliveryGuy_Default
 #sfx_02DLV_bag
 #RTPC_Lust 5
 As he passes the paper bag to me, our fingers brush each others.
@@ -119,7 +119,6 @@ He does not turn back.
 ===ZoomCalls03ZOM
 #CHP_2
 #BG_Livingroom_frontdoor_closed 
-#BG_Zoom_call
 #amb_03ZOM_keyboard
 #amb_00GEN_house
 #sfx_BGM_mc
@@ -756,7 +755,6 @@ I want to tell him that smiles shouldn't be sad.
 ===Healthriskwarning09HRW
 #CHP_6
 #BG_Bedroom
-#BG_Phone
 #sfx_BGM_mc
 #CP_Ethan_Off
 #CP_MC_Default
@@ -1094,7 +1092,7 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 #CP_MC_Thirst_Looking
 #UI_thought
 #CP_Keira_mum_off
-As I open the door, the delivery guy has his back half turned away from me as he organises the items in the waterproof bag mounted behind his bicycle. Something about the way he holds himself strikes me as familiar. He is, as Keira described, wearing a black bicycle helmet, a light blue Oxford shirt and khaki chinos. Leather shoes entirely unsuitable for cycling.
+As I open the door, the delivery guy has his back half turned away from me as he organises the items in the waterproof bag mounted behind his bicycle. Something about the way he holds himself strikes me as familiar. He is, as Keira described, wearing a black bicycle helmet, a light Oxford shirt and khaki chinos. Leather shoes entirely unsuitable for cycling.
 
 #CP_MC_Surprised_Blush
 When he turns towards me, the colour on my husband's face drains away and he nearly drops our order from his nerveless fingers. 
