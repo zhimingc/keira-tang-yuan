@@ -18,6 +18,9 @@ public class MainMenuScript : MonoBehaviour
     [SerializeField]
     public List<GameObject> menuPopUps;
 
+    [SerializeField]
+    public AK.Wwise.Event buttonAudio;
+
 
 
     // Start is called before the first frame update
@@ -34,22 +37,27 @@ public class MainMenuScript : MonoBehaviour
 
     public void StartButton() 
     {
+        buttonAudio.Post(gameObject);
         SceneManager.LoadScene("story-sandbox-zm");
     }
     public void AboutButton() 
     {
+        buttonAudio.Post(gameObject);
         menuPopUps[0].SetActive(true);
     }
     public void OptionsButton() 
     {
+        buttonAudio.Post(gameObject);
         menuPopUps[1].SetActive(true);
     }
     public void QuitButton() 
     {
+        buttonAudio.Post(gameObject);
         menuPopUps[2].SetActive(true);
     }
     public void ReallyQuit()
     {
+        buttonAudio.Post(gameObject);
         Application.Quit();
     }
 
@@ -59,6 +67,7 @@ public class MainMenuScript : MonoBehaviour
         {
             go.SetActive(false);
         }
+        buttonAudio.Post(gameObject);
     }
 
     bool IsPopUpActive() 
