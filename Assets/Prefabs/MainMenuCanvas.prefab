@@ -1023,6 +1023,10 @@ MonoBehaviour:
   - {fileID: 6615752472413729915}
   - {fileID: 6075202559948065707}
   - {fileID: 2467551991668585439}
+  buttonAudio:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a89eb0e3af7111f4f9e34c0efd93d119, type: 2}
 --- !u!1001 &129130217230283384
 PrefabInstance:
   m_ObjectHideFlags: 0
