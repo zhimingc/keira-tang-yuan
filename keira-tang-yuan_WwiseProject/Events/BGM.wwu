@@ -111,6 +111,17 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
+						<Action Name="" ID="{B5CAEFBA-D743-426E-BCB8-2AC7665E6C39}" ShortID="2023252">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Switch" ID="{2F6FD6E3-5C4F-4202-8E83-72AB74324753}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{19BBE06E-4723-4113-9DAC-D35F12F559E2}" ShortID="608233507">
 							<PropertyList>
 								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
