@@ -23,11 +23,11 @@ public class CameraPan : MonoBehaviour
     private Vector2 extraPixels;
 
     [SerializeField]
-    [Range(1, 5)]
+    [Range(1, 10)]
     public int zonesX;
 
     [SerializeField]
-    [Range(1, 5)]
+    [Range(1, 10)]
     public int zonesY;
 
     [SerializeField]

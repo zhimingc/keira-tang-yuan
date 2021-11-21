@@ -75,7 +75,7 @@ MonoBehaviour:
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -114,10 +114,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagePrefab: {fileID: 3177734076123238429, guid: fedd21ad28b8b05419d59df1e73036d5, type: 3}
   canvas: {fileID: 3275960574913261204}
-  fitToX: 1
-  imageSizeRelativeToScreen: 1.36
+  fitToX: 0
+  imageSizeRelativeToScreen: 1
   zonesX: 5
   zonesY: 5
   zonePrefab: {fileID: 6714865183689580764, guid: a28510e34aded3f45b15ee0e72010807, type: 3}
   zones: []
-  smoothingTime: 0.5
+  smoothingTime: 5
