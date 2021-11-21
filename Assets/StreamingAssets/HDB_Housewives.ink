@@ -805,6 +805,7 @@ As I shout at him, he doesn't even look repentant. He says he will check himself
 #CP_Husband_Off
 He packs a bag and sweeps out the front door.
 
+#VO_stop
 #CP_MC_Neutral_CloseEyes
 Just like that the house is quiet again. I wish I could cry myself back to sleep but all I do is rage against my pillow until the heat leaves my face. So instead I drag one foot after the other and do what I have to-- I brush my teeth and tear open an Antigen Rapid Test kit.
 
