@@ -1091,7 +1091,7 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 
 ****[Open the door]
 #sfx_00GEN_door
-#BG_FriendsLivingRoom_frontdoor_open
+#BG_Keira_Frontdoor_full
 #BGM_KEI
 #CP_MC_Thirst_Looking
 #UI_thought
