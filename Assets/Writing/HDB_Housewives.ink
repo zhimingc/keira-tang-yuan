@@ -635,7 +635,7 @@ All of a sudden, he pauses mid-action and inclines his head to me.
 #VO_08CHF_010_ethan
 "I love this bossa nova you've selected. I tried to learn this very song on my guitar in another life... when I had hair... I couldn't get past the intro," he says with a self-deprecating chuckle and rubs the top of his bald head with his knuckles. 
 
-#CP_Ethan
+#CP_Ethan_Neutral
 #UI_speech_right
 #VO_08CHF_020_ethan
 
@@ -667,7 +667,7 @@ His almond shaped eyes are filled with compassion, but he's hesitant to break hi
 #amb_08CHF_clock_stop
 "Ok, I don't know what's holding my husband up, but can I invite you to join me in the amazing dinner you've so meticulously prepared?"
 
-#CP_Ethan
+#CP_Ethan_Worried
 #UI_speech_right
 #VO_08CHF_050_ethan
 "Ma'am, that wouldn't be right, you're paying me after all--" He sees the tears I'm holding back and relents. "But sure! It would be a pity to waste!"
@@ -734,7 +734,7 @@ It seems as if he doesn't want to talk about it, but after a few second of eatin
 #UI_thought
 He gives me a tight-lipped smile before continuing.
 
-#CP_Ethan
+#CP_Ethan_Sad_Smile
 #CP_MC_Neutral_CloseEyes
 #UI_speech_right
 #VO_08CHF_130_ethan
