@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuScript : MonoBehaviour
 {
@@ -20,6 +21,9 @@ public class MainMenuScript : MonoBehaviour
 
     [SerializeField]
     public AK.Wwise.Event buttonAudio;
+
+    [SerializeField]
+    public List<Slider> sliders;
 
 
 
@@ -40,15 +44,21 @@ public class MainMenuScript : MonoBehaviour
         buttonAudio.Post(gameObject);
         SceneManager.LoadScene("story-sandbox-zm");
     }
+    public void CreditsButton()
+    {
+        buttonAudio.Post(gameObject);
+        SceneManager.LoadScene("2-credits");
+    }
+
     public void AboutButton() 
     {
         buttonAudio.Post(gameObject);
-        menuPopUps[0].SetActive(true);
+        menuPopUps[1].SetActive(true);
     }
     public void OptionsButton() 
     {
         buttonAudio.Post(gameObject);
-        menuPopUps[1].SetActive(true);
+        menuPopUps[0].SetActive(true);
     }
     public void QuitButton() 
     {
@@ -68,6 +78,13 @@ public class MainMenuScript : MonoBehaviour
             go.SetActive(false);
         }
         buttonAudio.Post(gameObject);
+    }
+
+    public void UpdateOptionSliderValues()
+    {
+        dialogueVolume = sliders[0].value;
+        sfxVolume = sliders[1].value;
+        bgmVolume = sliders[2].value;
     }
 
     bool IsPopUpActive() 
