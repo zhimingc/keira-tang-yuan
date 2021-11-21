@@ -24,7 +24,7 @@
 				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="2344728339">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="1101036025">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
@@ -643,6 +643,14 @@
 						<File Id="516183401" Language="English(US)">
 							<ShortName>VO_06INS_070_merwyn.wav</ShortName>
 							<Path>Voices\English(US)\VO_06INS_070_merwyn_D8C07C79.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="8183791" Name="VO_06INS_080_merwyn" ObjectPath="\Events\Voice\VO_06INS_080_merwyn" GUID="{2072F569-8874-4981-BE05-53715E061279}" DurationType="OneShot" DurationMin="25.534307" DurationMax="25.534307">
+					<IncludedMemoryFiles>
+						<File Id="316649122" Language="English(US)">
+							<ShortName>VO_06INS_080_merwyn.wav</ShortName>
+							<Path>Voices\English(US)\VO_06INS_080_merwyn_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

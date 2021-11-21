@@ -83,6 +83,7 @@ namespace AK
         static const AkUniqueID VO_06INS_050_MERWYN = 1285751974U;
         static const AkUniqueID VO_06INS_060_MERWYN = 4001995393U;
         static const AkUniqueID VO_06INS_070_MERWYN = 3094539428U;
+        static const AkUniqueID VO_06INS_080_MERWYN = 8183791U;
         static const AkUniqueID VO_06INS_090_MC = 3692590456U;
         static const AkUniqueID VO_06INS_100_MERWYN = 3573006388U;
         static const AkUniqueID VO_08CHF_010_ETHAN = 831783015U;

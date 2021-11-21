@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	8183791	VO_06INS_080_merwyn			\Voice\VO_06INS_080_merwyn	
 	41232090	sfx_04ACM_lighter			\SFX\sfx_04ACM_lighter	
 	42538826	VO_08CHF_060_mc			\Voice\VO_08CHF_060_mc	
 	118453502	VO_10VCM_050_carol			\Voice\VO_10VCM_050_carol	
@@ -179,6 +180,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	281253380	VO_10VCM_110_carol	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Mac\Voices\English(US)\VO_10VCM_110_carol_D8C07C79.wem		\Actor-Mixer Hierarchy\VO\VO\10VCM\VO_10VCM_110_carol		102628
 	310328139	VO_10VCM_050_carol	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Mac\Voices\English(US)\VO_10VCM_050_carol_D8C07C79.wem		\Actor-Mixer Hierarchy\VO\VO\10VCM\VO_10VCM_050_carol		17645
 	312085936	sfx_04ACM_lighter	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Mac\SFX\sfx_04ACM_lighter_D8C07C79.wem		\Actor-Mixer Hierarchy\SFX\SFX\04ACM\sfx_04ACM_lighter		19174
+	316649122	VO_06INS_080_merwyn	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Mac\Voices\English(US)\VO_06INS_080_merwyn_D8C07C79.wem		\Actor-Mixer Hierarchy\VO\VO\06INS\VO_06INS_080_merwyn		349762
 	325619686	sfx_10VCM_vacuum_stop	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Mac\SFX\sfx_10VCM_vacuum_stop_D8C07C79.wem		\Actor-Mixer Hierarchy\SFX\SFX\10VCM\sfx_10VCM_vacuum_stop		62883
 	331996224	VO_03ZOM_080_wendy	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Mac\Voices\English(US)\VO_03ZOM_080_wendy_D8C07C79.wem		\Actor-Mixer Hierarchy\VO\VO\03ZOM\VO_03ZOM_080_wendy		35467
 	341480443	VO_11KEI_060_keira	E:\Users\gwen\Heartlander Housewife\keira-tang-yuan_WwiseProject\.cache\Mac\Voices\English(US)\VO_11KEI_060_keira_D8C07C79.wem		\Actor-Mixer Hierarchy\VO\VO\11KEI\VO_11KEI_060_keira		128930

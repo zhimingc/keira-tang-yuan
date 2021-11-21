@@ -246,7 +246,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 511ce48fdcf912469449d56d73acf8bd
     GuidInternal: 
-    m_lastTime: -8585641946765709197
+    m_lastTime: -8585641389768151067
     List: []
   - PhysicalPath: Events\DG Work Unit.wwu
     PathAndIcons:
@@ -931,7 +931,7 @@ MonoBehaviour:
     ParentPath: Events\Voice
     guid: e3afecd20562804a86402f8bb5b365a9
     GuidInternal: 
-    m_lastTime: -8585641790587624495
+    m_lastTime: -8585641389768101050
     List:
     - name: VO_01OPN_010_mc
       guid: 48f8c7582e2d7041b91268a259ce4820
@@ -1409,6 +1409,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.047642
       minDuration: 2.047642
+    - name: VO_06INS_080_merwyn
+      guid: 69f5722074888149be0553715e061279
+      id: 8183791
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Voice
+        ObjectType: 12
+        guid: e3afecd20562804a86402f8bb5b365a9
+      - ElementName: VO_06INS_080_merwyn
+        ObjectType: 3
+        guid: 69f5722074888149be0553715e061279
+      Path: Events\Voice\VO_06INS_080_merwyn
+      maxAttenuation: 0
+      maxDuration: 25.534307
+      minDuration: 25.534307
     - name: VO_06INS_090_mc
       guid: baee16ddecfde94eabdedbc5ff66e731
       id: 3692590456
@@ -2644,7 +2661,7 @@ MonoBehaviour:
     m_lastTime: -8585641954865372751
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000080000006400000065000000
+  ExpandedWaapiItemIds: 050000000800000064000000650000008b0000008c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
