@@ -974,7 +974,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 ===Keirashouse11KEI
 #CHP_8
 #CP_Carol_Off
-#BG_FriendsLivingRoom_frontdoor_closed
+#BG_Keira_Livingroom
 #amb_11KEI_house
 #sfx_BGM_mc
 #VO_11KEI_010_jannah
