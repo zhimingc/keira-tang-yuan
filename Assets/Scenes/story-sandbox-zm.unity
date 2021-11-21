@@ -246,6 +246,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
+      propertyPath: zonesX
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
+      propertyPath: zonesY
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
+      propertyPath: smoothingTime
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3275960574913261207, guid: eb28ecdd416442949b205d9f0565e80d, type: 3}
       propertyPath: imageSizeRelativeToScreen
       value: 1
       objectReference: {fileID: 0}
@@ -733,7 +745,7 @@ PrefabInstance:
     - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: inkAsset
       value: 
-      objectReference: {fileID: 4900000, guid: afdd29198444bf74d8af7c16f8bc4449, type: 3}
+      objectReference: {fileID: 4900000, guid: 3d9de128edd418447a625ab3bfc4445d, type: 3}
     - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: videoControl
       value: 
