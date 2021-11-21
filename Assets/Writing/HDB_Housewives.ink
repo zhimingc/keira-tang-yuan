@@ -758,10 +758,11 @@ I want to tell him that smiles shouldn't be sad.
 #sfx_BGM_mc
 #CP_Ethan_Off
 #CP_MC_Default
-#UI_thought
+#UI_speech_left
 "You are issued a Health Risk Warning Order (HRWO) under s15(1) of the Infectious Diseases Act (IDA) to isolate at home from 14-07-2021 to 28-07-2021 or upon a negative ART or PCR test result, whichever is earlier..."
 
 #CP_MC_Neutral_CloseEyes
+#UI_thought
 Waking up earlier than I anticipated, my befuddled brain can't quite comprehend what my phone is displaying. There hasn't even been more than a handful of cases reported these days. I haven't even left the house for 2 weeks. How could I be at risk?
 
 #CP_MC_MildUpset
