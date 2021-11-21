@@ -54,7 +54,7 @@ Given how small our island is, a fighter jet only has a couple of minutes of fly
         Can't complain lah. I've got Netflix, Disney+, HBO. Sometimes even when my friends call me out I say no. It's just so comfortable sitting here in my pyjamas, enjoying the house which I work so hard to keep clean.
         
         #CP_MC_Thirst_Looking
-        Anyway our lockdown means going out is limited to two people again, so what's the point in going out? Sorry, is it "heightened alert"? or "circuit breaker"? If this goes on we're going to run out of words. Eventually I bet we'll resort to colours or levels. That would be less confusing.
+        Anyway our lockdown means going out is limited to two people again, so what's the point in going out? Sorry, is it "heightened alert"? Or "circuit breaker"? If this goes on we're going to run out of words. Eventually I bet we'll resort to colours or levels. That would be less confusing.
         **** [Ding Dong!] 
         -> Deliveryguy02DLV
         
@@ -228,13 +228,14 @@ I tell her it's normal to feel that way.
 ===Paul
 #CP_Wendy_Off
 #CP_MC_Neutral_Smile
+#CP_Paul_Happy
 #UI_thought
 #sfx_03ZOM_zoom_stop
 Paul is a rare treasure of a parent. I wish my dad was more like him. 
 
 His daughter has dyslexia but Paul is cool about it. Naturally he wants his child to suceed, but he always puts her happiness first. He is a full time father and his wife is a nurse at the front lines of our current crisis.
 
-#CP_Paul_Happy
+
 #UI_speech_right
 #VO_03ZOM_090_paul
 "Life's too short as it is," is his favourite line -- usually a precursor to dismissing any gravely put concern I raise. But I get the sense that he listens very carefully to what I say. He just has a very different perspective to life.
@@ -249,7 +250,7 @@ You can see a lot of Paul in his daughter. She is as stubborn as her dad and a l
 #UI_thought
 I wonder what kind of father my husband would make.
 
-He honours my decision not to have kids a little too readily. It comes across like he's ambivalent to whatever decision I make, like since it's my body and my decision, it is my responsibility. It's worrying to think that if I did choose to have a child, he could easily turn it against me and say that I was the one who decided to have children.
+He honours my decision not to have kids a little too readily. It comes across like he's ambivalent to whatever decision I make; like since it's my body and my decision, whatever comes is my responsibility. It's worrying to think that if I did choose to have a child, he could easily turn it against me and say that I was the one who decided to have children.
 
 Ok, that's a bit unfair. He's never been anything if not responsible. If he was anything like Paul is as a father, it would be sexy as hell though. But that's a terrible reason to want kids.
 
@@ -285,7 +286,7 @@ He comes in all hot and bothered. That's the way he always arrives-- lugging his
 #RTPC_Lust 3
 Alex can prise open the cover of an aircon, hold the screwdriver in his mouth, remove multiple dustcovers with one hand and operate a compressed air duster with the other, while standing on a chair. Slick.
 
-After he's done with the basic servicing, I point out the corner of the unit where water has been leaking, and Alex acknowledges it with a grunt. He doesn't jump at the problem the way I present it to him, nor does he mock me for my ignorance. His hands and eyes unhurriedly trace the root of the problem, systematically examining the pipe leading to the bathroom, taking a close look at the aircon unit and even looking at the condenser out on the balcony. His next few actions are decisive; involving sprays, brushes, rods and tubes in perfect harmony.
+After he's done with the basic servicing, I point out the corner of the unit where water has been leaking, and Alex acknowledges it with a grunt. He doesn't jump at the problem the way I present it to him, nor does he mock me for my ignorance. His hands and eyes unhurriedly trace the root of the problem; systematically examining the pipe leading to the bathroom, taking a close look at the aircon unit and even looking at the condenser out on the balcony. Then he bursts into a flurry of decisive action; sprays, his brushes, tools and sprays move in perfect harmony.
 
 #CP_MC_Thirst_Looking
 #RTPC_Lust 5
@@ -359,7 +360,7 @@ It is one thing to be brushed off at first glance, as any adult like Alex would 
 
 And it's not even just that. Alex has been looking for well over a decade for someone who will love his daughter as much as he does. He knows with absolute certainty that even if he doesn't deserve that much, she does.
 
-Yet through the eyes of another rat in the race, he's just an uneducated man; with no prospects, and accompanied by a potentially troubleseome preteen.
+Yet through the nose of another rat caught in the race, he's smells like he has no prospects; an uneducated man, accompanied by a potentially troublesome preteen.
 
 #CP_MC_Surprised_Blush
 #CP_Alex_Tired
@@ -419,7 +420,7 @@ Eugh! Let me take that again, but from a higher angle this time. There, that mak
 **[Post anyway]
 #CP_MC_Neutral_CloseEyes
 #UI_thought
-I don't know why I keep going back to these feeds when I know there's no point comparing and it just makes me feel bad. Deep down, I think I just miss the attention. And why shouldn't I? It's been at least 6 months since the last time we were... intimate. He comes back so late, and so tired. If he doesn't go straight to bed, all he wants to do is Netflix and chill... like literally.
+I don't know why I keep going back to these feeds when I know there's no point comparing and it just makes me feel bad. Deep down, I think I just miss the attention. And why shouldn't I? It's been at least 6 months since the last time we were... intimate. He comes back so late, and so tired. If he doesn't go straight to bed, all he wants to do is Netflix and chill, literally.
 
 ***[Browse my old photos]
 #CP_MC_Neutral_Smile
@@ -468,7 +469,7 @@ I like to provoke Merwyn, he takes his professionalism so seriously. He does not
 I ask him big unanswerable questions like What Is It All For. 
 
 #CP_MC_MildUpset
-I ask him, who really gets to benefit from the insurance if I die? Why must I be responsible for another person's financial welfare? Is that really what I want my spouse to be thinking about when I pass away? Is that really comforting?
+I ask him: who really benefits from my death? Why must I be held responsible for another person's financial welfare? Is that really what I want my spouse to be thinking about when I pass away? Why must I treat everything in life as something to fear?
 
 #CP_MC_Default
 He fields these questions patiently. I get the sense that he really believes in his product and wants the best for his clients. To be honest, I have no intention of purchasing any more insurance today, but it's nice talking to someone who doesn't judge or evaluate me based off my answers.
@@ -602,9 +603,9 @@ The menu I've been sent makes me drool.
 #UI_thought
 #BGM_CHF
 
-To be frank, we've never even gone out for a dinner like that before.  It's just something we see on the television. I probably would worry over how to act in such a restaurant, which makes the fact that I'll be in the comfort of my own home all the more charming.
+To be frank, we've never even gone out for a dinner like that before.  It's just something we see on the television. I probably would worry over how to act in such a restaurant, which makes the fact that I'll be in the safety of my own home all the more charming.
 
-I've sent him a message to come home on time for dinner tonight and I've gotten a series of emoji "thumbs up", "okay" and "punching fist" symbols in reply. Since the afternoon rain shows no indication of stopping, I've closed the windows, switched on the air-conditioner and piped jazz from my computer speakers in anticipation of a romantic dinner.
+I've sent my husband a message to come home on time for dinner tonight and I've gotten a series of emoji "thumbs up", "okay" and "punching fist" symbols in reply. Since the afternoon rain shows no indication of stopping, I've closed the windows, switched on the air-conditioner and piped jazz from my computer speakers in anticipation of a romantic dinner.
 
 ***[Ding Dong!]
 ->Chef08CHF
@@ -616,12 +617,12 @@ I've sent him a message to come home on time for dinner tonight and I've gotten 
 #CP_MC_Default
 #CP_Ethan_Neutral
 #UI_thought
-With his neatly pressed chef's apron covering a bit of a paunch, a small man stands with a trolley of prepared ingredients outside my door. I usher him in.
+With his neatly pressed chef's apron covering a bit of a paunch, a small-ish man stands with a trolley of prepared ingredients outside my door. I usher him in.
 
 #CP_MC_Surprised
 #CP_Ethan_Content
 #BG_Kitchen
-His actions are brisk as he quickly takes over my kitchen and dining room in a whirlwind of preparation. Wishing to be available in case he needs help but not wanting to appear like I know better than a trained chef, I try not to appear to watch him too intently-- but I do. Out of the corner of my eye, I notice that with every step, he bounces-- nearly imperceptibly-- with the beat, and tiny fragments of humming escape under breath. He moves with the dynamism of a young man, but the wrinkles around his face and hands belie his age.
+His actions are brisk as he quickly takes over my kitchen and dining room in a whirlwind of preparation. Wishing to be available in case he needs help but not wanting to appear like I know better than a trained chef, I try not to appear to watch him too intently-- but I do. Out of the corner of my eye, I notice that with every step, he bounces-- nearly imperceptibly-- with the beat, and tiny hums escape under breath. He moves with the dynamism of a young man, but the wrinkles around his face and hands belie his age.
 #RTPC_Lust 3
 #CP_MC_Thirst_Looking
 Initially, he doesn't say much other than to greet me and ask a few succinct and direct questions about where and when I would like to eat. His voice is surprisingly deep for a shorter man, but his tiny grunts of acknowledgement embrace my ears like a hug.
@@ -719,6 +720,7 @@ I finally work up the courage to ask him the one burning question on my mind: "A
 "Well yes. I did marry an English girl. This was while I was working in Spain actually. It didn't work out." 
 
 #CP_MC_Surprised
+#sfx_08CHF_cutlery
 #UI_thought
 It seems as if he doesn't want to talk about it, but after a few second of eating, he once again puts his cutlery down.
 
@@ -784,7 +786,7 @@ Cotton bud protruding from one nostril, he regards me shamefacedly.
 #CP_Husband_LookAway
 #UI_speech_right
 #VO_09HRW_020_husband
-"I'm doing a COVID test." He answer finally.
+"I'm doing a COVID test." He answers finally.
 
 #CP_MC_Surprised
 #UI_thought
@@ -803,7 +805,7 @@ As I shout at him, he doesn't even look repentant. He says he will check himself
 He packs a bag and sweeps out the front door.
 
 #CP_MC_Neutral_CloseEyes
-Just like that the house is quiet again. I wish I could cry myself back to sleep but all I do is rage against my pillow until the heat leaves my face. So instead I drag one foot after the other and do the next best thing-- I brush my teeth and tear open an Antigen Rapid Test kit.
+Just like that the house is quiet again. I wish I could cry myself back to sleep but all I do is rage against my pillow until the heat leaves my face. So instead I drag one foot after the other and do what I have to-- I brush my teeth and tear open an Antigen Rapid Test kit.
 
 **[Ding Dong]
 ->Vacuumsalesperson10VCM
@@ -953,7 +955,7 @@ It strikes me that Carol is everything I wanted to be "in another life" as Ethan
 
 #CP_MC_Thirst_Looking
 #sfx_10VCM_phone
-Her phone vibrates silently on the coffee table. Unthinkingly, I read the message that appears as a notification. It is from her brother and reads:
+Her phone vibrates silently on the coffee table. Unthinkingly, I read the message that appears as a notification. It is from her brother:
 
 "Mom missed her medical appointment today. I think she's hung over. I tried to reschedule, but next opening in 6 months time. No beds or something. I gotta do food delivery tonight. Can you come home earlier and take care of her? She says everywhere pain."
 
@@ -961,6 +963,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
     #VID_Montage_Carol
     #RTPC_Sex 10
     #sfx_00GEN_sex
+    
     *****[Continue]
     ->Keirashouse11KEI
 ****[Continue (Really just sit!)]
