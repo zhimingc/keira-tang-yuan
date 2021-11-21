@@ -945,7 +945,7 @@ We dissolve into fits of laughter. I can't remember the last time I hung out wit
 
 #VO_10VCM_140_carol
 #CP_MC_Surprised
-#CP_Carol_Off
+#CP_Carol_Sleep
 When I return I find her fast asleep and snoring gently. Her chest rises and falls steadily and my eyes follow the line of her strong compact shoulders up to the delicate tendons of her neck. The afternoon sun slants over her face. She's older than she looks when her face is not animated with good cheer. Maybe in her mid 30s, possibly even older than me. She's curled up with her feet up on the couch and this is the first time I notice the tattoo on her right foot and ankle-- a delicate tracery of leaves.
 
 #CP_MC_Surprised_Blush
