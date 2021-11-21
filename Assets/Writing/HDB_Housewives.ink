@@ -1063,13 +1063,13 @@ We settle in to listen to Keira grouch about her day. Then, because why not, we 
 #CP_Keira_Off
 Without us noticing, Keira's mum is standing behind the couch holding a jug of cold water with a slice of lemon in it. 
 
-#CP_Keira_Mum
+#CP_KMum
 #CP_MC_Surprised
 #UI_speech__right
 #VO_11KEI_110_mum
 "Hey you girls want some water?" She interrupts our little conference, leaving us rather stunned. 
 
-#CP_Keira_Mum
+#CP_KMum
 #CP_MC_Neutral_CloseEyes
 #UI_speech_right
 #VO_11KEI_120_mum
@@ -1097,7 +1097,7 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 #BGM_KEI
 #CP_MC_Thirst_Looking
 #UI_thought
-#CP_Keira_Mum_off
+#CP_Kmum_off
 As I open the door, the delivery guy has his back half turned away from me as he organises the items in the waterproof bag mounted behind his bicycle. Something about the way he holds himself strikes me as familiar. He is, as Keira described, wearing a black bicycle helmet, a light Oxford shirt and khaki chinos. Leather shoes entirely unsuitable for cycling.
 
 #CP_MC_Surprised_Blush
