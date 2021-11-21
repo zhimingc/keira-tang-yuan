@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
-using UnityEngine.Windows;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Networking;
+using System.IO;
 
 public enum STORY_STATE
 {
@@ -47,6 +48,7 @@ public class StoryScript : MonoBehaviour
 
 	/* State Machine */
 	public STORY_STATE StoryState;
+	public string currentSideCharacterName;
 
 	private bool delaySpawn;
 
@@ -81,9 +83,11 @@ public class StoryScript : MonoBehaviour
         {
 			if (filePath.Contains("://") || filePath.Contains(":///"))
 			{
-				WWW www = new WWW(filePath);
-				yield return www;
-				inkStringAsset = www.text;
+				//WWW www = new WWW(filePath);
+				UnityWebRequest newWWW = new UnityWebRequest(filePath);
+				yield return newWWW;
+				inkStringAsset = newWWW.downloadHandler.text;
+;
 			}
 			else
 			{
@@ -135,6 +139,7 @@ public class StoryScript : MonoBehaviour
 				storyText = Instantiate(text);
 				storyTextScript = storyText.GetComponent<StoryText>();
 				storyTextScript.SetText(storyString);
+				storyTextScript.SetCharacterName(currentSideCharacterName);
 				// storyText.text = storyString;
 				ProcessTags();
 				storyTextScript.SetBacking((int)StoryState);
@@ -226,6 +231,7 @@ public class StoryScript : MonoBehaviour
 				// Character Portrait
 				case "CP":
 					string nameOnly = splitTag[1];
+					currentSideCharacterName = nameOnly;
 					storyTextScript.SetCharacterName(nameOnly);
 					if (nameOnly == "MC")
                     {
@@ -234,6 +240,7 @@ public class StoryScript : MonoBehaviour
 					else if (splitTag[splitTag.Length - 1] == "Off")
 					{
 						cpController.MoveCharacterOut();
+						currentSideCharacterName = "";
 					}
 					else
 					{

@@ -717,6 +717,10 @@ PrefabInstance:
       value: StoryCanvas
       objectReference: {fileID: 0}
     - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
+      propertyPath: inkAsset
+      value: 
+      objectReference: {fileID: 4900000, guid: afdd29198444bf74d8af7c16f8bc4449, type: 3}
+    - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: videoControl
       value: 
       objectReference: {fileID: 1403459181}
