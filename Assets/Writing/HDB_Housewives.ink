@@ -1128,6 +1128,7 @@ The world around me is spinning. When I finally recover from my faculty of speec
 #BGM_END
 "Well, come on in then."
 
+#CRD_END
 
 -> END
 
