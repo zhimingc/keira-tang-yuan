@@ -24,7 +24,7 @@
 				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="2225789324">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="1045617942">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
@@ -286,6 +286,7 @@
 						<ActionSetStateEntry Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\HH_States\None" GUID="{FF739A68-CD5B-4595-AEB8-74DD0B98D61A}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="338450653" Name="sfx_BGM_credits_stop" ObjectPath="\Events\BGM\sfx_BGM_credits_stop" GUID="{C16DB3B6-D388-404E-97EA-E3DDF6E12B73}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2228393324" Name="sfx_BGM_mc" ObjectPath="\Events\BGM\sfx_BGM_mc" GUID="{E817D17C-DAEA-49AA-934C-D5A035361D20}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
 					<ActionSetState>
 						<ActionSetStateEntry Id="3080045164" Name="BGM_MC" ObjectPath="\States\Default Work Unit\HH_States\BGM_MC" GUID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}"/>

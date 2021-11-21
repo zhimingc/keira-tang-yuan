@@ -408,6 +408,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7700558546804960516, guid: e26abedcadbad994f848ac287ada7e46, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700558546804960516, guid: e26abedcadbad994f848ac287ada7e46, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700558546804960516, guid: e26abedcadbad994f848ac287ada7e46, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700558546804960516, guid: e26abedcadbad994f848ac287ada7e46, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700558546804960516, guid: e26abedcadbad994f848ac287ada7e46, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8411850589521946611, guid: e26abedcadbad994f848ac287ada7e46, type: 3}
       propertyPath: m_Name
       value: MainMenuCanvas
@@ -527,6 +547,35 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8411850589521946611, guid: e26abedcadbad994f848ac287ada7e46, type: 3}
   m_PrefabInstance: {fileID: 940499246}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1061193195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061193194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6f7e8300b4bb14190179dca397ae6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e75a4cd26b3f5634d8b3705bb089931d, type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!114 &1061193201
 MonoBehaviour:
   m_ObjectHideFlags: 0
