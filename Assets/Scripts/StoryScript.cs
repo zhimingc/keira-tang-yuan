@@ -224,6 +224,7 @@ public class StoryScript : MonoBehaviour
 
 			string afterPrefix = currentTag.Substring(currentTag.IndexOf('_') + 1, currentTag.Length - currentTag.IndexOf('_') - 1);
 			// Check for prefix tags
+			//Debug.Log("Parsing tag" + prefix + afterPrefix);
 			switch (prefix)
             {
 				// Character Portrait

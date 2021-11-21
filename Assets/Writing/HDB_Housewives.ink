@@ -1065,7 +1065,7 @@ Without us noticing, Keira's mum is standing behind the couch holding a jug of c
 
 #CP_KMum
 #CP_MC_Surprised
-#UI_speech__right
+#UI_speech_right
 #VO_11KEI_110_mum
 "Hey you girls want some water?" She interrupts our little conference, leaving us rather stunned. 
 
@@ -1089,7 +1089,7 @@ Without us noticing, Keira's mum is standing behind the couch holding a jug of c
 "And Keira, you better stay right there in case you embarrass yourself."
 
 #UI_thought
-#CP_KMum_off
+#CP_KMum_Off
 To be fair, Keira is immune to embarrassment, but nonetheless she lingers where she is to finish off the last bite of my brownie.
 
 ****[Open the door]
@@ -1098,7 +1098,7 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 #BGM_KEI
 #CP_MC_Thirst_Looking
 #UI_thought
-#CP_KMum_off
+#CP_KMum_Off
 #amb_11KEI_house_stop
 As I open the door, the delivery guy has his back half turned away from me as he organises the items in the waterproof bag mounted behind his bicycle. Something about the way he holds himself strikes me as familiar. He is, as Keira described, wearing a black bicycle helmet, a light Oxford shirt and khaki chinos. Leather shoes entirely unsuitable for cycling.
 

@@ -58,8 +58,8 @@ public class CharacterPortraits : MonoBehaviour
 
     public void AddCharacter(string nameOnly, string nameExpression)
     {
-        if (currentCharacterName == nameOnly) return;
-
+        // if (currentCharacterName == nameOnly) return;
+        //Debug.Log("Loading Character Expression " + nameOnly + "/" + nameExpression);
         placeholderText.text = "";
         // Load sprite
         // Look for sprite with official folder structure
@@ -80,6 +80,7 @@ public class CharacterPortraits : MonoBehaviour
         RHSCharacterPortrait.gameObject.SetActive(true);
         RHSCharacterPortrait.sprite = cpSprite;
         RHSCharacterPortrait.rectTransform.sizeDelta = cpSprite.rect.size;
-        MoveCharacterIn(nameOnly);
+        if (currentCharacterName != nameOnly)
+            MoveCharacterIn(nameOnly);
     }
 }
