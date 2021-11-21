@@ -2,7 +2,9 @@
 
 === Opening01OPN
 #CHP_1
+#sfx_BGM_menu_stop
 #sfx_BGM_mc
+#sfx_BGM_start
 #amb_00GEN_house
 #BG_Livingroom_frontdoor_closed
 #CP_MC_Default
@@ -244,7 +246,6 @@ His daughter has dyslexia but Paul is cool about it. Naturally he wants his chil
 You can see a lot of Paul in his daughter. She is as stubborn as her dad and a lot fiestier. She just takes in whatever I can teach her and laughs off all her mistakes. I can easily picture her as a CEO of a startup or a lead singer of a band-- she is indomitable.
 
 * [Reflect]
-#sfx_BGM_mc
 #CP_Paul_Off
 #CP_MC_Thirst_Looking
 #UI_thought
@@ -284,7 +285,6 @@ He comes in all hot and bothered. That's the way he always arrives-- lugging his
 #CP_Alex_Focused
 #sfx_04ACM_fix
 #RTPC_Lust 3
-#amb_00GEN_house_stop
 Alex can prise open the cover of an aircon, hold the screwdriver in his mouth, remove multiple dustcovers with one hand and operate a compressed air duster with the other, while standing on a chair. Slick.
 
 After he's done with the basic servicing, I point out the corner of the unit where water has been leaking, and Alex acknowledges it with a grunt. He doesn't jump at the problem the way I present it to him, nor does he mock me for my ignorance. His hands and eyes unhurriedly trace the root of the problem; systematically examining the pipe leading to the bathroom, taking a close look at the aircon unit and even looking at the condenser out on the balcony. Then he bursts into a flurry of decisive action; sprays, his brushes, tools and sprays move in perfect harmony.
@@ -375,7 +375,7 @@ I want to take it further-- to somehow prove to him that that's not what the wor
 #CP_MC_Default
 #CP_Alex_Neutral
 #UI_thought
-#RTPC_Lust 9
+#RTPC_Lust 10
 Re-entering the flat, I offer Alex a drink, not specifying what kind.
 
 #CP_MC_Neutral_Smile
@@ -385,7 +385,6 @@ Re-entering the flat, I offer Alex a drink, not specifying what kind.
 
 #UI_thought
 #sfx_04ACM_pour
-#RTPC_Lust 10
 
 Alex declines and just asks for cold water. The same thing he always does.
 
@@ -750,6 +749,7 @@ I want to tell him that smiles shouldn't be sad.
     #RTPC_Sex 10
     #amb_08CHF_rain_stop
     #sfx_00GEN_sex
+    #VO_stop
     ****[Continue]
     ->Healthriskwarning09HRW
 ***[Continue]
@@ -803,9 +803,9 @@ As I shout at him, he doesn't even look repentant. He says he will check himself
 
 #sfx_09HRW_pack
 #CP_Husband_Off
-#VO_stop
 He packs a bag and sweeps out the front door.
 
+#VO_stop
 #CP_MC_Neutral_CloseEyes
 Just like that the house is quiet again. I wish I could cry myself back to sleep but all I do is rage against my pillow until the heat leaves my face. So instead I drag one foot after the other and do what I have to-- I brush my teeth and tear open an Antigen Rapid Test kit.
 
@@ -965,7 +965,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
     #VID_Montage_Carol
     #RTPC_Sex 10
     #sfx_00GEN_sex
-    
+    #amb_00GEN_house_stop
     *****[Continue]
     ->Keirashouse11KEI
 ****[Continue (Really just sit!)]
@@ -977,7 +977,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 #BG_Keira_Livingroom
 #amb_11KEI_house
 #sfx_BGM_mc
-#VO_11KEI_010_Jannah
+#VO_11KEI_010_jannah
 #CP_Janna_Neutral
 #CP_MC_MildUpset
 #UI_speech_right
@@ -1093,11 +1093,12 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 
 ****[Open the door]
 #sfx_00GEN_door
-#BG_Keira_Frontdoor_full
+#BG_Keira_Frontdoor_Full
 #BGM_KEI
 #CP_MC_Thirst_Looking
 #UI_thought
-#CP_Kmum_off
+#CP_KMum_off
+#amb_11KEI_house_stop
 As I open the door, the delivery guy has his back half turned away from me as he organises the items in the waterproof bag mounted behind his bicycle. Something about the way he holds himself strikes me as familiar. He is, as Keira described, wearing a black bicycle helmet, a light Oxford shirt and khaki chinos. Leather shoes entirely unsuitable for cycling.
 
 #CP_MC_Surprised_Blush
@@ -1123,7 +1124,7 @@ The world around me is spinning. When I finally recover from my faculty of speec
 
 #CP_MC_Thirst_Looking
 #VO_11KEI_190_mc
-#amb_11KEI_house_stop
+#BGM_END
 "Well, come on in then."
 
 
