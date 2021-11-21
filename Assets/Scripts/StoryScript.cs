@@ -53,22 +53,28 @@ public class StoryScript : MonoBehaviour
 
 	void Awake()
 	{
-		_inkStory = new Story(inkAsset.text);
+		if (inkAsset)
+        {
+			_inkStory = new Story(inkAsset.text);
+		}
 		storyNeeded = true;
 		advance = true;
+	}
+
+    private void Start()
+    {
 		LoadStory();
 	}
 
 	void LoadStory()
     {
-		StartCoroutine(loadStreamingAsset("HDB_Housewives.json"));
+		StartCoroutine(loadStreamingAsset("HDB_Housewives.ink"));
 	}
 
 	IEnumerator loadStreamingAsset(string fileName)
 	{
 		string filePath = System.IO.Path.Combine(Application.streamingAssetsPath, fileName);
 
-		print(File.Exists(filePath));
 		if (File.Exists(filePath))
         {
 			if (filePath.Contains("://") || filePath.Contains(":///"))
@@ -84,8 +90,6 @@ public class StoryScript : MonoBehaviour
 
 			var compiler = new Ink.Compiler(inkStringAsset);
 			_inkStory = compiler.Compile();
-			print("here!");
-			print("Loaded file: " + inkStringAsset);
 		}
 	}
 
@@ -106,7 +110,7 @@ public class StoryScript : MonoBehaviour
 	{
 		Update_Debug();
 
-		if (storyNeeded == true)
+		if (storyNeeded == true && _inkStory != null)
 		{
 			RemoveChildren();
 
