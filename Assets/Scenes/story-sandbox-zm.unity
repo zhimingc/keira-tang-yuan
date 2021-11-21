@@ -729,6 +729,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6557243}
     - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
+      propertyPath: elementPadding
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3953271362156508563, guid: 324e783240103284a814e2fc4f2545f3, type: 3}
       propertyPath: buttonAudio.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: a89eb0e3af7111f4f9e34c0efd93d119, type: 2}
