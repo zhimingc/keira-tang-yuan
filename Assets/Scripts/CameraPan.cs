@@ -37,7 +37,7 @@ public class CameraPan : MonoBehaviour
 
     [SerializeField]
     public float smoothingTime = 0.4f;
-
+    private float totalSmoothingTime = 0.4f;
     private float smoothTimer;
     private Vector2 startLocation;
     private Vector2 targetLocation;
@@ -105,6 +105,15 @@ public class CameraPan : MonoBehaviour
         }
     }
 
+    void ClearZones()
+    {
+        foreach (var zone in zones)
+        {
+            GameObject.Destroy(zone);
+        }
+        zones.Clear();
+    }
+
     public void OnZoneMouseOver(Vector2 index) 
     {
         //convert index to [-0.5f, 0.5f] range
@@ -121,6 +130,11 @@ public class CameraPan : MonoBehaviour
         //if (smoothTimer > 0)
         //    image.rectTransform.localPosition = targetLocation;
         smoothTimer = smoothingTime;
+        var distanceModifier = (targetLocation - startLocation).magnitude / 300.0f;
+        Mathf.Clamp(distanceModifier, 1.0f, 6.0f);
+        // Debug.Log(distanceModifier.ToString());
+        smoothTimer *= distanceModifier;
+        totalSmoothingTime = smoothTimer;
         startLocation = image.rectTransform.localPosition;
         targetLocation = pos;
 
@@ -158,9 +172,8 @@ public class CameraPan : MonoBehaviour
 
     public void SetBackgroundImage(Sprite texture)
     {
-        if (image.sprite == texture)
+        if (image.sprite.name == texture.name)
             return;
-
         image.sprite = texture;
         targetLocation = image.rectTransform.localPosition = new Vector2(0, 0);
         smoothTimer = 0;
@@ -171,7 +184,7 @@ public class CameraPan : MonoBehaviour
     {
         if (smoothTimer > 0)
         {
-            image.rectTransform.localPosition = Vector2.Lerp(startLocation, targetLocation, 1.0f - (smoothTimer / smoothingTime));
+            image.rectTransform.localPosition = Vector2.Lerp(startLocation, targetLocation, 1.0f - (smoothTimer / totalSmoothingTime));
             smoothTimer -= Time.deltaTime;
             if (smoothTimer <= 0)
             {
