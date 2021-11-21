@@ -1089,6 +1089,7 @@ Without us noticing, Keira's mum is standing behind the couch holding a jug of c
 "And Keira, you better stay right there in case you embarrass yourself."
 
 #UI_thought
+#CP_KMum_off
 To be fair, Keira is immune to embarrassment, but nonetheless she lingers where she is to finish off the last bite of my brownie.
 
 ****[Open the door]
