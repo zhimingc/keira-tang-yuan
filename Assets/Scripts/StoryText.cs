@@ -89,6 +89,11 @@ public class StoryText : MonoBehaviour, IPointerDownHandler
             return;
         }
         textSpawner.PopulateText(textToSet);
-        Debug.Log("Populating");
+    }
+
+    public bool IsDonePopulating() 
+    {
+        textSpawner = GetComponent<TextSpawner>();
+        return textSpawner != null && textSpawner.IsCompleted();
     }
 }
