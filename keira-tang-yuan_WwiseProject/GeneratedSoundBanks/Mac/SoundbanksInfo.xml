@@ -24,7 +24,7 @@
 				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="1101036025">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="529783454">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
@@ -298,6 +298,10 @@
 							<ShortName>BGM_INS_L1.wav</ShortName>
 							<Path>SFX\BGM_INS_L1_0762CC47.wem</Path>
 						</File>
+						<File Id="68466577" Language="SFX">
+							<ShortName>BGM_BBT_L2.wav</ShortName>
+							<Path>SFX\BGM_BBT_L2_0762CC47.wem</Path>
+						</File>
 						<File Id="85274256" Language="SFX">
 							<ShortName>BGM_AIR_L2.wav</ShortName>
 							<Path>SFX\BGM_AIR_L2_0762CC47.wem</Path>
@@ -322,6 +326,10 @@
 							<ShortName>BGM_CHF_L1.wav</ShortName>
 							<Path>SFX\BGM_CHF_L1_0762CC47.wem</Path>
 						</File>
+						<File Id="386422434" Language="SFX">
+							<ShortName>BGM_BBT_L3.wav</ShortName>
+							<Path>SFX\BGM_BBT_L3_0762CC47.wem</Path>
+						</File>
 						<File Id="491555084" Language="SFX">
 							<ShortName>BGM_CRL_L1.wav</ShortName>
 							<Path>SFX\BGM_CRL_L1_0762CC47.wem</Path>
@@ -337,6 +345,10 @@
 						<File Id="574172293" Language="SFX">
 							<ShortName>BGM_INS_L2.wav</ShortName>
 							<Path>SFX\BGM_INS_L2_0762CC47.wem</Path>
+						</File>
+						<File Id="694425148" Language="SFX">
+							<ShortName>BGM_BBT_L1.wav</ShortName>
+							<Path>SFX\BGM_BBT_L1_0762CC47.wem</Path>
 						</File>
 						<File Id="795974096" Language="SFX">
 							<ShortName>BGM_CRL_L2.wav</ShortName>
@@ -416,6 +428,13 @@
 						<SwitchContainer SwitchValue="{32D9ED02-9B50-48DB-B2DA-46F5DEEB6F1A}">
 							<Media>
 								<File Id="244884657"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{585CC0D9-C875-4491-B19E-3386175B620A}">
+							<Media>
+								<File Id="68466577"/>
+								<File Id="386422434"/>
+								<File Id="694425148"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>

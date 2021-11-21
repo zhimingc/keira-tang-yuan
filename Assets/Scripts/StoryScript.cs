@@ -49,7 +49,7 @@ public class StoryScript : MonoBehaviour
 	public STORY_STATE StoryState;
 
 	[SerializeField]
-	private AK.Wwise.Event buttonAudio;
+	public AK.Wwise.Event buttonAudio;
 
 	void Awake()
 	{

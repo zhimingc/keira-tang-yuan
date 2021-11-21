@@ -3,6 +3,7 @@
 === Opening01OPN
 #CHP_1
 #sfx_BGM_mc
+#sfx_BGM_start
 #amb_00GEN_house
 #BG_Livingroom_frontdoor_closed
 #CP_MC_Default
@@ -374,7 +375,7 @@ I want to take it further-- to somehow prove to him that that's not what the wor
 #CP_MC_Default
 #CP_Alex_Neutral
 #UI_thought
-#RTPC_Lust 9
+#RTPC_Lust 10
 Re-entering the flat, I offer Alex a drink, not specifying what kind.
 
 #CP_MC_Neutral_Smile
@@ -384,7 +385,6 @@ Re-entering the flat, I offer Alex a drink, not specifying what kind.
 
 #UI_thought
 #sfx_04ACM_pour
-#RTPC_Lust 10
 
 Alex declines and just asks for cold water. The same thing he always does.
 

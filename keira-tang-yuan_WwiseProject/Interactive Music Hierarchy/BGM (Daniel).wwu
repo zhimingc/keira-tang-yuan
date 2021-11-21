@@ -8,11 +8,6 @@
 						<Property Name="Color" Type="int16" Value="21"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="72"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-2</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -2652,7 +2647,7 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>-1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -3661,6 +3656,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="None Playlist" ID="{E1267A9E-71E4-42F2-97F8-37B0642FE62E}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="BGM_DLV" ID="{585CC0D9-C875-4491-B19E-3386175B620A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="BBT_Playlist" ID="{92D14DCE-1C39-4E73-BA25-363EC405A395}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
