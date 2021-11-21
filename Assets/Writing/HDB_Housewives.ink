@@ -244,7 +244,7 @@ His daughter has dyslexia but Paul is cool about it. Naturally he wants his chil
 You can see a lot of Paul in his daughter. She is as stubborn as her dad and a lot fiestier. She just takes in whatever I can teach her and laughs off all her mistakes. I can easily picture her as a CEO of a startup or a lead singer of a band-- she is indomitable.
 
 * [Reflect]
-#BGM_HDB_Housewife
+#sfx_BGM_mc
 #CP_Paul_Off
 #CP_MC_Thirst_Looking
 #UI_thought
