@@ -131,6 +131,17 @@
 								</Reference>
 							</ReferenceList>
 							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="BGM" ID="{07375E02-D394-43E0-BBCE-3243D427F060}"/>
+									<DuckingParam>
+										<Volume>-2</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 					</ChildrenList>
 					<ObjectLists/>

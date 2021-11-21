@@ -3,6 +3,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	315087739	BGM_Doorbell	HH_States			
+	743913214	BGM_NONE	HH_States			
 	748895195	None	HH_States			
 	1540358061	BGM_CHF	HH_States			
 	1639346468	BGM_INS	HH_States			

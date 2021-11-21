@@ -6,6 +6,12 @@
 				<MusicSwitchContainer Name="BGM_Switch" ID="{2F6FD6E3-5C4F-4202-8E83-72AB74324753}" ShortID="782918723">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="21"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="72"/>
 					</PropertyList>
@@ -19,6 +25,19 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="MC_Playlist" ID="{7CB85C6A-AA4D-41CE-B237-9B1D8FC64008}" ShortID="313259571">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11B8AD44-67E9-4762-BBD9-7EBEF80AD9C7}"/>

@@ -109,7 +109,7 @@ I watch him as he walks away, wondering if he will turn back for one last glance
 He does not turn back.
 *****[Run after him]
     #VID_Montage_Delivery
-    #RTPC_Sex
+    #RTPC_Sex 10
     #sfx_00GEN_sex
     
     ****** [Continue] 
@@ -749,6 +749,7 @@ I want to tell him that smiles shouldn't be sad.
     #RTPC_Sex 10
     #amb_08CHF_rain_stop
     #sfx_00GEN_sex
+    #VO_stop
     ****[Continue]
     ->Healthriskwarning09HRW
 ***[Continue]
@@ -1096,6 +1097,7 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 #CP_MC_Thirst_Looking
 #UI_thought
 #CP_Keira_mum_off
+#amb_11KEI_house_stop
 As I open the door, the delivery guy has his back half turned away from me as he organises the items in the waterproof bag mounted behind his bicycle. Something about the way he holds himself strikes me as familiar. He is, as Keira described, wearing a black bicycle helmet, a light Oxford shirt and khaki chinos. Leather shoes entirely unsuitable for cycling.
 
 #CP_MC_Surprised_Blush
@@ -1121,7 +1123,7 @@ The world around me is spinning. When I finally recover from my faculty of speec
 
 #CP_MC_Thirst_Looking
 #VO_11KEI_190_mc
-#amb_11KEI_house_stop
+#BGM_END
 "Well, come on in then."
 
 

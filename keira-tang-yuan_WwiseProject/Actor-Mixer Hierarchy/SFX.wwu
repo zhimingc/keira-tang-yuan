@@ -915,7 +915,18 @@
 								</Sound>
 								<Sound Name="amb_00GEN_house" ID="{097FD467-2931-43EE-BC76-E0BC580B216B}" ShortID="523925419">
 									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-12</Value>

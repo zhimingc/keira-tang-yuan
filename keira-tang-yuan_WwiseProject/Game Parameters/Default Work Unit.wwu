@@ -15,6 +15,8 @@
 				<GameParameter Name="RTPC_Sex" ID="{7F971E3C-E622-459F-AE73-F9739254CA3A}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
 						<Property Name="Max" Type="Real64" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
