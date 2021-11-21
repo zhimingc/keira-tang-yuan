@@ -2,6 +2,7 @@
 
 === Opening01OPN
 #CHP_1
+#sfx_BGM_menu_stop
 #sfx_BGM_mc
 #sfx_BGM_start
 #amb_00GEN_house
@@ -245,7 +246,6 @@ His daughter has dyslexia but Paul is cool about it. Naturally he wants his chil
 You can see a lot of Paul in his daughter. She is as stubborn as her dad and a lot fiestier. She just takes in whatever I can teach her and laughs off all her mistakes. I can easily picture her as a CEO of a startup or a lead singer of a band-- she is indomitable.
 
 * [Reflect]
-#BGM_HDB_Housewife
 #CP_Paul_Off
 #CP_MC_Thirst_Looking
 #UI_thought
@@ -575,7 +575,7 @@ He sees the reaction his poem has had on me, and he eases the tension with an af
 ===DinnerPrep07DIN
 #CHP_5
 #BG_Livingroom_frontdoor_closed
-#BGM_HDB_Housewife
+#sfx_BGM_mc
 #CP_Merwyn_Off
 #CP_MC_Neutral_CloseEyes
 #UI_thought
@@ -866,7 +866,7 @@ And cackling loudly she moves past me, dragging her gear with her. Her laughter 
 
 #CP_MC_MildUpset
 #UI_speech_left
-#VO_10VCM_060_mc
+#VO_10VCM_070_mc
 "Yes." I lie. Her laugh really does remind me of Christmas hand bells.
 
 #UI_speech_right
@@ -964,7 +964,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
     #VID_Montage_Carol
     #RTPC_Sex 10
     #sfx_00GEN_sex
-    
+    #amb_00GEN_house_stop
     *****[Continue]
     ->Keirashouse11KEI
 ****[Continue (Really just sit!)]
@@ -976,7 +976,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 #BG_FriendsLivingRoom_frontdoor_closed
 #amb_11KEI_house
 #sfx_BGM_mc
-#VO_11KEI_010_jolene
+#VO_11KEI_010_jannah
 #CP_Janna_Neutral
 #CP_MC_MildUpset
 #UI_speech_right
@@ -985,7 +985,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 #CP_MC_Default
 #CP_Janna_Amused
 #UI_thought
-#VO_11KEI_020_jolene
+#VO_11KEI_020_jannah
 Janna is my best friend, or at least the most longstanding one. The more I age, the more I grow to appreciate her comfortable manner. She goes on to detailing how it is possible to open up a Microsoft Word document, rest something against the spacebar key, and thus cheaply circumvent her company's "Appear offline" timer-- an insidious attempt by capitalism to control every minute of our lives, as she puts it.
 
 Since the easing of restriction measures, I've made the effort to catch up with my old friends, even if it's just one-to-one at their respective houses. Today, we are at Keira's house. Keira is Janna's university friend. I've only met her 3 or 4 times, but she lives in landed property and has always been generous about it. 
@@ -1002,7 +1002,7 @@ My fingers trail through the fur of Keira's sleeping golden retriever, a breed w
 #CP_Janna_Neutral
 #CP_MC_Surprised
 #UI_speech_right
-#VO_11KEI_030_jolene
+#VO_11KEI_030_jannah
 Janna still tries to keep me engaged in conversation. "You know, Keira's son is kind of failing in English, you might want to go over there and look over his work. Keira would probably offer you a job, if you're interested."
 
 #UI_thought

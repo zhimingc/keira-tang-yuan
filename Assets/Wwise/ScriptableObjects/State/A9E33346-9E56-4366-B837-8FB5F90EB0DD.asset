@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: BGM_MC
   id: 3080045164
   guid: A9E33346-9E56-4366-B837-8FB5F90EB0DD
-  WwiseStateGroupReference: {fileID: 0}
+  WwiseStateGroupReference: {fileID: 11400000, guid: cadf009fe06ddf94fa7931d146fb5a5a, type: 2}

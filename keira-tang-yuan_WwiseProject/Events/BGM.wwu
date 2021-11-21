@@ -103,6 +103,44 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="sfx_BGM_menu" ID="{F3FF098D-1265-4733-BFF5-2F6B8D32FA74}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{19BBE06E-4723-4113-9DAC-D35F12F559E2}" ShortID="608233507">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Playlist" ID="{7CB85C6A-AA4D-41CE-B237-9B1D8FC64008}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="sfx_BGM_menu_stop" ID="{ED4978BE-0188-49B8-B5EF-1AEF0590F735}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{55A509F4-B20D-4DE4-AFB0-E59C8B018190}" ShortID="24603096">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_Playlist" ID="{7CB85C6A-AA4D-41CE-B237-9B1D8FC64008}" WorkUnitID="{414A4E75-4DF7-431F-A164-35ACEACF5290}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

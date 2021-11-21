@@ -45,6 +45,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1310102706	VO_11KEI_120_mum			\Voice\VO_11KEI_120_mum	
 	1361983429	VO_11KEI_070_keira			\Voice\VO_11KEI_070_keira	
 	1433897677	VO_03ZOM_090_paul			\Voice\VO_03ZOM_090_paul	
+	1458135976	sfx_BGM_menu_stop			\BGM\sfx_BGM_menu_stop	
 	1506996934	amb_03ZOM_keyboard_stop			\SFX\amb_03ZOM_keyboard_stop	
 	1536178459	VO_04ACM_070_mc			\Voice\VO_04ACM_070_mc	
 	1601665568	amb_08CHF_rain			\SFX\amb_08CHF_rain	
@@ -70,6 +71,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2297440456	VO_04ACM_040_mc			\Voice\VO_04ACM_040_mc	
 	2319967843	sfx_09HRW_pack			\SFX\sfx_09HRW_pack	
 	2342739123	sfx_11KEI_dog			\SFX\sfx_11KEI_dog	
+	2389148773	sfx_BGM_menu			\BGM\sfx_BGM_menu	
 	2457604163	sfx_02DLV_footsteps			\SFX\sfx_02DLV_footsteps	
 	2569653828	VO_11KEI_160_husband			\Voice\VO_11KEI_160_husband	
 	2611006641	VO_03ZOM_030_mc			\Voice\VO_03ZOM_030_mc	

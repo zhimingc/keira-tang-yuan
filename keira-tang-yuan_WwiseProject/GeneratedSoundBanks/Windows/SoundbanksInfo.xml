@@ -24,7 +24,7 @@
 				<GameParameter Id="2295491857" Name="vo_volume" ObjectPath="\Game Parameters\volume sliders\vo_volume" GUID="{B1AD6CC2-DED1-47E2-9E5E-31CC7F316A52}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="3987363568">
+		<SoundBank Id="3989171651" GUID="{B7F5A604-78A5-4235-85EB-A23581CE5B54}" Language="English(US)" Hash="3973727779">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main_Bank</ObjectPath>
 			<ShortName>Main_Bank</ShortName>
 			<Path>English(US)\Main_Bank.bnk</Path>
@@ -291,6 +291,23 @@
 						<ActionSetStateEntry Id="3080045164" Name="BGM_MC" ObjectPath="\States\Default Work Unit\HH_States\BGM_MC" GUID="{A9E33346-9E56-4366-B837-8FB5F90EB0DD}"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="2389148773" Name="sfx_BGM_menu" ObjectPath="\Events\BGM\sfx_BGM_menu" GUID="{F3FF098D-1265-4733-BFF5-2F6B8D32FA74}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="548981122" Language="SFX">
+							<ShortName>BGM_MC_FULL.wav</ShortName>
+							<Path>SFX\BGM_MC_FULL_0762CC47.wem</Path>
+						</File>
+						<File Id="845675883" Language="SFX">
+							<ShortName>BGM_MC_P1.wav</ShortName>
+							<Path>SFX\BGM_MC_P1_0762CC47.wem</Path>
+						</File>
+						<File Id="1034020154" Language="SFX">
+							<ShortName>BGM_MC_P2.wav</ShortName>
+							<Path>SFX\BGM_MC_P2_0762CC47.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1458135976" Name="sfx_BGM_menu_stop" ObjectPath="\Events\BGM\sfx_BGM_menu_stop" GUID="{ED4978BE-0188-49B8-B5EF-1AEF0590F735}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3095557022" Name="sfx_BGM_pause" ObjectPath="\Events\BGM\sfx_BGM_pause" GUID="{81FB6332-5542-4D0A-AFA9-4CEE78649732}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3964665964" Name="sfx_BGM_start" ObjectPath="\Events\BGM\sfx_BGM_start" GUID="{DF42CEE0-41F7-493B-B153-0CE4929F8EEE}" DurationType="Infinite">
 					<IncludedMemoryFiles>
