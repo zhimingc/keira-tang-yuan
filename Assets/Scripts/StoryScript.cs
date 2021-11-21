@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using UnityEngine.Windows;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -17,6 +18,8 @@ public class StoryScript : MonoBehaviour
 {
 	public GameObject[] debugObjs;
 	public TextAsset inkAsset;
+	public string inkStringAsset;
+	public bool inkLoaded = false;
 	public CharacterPortraits cpController;
 	public CameraPan panningScript;
 	public VideoControl videoControl;
@@ -50,9 +53,44 @@ public class StoryScript : MonoBehaviour
 
 	void Awake()
 	{
-		_inkStory = new Story(inkAsset.text);
+		if (inkAsset)
+        {
+			_inkStory = new Story(inkAsset.text);
+		}
 		storyNeeded = true;
 		advance = true;
+	}
+
+    private void Start()
+    {
+		LoadStory();
+	}
+
+	void LoadStory()
+    {
+		StartCoroutine(loadStreamingAsset("HDB_Housewives.ink"));
+	}
+
+	IEnumerator loadStreamingAsset(string fileName)
+	{
+		string filePath = System.IO.Path.Combine(Application.streamingAssetsPath, fileName);
+
+		if (File.Exists(filePath))
+        {
+			if (filePath.Contains("://") || filePath.Contains(":///"))
+			{
+				WWW www = new WWW(filePath);
+				yield return www;
+				inkStringAsset = www.text;
+			}
+			else
+			{
+				inkStringAsset = System.IO.File.ReadAllText(filePath);
+			}
+
+			var compiler = new Ink.Compiler(inkStringAsset);
+			_inkStory = compiler.Compile();
+		}
 	}
 
 	void Update_Debug()
@@ -72,7 +110,7 @@ public class StoryScript : MonoBehaviour
 	{
 		Update_Debug();
 
-		if (storyNeeded == true)
+		if (storyNeeded == true && _inkStory != null)
 		{
 			RemoveChildren();
 

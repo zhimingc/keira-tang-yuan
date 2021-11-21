@@ -108,7 +108,7 @@ I watch him as he walks away, wondering if he will turn back for one last glance
 He does not turn back.
 *****[Run after him]
     #VID_Montage_Delivery
-    #RTPC_Sex 10
+    #RTPC_Sex
     #sfx_00GEN_sex
     
     ****** [Continue] 
@@ -284,7 +284,6 @@ He comes in all hot and bothered. That's the way he always arrives-- lugging his
 #CP_Alex_Focused
 #sfx_04ACM_fix
 #RTPC_Lust 3
-#amb_00GEN_house_stop
 Alex can prise open the cover of an aircon, hold the screwdriver in his mouth, remove multiple dustcovers with one hand and operate a compressed air duster with the other, while standing on a chair. Slick.
 
 After he's done with the basic servicing, I point out the corner of the unit where water has been leaking, and Alex acknowledges it with a grunt. He doesn't jump at the problem the way I present it to him, nor does he mock me for my ignorance. His hands and eyes unhurriedly trace the root of the problem; systematically examining the pipe leading to the bathroom, taking a close look at the aircon unit and even looking at the condenser out on the balcony. Then he bursts into a flurry of decisive action; sprays, his brushes, tools and sprays move in perfect harmony.
@@ -576,7 +575,7 @@ He sees the reaction his poem has had on me, and he eases the tension with an af
 ===DinnerPrep07DIN
 #CHP_5
 #BG_Livingroom_frontdoor_closed
-#sfx_BGM_mc
+#BGM_HDB_Housewife
 #CP_Merwyn_Off
 #CP_MC_Neutral_CloseEyes
 #UI_thought
@@ -803,7 +802,6 @@ As I shout at him, he doesn't even look repentant. He says he will check himself
 
 #sfx_09HRW_pack
 #CP_Husband_Off
-#VO_stop
 He packs a bag and sweeps out the front door.
 
 #CP_MC_Neutral_CloseEyes
@@ -867,7 +865,7 @@ And cackling loudly she moves past me, dragging her gear with her. Her laughter 
 
 #CP_MC_MildUpset
 #UI_speech_left
-#VO_10VCM_070_mc
+#VO_10VCM_060_mc
 "Yes." I lie. Her laugh really does remind me of Christmas hand bells.
 
 #UI_speech_right
@@ -977,7 +975,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 #BG_FriendsLivingRoom_frontdoor_closed
 #amb_11KEI_house
 #sfx_BGM_mc
-#VO_11KEI_010_Jannah
+#VO_11KEI_010_jolene
 #CP_Janna_Neutral
 #CP_MC_MildUpset
 #UI_speech_right
@@ -986,7 +984,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 #CP_MC_Default
 #CP_Janna_Amused
 #UI_thought
-#VO_11KEI_020_jannah
+#VO_11KEI_020_jolene
 Janna is my best friend, or at least the most longstanding one. The more I age, the more I grow to appreciate her comfortable manner. She goes on to detailing how it is possible to open up a Microsoft Word document, rest something against the spacebar key, and thus cheaply circumvent her company's "Appear offline" timer-- an insidious attempt by capitalism to control every minute of our lives, as she puts it.
 
 Since the easing of restriction measures, I've made the effort to catch up with my old friends, even if it's just one-to-one at their respective houses. Today, we are at Keira's house. Keira is Janna's university friend. I've only met her 3 or 4 times, but she lives in landed property and has always been generous about it. 
@@ -1003,7 +1001,7 @@ My fingers trail through the fur of Keira's sleeping golden retriever, a breed w
 #CP_Janna_Neutral
 #CP_MC_Surprised
 #UI_speech_right
-#VO_11KEI_030_jannah
+#VO_11KEI_030_jolene
 Janna still tries to keep me engaged in conversation. "You know, Keira's son is kind of failing in English, you might want to go over there and look over his work. Keira would probably offer you a job, if you're interested."
 
 #UI_thought
@@ -1093,7 +1091,7 @@ To be fair, Keira is immune to embarrassment, but nonetheless she lingers where 
 
 ****[Open the door]
 #sfx_00GEN_door
-#BG_Keira_Frontdoor_full
+#BG_FriendsLivingRoom_frontdoor_open
 #BGM_KEI
 #CP_MC_Thirst_Looking
 #UI_thought

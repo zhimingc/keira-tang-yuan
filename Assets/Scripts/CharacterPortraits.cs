@@ -79,6 +79,7 @@ public class CharacterPortraits : MonoBehaviour
 
         RHSCharacterPortrait.gameObject.SetActive(true);
         RHSCharacterPortrait.sprite = cpSprite;
+        RHSCharacterPortrait.rectTransform.sizeDelta = cpSprite.rect.size;
         MoveCharacterIn(nameOnly);
     }
 }
