@@ -41,7 +41,9 @@ There is no victory over dust. I could probably let it sit for a few more days b
 #sfx_01OPN_jet
 #CP_MC_Neutral_CloseEyes
 #UI_thought
-Given how small our island is, a fighter jet only has a couple of minutes of flying in a straight line before it has to turn around again. I guess that means there are very few places in Singapore that don't suffer from this brand of noise pollution. They've tried to adjust their flight times to avoid disturbing residents, but with more of us working from home, having Zoom meeting disrupted by the shattering roar of multiple jet fighters seems commonplace. My international clients must think I live near an airforce base. In a way, we all do.
+Given how small our island is, a fighter jet only has a couple of minutes of flying in a straight line before it has to turn around again. I guess that means there are very few places in Singapore that don't suffer from this brand of noise pollution. 
+
+They've tried to adjust their flight times to avoid disturbing residents, but with more of us working from home, having Zoom meeting disrupted by the shattering roar of multiple jet fighters seems commonplace. My international clients must think I live near an airforce base. In a way, we all do.
     ** [Look out the window]
     #CP_MC_Surprised
     #BG_Window
@@ -277,17 +279,22 @@ Alex has serviced our aircon since the days we were renting. He fills a niche in
 
 #CP_MC_Default
 #CP_Alex_Neutral
-He comes in all hot and bothered. That's the way he always arrives-- lugging his toolbox and with him. He won't accept the first glass of water I've prepared for him, although in about half an hour he'll ask if he might have something to drink, preferably cold. I think he's used to interactions where business must come first and it takes a while for him to remember that, unless we're in some kind of rush, we can just be, well, people.
+He comes in all hot and bothered. That's the way he always arrives-- lugging his toolbox and with him. He won't accept the first glass of water I've prepared for him, although in about half an hour he'll ask if he might have something to drink, preferably cold. 
+
+I think he's used to interactions where business must come first and it takes a while for him to remember that, unless we're in some kind of rush, we can just be, well, people.
 
 **[Watch him fix the aircon]
 #BG_Bedroom
 #CP_MC_Neutral_Smile
 #CP_Alex_Focused
+#CP_thought
 #sfx_04ACM_fix
 #RTPC_Lust 3
 Alex can prise open the cover of an aircon, hold the screwdriver in his mouth, remove multiple dustcovers with one hand and operate a compressed air duster with the other, while standing on a chair. Slick.
 
-After he's done with the basic servicing, I point out the corner of the unit where water has been leaking, and Alex acknowledges it with a grunt. He doesn't jump at the problem the way I present it to him, nor does he mock me for my ignorance. His hands and eyes unhurriedly trace the root of the problem; systematically examining the pipe leading to the bathroom, taking a close look at the aircon unit and even looking at the condenser out on the balcony. Then he bursts into a flurry of decisive action; sprays, his brushes, tools and sprays move in perfect harmony.
+After he's done with the basic servicing, I point out the corner of the unit where water has been leaking, and Alex acknowledges it with a grunt. He doesn't jump at the problem the way I present it to him, nor does he mock me for my ignorance. 
+
+His hands and eyes unhurriedly trace the root of the problem; systematically examining the pipe leading to the bathroom, taking a close look at the aircon unit and even looking at the condenser out on the balcony. Then he bursts into a flurry of decisive action; sprays, his brushes, tools and sprays move in perfect harmony.
 
 #CP_MC_Thirst_Looking
 #RTPC_Lust 5
@@ -415,7 +422,9 @@ There hasn't been much time to keep up my appearances. If I'm not glued to scree
 #sfx_05MIR_selfie
 #CP_MC_Surprised
 #UI_thought
-Eugh! Let me take that again, but from a higher angle this time. There, that makes my face look slimmer. I don't remember when was the last time I put on make up, but luckily there are apps like Meitu these days to save me the effort. Look at this girl's instagram post. She looks fantastic. She's the same age as me but she looks like she spends 2 hours each day at the gym. I want those thighs and that ass. Is she on some special diet or is it just good genes? It makes me want to delete my post.
+Eugh! Let me take that again, but from a higher angle this time. There, that makes my face look slimmer. I don't remember when was the last time I put on make up, but luckily there are apps like Meitu these days to save me the effort. 
+
+Look at this girl's instagram post. She looks fantastic. She's the same age as me but she looks like she spends 2 hours each day at the gym. I want those thighs and that ass. Is she on some special diet or is it just good genes? It makes me want to delete my post.
 
 **[Post anyway]
 #CP_MC_Neutral_CloseEyes
@@ -622,7 +631,9 @@ With his neatly pressed chef's apron covering a bit of a paunch, a small-ish man
 #CP_MC_Surprised
 #CP_Ethan_Content
 #BG_Kitchen
-His actions are brisk as he quickly takes over my kitchen and dining room in a whirlwind of preparation. Wishing to be available in case he needs help but not wanting to appear like I know better than a trained chef, I try not to appear to watch him too intently-- but I do. Out of the corner of my eye, I notice that with every step, he bounces-- nearly imperceptibly-- with the beat, and tiny hums escape under breath. He moves with the dynamism of a young man, but the wrinkles around his face and hands belie his age.
+His actions are brisk as he quickly takes over my kitchen and dining room in a whirlwind of preparation. Wishing to be available in case he needs help but not wanting to appear like I know better than a trained chef, I try not to appear to watch him too intently-- but I do. 
+
+Out of the corner of my eye, I notice that with every step, he bounces-- nearly imperceptibly-- with the beat, and tiny hums escape under breath. He moves with the dynamism of a young man, but the wrinkles around his face and hands belie his age.
 #RTPC_Lust 3
 #CP_MC_Thirst_Looking
 Initially, he doesn't say much other than to greet me and ask a few succinct and direct questions about where and when I would like to eat. His voice is surprisingly deep for a shorter man, but his tiny grunts of acknowledgement embrace my ears like a hug.
@@ -949,7 +960,9 @@ We dissolve into fits of laughter. I can't remember the last time I hung out wit
 #VO_10VCM_140_carol
 #CP_MC_Surprised
 #CP_Carol_Sleep
-When I return I find her fast asleep and snoring gently. Her chest rises and falls steadily and my eyes follow the line of her strong compact shoulders up to the delicate tendons of her neck. The afternoon sun slants over her face. She's older than she looks when her face is not animated with good cheer. Maybe in her mid 30s, possibly even older than me. She's curled up with her feet up on the couch and this is the first time I notice the tattoo on her right foot and ankle-- a delicate tracery of leaves.
+When I return I find her fast asleep and snoring gently. Her chest rises and falls steadily and my eyes follow the line of her strong compact shoulders up to the delicate tendons of her neck. The afternoon sun slants over her face. 
+
+She's older than she looks when her face is not animated with good cheer. Maybe in her mid 30s, possibly even older than me. She's curled up with her feet up on the couch and this is the first time I notice the tattoo on her right foot and ankle-- a delicate tracery of leaves.
 
 #CP_MC_Surprised_Blush
 #RTPC_Lust 10
