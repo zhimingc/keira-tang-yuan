@@ -400,17 +400,19 @@ Alex declines and just asks for cold water. The same thing he always does.
     #RTPC_Sex 10
     #amb_00GEN_house_stop
     #sfx_00GEN_sex
+    #CP_Alex_Off
     
     ******** [Continue] 
+
     -> Mirrorselfie05MIR
 *******[Continue]
+#CP_Alex_Off
     -> Mirrorselfie05MIR
     
 ===Mirrorselfie05MIR
 #CHP_4
 #BG_Bedroom
 #sfx_BGM_mc
-#CP_Alex_Off
 #CP_MC_MildUpset
 #UI_thought
 #amb_00GEN_house
@@ -576,16 +578,18 @@ He sees the reaction his poem has had on me, and he eases the tension with an af
     #RTPC_Sex 10
     #amb_00GEN_house_stop
     #sfx_00GEN_sex
+    #CP_Merwyn_Off
+    
     *******[Continue]
     ->DinnerPrep07DIN
 ******[Continue]
+#CP_Merwyn_Off
 ->DinnerPrep07DIN
 
 ===DinnerPrep07DIN
 #CHP_5
 #BG_Livingroom_frontdoor_closed
 #sfx_BGM_mc
-#CP_Merwyn_Off
 #CP_MC_Neutral_CloseEyes
 #UI_thought
 #amb_08CHF_rain
@@ -761,16 +765,18 @@ I want to tell him that smiles shouldn't be sad.
     #amb_08CHF_rain_stop
     #sfx_00GEN_sex
     #VO_stop
+    #CP_Ethan_Off
+    
     ****[Continue]
     ->Healthriskwarning09HRW
 ***[Continue]
+#CP_Ethan_Off
 ->Healthriskwarning09HRW
 
 ===Healthriskwarning09HRW
 #CHP_6
 #BG_Bedroom
 #sfx_BGM_mc
-#CP_Ethan_Off
 #CP_MC_Default
 #UI_speech_left
 "You are issued a Health Risk Warning Order (HRWO) under s15(1) of the Infectious Diseases Act (IDA) to isolate at home from 14-07-2021 to 28-07-2021 or upon a negative ART or PCR test result, whichever is earlier..."
@@ -979,14 +985,15 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
     #RTPC_Sex 10
     #sfx_00GEN_sex
     #amb_00GEN_house_stop
+    #CP_Carol_Off
     *****[Continue]
     ->Keirashouse11KEI
 ****[Continue (Really just sit!)]
+#CP_Carol_Off
 ->Keirashouse11KEI
 
 ===Keirashouse11KEI
 #CHP_8
-#CP_Carol_Off
 #BG_Keira_Livingroom
 #amb_11KEI_house
 #sfx_BGM_mc
@@ -1040,6 +1047,7 @@ Notwithstanding my full belly from the brownie, I nod enthusiastically at Keira.
 #VO_11KEI_050_keira
 "I know, I know!" She really is very predictable. 
 
+#CP_Keira_Happy
 #UI_speech_right
 #VO_11KEI_060_keira
 "There's a sourdough place that we can order from. Have you tried sourdough pizza? It's-- kill me now-- it's to die for."
@@ -1052,6 +1060,7 @@ Notwithstanding my full belly from the brownie, I nod enthusiastically at Keira.
 "Also! My god, the delivery guy that camps around here at this time is the cutest, sweetest guy. Janna you haven't met him; he dresses well." Keira looks over her shoulder as if her husband might somehow be spying on her. She has a penchant for the dramatic. 
 
 #CP_MC_Thirst_Looking
+#CP_Keira_Conspire
 #UI_speech_right
 #VO_11KEI_080_keira
 "The last time he came, he spilled my drink and he raced back and forth to make sure I received everything right. In his office shirt. Sleeves rolled up. His apology sent a shiver straight down to my-- you know?"
