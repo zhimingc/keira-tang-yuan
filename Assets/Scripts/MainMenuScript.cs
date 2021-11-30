@@ -7,14 +7,14 @@ using UnityEngine.UI;
 public class MainMenuScript : MonoBehaviour
 {
     [SerializeField]
-    [Range(0.0f, 1.0f)]
-    public static float sfxVolume = 0.5f;
+   [Range(0.0f, 1.0f)]
+    public static float sfxVolume = 1.0f;
     [SerializeField]
-    [Range(0.0f, 1.0f)]
-    public static float dialogueVolume = 0.5f;
+   [Range(0.0f, 1.0f)]
+    public static float dialogueVolume = 1.0f;
     [SerializeField]
-    [Range(0.0f, 1.0f)]
-    public static float bgmVolume = 0.5f;
+   [Range(0.0f, 1.0f)]
+    public static float bgmVolume = 1.0f;
 
     [SerializeField]
     public List<GameObject> menuPopUps;
@@ -27,13 +27,20 @@ public class MainMenuScript : MonoBehaviour
 
 
 
+    
+
+
     // Start is called before the first frame update
     void Start()
     {
+
         sliders[0].value = dialogueVolume;
         sliders[1].value = sfxVolume;
         sliders[2].value = bgmVolume;
 
+        
+        
+        
     }
 
     // Update is called once per frame
@@ -83,13 +90,38 @@ public class MainMenuScript : MonoBehaviour
         buttonAudio.Post(gameObject);
     }
 
-    public void UpdateOptionSliderValues()
+   /*  public void UpdateDialogueSliderValues()
     {
-        dialogueVolume = sliders[0].value;
-        sfxVolume = sliders[1].value;
-        bgmVolume = sliders[2].value;
+        sliders[0].value = dialogueVolume;
+        AkSoundEngine.SetRTPCValue(2295491857U, dialogueVolume);
     }
 
+
+    public void UpdateSFXSliderValues()
+    {
+        sliders[1].value = sfxVolume;
+        AkSoundEngine.SetRTPCValue(1564184899U, sfxVolume);
+    }
+
+    public void UpdateMusicSliderValues()
+    {
+        sliders[2].value = bgmVolume;
+        AkSoundEngine.SetRTPCValue(341651998U, bgmVolume);
+        Debug.Log(sliders[2].value);
+        
+    }
+ */
+   public void SaveAudioValues()
+    {
+        sliders[2].value = bgmVolume;
+        sliders[1].value = sfxVolume;
+        sliders[0].value = dialogueVolume;
+        AkSoundEngine.SetRTPCValue(341651998U, bgmVolume);
+        AkSoundEngine.SetRTPCValue(1564184899U, sfxVolume);
+        AkSoundEngine.SetRTPCValue(2295491857U, dialogueVolume);
+      
+        
+    }
     bool IsPopUpActive() 
     {
         foreach (var go in menuPopUps) 

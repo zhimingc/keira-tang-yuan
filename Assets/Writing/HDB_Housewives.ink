@@ -122,6 +122,7 @@ He does not turn back.
 
 ===ZoomCalls03ZOM
 #CHP_2
+#VO_stop
 #BG_Livingroom_frontdoor_closed 
 #amb_03ZOM_keyboard
 #amb_00GEN_house
@@ -396,6 +397,7 @@ Re-entering the flat, I offer Alex a drink, not specifying what kind.
 Alex declines and just asks for cold water. The same thing he always does.
 
 *******[Hide one of his tools]
+    #VO_stop
     #VID_Montage_Alex
     #RTPC_Sex 10
     #amb_00GEN_house_stop
@@ -411,6 +413,7 @@ Alex declines and just asks for cold water. The same thing he always does.
     
 ===Mirrorselfie05MIR
 #CHP_4
+#VO_stop
 #BG_Bedroom
 #sfx_BGM_mc
 #CP_MC_MildUpset
@@ -575,6 +578,7 @@ He sees the reaction his poem has had on me, and he eases the tension with an af
 
 ******[Ask him to write a poem about me]
     #VID_Montage_Merwyn
+    #VO_stop
     #RTPC_Sex 10
     #amb_00GEN_house_stop
     #sfx_00GEN_sex
@@ -588,6 +592,7 @@ He sees the reaction his poem has had on me, and he eases the tension with an af
 
 ===DinnerPrep07DIN
 #CHP_5
+#VO_stop
 #BG_Livingroom_frontdoor_closed
 #sfx_BGM_mc
 #CP_MC_Neutral_CloseEyes
@@ -775,6 +780,7 @@ I want to tell him that smiles shouldn't be sad.
 
 ===Healthriskwarning09HRW
 #CHP_6
+#VO_stop
 #BG_Bedroom
 #sfx_BGM_mc
 #CP_MC_Default
@@ -982,6 +988,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 
 ****[Fall asleep beside her on the couch]
     #VID_Montage_Carol
+    #VO_stop
     #RTPC_Sex 10
     #sfx_00GEN_sex
     #amb_00GEN_house_stop
@@ -994,6 +1001,7 @@ Her phone vibrates silently on the coffee table. Unthinkingly, I read the messag
 
 ===Keirashouse11KEI
 #CHP_8
+#VO_stop
 #BG_Keira_Livingroom
 #amb_11KEI_house
 #sfx_BGM_mc
